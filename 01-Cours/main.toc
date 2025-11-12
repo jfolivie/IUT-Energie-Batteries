@@ -1,64 +1,64 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Notions élémentaires à usage dans les batteries}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Classification des générateurs électrochimiques}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Dispositif constitué d'une seule cellule électrochimique}{11}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Dispositifs constitués de plusieurs cellules électrochimiques}{12}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Vocabulaire associé aux réactions électrochimiques}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Description d'une cellule électrochimique}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Partie électroactive}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Partie électroinactive}{16}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Batterie, tension électrique et force électromotrice}{17}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Type de réactions au sein des accumulateurs lithium}{19}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Réactions de recomposition}{20}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.1}dites de formation}{20}{subsubsection.2.4.1.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.2}dites de déplacement}{20}{subsubsection.2.4.1.2}%
-\contentsline {subsection}{\numberline {2.4.2}Réactions d'insertion}{21}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Caractériser un accumulateur ou une batterie}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Charge, \'{E}nergie \& Puissance}{21}{subsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.1}Définition}{21}{subsubsection.2.5.1.1}%
-\contentsline {subsubsection}{\numberline {2.5.1.2}Capacité spécifique (ou nominale)}{22}{subsubsection.2.5.1.2}%
-\contentsline {subsubsection}{\numberline {2.5.1.3}\'{E}nergie théorique maximale (ETM)}{23}{subsubsection.2.5.1.3}%
-\contentsline {subsection}{\numberline {2.5.2}\'{E}tat d'une cellule ou batterie pour un (ou plusieurs) cycle(s) : SoC, DoD et SoH}{24}{subsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.2.1}État de charge}{24}{subsubsection.2.5.2.1}%
-\contentsline {subsubsection}{\numberline {2.5.2.2}\'{E}tat de santé (SoH, State-of-Health)}{25}{subsubsection.2.5.2.2}%
-\contentsline {subsection}{\numberline {2.5.3}Qualité de l'énergie stockée}{25}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Cyclabilité}{26}{subsection.2.5.4}%
-\contentsline {chapter}{\numberline {3}Thermochimie et cinétique à usage dans les batteries}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Transformation (non)-spontannée}{28}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Principes de la thermodynamique}{28}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Transformation réversible et sources d'irréversibilité}{29}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Travail électrique}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Définition}{29}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Inégalité en tension}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Relation entre enthalpie libre de réaction et force électromotrice}{31}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Enthalpie libre de réaction}{31}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Différentielle totale exacte}{31}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Influence de la composition sur l'enthalpie libre de réaction}{32}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}D'où vient la relation de Nernst ?}{33}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Relation entre f.e.m. et grandeurs de référence}{34}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Utilisation de la loi de Hess}{34}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}\'{E}tude de l'influence de la température}{35}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Ecart à la thermodynamique : influence de paramètres cinétiques}{35}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Notion de surtension et activation des espèces électrochimiques}{36}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Résistance électrique}{37}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Expression de la tension aux bornes de la cellule}{37}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Courbe de polarisation}{38}{subsection.3.5.4}%
-\contentsline {chapter}{\numberline {4}Courbes de charge-décharge à courant constant}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Préparation d'un échantillon}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Principe de la mesure}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Définition}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Schéma du galvanostat}{43}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Pseudo-référence}{43}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Axe des abscisses}{44}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Courbes de charge - décharge}{45}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Origine thermodynamique de l'hystérèse}{45}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Réactions d'insertion}{45}{subsubsection.4.3.1.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Réactions de recomposition}{46}{subsubsection.4.3.1.2}%
-\contentsline {subsection}{\numberline {4.3.2}Origine cinétique de l'hystérèse}{47}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Phénomènes dissipatifs}{48}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Perte de charge}{48}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Impact des paramètres d'acquisition sur l'allure des courbes de charge/décharge}{48}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Influence de la vitesse de charge}{48}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Influence du nombre de cycle}{49}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Influence de la température}{50}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Notions élémentaires à usage dans les batteries}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Classification des générateurs électrochimiques}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Dispositif constitué d'une seule cellule électrochimique}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Dispositifs constitués de plusieurs cellules électrochimiques}{10}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Vocabulaire associé aux réactions électrochimiques}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Description d'une cellule électrochimique}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Partie électroactive}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Partie électroinactive}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Batterie, tension électrique et force électromotrice}{13}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Type de réactions au sein des accumulateurs lithium}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Réactions de recomposition}{15}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}dites de formation}{15}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}dites de déplacement}{15}{subsubsection.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.4.2}Réactions d'insertion}{15}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Caractériser un accumulateur ou une batterie}{16}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Charge, \'{E}nergie \& Puissance}{16}{subsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.1.1}Définition}{16}{subsubsection.2.5.1.1}%
+\contentsline {subsubsection}{\numberline {2.5.1.2}Capacité spécifique (ou nominale)}{16}{subsubsection.2.5.1.2}%
+\contentsline {subsubsection}{\numberline {2.5.1.3}\'{E}nergie théorique maximale (ETM)}{17}{subsubsection.2.5.1.3}%
+\contentsline {subsection}{\numberline {2.5.2}\'{E}tat d'une cellule ou batterie pour un (ou plusieurs) cycle(s) : SoC, DoD et SoH}{17}{subsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2.1}État de charge}{17}{subsubsection.2.5.2.1}%
+\contentsline {subsubsection}{\numberline {2.5.2.2}\'{E}tat de santé (SoH, State-of-Health)}{18}{subsubsection.2.5.2.2}%
+\contentsline {subsection}{\numberline {2.5.3}Qualité de l'énergie stockée}{18}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Cyclabilité}{19}{subsection.2.5.4}%
+\contentsline {chapter}{\numberline {3}Thermochimie et cinétique à usage dans les batteries}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Transformation (non)-spontannée}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Principes de la thermodynamique}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Transformation réversible et sources d'irréversibilité}{22}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Travail électrique}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Définition}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Inégalité en tension}{23}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Relation entre enthalpie libre de réaction et force électromotrice}{23}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Enthalpie libre de réaction}{24}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Différentielle totale exacte}{24}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Influence de la composition sur l'enthalpie libre de réaction}{25}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}D'où vient la relation de Nernst ?}{25}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Relation entre f.e.m. et grandeurs de référence}{26}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Utilisation de la loi de Hess}{26}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}\'{E}tude de l'influence de la température}{26}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Ecart à la thermodynamique : influence de paramètres cinétiques}{27}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Notion de surtension et activation des espèces électrochimiques}{27}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Résistance électrique}{27}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Expression de la tension aux bornes de la cellule}{28}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Courbe de polarisation}{28}{subsection.3.5.4}%
+\contentsline {chapter}{\numberline {4}Courbes de charge-décharge à courant constant}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Préparation d'un échantillon}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Principe de la mesure}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Définition}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Schéma du galvanostat}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Pseudo-référence}{33}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Axe des abscisses}{33}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Courbes de charge - décharge}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Origine thermodynamique de l'hystérèse}{34}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Réactions d'insertion}{34}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Réactions de recomposition}{35}{subsubsection.4.3.1.2}%
+\contentsline {subsection}{\numberline {4.3.2}Origine cinétique de l'hystérèse}{35}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Phénomènes dissipatifs}{36}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Perte de charge}{36}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Impact des paramètres d'acquisition sur l'allure des courbes de charge/décharge}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Influence de la vitesse de charge}{36}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Influence du nombre de cycle}{37}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Influence de la température}{37}{subsection.4.4.3}%
