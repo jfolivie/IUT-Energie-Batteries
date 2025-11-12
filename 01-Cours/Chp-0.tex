@@ -41,15 +41,15 @@
 
 Une batterie est un dispositif qui stocke de l'énergie sous forme \blancbis{chimique} et qui le restitue sous forme d'énergie \blancbis{électrique}. En ce sens, on qualifie une batterie de \blancbis{transducteur}\mySideNote{Terme associé à tout dispositif permettant la conversion d'une grandeur physique en une autre.} ou de \blancbis{convertisseur d'énergie}.
 
-De manière assez simple, il est possible d'établir une analogie avec la mécanique. Les stations de transfert d'énergie par pompage, représentées à la Fig. \ref{fig:Chp-0-15}, sont un bon exemple modèle. Lorsque le réseau électrique est en déficit d'énergie électrique, ces stations de haute montagne déversent l'eau du bassin supérieur vers le bassin inférieur. Cette phase correspond à la phase de "décharge" du bassin, où l'énergie potentielle de pesanteur est convertie en énergie électrique. Dans le cas où le réseau est excedentaire en énergie, l'eau du bassin est remontée par un système de pompe. La STEP convertit donc l'énergie électrique en énergie potentielle de pesanteur.
+Il existe une analogie entre une batterie et certains systèmes mécaniques. Les stations de transfert d'énergie par pompage, représentées à la Fig. \ref{fig:Chp-0-15}, sont un bon exemple modèle. Lorsque le réseau électrique est en déficit d'énergie électrique, ces stations de haute montagne déversent l'eau du bassin supérieur vers le bassin inférieur. Cette phase correspond à la phase de "décharge" du bassin, où l'énergie potentielle de pesanteur est convertie en énergie électrique. Dans le cas où le réseau est excedentaire en énergie, l'eau du bassin est remontée par un système de pompe. La STEP convertit donc l'énergie électrique en énergie potentielle de pesanteur, et vice-versa.
 
 
-Dans une batterie, un opérateur va mettre en contact deux électrodes\mySideNote{Conducteur électronique (\emph{par ex.} un métal) ou ionique (\emph{par ex.} le verre) captant ou libérant des électrons} où les électrons ont une énergie chimique différente. Lors de cette mise en contact, cette différence d'énergie chimique conduit à la mise en mouvement d'un flux d'électron\mySideNote{Ce flux se manifeste par un courant électrique, noté $I$, qui représente la quantité de charge transporté à travers un conducteur par unité de temps.}. Le flux d'électron conduit petit à petit à un retour à l'équilibre du système.
+Dans une batterie, un opérateur va mettre en contact deux électrodes\mySideNote{Conducteur électronique (\emph{par ex.} un métal) ou ionique (\emph{par ex.} le verre) captant ou libérant des électrons} où les électrons ont une énergie potentielle chimique, aussi appelée enthalpie libre, différente. Lors de la mise en contact, cette différence conduit à la mise en mouvement des électrons \mySideNote{Ce flux se manifeste par un courant électrique, d'intensité notée $I$, qui représente la quantité de charge transporté à travers un conducteur par unité de temps.}. Le flux d'électron conduit petit à petit à un retour à l'équilibre du système qui se traduit par une égalité de l'énergie potentielle.
 
 Lors de ce processus, \blancbis{deux espèces chimiques rédox}, c'est-à-dire des espèces chimiques capables d'\blancbis{échanger un ou plusieurs électrons}, réagissent ensemble. Cette réaction libère de l'énergie sous deux formes : 
 \begin{itemize}
-    \item un \blancbis{travail utile} \textbf{W'} qui est le travail électrique ;
-    \item une \blancbis{déperdition d'énergie}, la chaleur \textbf{Q}, c'est-à-dire de l'énergie thermique.
+    \item un \blancbis{travail utile} $W'$ qui est le travail électrique reçu ;
+    \item une \blancbis{déperdition d'énergie}, la chaleur $Q$, c'est-à-dire de l'énergie thermique reçue.
 \end{itemize}
 
 \begin{minipage}[c]{0.65\textwidth}
@@ -61,32 +61,35 @@ Lors de ce processus, \blancbis{deux espèces chimiques rédox}, c'est-à-dire d
 \label{fig:Chp-0-02}
 \end{minipage}
 
-La batterie est parfois à usage unique ou rechargeable. Ainsi, si la batterie est rechargeable, le travail électrique est soit reçu $W' > 0$ (charge) ou cédé $W' < 0$ (décharge). En son sein, des éléments résistifs imposent que la batterie perd nécessairement, que ça soit en charge ou décharge, une partie de son énergie sous forme thermique $Q < 0$.\mySideNote{\centering
+La batterie est parfois à usage unique ou rechargeable. Ainsi, si la batterie est rechargeable, le travail électrique est soit reçu $W' > 0$ (charge), soit cédé $W' < 0$ (décharge). En son sein, des éléments résistifs imposent que la batterie perd nécessairement, que ça soit en charge ou décharge, une partie de son énergie sous forme thermique $Q < 0$.\mySideNote{\centering
 \begin{tabular}{ccc}
 & Charge & Décharge \\
 $W'$ & $> 0$ & $< 0$\\
 $Q$ & $< 0$ & $< 0$ \\
 \end{tabular}}
 
-Cette capacité à recevoir ou non du travail électrique permet de classifier les batteries en plusieurs catégories.
+Cette aptitude d'une (ou des) cellule(s) électrochimique(s) permet de les classer.
 
 \section{Classification des générateurs électrochimiques}
+
+\begin{center}
+\includegraphics[scale=0.9]{figures-Chp0/Fig10}
+\end{center}
 
 \subsection{Dispositif constitué d'une seule cellule électrochimique}
 
 \begin{figure}[H]
 \begin{center}
+\begin{minipage}{0.6\textwidth}
+\centering
 \begin{tabular}{cc}
 \subfloat[\label{fig:03a}]{\includegraphics[width=3cm]{figures-Chp0/Fig03a}} & \subfloat[\label{fig:03c}]{\includegraphics[width=3cm]{figures-Chp0/Fig03c}} \\
 \subfloat[\label{fig:03b}]{\includegraphics[width=3cm]{figures-Chp0/Fig03b}} & \subfloat[\label{fig:03d}]{\includegraphics[width=3cm]{figures-Chp0/Fig03d}}
 \end{tabular}
-\end{center}
-
-%\begin{centering}
-%\subfloat[\label{fig:03a}]{\includegraphics[height=3cm]{figures-Chp0/Fig03a}}\subfloat[\label{fig:03c}]{\includegraphics[height=3cm]{figures-Chp0/Fig03c}}\hfill\subfloat[\label{fig:03b}]{\includegraphics[height=3cm]{figures-Chp0/Fig03b}}\subfloat[\label{fig:03d}]{\includegraphics[height=3cm]{figures-Chp0/Fig03d}}
-%\par\end{centering}
+\end{minipage}\begin{minipage}{0.4\textwidth}
 {\tiny{}\caption{{\small{} Fig. \ref{fig:03a}) Représentation schématique d'une pile AAA alimentant d'une résistance et une diode électroluminescente rouge ; Fig. \ref{fig:03b}) Circuit électrique équivalent ; \ref{fig:03c}) Représentation schématique d'une pile AAA et d'une résistance alimentée par un générateur en mode DC ; Fig. \ref{fig:03d}) Circuit électrique équivalent.}}
 }{\tiny\par}
+\end{minipage}\end{center}
 \end{figure}%WARNING : mettre U_B pour la tension de la batterie
 
 \definition{
@@ -98,16 +101,20 @@ Cette capacité à recevoir ou non du travail électrique permet de classifier l
 \blancbis{L'accumulateur} est un dispositif électrochimique qui génère (resp. reçoit) de l'électricité en convertissant de l'énergie chimique (resp. électrique) en énergie électrique (resp. chimique) grâce à \blancbis{une réaction d'oxydoréduction réversible}. 
 }
 
-Si la pile AAA, illustré Fig. \ref{fig:03a}/\ref{fig:03b}, peut-être rechargée par le générateur, on peut dire qu'elle est constituée d'accumulateurs. Sinon, elle est constituée de piles.
+Si la pile AAA, illustré Fig. \ref{fig:03a}/\ref{fig:03b}, peut-être rechargée par le générateur, on peut dire qu'elle est un \blancbis{accumulateur}. Sinon, elle est appelée une \blancbis{pile}.
 
+\begin{figure}[H]
+\begin{center}
+\begin{minipage}{0.5\textwidth}
+\centering
+\subfloat[\label{fig:09a}]{\includegraphics[height=2.5cm]{figures-Chp0/Fig09a}} \hspace{0.5cm} \subfloat[\label{fig:09b}]{\includegraphics[height=2.5cm]{figures-Chp0/Fig09b}}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\captionof{figure}{\small Cellule électrochimique en \ref{fig:09a} convention générateur et \ref{fig:09b} convention récepteur.}
+\end{minipage}
+\end{center}
+\end{figure}
 
-Du point de vue électrique, l'accumulateur est :
-\begin{itemize}
-\item un \blancbis{générateur électrique} lorsqu'il se décharge ;
-\item un \blancbis{récepteur électrique} lorsqu'il se charge.
-\end{itemize}
-
-La pile est quant à elle uniquement un \blancbis{générateur électrique}.
+Du point de vue électrique, l'accumulateur est un \blancbis{générateur électrique} lorsqu'il se décharge ; un \blancbis{récepteur électrique} lorsqu'il se charge. La pile est quant à elle uniquement un \blancbis{générateur électrique}.
 
 
 \subsection{Dispositifs constitués de plusieurs cellules électrochimiques}
@@ -117,11 +124,11 @@ La pile est quant à elle uniquement un \blancbis{générateur électrique}.
 \includegraphics[width=2cm]{figures-Chp0/Fig05}
 \end{center}} de plusieurs piles ou accumulateurs. On les classe alors en deux catégories : 
 \begin{enumerate}
-    \item primaire lorsque l'on a mis en série des piles ;
-    \item secondaire lorsqu'on l'on a mis en série des accumulateurs.
+    \item \blancbis{primaire} lorsque l'on a mis en série des piles ;
+    \item \blancbis{secondaire} lorsqu'on l'on a mis en série des accumulateurs.
 \end{enumerate}
 
-Ainsi, tout générateur primaire ne peut être utilisé \blancbis{qu'une seule fois}, et doit être jeté après utilisation. 
+Ainsi, tout générateur primaire ne peut être utilisé \blancbis{qu'une seule fois}, et doit être jeté ou recyclé après utilisation. 
 
 \section{Vocabulaire associé aux réactions électrochimiques}
 Avant d'aborder les différentes parties d'une batterie, il est important de remettre en place quelques termes de vocabulaire propre aux réactions électrochimiques.
@@ -218,19 +225,21 @@ Dans les réactions suivantes, identifier l'oxydant et le réducteur.
 
 
 
-\section{Description d'une batterie}
-\subsection{Partie électroactive}
-La description que nous allons faire traite de manière indifférente les batteries primaires et secondaires. En ces termes, piles et accumulateurs porteront le nom générique de cellule.
+\section{Description d'une cellule électrochimique}
+
+Nous allons concentrer notre attention sur les composantes d'une cellule électrochimique, qui qualifiera de manière indifférenciée piles et accumulateurs.
 
 Toute cellule est un dispositif composé de $\ldots$
 
+\subsection{Partie électroactive}
+
 \paragraph*{$\ldots$ deux électrodes} dont l'une sert à capter les électrons et l'autre sert à céder des électrons. Une cellule est, par conséquent, un \textbf{dipôle électrique orienté}, c'est-à-dire composé d'un pôle $\oplus$ et d'un pôle $\ominus$.
 
-La \blancbis{polarisation} électrique\mySideNote{Lorsque l'on parle de polarisation électrique, on sous-entend qu'il existe un pôle $\oplus$/$\ominus$ non confondu.} d'une cellule électrochimique ou batterie est invariante, peu importe le rôle joué au sein d'un circuit électrique.
+La \blancbis{polarisation} électrique\mySideNote{Lorsque l'on parle de polarisation électrique, on sous-entend qu'il existe un pôle $\oplus$/$\ominus$ non confondu d'où le terme de dipôle.} d'une cellule électrochimique ou batterie est invariante, peu importe le rôle joué au sein d'un circuit électrique.
 
-\`{A} la Fig. \ref{fig:03b}, la batterie joue le rôle de générateur, c'est elle qui va imposer le sens du courant $I$ (donc le sens des électrons). \`{A} la Fig. \ref{fig:03d}, la batterie joue le rôle de récepteur, c'est donc le générateur de tension qui impose la polarisation. Dans les deux cas, les pôles de la batterie sont inchangés\mySideNote{Dans un générateur (resp. récepteur) électrique, le courant sort (resp. entre) par le pôle $\oplus$}. 
+\`{A} la Fig. \ref{fig:03b}, la batterie joue le rôle de générateur, c'est elle qui va imposer le sens du courant, d'intensité $I$ (donc le sens des électrons). \`{A} la Fig. \ref{fig:03d}, la batterie joue le rôle de récepteur, c'est donc le générateur de tension qui impose la polarisation. Dans les deux cas, les pôles de la batterie sont inchangés\mySideNote{Dans un générateur (resp. récepteur) électrique, le courant sort (resp. entre) par le pôle $\oplus$}. 
 
-Le pôle, concept purement électrique, ne donne aucune information apparente sur la chimie au sein des demi-piles. On oriente chimiquement la batterie à l'aide des termes \blancbis{cathode}/\blancbis{anode}.
+Le pôle, concept purement électrique, ne donne aucune information apparente sur la chimie au sein des demi-piles. On oriente chimiquement la batterie à l'aide des termes \blancbis{cathode} / \blancbis{anode}.
 
 \definition{En décharge, le pôle $\oplus$ (resp. $\ominus$) d'une batterie est qualifié de \blancbis{cathode} (resp. \blancbis{anode}) lorsqu'il est le siège d'une réaction de \blancbis{réduction} (resp. d'\blancbis{oxydation}).}
 
@@ -247,13 +256,13 @@ Il existe une juste correspondance entre les termes électrique et les phénomè
 & Récepteur & cathode & anode \\
 \hline
 \end{tabular}
-\captionof{table}{Relation entre électricité et chimie dans une cellule électrochimique ou une batterie.}
+{\small \captionof{table}{\small Relation entre électricité et chimie dans une cellule électrochimique ou une batterie.}}
 \label{tab:Chp-0-conventions}
 \end{center}
 %Rôle joué par la cellule dans le circuit
 
 \attention{
-Par abus de langage, les chimistes portant peu d'intérêt au rôle de la batterie au sein d'un circuit électrique utilise le terme anode (resp. cathode) en parlant du pôle $\ominus$ (resp. anode) en prenant comme référence la cellule ou batterie en décharge.\\
+Par abus de langage, les chimistes portant peu d'intérêt au rôle de la batterie au sein d'un circuit électrique utilise le terme anode (resp. cathode) en parlant du pôle $\ominus$ (resp. $\oplus$) en prenant comme référence la cellule ou batterie en décharge.\\
 
 Il va de soi, qu'en toute rigueur, il faut nommer la demi-pile par ses pôles (puisque c'est l'invariant).
 }
@@ -268,11 +277,11 @@ Dans le cas d'une pile Daniell, pile utilisant les couples \ce{Cu^{2+}(aq)}/\ce{
 \includegraphics[width=8cm]{figures-Chp0/Fig04.png}
 \end{minipage}\hfill   
 \begin{minipage}[c]{0.35\textwidth}     
-\captionof{figure}{Pile Daniell réalisée à l'aide :}
+{\small \captionof{figure}{\small Pile Daniell réalisée à l'aide :} \small
 \begin{itemize}
     \item d'une solution de sulfate de cuivre accompagné d'une plaque de cuivre (cathode) ;
     \item d'une solution de sulfate de zinc accompagné d'une plaque de zinc (anode).
-\end{itemize}
+\end{itemize}}
 \label{fig:04}
 \end{minipage}
 
@@ -283,7 +292,7 @@ Le dispositif peut se résumer de la manière suivante :
 en indiquant par $|$ les interfaces entre les différentes phases.
 
 
-Une des premières choses à remarquer est que les fils électriques permettent de fermer le circuit électrique, tandis que le pont salin contenant une solution de \ce{KNO3} concentrée permet de fermer la partie chimique. Si le circuit n'est pas fermé dans la partie chimique ou la partie électrique, un ampèremètre branché aux bornes de la cellule indiquera un courant nul\mySideNote{Ceci n'est qu'un constat expérimental qui servira de généralisation. En réalité, il est tout à fait possible de démontrer cette observation grâce aux lois de l'électrostatique.}.
+Une des premières choses à remarquer est que les fils électriques permettent de fermer le circuit électrique, tandis que le pont salin contenant une solution de \ce{KNO3} concentrée permet de fermer la partie chimique. Si le circuit n'est pas fermé dans la partie chimique ou la partie électrique, un ampèremètre branché aux bornes de la cellule indiquera un courant nul\mySideNote{Ceci n'est qu'un constat expérimental. En réalité, il est tout à fait possible de démontrer cette observation grâce aux lois de l'électrostatique.}.
 
 %\mySideNote{La migration est le terme associé à la mise en mouvement d'une particule chargée sous l'action d'un champ électrique. Ce terme est à mettre en perspective avec la diffusion et la convection. Ces phénomènes, dit de transport, seront traité en S4.06.}
 
@@ -297,12 +306,12 @@ Une des premières choses à remarquer est que les fils électriques permettent 
 Celui-ci est choisi en fonction de deux contraintes : 
 \begin{enumerate}
     \item diminuer la résistivité des compartiments anodiques et cathodiques ;
-    \item garantir le processus de migration au sein de la solution.
+    \item garantir le processus de migration au sein de la solution à la place des espèces électroactives.
 \end{enumerate}
 
 ~
 
-\blancbis{Séparateur} ~  En général, les cellules sont composées d'un séparateur qui permet de séparer \blancbis{physiquement} et \blancbis{spécifiquement} les espèces électroactives du compartiment anodique et cathodique. Le séparateur est soit une membrane, soit un pont salin. Ce séparateur obéit à deux contraintes : empêcher toute réaction parasite entre espèces électroactives, tout en assurant une bonne conductivité ionique d'espèces chimiques chargées, mais inertes chimiquement.
+\blancbis{Séparateur} ~  En général, les cellules sont composées d'un séparateur qui permet de séparer \blancbis{physiquement} et \blancbis{spécifiquement} les espèces électroactives du compartiment anodique et cathodique. Le séparateur est soit une membrane, soit un pont salin. Ce séparateur obéit à trois contraintes : jouer le rôle d'isolant vis-à-vis des électrons, empêcher toute réaction parasite entre espèces électroactives, tout en assurant une bonne conductivité ionique d'espèces chimiques chargées, mais inertes chimiquement.
 }
 
 L'ensemble chimique électrolyte, solvant et séparateur, qualifié d'\blancbis{électroinactif}, joue un rôle clef dans le fonctionnement d'une batterie/pile mais ne sera quasiment jamais abordé dans ce module où on s'intéressera avant tout au design de la partie électroactive.\mySideNote{L'électrolyte support est parfois une (ou des espèces) électroactive(s), comme dans le cas de la pile Daniell.} En général, on se limitera à écrire les espèces électroactives : 
@@ -315,33 +324,20 @@ Sauf si on a besoin des autres espèces pour comprendre le problème physique.
 
 \subsection{Batterie, tension électrique et force électromotrice}
 
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\subfloat[\label{fig:Chp0-16a}]{\includegraphics[width=0.48\textwidth]{figures-Chp0/Fig16a}} & \subfloat[\label{fig:Chp0-16b}]{\includegraphics[width=0.30\textwidth]{figures-Chp0/Fig16b}}
-\end{tabular}
-\end{center}
-\caption{\ref{fig:Chp0-16a} Modèle de Thévenin permettant la description de la caractéristique d'une cellule électrochimique ; \ref{fig:Chp0-16b} Allure de la caractéristique d'une cellule électrochimique}
-\end{figure}
-
-Lorsque l'on mesure la tension aux bornes d'une cellule électrochimique, notée $U$, on mesure une différence de potentiel électrique entre les deux pôles de la pile. Cette tension électrique dépend de deux paramètres électriques comme représenté à la Fig. \ref{fig:04} :\mySideNote{Ces grandeurs ont été vu en Physique en S1.} 
-\begin{itemize}
-\item la \blancbis{tension à courant nul}, souvent appelée tension de circuit ouvert\mySideNote{On la rencontrera en TP sous le terme OCV pour \textbf{Open-circuit voltage}.} ;
-\item la \blancbis{résistance interne}, notée $R_i$, de la cellule.%inclu résistance de polarisation
-\end{itemize}
-
-L'origine chimique de ce comportement pourra être expliqué à la suite d'un cours intensif de thermodynamique et de cinétique électrochimique et sera admis comme tel pour le moment.
-
-Dans les études que nous allons faire sur les batteries, nous chercherons avant tout à établir un lien structure/propriété entre la \emph{tension à courant nul} et la structure chimique aux électrodes. En effet, la tension à courant nul est associée à une grandeur thermodynamique, appelée force électromotrice et notée $e$ qui quantifie la force électrique permettant de séparer les charges au sein de la batterie
+Dans les études que nous allons faire sur les batteries, nous chercherons avant tout à établir un lien structure/propriété entre la \emph{tension à courant nul} et la structure chimique aux électrodes. En effet, la tension à courant nul est associée à une grandeur thermodynamique, appelée force électromotrice et notée $e$\mySideNote{On la rencontrera en TP sous le terme OCV pour \textbf{Open-circuit voltage}}, qui quantifie la force électrique permettant de séparer les charges au sein de la batterie
 
 
 
 \example{
-Le voltmètre dispose d'une très grande résistance (idéal = résistance infinie), on va donc bien mesurer la tension à courant nul. De plus, si les électrodes sont des phases homogènes et isotropes macroscopiquement, le potentiel électrostatique est constant. On va pouvoir décomposer le potentiel électrique en fonction des différents points dans la batterie schématisée à la Fig. 
+Le voltmètre dispose d'une très grande résistance (idéal = résistance infinie), on va donc bien mesurer la tension à courant nul. De plus, si les électrodes sont des phases homogènes et isotropes macroscopiquement, le potentiel électrostatique est constant. On va pouvoir décomposer le potentiel électrique en fonction des différents points dans la batterie schématisée à la Fig. \ref{fig:Chp-0-06-phases}
 
 \begin{center}
+\begin{minipage}{0.5\textwidth}
 \includegraphics[width=5cm]{figures-Chp0/Fig06}
-\captionof{figure}{Représentation des phases mises en jeux au sein d'une batterie (l'électrolyte suppose l'existence éventuelle d'une phase électrolytique en contact avec l'interface, ainsi que d'un éventuel pont salin).}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\small \captionof{figure}{\small Représentation des phases mises en jeux au sein d'une batterie (l'électrolyte suppose l'existence éventuelle d'une phase électrolytique en contact avec l'interface, ainsi que d'un éventuel pont salin).}
+\label{fig:Chp-0-06-phases}
+\end{minipage}
 \end{center}
 
 \begin{align*}
@@ -366,16 +362,16 @@ U ( I=0 ~ \si{\ampere} ) &= E_\oplus - E_\ominus + E_j  \\
 & \approx E_\oplus - E_\ominus
 \end{align}}
 
-La tension à courant nul est donc pas définition lié à une différence de potentiel électrique entre l'électrode $\oplus$ et l'électrode $\ominus$. Cette différence de potentiel sous entend l'existence éventuelle d'un champ électrique au sein de la pile, que l'on appelle la force électromotrice de la réaction.
+La tension à courant nul est donc par définition lié à une différence de potentiel électrique entre l'électrode $\oplus$ et l'électrode $\ominus$. Cette différence de potentiel sous entend l'existence éventuelle d'un champ électrique au sein de la pile, que l'on appelle la force électromotrice de la réaction.
 
-\attention{Dans le restant du cours, nous ferons l'amalgame couramment fait par les chimistes : assimiler la force électromotrice, siglé f.e.m et notée $e$ à la tension à vide $U(I=0 ~ \si{\ampere})$}
+\attention{Dans le restant du cours, nous ferons l'amalgame couramment fait par les chimistes : assimiler la force électromotrice, siglé f.e.m. et notée $e$, à la tension à vide $U(I=0 ~ \si{\ampere})$}
 
-\section{Type de réactions}
+\section{Type de réactions au sein des accumulateurs lithium}
 
 On va chercher à classer les réactions des cellules électrochimiques utilisant du lithium en deux grandes catégories : 
 \begin{enumerate}
-\item les cellules qui conduisent à l'apparition et la disparition d'une phase contenant des ions lithiums ;
-\item les cellules dans lesquelles les matériaux sont des "éponges" d'ions lithium et sont capables de les accueillir sans qu'il y ait apparition/disparition d'une phase.
+\item les cellules qui conduisent à l'\blancbis{apparition} et la \blancbis{disparition} d'une phase contenant des ions lithiums ;
+\item les cellules dans lesquelles les matériaux sont des "éponges" d'ions lithium et sont capables de les accueillir \blancbis{sans qu'il y ait apparition/disparition} d'une phase.
 \end{enumerate}
 
 Par exemple, un des première batterie brevetée en 1977 par S. Whittimgham utilisait un pôle $\ominus$ en lithium métallique et un pôle $\oplus$ en \ce{TiS2} : 
@@ -383,9 +379,14 @@ Par exemple, un des première batterie brevetée en 1977 par S. Whittimgham util
 \begin{minipage}{0.58\textwidth}
 \includegraphics[width=\textwidth]{figures-Chp0/Fig18}
 \end{minipage}\hfill\begin{minipage}{0.38\textwidth}
-\captionof{figure}{Cellule électrochimique de S. Whittimgham.}
+\captionof{figure}{\small Cellule électrochimique de S. Whittimgham.}
 \end{minipage}\end{center}
 On voit que \ce{TiS2} est un matériau fonctionnant comme une "éponge" à ions lithium.
+
+\begin{center}
+\includegraphics[scale=1]{figures-Chp0/Fig19-tot}
+\captionof{figure}{Type de réactions dans les batteries Li-ion.}
+\end{center}
 
 \subsection{Réactions de recomposition}
 
@@ -417,7 +418,7 @@ Il existe une autre catégorie de réaction dans les systèmes électrochimiques
 
 %Image des deux cas de figure
 
-En général, l'incorporation de l'espèce accueillie à lieu de manière topotactique\mySideNote{\'{E}spèces accueillies s'établissent dans des sites spécifiques de la structure cristalline.} et non pas de manière atactique\mySideNote{\'{E}spèces accueillies s'établissent dans des sites aléatoires de la structure cristalline.}.
+En général, l'incorporation de l'espèce accueillie à lieu de manière \blancbis{topotactique}\mySideNote{\'{E}spèces accueillies s'établissent dans des sites spécifiques de la structure cristalline.} et non pas de manière \blancbis{atactique}\mySideNote{\'{E}spèces accueillies s'établissent dans des sites aléatoires de la structure cristalline.}.
 
 \definition{Une réaction d'\blancbis{insertion} est une réaction où une \blancbis{solution solide disparaît} au profit de la \blancbis{formation} d'une nouvelle solution solide.
 
@@ -429,7 +430,7 @@ où \ce{A} désigne l'espèce accueillie et \ce{BX} désigne l'espèce hôte.
 
 }
 %WARNING Lix + TiS2 = Lix TiS2
-Notons dès à présent que dans le cas des matériaux lamellaires\mySideNote{Voir Chp. 3}, les \blancbis{réactions d'insertion} sont parfois appelées \blancbis{réactions d'intercalation}.
+Notons dès à présent que dans le cas des matériaux lamellaires\mySideNote{Voir Chp. 3}, les \blancbis{réactions} \blancbis{d'insertion} sont parfois appelées \blancbis{réactions d'intercalation}.
 
 \attention{Il est parfois possible qu'une réaction de déplacement se produise par remplacement d'une espèce interstitielle par une autre à l'intérieur d'un matériau hôte. Dans ce cas, une seule phase supplémentaire est formée et on parle d'\blancbis{extrusion} pour décrire ce processus.}
 %HCl + LiMO2 = HMO2 + LiCl
@@ -439,9 +440,9 @@ Notons dès à présent que dans le cas des matériaux lamellaires\mySideNote{Vo
 
 \subsection{Charge, \'{E}nergie \& Puissance}
 \subsubsection{Définition}
-Les cellules électrochimiques sont des dispositifs électriques. Par conséquent, trois grandeurs électriques usuelles permettent de les caractériser : la charge (notée \textbf{q}), la tension (notée \textbf{U}) et le courant (notée \textbf{I}). Le courant dérive de la charge\mySideNote{Il faut savoir que :
+Les cellules électrochimiques sont des dispositifs électriques. Par conséquent, trois grandeurs électriques usuelles permettent de les caractériser : la charge (notée $Q$), la tension (notée $U$) et le courant (notée $I$). Le courant dérive de la charge\mySideNote{Il faut savoir que :
 \begin{align*}
-I = \frac{dq}{dt}
+I = \frac{dQ}{dt}
 \end{align*}
 }.
 
@@ -462,32 +463,18 @@ Deux grandeurs dérivées des trois grandeurs fondamentales de l'électricité p
 
 Lorsque le dispositif électrique est en convention récepteur (resp. générateur), la relation Eq. \ref{eq:puissance} nous donne la puissance \blancbis{reçue} (resp. \blancbis{émie}) par le dispositif. De même pour la relation sur le travail Eq. \ref{eq:travail}.
 
-\subsubsection{État de charge}
-Afin de caractériser l'état d'une pile ou batterie, on peut utiliser diverses grandeurs dérivées de la capacité permettant de définir son état à un instant $t$.
+Dans le domaine des énergies, il est courant d'utiliser des wattheures [\si{\watt\hour}] à la place des joules [\si{\joule}] comme unité commerciale.
 
-\definition{
-\blancbis{\'{E}tat de charge (SoC, State-of-Charge)} indique la quantité d'énergie emmagasinée par la cellule ou batterie. On la définit comme : 
-\begin{equation*}
-    SoC [\si{\percent}]= \frac{\text{charge emmagasinée par la batterie}}{\text{charge maximale que peut emmagasiner la batterie}} * 100
-    \label{eq:SoC}
-\end{equation*}}
+\attention{Un watt-heure correspond au nombre de joule reçu par un dispositif recevant une puissance de \SI{1}{\watt} pendant \SI{1}{\hour} :
+\begin{align*}
+1 ~ \si{\watt\hour} = 3600 ~ \si{\joule}
+\end{align*}
+}
 
-Si $SoC =$ \SI{0}{\percent} (resp. \SI{100}{\percent}), la batterie est déchargée (resp. chargée)
-
-\definition{
-\blancbis{\'{E}tat de décharge (DoD, Depth-of-Discharged)} indique la quantité d'énergie non emmagasinée par la cellule ou batterie. On la définit comme : 
-\begin{equation*}
-    DoD [\si{\percent}]= \frac{\text{charge non emmagasinée par la batterie}}{\text{charge maximale que peut emmagasiner la batterie}} * 100
-    \label{eq:DoD}
-\end{equation*}}
-
-Par définition, $DoD [\si{\percent}] = 100 - SoC [\si{\percent}]$. Si $DoD =$ \SI{0}{\percent} (resp. \SI{100}{\percent}), la batterie est chargée (resp. déchargée)
-
-\subsection{Capacité spécifique (CS)}
-\subsubsection{Définition}
+\subsubsection{Capacité spécifique (ou nominale)}
 La \blancbis{capacité d'une batterie} est définie comme la quantité maximale de charges qui peut être stockée dans la cellule ou batterie. Cette grandeur est \blancbis{extensive}, c'est-à-dire qu'elle dépend de la quantité de matériau présent.\mySideNote{Par opposition, la tension est intensive, elle ne dépend pas de la quantité de matériau présent.}
 
-En général, les chimistes lui préfèrent la \blancbis{capacité spécifique}.
+En général, les chimistes préfèrent définir une \blancbis{capacité spécifique} massique ou volumique laquelle est \blancbis{intensive}.
 
 \definition{
 La capacité spécifique, notée $CS$, est définie comme : 
@@ -508,7 +495,56 @@ La capacité spécifique s'exprimera en \si{\coulomb\per\kilo\gram} ou \si{\coul
 L'unité commerciale utilisée est le \si{\ampere\hour\per\kilo\gram}.
 
 %WARNING def
-\attention{La capacité \blancbis{spécifique} sera liée à la nature du matériau d'électrode.}
+\attention{
+Un ampère-heure correspond au nombre d'ampère reçu par un dispositif recevant une intensité de \SI{1}{\ampere} pendant \SI{1}{\hour} :
+\begin{align*}
+1 ~ \si{\ampere\hour} = 3600 ~ \si{\coulomb}
+\end{align*}
+
+Surprenament, la capacité \blancbis{spécifique} sera liée à la nature chimique du matériau d'électrode et non à sa structure. Nous montretons que la capacité spécifique massique s'exprime comme : 
+\begin{align*}
+CS_m = \frac{z}{3.6 M} \quad [\si{\milli\ampere\hour\per\gram} = \si{\ampere\hour\per\kilo\gram}]
+\end{align*}
+
+avec $z$ est le nombre d'électrons délivrés par motif du matériau et $M$ la masse molaire du matériau hôte.
+}
+
+\subsubsection{\'{E}nergie théorique maximale (ETM)}
+L'énergie théorique maximale est une grandeur permettant de prendre à compte la force électromotrice de la cellule ou batterie et la capacité spécifique et représente l'énergie électrique maximale pouvant être extraite, en théorie, d'une batterie.
+
+\definition{
+L'énergie théorique maximale, notée ETM, se définit comme le travail électrique que l'on peut délivrer au maximum : 
+\begin{equation}
+ETM = \text{force électromotrice} \times \text{capacité spécifique massique}
+\end{equation}
+
+Elle est en général exprimée en \si{\joule\per\kilo\gram}.}
+
+L'unité commerciale utilisée est le \si{\watt\hour\per\kilo\gram}.
+
+\subsection{\'{E}tat d'une cellule ou batterie pour un (ou plusieurs) cycle(s) : SoC, DoD et SoH}
+
+\subsubsection{État de charge}
+Afin de caractériser l'état d'une pile ou batterie, on peut utiliser diverses grandeurs dérivées de la capacité permettant de définir son état à un instant $t$.
+
+\definition{
+\blancbis{\'{E}tat de charge (SoC, State-of-Charge)} indique la quantité d'énergie emmagasinée par la cellule ou batterie. On la définit comme : 
+\begin{equation*}
+    SoC [\si{\percent}]= \frac{\text{charge emmagasinée par la batterie}}{\text{charge maximale que peut emmagasiner la batterie}} \times 100
+    \label{eq:SoC}
+\end{equation*}}
+
+Si $SoC =$ \SI{0}{\percent} (resp. \SI{100}{\percent}), la batterie est déchargée (resp. chargée)
+
+\definition{
+\blancbis{\'{E}tat de décharge (DoD, Depth-of-Discharged)} indique la quantité d'énergie non emmagasinée par la cellule ou batterie. On la définit comme : 
+\begin{equation*}
+    DoD [\si{\percent}]= \frac{\text{charge non emmagasinée par la batterie}}{\text{charge maximale que peut emmagasiner la batterie}} \times 100
+    \label{eq:DoD}
+\end{equation*}}
+
+Si $DoD =$ \SI{0}{\percent} (resp. \SI{100}{\percent}), la batterie est chargée (resp. déchargée)
+
 
 \subsubsection{\'{E}tat de santé (SoH, State-of-Health)} 
 
@@ -521,16 +557,19 @@ L'état de santé (SoH, State-of-Health) indique la charge maximale réelle par 
 
 L'état de santé permet de caractériser l'état de vieillissement de votre pile. Si la pile est neuve (resp. usagée), alors $SoH =$ \SI{100}{\percent} (resp. $SoH \to$ \SI{0}{\percent}).
 
+
+Par définition, $DoD [\si{\percent}] = SoH [\si{\percent}] - SoC [\si{\percent}]$. Si $DoD =$ \SI{0}{\percent} (resp. \SI{100}{\percent}), la batterie est chargée (resp. déchargée)
+
 \subsection{Qualité de l'énergie stockée}
 
 La puissance électrique, ainsi que l'énergie, sont liées à la tension à circuit ouvert et par extension à la f.e.m.\mySideNote{La force électromotrice pour ceux qui n'aurait pas suivi =P.}. Nous allons voir au chapitre suivant que la f.e.m. est directement liée à la thermodynamique de la réaction chimique "fictive" ayant lieu entre les espèces chimiques des deux compartiments. Elle est la force motrice permettant la circulation des électrons et le transport des ions à travers l'électrolyte.
 
-En général, du point de vu électrique, la \blancbis{qualité de l'énergie électrique} est supérieure lorsque la tension électrique est élevée. Ceci est simple à comprendre, si vous alimentez une résistance $R$ avec votre pile de f.e.m $e$, la puissance reçue par la résistance est : 
+En général, du point de vu électrique, la \blancbis{qualité de l'énergie électrique} est supérieure lorsque la tension électrique est élevée. Ceci est simple à comprendre, si vous alimentez une résistance $R$ avec votre pile, de tension assimilée à la f.e.m $e$, la puissance reçue par la résistance est : 
 \begin{equation}
 P = U_R \cdot I = \frac{e^2}{R}
 \end{equation} 
 
-ainsi, du fait du terme en $e^2$; la puissance électrique reçu par un tel dispositif est très sensible à la tension. On peut arbitrairement donner quelques plages de tension, associées aux applications courantes, permettant de définir la qualité de la tension électrique : 
+ainsi, du fait du terme en $e^2$; la puissance électrique reçu par un tel dispositif est très sensible à la tension. On peut arbitrairement donner quelques plages de tension, associées aux applications courantes, permettant de définir la qualité de la tension électrique\mySideNote{Un chimiste ne cherchera pas forcément à optimiser la tension de sortie d'une cellule. En effet, pour certaines applications, comme les semi-conducteurs pour l'électronique, on cherchera en général à avoir de petites tensions (< \SI{1}{\volt}).} : 
 \begin{center}
 
 \begin{tabular}{cc}
@@ -540,20 +579,7 @@ $0.0 - 1.5$ \si{\volt} & Qualité faible
 \end{tabular}
 \end{center}
 
-Cependant, il peut exister des applications allant au délà de ces plages (\emph{par ex.} les voitures électriques nécessitent des tensions autour de \SI{200}{\volt})\mySideNote{Un chimiste ne cherchera pas forcément à optimiser la tension de sortie d'une cellule. En effet, pour certaines applications, comme les semi-conducteurs pour l'électronique, on cherchera en général à avoir de petites tensions (< \SI{1}{\volt}).}.
-
-\subsection{\'{E}nergie théorique maximale (ETM)}
-L'énergie théorique maximale est une grandeur permettant de prendre à compte la force électromotrice de la cellule ou batterie et la capacité spécifique et représente l'énergie électrique maximale pouvant être extraite, en théorie, d'une batterie.
-
-\definition{
-L'énergie théorique maximale, notée ETM, se définit comme le travail électrique : 
-\begin{equation}
-ETM = \text{force électromotrice} \times \text{capacité spécifique}
-\end{equation}
-
-Elle est en général exprimée en \si{\joule\per\kilo\gram}.}
-
-L'unité commerciale utilisée est le \si{\watt\hour\per\kilo\gram}.
+Cependant, il peut exister des applications allant au délà de ces plages (\emph{par ex.} les voitures électriques nécessitent des tensions autour de \SI{200}{\volt}).
 
 \subsection{Cyclabilité}
 Lorsque l'on cherche à réaliser des dispositifs rechargeables, il est fondamental d'étudier \blancbis{la cyclabilité} des dispositifs, c'est-à-dire le nombre de cycle de charge/décharge qu'est capable de faire une batterie avant de perdre complètement sa capacité de charge.
@@ -565,7 +591,7 @@ On remarque à la Fig. \ref{fig:Chp-0-07}, que pour une perte de la capacité é
 \begin{minipage}{0.65\textwidth}
 \input{\FigPath/Fig07.pgf}
 \end{minipage} \hfill \begin{minipage}{0.25\textwidth}
-\captionof{figure}{\'{E}volution de la capacité initiale pour différentes pertes par cycle de charge/décharge.}
+\captionof{figure}{\small \'{E}volution de la capacité initiale pour différentes pertes par cycle de charge/décharge.}
 \label{fig:Chp-0-07}
 \end{minipage}
 

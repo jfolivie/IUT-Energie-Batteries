@@ -1,749 +1,224 @@
-\anachapter{Force électromotrice \& relation aux matériaux}
+\anachapter{Courbes de charge-décharge à courant constant}
 \label{chp:fem}
 
 \objectif{
-\faBattery[0] Mesure de la f.e.m.
+\faBattery[0] Mesure d'une courbe de charge-décharge
 \begin{itemize}[label=\faAngleRight]
-\item Principe, intérêt et limites du titrage coulométrique ;
-\item Utiliser la variance et la variance particulière pour étudier les degrés de liberté d'un système.
+\item Principe et intérêt ;
+\item Setup expérimental associé à cette mesure ;
+\item Préparation d'échantillon.
 \end{itemize}
 
-\faBattery[2] \'{E}tude des systèmes binaires et ternaires
+\faBattery[2]
 \begin{itemize}[label=\faAngleRight]
-\item Interpréter ou construire un profil de potentiel issu d'un titrage coulométrique ;
-\item Lier la force électromotrice aux grandeurs de réaction à différentes compositions dans un système à deux ou trois constituants de variance nulle ;
-\item Calculer la capacité spécifique théorique et l'énergie théorique maximale ; 
-\item Interpréter l'évolution du potentiel d'électrode dans un système de variance non nulle à l'aide du potentiel chimique.
-\end{itemize}
-
-\faBattery[4] Courbe de charge-décharge
-\begin{itemize}[label=\faAngleRight]
-\item Justifier l'origine de la différence de potentiel entre un système à courant nul et à courant constant ;
 \item Expliquer l'origine de l'hystérèse entre charge et décharge à l'aide de la thermodynamique et mettre en relation avec les phénomènes microscopiques ;
-\item Connaître et expliquer briévement les phénomènes dissipatifs et leur impact sur les courbes de charge-décharge.
+\item Connaître et expliquer briévement les phénomènes d'activation, de concentration et de dissipation et leur impact sur les courbes de charge-décharge.
+\end{itemize}
+
+\faBattery[4] Paramètres d'acquisition et impact sur les courbes de charge-décharge.
+\begin{itemize}[label=\faAngleRight]
+\item Influence de la vitesse de charge ou décharge ;
+\item Influence de la température.
+\item Influence du nombre de cycles.
 \end{itemize}
 }
 
 
-\section{Quelles informations peut-on tirer de l'étude de la f.e.m. ?}
+\section{Préparation d'un échantillon}
 
-Avec l'ensemble des développements précédent, on a montré que la f.e.m. est la grandeur centrale qui apparaît dès lors que l'on modélise thermodynamiquement n'importe quel phénomène ayant lieu au sein d'une batterie.
+Un chimiste des matériaux doit formuler des électrodes répondant un cahier des charges étroits, consistant le plus souvent à améliorer la capacité, la tension et la longévité d'une cellule électrochimique en respectant les normes, l'impact environnemental$\ldots$ de ses synthèses.
 
-Lorsque l'on étudie les matériaux d'électrode, on est souvent emmené à observer des modifications de structure cristallographique\mySideNote{On parle aussi de variété allotropique.}, appelées \blancbis{transitions de phase}, lors de la charge ou la décharge d'une batterie.
+\begin{center}
+\includegraphics[width=\textwidth]{Fig25}
+{\small \captionof{figure}{\small Les demi-cellules et cellules complètes peuvent être montées sous forme de pile-bouton (\og coin-cell \fg, \textbf{(a)},  ou bien de cellule Swagelok \copyright \textbf{(b)} et installées sur un cycleur (galvanostat, potentiostat) permettant d’évaluer en parallèle les performances en cyclage de dizaines de batteries \textbf{(c et d)}.}}
+\label{fig:4-25}
+\end{center}%https://culturesciences.chimie.ens.fr/thematiques/chimie-physique/electrochimie/evaluation-des-performances-des-batteries-li-ion
 
-Par conséquent, la mesure de la f.e.m., assimilable à la tension à courant nul, rend compte de ces \blancbis{transitions de phase}. En particulier, la technique du titrage coulométrique permet de mesurer l'évolution de la f.e.m. en fonction de l'état de charge.
-
-\subsection{Titrage coulométrique}
-
-\subsubsection{Principe de la technique}
-
-\definition{Le titrage coulométrique consiste à étudier l'évolution de la f.e.m. à différents états de charge d'une cellule ou batterie.\\
-
-Pour cela, un opérateur charge ou décharge en contrôlant le courant d'une cellule. \`{A} chaque pas de temps, le système est équilibré en tension (c.-à-d. qu'à chaque pas de temps, l'opérateur coupe le courant et laisse le système relaxer). Cette tension d'équilibre, obtenue à courant nul, est assimilée à la f.e.m.
-}
+Il existe de multiples façons de préparer des échantillons. Si l'on fait des recherches sur un matériau, on est emmené à synthétiser de petites quantités de matériau, on va prioriser l'utilisation de piles boutons et de cellules Swagelok. Dans les autres cas, nous utiliserons plutôt des cycleurs permettant de tester des dizaines de cellules simultanément.
 
 
-Afin de mettre en place les principales idées derrière le titrage coulométrique, on peut écrire la cellule suivante : 
 
-\begin{equation}
-\ominus ~ \ce{A(s)} | \text{électrolyte contenant } \ce{A^{z+} (el) } | \ce{A_y B} ~ \oplus 
-\end{equation}
-dont l'équation de réaction fictive est donnée par : 
-\begin{equation}
-\ce{y A(s, \ominus) + B(s, \oplus) = A_y B (s, \oplus)}
-\end{equation}
+\section{Principe de la mesure}
 
-On va considérer que \ce{B} est le matériau d'accueil des ions \ce{A^{z+}}. Cet ensemble binaire A-B forme une \blancbis{solution solide}. Par la suite, la pile va subir la séquence :
-\begin{enumerate}
-\item décharge à un courant $I$ fixé (de l'ordre de \SI{100}{\micro\ampere)} pendant un pas de temps $\Delta t = $ (\emph{par ex.} \SI{10}{\second}) ;
-\item repos (c.-à-d. I=0) jusqu'à équilibration du potentiel mesuré.
-\end{enumerate}
+En électrochimie analytique, nous utilisons trois observables : le temps $t$, la tension $U$ et le courant électrique $I$ pour caractériser un dispositif. Afin de mesurer ces observables, nous utilisons un dispositif à \blancbis{trois électrodes} détaillé par la suite.
 
-puis on redémarre le cycle.
-
-\subsubsection{\'{E}volution de la quantité de A dans B}
-
-On cherche à décrire l'évolution de la quantité de \ce{A} contenue dans \ce{B} lors d'une phase de décharge. Lors de l'expérience, on sait qu'à l'anode, le processus électrochimique est modélisé par l'équation de réaction  :
-\begin{align}
-\ce{A (s, \ominus) = A^{z+} (el) + z e^-}
-\end{align}
-
-On peut alors écrire une juste équivalence entre la quantité de charge émise, noté $Q$, à l'anode et la quantité de A consommée $\Delta n_A$.
-\begin{align}
-Q = z F \Delta n_A
-\end{align}
-
-Sachant que le courant est constant, on peut alors écrire : 
-
-\begin{align}
-I \Delta t = z F \Delta n_A \implies \Delta n_A = \frac{I \Delta t}{z F}
-\end{align}
-
-Il en résulte que la fraction molaire dans la phase B augmente de $\Delta y$, de sorte que : 
-\begin{equation}
-\Delta y = \frac{\Delta n_A}{n_B} = \frac{I \Delta t}{z F n_B}
-\end{equation}
-
-On peut alors calculer un ordre de grandeur de la sensibilité de cette technique. Prenons une électrode \ce{B} de \SI{5}{\gram}, avec B de masse molaire \SI{100}{\gram\per\mole}, on a alors : 
-
-\begin{align}
-\Delta y \sim 2 \cdot 10^{-7}
-\end{align}
-
-On peut donc à priori faire des études à des variations de composition extrêmement faibles.
-\begin{comment}
-\paragraph{\'{E}volution de la f.e.m.}
-Lors de la décharge de cette pile, la réaction chimique est modélisée par : 
-\begin{equation}
-\ce{y A + B = A_y B} \quad \Delta_r G
-\end{equation}
-
-Dans un tel dispositif, on va supposer que :
+\subsection{Définition}
+Comme vous le savez, en électricité, on ne peut pas imposer un courant $I$ et une tension simultanément $U$. Développé en 1942 par Archie Hickling, scientifique anglais, le potentiostat galvanostat peut être exploité
+selon deux modes :
 \begin{itemize}
-\item $\ce{A_y B}$ et $\ce{A^\circ}$ sont des conducteurs électriques parfait ;
-\item l'electrolyte est un conducteur ionique parfait, c'est-à-dire qu'il y a autant \ce{A^{z+}} entrant que de \ce{A^{z+}} sortant ;
-\item il n'y a pas de perte de A ou B par évaporation, précipitation ou interaction quelconque avec les collecteurs de courant ;
-\item la diffusion de \ce{A^{z+}} au sein de \ce{A_y B} est suffisamment rapide pour que la solution solide s'équilibre rapidement.
+\item mode \blancbis{potentiostat} : l'expérimentateur impose une tension $U$ et mesure un courant $I$ ;
+\item mode \blancbis{galvanostat} : l'expérimentateur impose un courant $I$ et mesure une tension $U$.
 \end{itemize}
 
-%(1) The electrolyte is essentially only an ionic conductor, i.e., the ionic transference number is very close to unity. (2) There is no appreciable loss of either component from the electrode material A y B by evaporation, dissolution, or interaction with the electrical lead materials, the so-called current collectors. (3) The rate of compositional equilibration via chemical diffusion in the electrode material must be sufficiently fast.
+On va donc mesurer la tension en fonction du temps de charge ou de décharge.
 
-Le transfert des cations \ce{A^{z+}} de l'anode vers la cathode peut s'écrire : 
-\begin{equation}
-\ce{A^{z+} (an) -> A^{z+} (el) -> A^{z+} (cath)} 
-\end{equation} 
+\subsection{Schéma du galvanostat}
 
-On peut alors écrire les potentiels chimiques à l'anode et à la cathode : 
-
-\begin{align}
-\mu_{\ominus} (A) &= \mu_{\ominus}^\circ (A) + RT \ln a_\ominus (A) + F \Phi_\ominus
-& = \mu_{\ominus}^\circ (A) + F \Phi_\ominus \quad \text{car A est un corps pur à l'anode} \\
-\mu_{\ominus} (A) &= \mu_{\oplus}^\circ (A) + RT \ln a_\oplus (A) + F \Phi_\oplus
-\end{align}
-
-Si on se place en circuit-ouvert et qu'on considère qu'à chaque instant de la charge le système est à l'équilibre, on a :
-\begin{equation}
-\begin{cases}
-e &= \Phi_\oplus - \Phi_\ominus \\
-\mu_\oplus(A) &= \mu_\ominus (A)
-\end{cases} \implies e = -\frac{RT}{F} \ln a_\oplus (A)
-\end{equation}
-
-La force électromotrice est donc directement liée à l'évolution de l'activité de A à la cathode.
-
-\section{Extension du potentiel chimique aux espèces chargées}
-
-\subsection{Origine du problème}
-
-Dans les batteries, l'espèce électroactive (\emph{par ex.} le cation lithium) est souvent une espèce mobile en équilibre entre les différentes phases anode/électrolyte et electrolyte/cathode.
-
-Afin de tenir compte des interactions électrostatiques entre espèces chimiqus, on considère le travail électrique au sein de chacune des phases pour chaque espèc ionique en modifiant le potentiel chimique.
-
-\definition{
-Dans le cas d'une espèce chimique chargée $i$ plongée dans une phase supposée homogène et isotrope, le potentiel chimique, appelé potentiel électrochimique, est donné par : 
-
-\begin{equation}
-\tilde{\mu}_i = \mu_i^\circ + RT \ln (a_i) + z_i F \Phi
-\end{equation}
-
-où $z_i$ est la charge de l'espèce $i$ et $\Phi$ le potentiel électrique dans la phase.}
-
-\begin{boxedminipage}[t]{15cm}
-On cherche à exprimer l'enthalpie libre $G^\phi$ d'une transformation isobare/isotherme résersible, on a alors : 
-
-\begin{equation}
-d\tilde{G}^\phi = \sum_i \mu^\phi_i dn_i + \sum_i \Phi^\phi d q_i
-\end{equation}
-
-Or on sait que la charge totale $q_i$ d'une espèce $i$ est liée à la charge formelle de cette espèce $z_i$ et à sa quantité de matière dans la phase $\Phi$ :
-
-\begin{equation}
-q_i = z_i F n_i
-\end{equation}
-
-On a alors : 
-
-\begin{equation}
-d\tilde{G}^\phi = \sum_i (\mu^\phi_i + z_i F \Phi )dn_i 
-\end{equation}
-
-
-Or on sait que pour une transformation isobare/isotherme réversible : 
-
-\begin{equation}
-\tilde{\mu}_i = \frac{\partial \tilde{G}}{\partial n_i} = \mu^\phi_i + z_i F \Phi
-\end{equation}
-
-\end{boxedminipage}
-
-
-\subsection{\'{E}quilibres}
-
-Considèrons une espèce chargée formée à la surface de l'anode \ce{X^{z+}} qui peut potentiellement migrer au sein de la batterie en passant d'une phase $\varphi_1$ à une phase $\varphi_2$. 
-
-Si on modèlise ce phenomène par l'équation de réaction
-\begin{equation}
-\ce{X^{z+} ( \varphi_1 ) = X^{z+} ( \varphi_2 )} \quad \Delta_d G
-\end{equation}
-
-On peut alors résumer les 3 situations rencontrées :  
-
-\begin{align}
-\ce{X^{z+} ( \varphi_1 ) -> X^{z+} ( \varphi_2 )} & \quad & \Delta_d G < 0 & \quad & \tilde{\mu}^{\varphi_2} ( X^{z+} ) < \tilde{\mu}^{\varphi_1} ( X^{z+} ) \\
-\ce{X^{z+} ( \varphi_1 ) <=> X^{z+} ( \varphi_2 )} & \quad & \Delta_d G = 0 & \quad & \tilde{\mu}^{\varphi_2} ( X^{z+} ) = \tilde{\mu}^{\varphi_1} ( X^{z+} ) \\
-\ce{X^{z+} ( \varphi_1 ) <- X^{z+} ( \varphi_2 )} & \quad & \Delta_d G > 0 & \quad & \tilde{\mu}^{\varphi_2} ( X^{z+} ) > \tilde{\mu}^{\varphi_1} ( X^{z+} )
-\end{align}
-
-
-\exercice{On considère la pile $\ominus ~ \ce{Li} | \text{electrolyte} | \ce{I_2} ~ \oplus$. On cherche à étudier l'équilibre du caion $Li^+$ à l'interface anode/électrolyte et électrolyte/cathode.
-
-\Q \'{E}crire l'équation de réaction associé à l'équilibre du $\ce{Li^+}$ aux interfaces anode/électrolyte et électrolyte/cathode.
-
-Lors de la mesure de la f.e.m., les ions lithium sont en équilibre aux interfaces.
-
-\Q \'{E}crire deux relations liant les potentiels chimiques du cation lithium à l'anode, à l'électrode et à la cathode.
-
-On considère que le potentiel chimique au sein de l'électrolyte ne varie pas.
-
-\Q Montrer la relation : 
-\begin{equation}
--F e = \mu_\oplus ( \ce{Li^+} ) - \mu_\ominus ( \ce{Li^+} )
-\end{equation}
-
-et en déduire la relation à l'activité du cation \ce{Li^+} au sein du pôle $\oplus$ et ${\ominus}$.}
-\end{comment}
-
-\subsection{Variation de f.e.m. et variance}
-
-\subsubsection{Rappel sur la variance et système multiphasé}
-L'objet de cette partie est d'introduire la variance d'un système\mySideNote{Notion abordée en BUT1 Thermodynamique} comme un outil permettant de lier l'allure de la f.e.m. aux phases présentent dans une "pile".
-
-\definition{La variance d'un système thermodynamique est le nombre de variables d'état intensives qu'un opérateur peut fixer sans rompre l'état d'équilibre d'un système. Ce nombre est donné par la relation : 
-\begin{equation}
-v = 2 + N - M
-\end{equation}
-
-où $N$ est le nombre de constituant et $M$ le nombre de phase.}
-
-\begin{boxedminipage}[t]{15cm}
-La variance correspond au nombre de degré de liberté thermodynamique intensif, soit le nombre de variable d'état intensive, indiqué par $X$, auquel on soustrait le nombre de relation entre ces variables, noté $Y$. Au bilan, on a : 
-
-\begin{align}
-v = X - Y
-\end{align}
-
-On peut alors énumérer tous les paramètres intensifs :
-\begin{equation}
-P, T, \mu^{\phi_1}_1, \ldots \mu^{\phi_1}_N, \mu^{\phi_i}_1, \ldots \mu^{\phi_i}_N, \mu^{\phi_M}_1, \ldots \mu^{\phi_M}_N
-\end{equation}
-
-soit $X = 2 + N \cdot \Phi $
-
-On peut alors énumérer le nombre de relation liant tous le paramètres : 
-\begin{enumerate}
-\item $M$ relations de conservation de la matière.
-\item $N \cdot (M-1)$ relations d'équilibre des constituants dans chacune des phases.
-\end{enumerate}
-
-soit $Y = N (M-1) + M$
-
-On trouve alors que : 
-\begin{align*}
-v = 2 + N - M
-\end{align*}
-\end{boxedminipage}
-
-\subsubsection{Interpretation des courbes de titrage}
-
-En général, lors d'une expérience de titrage, l'opérateur étudie le comportement de la cellule au contact d'un thermostat/barostat, c'est-à-dire que la pression et la température sont fixées.
-
-Le nombre de degré de liberté qui peuvent être encore fixé par l'opérateur, appelée variance \blancbis{particulière} et notée $v_P$, correspond donc à : 
-
-\begin{align*}
-v_P = v - \text{nombre de paramètres intensifs déjà contraint}
-\end{align*}
-
-Dans le cas d'un titrage coulométrique, on a, en général, $v_P = v - 2$.
-
-Considérons par exemple un batterie où la réaction fictive est une réaction de formation 
-\begin{align*}
-\ce{A + B -> AB}
-\end{align*}
-
-Dans un tel système, on a $N=3$ constituants et $M$ phases, soit $v_P = 3 - M$ 
-Deux cas de figure se présente à nous :
-\begin{enumerate}
-\item $v_P = 0$, ce qui traduit le fait qu'il existe $3$ phases non miscibles dans ce système (\emph{par ex.} $A$, $B$ et $AB$) ;
-\item $v_P\neq 0$, ce qui traduit le fait qu'il existe moins de $3$ phases non miscibles dans ce système (\emph{par ex.} A  est miscible dans $B$)
-\end{enumerate}
-
-Dans le premier cas, la variance particulière étant nulle, tous les paramètres intensifs sont fixés. Dans ce cas, la f.e.m. puique la f.e.m. est un paramètre intensif, celle-ci ne change pas avec la composition du mélange. Dans le second cas, la f.e.m. variera.
-
-\definition{Dans le cas où la variance particulière est nulle $v_P = 0$, la f.e.m. résultante est constante.}
-
-\exercice{
-Dans le cas de la pile cardiaque $\ominus ~ \ce{Li} | \text{electrolyte} | \ce{I_2} ~ \oplus$, il est connu que \ce{Li} et \ce{I2} forment deux phases distinctes non miscibles.
-
-\Q Calculer la variance particulière de ce système. En déduire l'évolution de la f.e.m. avec la capacité de décharge.
-
-\Q Commenter la différence de comportement avec la Fig. \ref{fig:Chp1-06}. Quelle est l'origine la variation de f.e.m. si elle n'est pas thermodynamique ?}
-
-\section{\'{E}tude de la force électromotrice d'un système simple Li||Sb}
-
-\begin{minipage}{0.5\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Fig01}
-\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
-\captionof{table}{Pile composée d'un pôle $\ominus$ en lithium \ce{Li} et d'un pôle $\oplus$ en antimoine \ce{Sb}}
-\label{fig:04-01}
-\end{minipage}%Advanced battery
-
-
-Des expérimentateurs ont étudié un système binaire composé d'un pôle $\ominus$ en \ce{Li} et d'un pôle $\oplus$ en $\ce{Sb}$ sur lequel ils ont réalisé une décharge contrôlée, modélisée par la réaction : 
-\begin{equation}
-xLi + Sb = Li_x Sb
-\end{equation}
-
-Les expérimentateurs ont travaillé à \SI{350}{\celsius} afin de disposer d'une diffusion des cations \ce{Li^+} rapide au sein du matériau cathodique, et une équilibration rapide de la tension à courant nul\mySideNote{à la valeur de la force électromotrice}.
-
-Plusieurs composés définis\mySideNote{Il est fréquent que des éléments \ce{A} et \ce{B} puissent co-cristalliser et former un cristal de motif \ce{A_nB_m}. Le composé résultant est appelé \og composé défini \fg{} et est inhérent à l'existence d'un mode de cristallisation donné (il ne peut donc exister à l'état liquide par exemple).} entre \ce{Li} pur et \ce{Sb} pur : \ce{Li2Sb} et \ce{Li3Sb} ont été identifié, dont les enthalpies et entropies de formation sont référencées dans la littérature : 
-
-\begin{center}
-\begin{tabular}{ccc}
-\toprule
-Formule brute & Enthalpie de formation & Entropie de formation \\
- & [\si{\kilo\joule\per\mole}] & [\si{\joule\per\mole\per\kelvin}]\\
-\midrule
-\ce{Li2Sb} & -197.3 & -31.9 \\
-\ce{Li3Sb} & -293.3 & -49.2 \\
-\bottomrule
-\end{tabular}
-
-\captionof{table}{Enthalpie et entropie de formation standard déduit d'une étude menée à pression standard entre 355 et \SI{500}{\celsius}.}
-\label{tab:DfHDfS_LiSb}
-\end{center}%Thermodynamic Properties of the Intermetallic Systems Lithium‐Antimony and Lithium‐Bismuth
-
-
-\subsection{Interprétation de la courbe de titrage coulométrique}
-
-La courbe de titrage coulométrique exprime la force électromotrice du système, mesurée, en fonction de la st{\oe}chiométrie du lithium dans la cathode.
-
-\begin{minipage}{0.6\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Fig02}
-\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Courbe de titrage coulométrique dans un système Li||Sb à \SI{360}{\celsius} où le potentiel cathodique est exprimé par rapport à $\ominus ~ \ce{Li} | \ce{Li^+}$ et à $\ominus ~ \ce{Al} | \ce{LiAl} | \ce{Li^+}$}
-\label{fig:04-02}
-\end{minipage}%Advanced battery
-
-A priori, en tant que chimiste, on ne s'attend pas à ce que le lithium et l'antimoine puissent former des solutions solides, et on s'attend plutôt à observer une courbe résultant de la démixtion des phases. 
-
-\subsubsection{Identification des phases}
-
-Lorsque l'on étudie ce système, on observe 2 plateaux marqués par une discontinuité à $y=2$. Le premier plateau $v_p=0$ induit l'existence de deux phases de st{\oe}chiométrie : 0 et 2 respectivement. Le deuxième plateau quant à lui, sous-entend l'existence de deux phases de st{\oe}chiométrie : 2 et 3 respectivement.
-
-On peut alors écrire deux réactions chimiques fictives décrivant les processus mis en jeu dans la pile : 
-
-\begin{align*}
-\ce{2 Li + Sb &= Li2Sb} \\
-\ce{Li2Sb + Li &= Li3Sb}
-\end{align*}
-
-et établir un diagramme de phases en fonction de la st{\oe}chiométrie du \ce{Li} : 
-
-\begin{center}
-\input{\FigPath/Fig04.pgf}
-\captionof{figure}{Diagramme de phase d'un système binaire $\ce{Sb}-\ce{Li}$ à pression standard et \SI{360}{\celsius}, déduit de la courbe de titrage coulométrique Fig. \ref{fig:04-02}.}
-\end{center}
-
-On remarque immédiatement que les réactions de réaction de la pile sont des réactions de formation de \ce{Li2Sb} et \ce{Li3Sb} à partir de \ce{Li} et \ce{Sb} pris dans leur état standard de référence à \SI{360}{\celsius}.
-
-\subsubsection{\'{E}tude de la f.e.m.}
-Avant de commencer toute étude électrochimique, on doit établir les demi-équations rédox décrivant les équations de réaction fictive\mySideNote{Il est impossible de faire quoi que ce soit en chimie sans avoir posé un modèle chimique adéquat !} : 
-\begin{center}
-\begin{tabular}{C{0.35\textwidth}|C{0.35\textwidth}}
-$ 0  \leq x < 2$ & $ 2  < x \leq 3$\\
-{\begin{align*}
-\ominus & \ce{Li = Li^+ + e^-} \\
-\oplus & \ce{Sb + 2 Li^+ + 2e^- = Li_2Sb} \\
-\hline
-& \ce{2Li + Sb = Li2Sb}
-\end{align*}}  & {\begin{align*}
-\ominus & \ce{Li = Li^+ + e^-} \\
-\oplus & \ce{Li_2 Sb + Li^+ + e^- = Li_3 Sb} \\
-\hline
-& \ce{Li_2 Sb + Li = Li_3 Sb}
-\end{align*}}
-\end{tabular}
-\end{center}
-
-Le travail électrique nous permet d'écrire immédiatement les enthalpies libres de formation de deux composés définis :  
-\begin{align*}
-\forall x \in [0,2[, \quad \Delta_f G^\circ (\ce{Li2Sb}) &= -2 F (E^\circ_\oplus - E^\circ (Li^+/Li)) \quad [V/ESH]\\
-&= -2 F E^\circ_\oplus  \quad [V/\ce{Li^+}/\ce{Li}] \\
-\forall x \in [2,3[, \quad \Delta_f G^\circ (\ce{Li3Sb}) - \Delta_f G^\circ (\ce{Li2Sb}) &= - F (E^\circ_\oplus - E^\circ (Li^+/Li)) \quad [V/ESH] \\
-&= - F E^\circ_\oplus \quad [V/\ce{Li^+}/\ce{Li}]
-\end{align*}
-
-Bien entendu, qui dit réaction de formation, implique l'utilisation des grandeurs thermodynamiques tabulées Tab. \ref{tab:DfHDfS_LiSb} : 
-\begin{align*}
-& \begin{cases}
-\Delta_f G^\circ (\ce{Li2Sb}) &= \Delta_f H^\circ (\ce{Li2Sb}) - \Delta_f S^\circ (\ce{Li2Sb}) T \\
-\Delta_f G^\circ (\ce{Li3Sb}) &= \Delta_f H^\circ (\ce{Li3Sb}) - \Delta_f S^\circ (\ce{Li3Sb}) T
-\end{cases} \\
-\stackrel{T=360 ~ \si{\celsius}}{\implies} & \begin{cases}
-\Delta_f G^\circ (\ce{Li2Sb}) &= -180.3 ~ \si{\kilo\joule\per\mole} \\
-\Delta_f G^\circ (\ce{Li3Sb}) &= -267.1 ~ \si{\kilo\joule\per\mole}
-\end{cases} 
-\end{align*}
-
-On peut alors remonter à la f.e.m. associée à chacun des plateaux : 
-\begin{align*}
-E^\circ_\oplus [\si{\volt\per{\ce{Li^+}/\ce{Li}}}]= \begin{cases}
-- \frac{\Delta_f G^\circ (\ce{Li2Sb})}{2F} &= 0.934 \quad \text{si } x \in [0,2[\\
-- \frac{\Delta_f G^\circ (\ce{Li3Sb}) - \Delta_f G^\circ (\ce{Li2Sb})}{F} &= 0.899 \quad \text{si } x \in [2,3[
-\end{cases} 
-\end{align*}
-
-Ainsi, on peut parvenir à parfaitement rationaliser les courbes de titrage coulométrique grâce aux outils de la thermodynamique ! 
-
-\subsection{Estimation des paramètres}
-\subsubsection{Capacité spécifique massique}
-
-La capacité massique est liée au nombre d'ions lithium ou d'électrons échangé entre l'anode et la cathode, divisée par la masse du matériau hôte.
-
-\begin{align*}
-C &= \frac{\text{charges échangées}}{\text{masse du matériau hôte}} \\
-&= \frac{3 F}{M (\ce{Sb})} \quad [\si{\coulomb\per\gram}]
-\end{align*}
-
-Sachant que l'antimoine a une masse molaire de $121.76 ~ \si{\gram\per\mole}$ et que la constante de Faraday vaut $\sim ~ 96.5 \cdot 10^3 ~ \si{\coulomb\per\mole}$, on trouve une capacité spécifique de $2.38 \cdot 10^3 ~ \si{\coulomb\per\gram}$, soit $660 ~ \si{\ampere\hour\per\kilo\gram}$.
-%(resp. le lithium) (resp. $6.941$)
-
-\subsubsection{Energie théorique maximale}
-\`{A} partir de l'étude que nous avons conduit, il est possible de calculer l'énergie théorique maximale (ETM) de ce système. En effet, la courbe de décharge peut être décomposée : 
-
-\begin{minipage}{0.6\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Fig03}
-\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Décomposition de la courbe de titrage en deux rectangle facilement intégrable}
-\label{fig:04-03}
-\end{minipage}%Advanced battery
-
-Cette décomposition permet de facilement intégrer la courbe de décharge et remonter à l'énergie théorique maximale du système : 
-
-\begin{align*}
-ETM &= ETM_A + ETM_B \\
-&= E_{\oplus,A} \cdot C_A + E_{\oplus,B} \cdot C_B \\
-&= \frac{2FE_{\oplus,A}}{M(\ce{Sb})} + \frac{FE_{\oplus,B}}{M(\ce{Sb})} \\
-&= \frac{F}{M(\ce{Sb})} \left( 2 E_{\oplus,A} + E_{\oplus,B} \right) \\
-&= C \cdot \frac{2 E_{\oplus,A} + E_{\oplus,B}}{3}
-\end{align*}
-
-L'énergie théorique maximale stockable est le produit de la capacité totale du matériau hôte et la moyenne pondérée de la force électromotrice par la st{\oe}chiométrie en atomes de lithium échangés.
-
-L'application numérique conduit à trouver $2.20 \cdot 10^3 ~ \si{\kilo\joule\per\kilo\gram}$, soit \SI{610}{\watt\hour\per\kilo\gram}.
-
-\definition{
-De très nombreux systèmes de piles et accumulateurs résultent de systèmes binaires simples comme celui que nous venons de décrire. Nous avons vu qu'une connaissance préalable des \blancbis{transitions de phase} combinée à l'utilisation de la thermodynamique permet de remonter aux capacités et potentiels théoriques.
-
-~
-
-Il est à noter que le \blancbis{titrage coulométrique} est une technique qui peut être utilisée pour \blancbis{déterminer} les grandeurs thermodynamiques standard associées aux différentes phases mises en jeu dans une pile ou accumulateur. \`{A} partir de ces grandeurs ou de la courbe de titrage, on peut remonter aux \blancbis{performances} en charge et/ou en énergie du système. 
-}
-
-\section{\'{E}tude de la force électromotrice d'un système complexe}
-
-La section précédente a abordé l'ensemble des concepts nécessaires à la détermination thermodynamique des paramètres d'une batterie. Cependant, nous verrons dans la suite du cours, que dans le cas des réactions d'insertion\mySideNote{type de réaction le plus commun dans les accumulateurs modernes au lithium}, la majorité des systèmes fonctionnent avec au moins trois constituants chimiques (\emph{par ex.} \ce{LiCoO2}, \ce{LiNiO2}$\ldots$)
-
-\subsection{Systèmes ternaires}
-
-Lors de l'étude des batteries composées de $3$ constituants (\emph{par ex.} A, B, C) dans des conditions isothermes, un chimiste peut représenter "l'espace chimique" à l'aide d'un graphe à trois entrées. Si la composition respective en A, B et C n'était pas contrainte\mySideNote{c.-à-d. les trois fractions molaires $x(\ce{A})$, $x(\ce{B})$ et $x(\ce{C})$ sont mathématiquement indépendantes.}, on représenterait un système ternaire dans un graphe à trois directions orthonormales. Or, il se trouve qu'en général, ces composés contiennent un anion et deux cations\mySideNote{dans le formalisme ionique de Pauling}, contraignant la composition du système par une équation de conservation de la charge.
-
-Cette contrainte contraint le chimiste à utiliser une représentation appelée \blancbis{triangle isotherme de Gibbs} où chacun des sommets représente respectivement A pur, B pur et C pur. Sur chacun des côtés, on fait évoluer la composition respectivement en A, B et C.
-
-
-\begin{minipage}{0.6\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Fig07a}
-\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Diagramme ternaire où des segments sur lesquels peuvent être lu les compositions respectives en A, B, C sont indiqués. }
-\label{fig:04-07a}
-\end{minipage}%Advanced battery
-
-La composition est assez facile à lire quand on sait s'y prendre. Chaque segment perpendiculaire à la \blancbis{hauteur} du sommet \blancbis{A} a une composition en \ce{A} fixée. On peut faire de même avec chacun des pôles comme représenté à la Fig. \ref{fig:04-07a}.
-
-Lorsque l'on cherche à représenter les phases dans un triangle isotherme de Gibbs, on indique les composés définis stables et on ajoute des segments, appelées \blancbis{lignes de démarcation}, qui relient tous les corps purs. Dans la Fig. \ref{fig:04-07b}, les pôles A, B, C et \ce{A_x B_y C_z} sont tous reliés.
-
-\begin{minipage}{0.5\textwidth}
-\centering
-\input{\FigPath/Fig07b.pgf}
-\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
-\vspace{4cm}
-\captionof{table}{Diagramme ternaire de Gibbs, isotherme, dans lequel apparaît un unique composé défini de composition $A_x B_y C_z$.}
-\label{fig:04-07b}
-\end{minipage}%Advanced battery
-
-Lorsque l'on se balade sur ces lignes de démarcation, le système est biphasique et la variance particulière vaut donc $1$. Entre chacune de ces lignes de démarcation, le système est triphasique et la variance particulière vaut donc $0$. En particulier, chaque domaine triphasique forme un "sous triangle", dont les trois phases sont données par ses sommets.
-
-Les Fig. \ref{fig:04-08a} et \ref{fig:04-08b} illustrent les nombreuses autres formes usuelles de triangles isothermes que vous pourriez rencontrer dans les batteries lithium
-
+%Afin de mesurer la tension, nous utilisons un dispositif complexe : un galvanostat. 
+Comme représenté à la Fig. \ref{fig:pot_sch}, dans le cadre de nos expériences, le \blancbis{galvanostat} peut-être vu comme un voltmètre, un ampère et un \blancbis{générateur de courant}.
 
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:04-08a}]{\resizebox{!}{0.45\linewidth}{\includegraphics[width=\textwidth]{Fig08a}}}\hfill
-\subfloat[\label{fig:04-08b}]{\resizebox{!}{0.45\linewidth}{\includegraphics[width=\textwidth]{Fig08b}}}
-\end{centering}
-\caption{Diagramme de phases ternaire Li-M-X dans lequel \ref{fig:04-08a} Li-M et M-X possèdent chacun un composé défini dans leur binaire ; \ref{fig:04-08b} Li-M, M-X et Li-X possèdent chacun un composé défini dans leur binaire.}
-[$X$ indique le pôle de l'oxygène ou autre chalcogène, $M$ indique le pôle associé à un métal de transition]
-\end{figure}%Advanced battery
+\subfloat[\label{fig:pot_sch}]{\includegraphics[width=5cm]{figures-Chp4/Ann03}}\hspace*{1cm}\subfloat[\label{fig:pot_portecell}]{\includegraphics[width=5cm]{figures-Chp4/Ann04.jpg}}
+\par\end{centering}
+{\tiny{}\caption{{\small{} Fig. \ref{fig:pot_sch}) Représentation schématique d'un galvanostat ; Fig. \ref{fig:pot_portecell}) Boîtier autolab pouvant accueillir deux piles boutons.}}
+}{\tiny\par}
+\end{figure}%WARNING : ajouter I
 
-\subsection{\'{E}tude et exploitation des diagrammes ternaires}
 
-Considérons qu'un expérimentateur réalise un titrage coulométrique en décharge à l'aide de la cellule électrochimique suivante : 
+%Lors de la manipulation du galvanostat, le courant $I$ sera imposé par l'expérimentateur (générateur de courant).
 
-\begin{align*}
-\ominus ~ \ce{Li(s) | Li^+ (el) \text{électrolyte} | X_iM (s)} ~ \oplus
-\end{align*}
+Afin de mesurer la tension d'une pile-bouton, un boitier autolab peut être utilisé afin de brancher la pile aux trois entrées du potentiostat. Vous pourrez alors mesurer la tension et le courant aux bornes de la pile à l'aide de trois électrodes :
+\begin{itemize}
+    \item[\blancbis{WE}] entrée pour le câble conduisant à l'\blancbis{électrode de travail} (Work Electrode) ;
+    \item[\blancbis{CE}] entrée pour le câble conduisant à \blancbis{la contre-électrode} (Counter Electrode) ; 
+    \item[\blancbis{RE}] entrée pour le câble conduisant à l'\blancbis{électrode de référence} (Reference Electrode). 
+\end{itemize}
 
-où \ce{X} (resp. \ce{M}) indique un anion (resp. un cation) où dans un composé \ce{X_iM} le rapport de st{\oe}chiométrie anion/cation vaut $i$
+Basiquement, le montage à trois électrodes permet de séparer la mesure de la tension, à la branche où circule le courant. En effet, le courant, imposé par le galvanostat, circule entre l'électrode \blancbis{WE} et la contre-électrode \blancbis{CE}, tandis que la tension est mesurée entre l'électode \blancbis{WE} et \blancbis{RE}.
 
-Si on sait que ce matériau au pôle $\oplus$ possède un diagramme ternaire tel que celui de la Fig. \ref{fig:04-08a}, il devient assez simple de comprendre les courbes de titrage si l'on connaît les potentiels thermodynamiques attendus dans les régions de variance nul. 
+En séparant ces deux mesures, on est capable de connaître le potentiel à \blancbis{WE} par rapport à \blancbis{RE}, puisqu'en absence de courant circulant dans \blancbis{RE}, son potentiel reste \blancbis{constant} (surtension de la référence nulle).
 
-Par exemple, si on est dans la région \ce{A} et qu'on prend la zone de \ce{A} où il n'y a pas de \ce{X}, la réaction fictive associée à la décharge est : 
+\subsection{Pseudo-référence}
 
-\begin{align*}
-Li + M = LiM \quad \Delta_f G^\circ ( \text{LiM} )= -F E_{\oplus, A}^\circ
-\end{align*}
-
-Comme la variance particulière est nulle, la relation déduite ci-dessus est toujours vraie reste vraie pour tout A. Ceci put sembler étrange chimiquement parlant, cela signifie que le potentiel ne change pas même si le matériau présente une structure chimique différente. En réalité, l'ajout d'anion ne modifie pas le potentiel de l'électrode, mais la longueur du plateau.
-
-Si on prend la région B, on peut choisir la droite LiM-MX pour décrire de système : 
+Lors de ces mesures expérimentales, on utilise pour pseudo-référerence, une \blancbis{anode} de \blancbis{lithium métal}. La cellule électrochimique peut donc s'écrire :
 
 \begin{align*}
-LiM + X = Li + MX \quad \Delta_r G^\circ_B = \Delta_f G^\circ (\text{MX}) - \Delta_f G^\circ (\text{LiM}) = -FE_{\oplus,B}^\circ
+\ominus ~ \ce{Li(s) | Li^+ (\Phi) PF6^- (Phi) | Li_x M (s)} ~ \oplus
 \end{align*}
 
-Comme précédemment, dans la région C, on sait directement que le potentiel sera celui du Li.\mySideNote{soit 0 si le pôle $\ominus$ est du Li.}
+avec $(\Phi)$ désignant une phase membrane\mySideNote{Dans une pile bouton, on utilise en général un papier en fibre de verre imprégnée d'un solvant organique} imprégnée d'un électrolyte (\emph{par ex.} \ce{PC-LiPF6}) et \ce{Li_x M} désigne un matériau cathodique par insertion ayant une st{\oe}chiométrie de $x$ atomes de lithium.
 
-Une fois que l'on connait le potentiel des régions de variance nul, on peut alors représenter les droites associés à la décharge de l'accumulateur/pile qui sont situées entre le pôle de composition initiale de l'électrode $\oplus$ et celui du \ce{Li} pur.
+Le potentiel d'une électrode de lithium métal au contact d'un sel de lithium peut s'écrire :
+
+\begin{align*}
+E_\ominus = E (\ce{Li+ (\Phi)}/\ce{Li(s)}) = E^\circ ( \ce{Li^+ (\Phi)} / \ce{Li (s)} ) + \frac{RT}{mF} \ln \left( \frac{a(\ce{Li^+(\Phi)})}{a(\ce{Li (s)})} \right)
+\end{align*}
+
+
+avec $E^\circ ( \ce{Li^+ (\Phi)} / \ce{Li (s)} )$ le potentiel standard du couple $\ce{Li^+ (\Phi)} / \ce{Li (s)}$,  l'activité des ions \ce{Li^+} en solution et celle du lithium métal (égale à $1$). 
+
+Les potentiels des matériaux d'insertion du lithium ou ceux figurant sur les courbes de charge/décharge sont reportés par rapport au couple \ce{Li+}/\ce{Li}, il n'est donc pas surprenant de lire des valeurs proches de \SI{5}{\volt} pour les matériaux de cathode dits haute-tension. En pratique, ces potentiels sont mesurés en demi-cellule par rapport à une électrode de lithium métallique au contact d'un électrolyte de type carbonate de propylène\mySideNote{\centering\includegraphics[scale=0.5]{figures-Chp4/Fig24}} - \ce{LiPF6} (\SI{1}{\mole\per\liter}), utilisée comme pseudo-électrode de référence de potentiel $E = - 3 ~ \si{\volt\per{ESH}}$, bien que l'activité en ion $\ce{Li^+}$ ne soit pas égale à $1$ ni constante lors d'une polarisation.
+
+\subsection{Axe des abscisses}
 
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:04-09a}]{\resizebox{!}{0.45\linewidth}{\includegraphics[width=\textwidth]{Fig09a}}}\hfill
-\subfloat[\label{fig:04-09b}]{\resizebox{!}{0.45\linewidth}{\includegraphics[width=\textwidth]{Fig09b}}}
+\subfloat[\label{fig:4-21a}]{\includegraphics[width=4.5cm]{figures-Chp4/Fig21a}}\hspace*{1cm}\subfloat[\label{fig:4-21b}]{\includegraphics[width=4.5cm]{figures-Chp4/Fig21b}}\hspace*{1cm}\subfloat[\label{fig:4-21c}]{\includegraphics[width=4.5cm]{figures-Chp4/Fig21c}}
 \end{centering}
-\caption{\ref{fig:04-09a} Représentation sur le diagramme ternaire de la Fig. \ref{fig:04-08a} des lignes de décharge entre les pôles \ce{X_iM} et \ce{Li} ; \ref{fig:04-09b} Variation du potentiel d'électrode $\oplus$ lorsque du lithium est inséré à partir des compositions \ce{X_a M}, \ce{X_b M} et \ce{X_c M} (de haut en bas).}
-\end{figure}%Advanced battery
+{\small \caption{\small{} Courbe de charge/décharge exprimée selon \ref{fig:4-21a} la durée de charge/décharge ; \ref{fig:4-21b} l'état de charge ; \ref{fig:4-21c} l'état de décharge.}}
+\end{figure}%WARNING : ajouter I
 
-Si on prend la ligne \ce{X_c M}-\ce{Li}, on voit qu'initialement le potentiel vaut $E_{\oplus,B}$, puis au croisement avec la ligne de démarcation (\ce{Li_yM-X}), le potentiel change\mySideNote{normal, sur la ligne de démarcation la variance vaut $1$ !} pour passer à 0 !
-
-\definition{
-Les matériaux d'insertion, utilisés dans les technologies modernes de batteries, sont des systèmes complexes qui présentent aux minimums trois constituants chimiques.
-
-~
-
-Dans le cas des systèmes ternaires, les diagrammes de Gibbs isothermes permettent de représenter "l'espace chimique" sur lequel travaille un chimiste et lui permet, par une étude des phases, d'interpréter l'évolution du potentiel et de comprendre, voire prédire, les transitions de phases présentent dans les courbes de titrage coulométrique.
-}
-
-\subsection{Interprétation thermodynamique de la stabilité des oxydes lithiés et non lithiés}
-
-\subsubsection{Diagramme d'Ellingham : une façon de classer thermodynamiquement la stabilité des oxydes métalliques}
-
-Les diagrammes d'Ellingham, devéloppé en 1944, sont des représentations graphiques permettant d'évaluer la capacité des oxydes ou sulfures métalliques à s'oxyder ou se réduire.\mySideNote{Ils sont très utilisés en métallurgie pour prédire la température d'équilibre entre un métal, son oxyde et le dioxygène et déterminer les températures de travail pour réduire un oxyde en son métal.}.
-
-\definition{Dans le domaine des batteries, le diagramme d'Ellingham est un outil permettant de \blancbis{classer} les oxydes métalliques en fonction de leur \blancbis{stabilité relative} vis-à-vis du dioxygène.  
-
-~
-
-La réaction permettant de classer les oxydes métalliques est la réaction de \blancbis{formation} de l'oxyde \ce{MOy (s)} à partir de l'élement métallique corps pur \ce{M (s)} et du dioxygène gazeux \ce{O2 (g)}. On la modélise par l'équation de réaction suivante : 
-
-\begin{align*}
-\ce{\frac{2}{y} M (s) + O2 (g) = \frac{2}{y} MO_y(s)}
-\end{align*}
-
-Cette réaction est toujours ramenée à une coefficient st{\oe}chiométrique pour \ce{O2} mis à \blancbis{l'unité} !
-}
-
-Dans une telle réaction, à l'équilibre chimique, on peut exprimer trois relations : 
-
-\begin{align}
-\begin{cases}
-Q_r &= \frac{1}{a(\ce{O2})} \\
-\Delta_f G &= \Delta_f G^\circ + RT \ln Q_r \\
-\Delta_f G &= 0
-\end{cases} &\implies \Delta_f G^\circ \stackrel{\text{eq}}{=} RT \ln a_{eq}(\ce{O2})  \stackrel{\text{gaz parfait}}{\implies} \Delta_f G^\circ \stackrel{\text{eq}}{=} RT \ln \frac{P_{eq} (\ce{O2})}{P^\circ}
-\label{eq:ellingham}
-\end{align}
-
-De manière assez intruitive, plus la pression en \ce{O2} à appliquer $P_{eq} (\ce{O2})$ est grande, plus la formation de l'oxyde métallique est difficile (oxyde instable).
-
-%ceci revient à dire que plus un oxyde est inerte chimiquement (donc stable), plus  $\Delta_r G$ est grand et plus la pression minimale en \ce{O2} à appliquer l'est aussi.
-
-Expérimentalement, l'Eq. \ref{eq:ellingham} traduit trois situations possible à une température donnée :
-\begin{enumerate}
-\item $\Delta_f G < 0 \implies P(\ce{O2}) > P_{eq} (\ce{O2})$ formation spontannée de l'oxyde ;
-\item $\Delta_f G = 0 \implies P(\ce{O2}) = P_{eq} (\ce{O2})$ coexistence de l'oxyde et du métal ;
-\item $\Delta_f G > 0 \implies P(\ce{O2}) < P_{eq} (\ce{O2})$ formation spontannée du métal.
-\end{enumerate}
-
-\definition{
-Dans un diagramme d'Ellingham, on représente l'évolution de la stabilité d'un oxyde sous pression d'oxygène en fonction de la température. En général, le \blancbis{comportement thermique} est décrit dans le cadre de \blancbis{l'approximation d'Ellingham}.
-}
-
-Dans le cadre de l'approximation d'Ellingham, on suppose que les \blancbis{enthalpies de formation} et \blancbis{entropies de formation} pour obtenir l'équation décrivant l'évolution en température de l'enthalpie de formation standard\mySideNote{On a donc l'évolution en température de la pression minimale à appliquer pour oxyder l'oxyde : 
-\begin{align*}
-P_{eq} (\ce{O2}) = P^\circ e^{-\frac{\Delta_f S^\circ}{R}} e^\frac{\Delta_f H^\circ}{RT}
-\end{align*}} : 
-
-\begin{align*}
-\Delta_f G^\circ (T) = \Delta_f H^\circ_{298 K} - \Delta_f S^\circ_{298 K} T
-\end{align*}
-
-L'inconvénient de ces réactions de formation, c'est qu'elles ne rendent pas forcément compte de réactions ayant réellement lieu. Par exemple, dans le cas du manganèse, la réaction de formation de \ce{MnO} est physiquement observée, mais celle de \ce{Mn3O4} ne l'est pas. Celui-ci est formé à partir de \ce{MnO}.
-
-\attention{Il est à noter aussi que lors de l'étude d'une oxydation en prenant comme référence \ce{Mn(s)}, les droites associées aux différentes enthalpies de formation obtenues sont parallèles. Ceci vient du fait que l'entropie de réaction est dominée par l'entropie d'une mole de gaz : \ce{O2 (g)}, soit : 
-\begin{align*}
-\Delta_f S^\circ \approx - S^\circ_m (\ce{O2 (g)})
-\end{align*}
-}
-
-Ainsi, pour étudier la stabilité relative des oxydes (\emph{par ex.} \ce{MO_y} et \ce{MO_p} avec $p>y$), on va comparer les oxydes entre eux :
-
-\begin{center}
-\begin{minipage}{0.5\textwidth}
-\begin{align*}
-\ce{\frac{2}{y} M(s) + O2 (g) &= MOy(s)} \quad \Delta_f G^\circ \\
-\ce{\frac{2}{p} M(s) + O2 (g) &= MOp(s)} \quad \Delta_f G^{\circ '} \\
-\hline
-\ce{\frac{2}{p-y} MO_y(s) + O2 (g) &= \frac{2}{p-y} MO_p (s)}  \quad \Delta_r G^\circ = \frac{p \Delta_f G^\circ - y \Delta_f G^{\circ '}}{p-y}
-\end{align*}
-\end{minipage}
-\end{center}
-
-Avec une telle combinaison, on se ramène à une réaction réelle où on pourra comparer les grandeurs de formation des deux oxydes métalliques à différentes températures.\mySideNote{L'étude des composés lithiés et la relation entre diagramme d'Ellingham et f.e.m. sera établie en TD.}
-
-\begin{minipage}{0.7\textwidth}
-\centering
-\includegraphics[width=10cm]{Fig19}
-\end{minipage}\hfill \begin{minipage}{0.25\textwidth}
-\captionof{figure}{Diagramme d'Ellingham de quelques oxydes de manganèse entre les degrés d'oxydation 0 et +IV. Les pressions d'équilibre en oxygène sont indiquées sur l'axe de droite en échelle logarithmique.}
-[$-$ donnent l'enthalpie libre des réactions de formations absolues, $--$ donnent l'enthalpie libre des réactions de formations relatives]
-\end{minipage}
-
-\subsubsection{Quelques mots sur la relation entre force électromotrice et diagramme d'Ellingham}
-Dans le cas des batteries lithium, on est emmené à étudier la stabilité relative entre un oxyde de formule brute \ce{MO_y} et un même oxyde lithié \ce{Li_xMO_y}. 
-
-Il se trouve que pour la majorité des oxydes, l'enthalpie standard de formation de ces oxydes \blancbis{corréle linéairement} et \blancbis{positivement} avec le potentiel d'électrode au pôle $\oplus$ de l'oxyde :
-
-\begin{minipage}{0.48\textwidth}
-\includegraphics[width=\textwidth]{Fig20}
-\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
-\captionof{figure}{Relation affine existant entre la stabilité des oxydes donné par l'enthalpie libre standard de formation et le potentiel rédox au pôle $\oplus$}
-\end{minipage}
-
-En décharge, plus un matériau à un potentiel cathodique élevé, plus il est facilement réductible. Ceci explique que le potentiel d'électrode $E_\oplus^\circ$ corréle positivement avec le logarithme décimal de $P_{eq} ( \ce{O2} )$
-
-Il existe des oxydes lithiés qui on un potentiel $E^\circ_\oplus$ expérimental \blancbis{plus grand} (sous-triangle vert) ou \blancbis{plus petit} (sous-triangle bleu) que celui prédit par la relation linéaire. Lorsque le potentiel est plus grand (resp. plus petit), ceci veut dire que la réduction (resp. l'oxydation) est plus facile, et par conséquent, la \blancbis{lithiation est plus favorable} (resp. \blancbis{défavorable}).
+L'axe des abscisses peut être exprimé en fonction du :
+\begin{itemize}
+\item temps de l'expérience ;
+\item de la durée de la charge ou de la charge, comme représenté à la Fig. \ref{fig:4-21a} ; 
+\item du nombre de mole d'atomes de lithium stocké dans le matériau de l'anode ou de la cathode ;
+\item de la charge $Q$ fournie ou délivrée par la cellule électrochimique, en général, rammenée par unité de masse de matériaux ;
+\item de l'état de charge $SoC$ ou de l'état de décharge de la cellule $DoD$, comme représenté à la Fig. \ref{fig:4-21b} et la Fig. \ref{fig:4-21c}.
+\end{itemize}
 
 
 
+\section{Courbes de charge - décharge}
 
-
-
-
-\section{\'{E}cart à la thermodynamique : les courbes de charge - décharge}
-
-Nous avons vu que la thermodynamique permet de comprendre et d'interpréter les courbes de titrage coulométrique.
-
-Cependant, nous savons que le titrage coulométrique impose que le système soit capable de s'équilibrer rapidement. En général, cela impose de travailler à de hautes températures pour augmenter la capacité de diffusion de l'électrolyte\mySideNote{dans notre cas, le cation \ce{Li^+}}.
-
-
-En général, lorsque l'on cherche à évaluer les performances d'une batterie à température ambiante, les expérimentateurs sont conduit à réaliser l'acquisition de la tension aux bornes d'un accumulateur à \blancbis{courant non nul} ! Dans ce cas, la tension mesurée contient à la fois une information \blancbis{thermodynamique} et \blancbis{cinétique}.
+En général, lorsque l'on cherche à évaluer les performances d'une cellule à une température donnée, les expérimentateurs ont conduit à réaliser l'acquisition de la tension aux bornes d'un accumulateur à \blancbis{courant non nul} ! Dans ce cas, la tension mesurée contient à la fois une information \blancbis{thermodynamique} et \blancbis{cinétique}.
 
 \begin{center}
 \includegraphics[width=8cm]{Fig13}
 \captionof{figure}{Allure d'une courbe de charge-décharge à courant non nul dans un système à deux constituants et deux phases non solubles, où la référence au pôle $\ominus$ est une électrode de lithium métallique.}
 \end{center}
 
-De manière tout à fait surprenante la première fois, la mesure à courant non nul conduit à l'apparition de \blancbis{phénomène d'hystérèse}. Cela signifie que le potentiel de charge, le potentiel de décharge et le potentiel thermodynamique s'écartent mutuellement, même dans une cathode "idéale"\mySideNote{idéale ici signifie que la cathode ne dissiperait aucune "chaleur"}.
+De manière systématique, la mesure à courant non nul de la tension conduit à l'apparition d'un \blancbis{phénomène d'hystérèse}, même dans une cathode "idéale"\mySideNote{idéale ici signifie que la cathode ne dissiperait aucune "chaleur"}.
 
-\subsection{Origine de l'hystérèse}
+\subsection{Origine thermodynamique de l'hystérèse}
 
-Pour comprendre le phénomène d'hystérèse, il faut se souvenir de l'interprétation de la f.e.m. que l'on avait formulé en terme de potentiel chimique :
+\subsubsection{Réactions d'insertion}
 
-\begin{align*}
--F e(x) = \mu_\oplus^{Li} (x) - \mu_\ominus^{Li} 
-\end{align*} 
-avec $\mu_k^{Li}$ le potentiel chimique du lithium dans la phase associée au pôle $k$ et $x$ la fraction de lithium dans le matériau du pôle $\oplus$.
+Dans la Fig. \ref{fig:4-22a}, on se trouve dans un cas où l'insertion du lithium conduit à la stabilisation du matériau/de la phase. Par conséquent, les atomes de lithium forment une \blancbis{solution solide} avec le matériau hôte sur tout le domaine de composition.
 
-Or le pôle $\ominus$ etant constitué de \ce{Li(s)} métallique, la fraction molaire $x$ en lithium ne modifie en rien le potentiel chimique.
-
-On sait aussi que le potentiel chimique dérive de l'enthalpie libre et que la f.e.m. de notre pile équivaut au potentiel cathodique (exprimé en \si{\volt\per{\ce{Li^+}/\ce{Li}}}) : 
-
-\begin{align*}
--F E_\oplus (x) = \frac{\partial G_\oplus}{\partial n_{Li}} (x) - \mu_{\ce{Li}}^\circ
-\end{align*} 
-
-Cette relation montre que le potentiel cathodique de ce système est donné par la dérivée de l'enthalpie libre à une constante près.
-
-\begin{minipage}{0.6\textwidth}
+\begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Fig14a}
-\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Profil simple de l'enthalpie libre d'un système cathodique, biphasique où la phase lithiée, notée $\beta$ est légèrement plus instable que la phase délithiée notée $\alpha$.}
-\label{fig:04-14a}
+\subfloat[\label{fig:4-22a}]{\includegraphics[width=5.5cm]{figures-Chp4/Fig22a}}\hspace*{1cm}\subfloat[\label{fig:4-22b}]{\includegraphics[width=5.5cm]{figures-Chp4/Fig22b}}
+{\small \caption{\small{} Schéma représentant l'évolution du potentiel d'électrode en fonction du taux de lithium  \ref{fig:4-22a} dans le cas d'une électrode monophasée ; \ref{fig:4-22b} dans le cas d'une électrode biphasée.}}
+\end{figure}%WARNING : ajouter I
 
-\includegraphics[width=5cm]{Fig14b}
+Dans ce cas de figure où l'ajout des atomes de lithium n'apporte \blancbis{aucune} contribution \blancbis{enthalpique}, le potentiel d'électrode est bien décrit par une relation du type :
+\begin{align*}
+E = E^\circ + \frac{RT}{mF} \ln \frac{1 - x}{x}
+\end{align*}
 
+avec $x$ la fraction molaire de sites du matériau qui soient occupés. L'apparition d'un terme enthalpique, dû à l'ajout des ions lithiums, qui se retranscrit par des \blancbis{modifications structurales} (variation des paramètres de maille, insertion privilégiée dans quelques sites les plus stables$\ldots$) peut avoir un impact sur la forme de la courbe. Dans certains cas, l'ajout des lithiums peut conduire à des \blancbis{transitions de phase}.
+
+La variance, au sens thermodynamique du terme, conduit au résultat qu'en présence de deux phases structurales au sein de l'électrode $\oplus$. En général, la phase peut avoir une \blancbis{solubilité limitée} vis-à-vis du lithium, ce qui conduit lors de l'insertion du lithium à une \blancbis{phase} \blancbis{enrichie} en lithium et une \blancbis{appauvrie} en lithium.
+
+\subsubsection{Réactions de recomposition}
+
+Contrairement aux systèmes d'insertion, la capacité des systèmes soumis à une recomposition dépend de la nature des ligands \ce{X} et au nombre de lithium qui se coordonne à ces ligands. Par exemple, \ce{H} ou \ce{F} peuvent se lier qu'à un unique atome de lithium, \ce{O} ou \ce{S} peuvent se lier à deux atomes de lithium et \ce{N} ou \ce{P} peuvent se lier à trois atomes de lithium.
+
+Ces systèmes sont souvent irréversibles, mais ont l'intérêt de permettre la diffusion de plusieurs atomes de lithium par unité formulaire. De plus, l'hystérèse d'origine thermodynamique est relativement importante et dépend très largement de la nature chimique des ligands, comme représenté à la Fig. \ref{fig:4-23}. 
+
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{figures-Chp4/Fig23}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+{\small \captionof{figure}{\small \'{E}volution de l'hystérèse en fonction de la nature des ligands dans un système \ce{M-X} où \ce{M} est un métal du bloc $d$.}}
+\label{fig:4-23}
 \end{minipage}
+\end{center}
 
-Dans un tel système, on situe immédiatement deux minimums locaux d'énergie associé à chacune des phases stables : une phase délithiée\mySideNote{pauvre en lithium} et une phase lithiée\mySideNote{riche en lithium}.
+\subsection{Origine cinétique de l'hystérèse}
 
-On voit que la phase $\beta$ est plus instable que la phase $\alpha$ au points d'équilibre de chacune des phases. Dans un tel diagramme, le potentiel cathodique d'équilibre\mySideNote{f.e.m.} à la transition de phase est donné, à un préfacteur près, par la pente de la droite en pointillé.
-
-Ainsi, le potentiel d'équilibre thermodynamique est donné par les lignes pleines avant et après les compositions d'équilibre de chacune des deux phases, et par l'horizontale en pointillé entre ces deux compositions.
-
-Alors que se passe-t-il lorsque l'on est à courant fini ? Le graphe indique deux fonds de couleur : 
-\begin{itemize}
-\item[$\color{blue} \bigcirc$] zone thermodynamiquement stable où chacune des phases existe seule;
-\item[$\color{red} \bigcirc$] zone thermodynamique instable où les deux phases coexistent.
-\end{itemize}
-
-Lorsque l'on charge, on fournit un excès d'énergie permettant de passer la barrière d'enthalpie libre\mySideNote{On peut la voir comme la barrière d'activation d'une réaction chimique.} associée à la coexistence instable des deux phases. 
+Lorsque l'on charge, on fournit un excès d'énergie permettant de passer la barrière d'activation.
 
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Fig15ab}
 \end{center}
 
-Bien entendu, en décharge, le même processus se déroule sauf que cette fois-ci une partie de l'énergie chimique libérée (thermodynamique) est utilisée pour permettre de passer la barrière dans le sens $\alpha \to \beta$.
+Bien entendu, en décharge, le même processus se déroule sauf que cette fois-ci une partie de l'énergie chimique libérée (thermodynamique) est utilisée pour permettre de passer la barrière dans l'autre sens. Puisque les barrières sont dissymétriques, les \blancbis{surtensions} le sont aussi en conduisent au phénomène d'hystérèse.
 
-\begin{minipage}{0.6\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Fig15}
-\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Décalage du plateau de potentiel lors d'une charge, puis d'une décharge, causée par la présence de processus d'activation.}
-\label{fig:04-15}
-\end{minipage}
+%\begin{minipage}{0.6\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{Fig15}
+%\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
+%\captionof{table}{Décalage du plateau de potentiel lors d'une charge, puis d'une décharge, causée par la présence de processus d'activation.}
+%\label{fig:04-15}
+%\end{minipage}
 
-Toutes ces interprétations en énergie se retranscrivent dans la valeur du potentiel d'électrode mesuré.
+%Toutes ces interprétations en énergie se retranscrivent dans la valeur du potentiel d'électrode mesuré.
 
-La barrière d'activation a de multiples origines microscopiques. Si on réalise une décharge à partir d'une cathode délithiée : 
+La dissymétrie de la barrière d'activation a plusieurs origines microscopiques, liées à des modifications structurales conséquentes de l'électrode. Si on réalise une décharge à partir d'une cathode délithiée : 
 \begin{itemize}
-\item l'existence de deux phases (lithiée / non lithiée) hétérogènes a souvent un coût énergétique provoqué par l'apparition d'une \blancbis{interface} $\alpha / \beta$ ;
+\item l'existence de deux phases (lithiée / non lithiée) hétérogènes a souvent un coût énergétique provoqué par l'apparition d'une \blancbis{interface} ;
 \item l'existence d'une phase pouvant accueillir des ions lithiums (et des électrons) provoque un coût énergétique pour \blancbis{stabiliser la structure} (\emph{par ex.} il va y avoir un ajustement des paramètres de maille)
 \end{itemize}
 
-Bien entendu, les interprétations structurales ci-dessus négligent d'autres constituants de la batterie : le solvant, l'électrolyte qui peuvent subir des modifications chimiques ou piéger des ions \ce{Li^+}, ce qui a pour conséquence de nous éloigner de la description thermodynamique du système.
-
-\subsection{Influence de la vitesse de charge}
+\subsection{Phénomènes dissipatifs}
 
 \begin{center}
 \includegraphics[width=8cm]{Fig16}
-\captionof{figure}{Allure d'une courbe de charge-décharge à courant non nul dans un système à deux constituants et deux phases non solubles, où la référence au pôle $\ominus$ est une électrode de lithium métallique.}
+{\small \captionof{figure}{\small Allure d'une courbe de charge-décharge à courant non nul dans un système à deux constituants et deux phases non solubles, où la référence au pôle $\ominus$ est une électrode de lithium métallique.}}
 \label{fig:04-16}
 \end{center}
+
+Une électrode réelle présentent de nombreuses contributions résistives à la circulation du courant : 
+\begin{itemize}
+\item résistance des électrodes à la circulation des électrons, lié à la \blancbis{conductivité électrique} du milieu ;
+\item résistance de l'électrolyte à la circulation des ions, liée à la \blancbis{conductivité ionique} du milieu ;
+\item résistance aux jonctions entre les différents milieux.
+\end{itemize}
+
+L'ensemble de ces résistances conduisent à l'apparition d'une \blancbis{chute ohmique}.
+
+\subsection{Perte de charge}
+
+Entre la charge et la décharge, il peut exister une différence de capacité spécifique. Cette différence de capacité est liée à une perte irréversible de charges, c'est-à-dire d'ions lithium. C'est en général aux premiers cycles de fonctionnement que ces pertes\mySideNote{quantifiées par l'efficacité coulombique (CE), cf TP $n^\circ 3$} sont les plus significatives, et liées à l'établissement de nouvelles phases aux interfaces électrodes/électrolyte.
+
+Bien entendu, le solvant, l'électrolyte, l'électrode peuvent conduire à des réactions secondaires de dégradation qui peuvent consommer des ions lithiums.
+
+\section{Impact des paramètres d'acquisition sur l'allure des courbes de charge/décharge}
+
+\subsection{Influence de la vitesse de charge}
 
 Contrairement à l'électrode idéale, les électrodes réelles présentent des phénomènes dits \blancbis{dissipatifs}\mySideNote{il est possible d'établir une analogie avec la mécanique classique. Une force dissipative est une force, comme les forces de frottements, qui va causer une perte d'énergie au système.}, qui sont à l'origine de l'échauffement des dispositifs. Ces phénomènes ont plusieurs origines microscopiques : 
 \begin{itemize}
@@ -758,28 +233,59 @@ Il est important de retenir que les phénomènes \blancbis{dissipatifs} ont un i
 
 \begin{minipage}{0.6\textwidth}
 \centering
-\includegraphics[width=\textwidth]{Fig17}
+\includegraphics[width=\textwidth]{Fig17a}
 \end{minipage}\hfill \begin{minipage}{0.35\textwidth}
-\captionof{table}{Influence de la vitesse de charge sur des cathodes \ce{LiMn2O4}.}
-[$N \cdot C$ signifie que l'on décharge $N$ fois plus vite que la courbe 1C]
-\label{fig:04-17}
+{\small \captionof{table}{\small Influence de la vitesse de décharge sur des cathodes \ce{LiMn2O4}.}
+[$N \cdot C$ signifie que l'on décharge $N$ fois plus vite que la courbe 1C]}
+\label{fig:04-17a}
 \end{minipage}%Porous LiMn2 O4 microspheres as durable high power cathode materials for lithium ion batteries
 
-\`{A} la Fig. \ref{fig:04-17}, on observe que pour une cathode de manganèse, le potentiel est décalé pour une augmentation par 10 de la vitesse de décharge. Ce décalage correspond à la résistance du milieu (principalement l'électrolyte). Ensuite, aux vitesses de charge plus grande, on observe un décalage non linéaire provoqué par les deux autres processus.
+\`{A} la Fig. \ref{fig:04-17a}, on observe que pour une cathode de manganèse, le potentiel est décalé pour une augmentation par 10 de la vitesse de décharge. Ce décalage correspond à la résistance du milieu (principalement l'électrolyte). Ensuite, aux vitesses de charge plus grande, on observe un décalage non linéaire provoqué par les deux autres processus.
+
+
+\subsection{Influence du nombre de cycle}
+
+Le nombre de cycle a un impact sur le vieillissement des matériaux d'électrodes ou d'autres composantes de la cellule. Ce vieillissement se traduit principalement pas une \blancbis{diminution} de la \blancbis{capacité} de la cellule.
+
+\begin{minipage}{0.6\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Fig17b}
+\end{minipage}\hfill \begin{minipage}{0.35\textwidth}
+{\small \captionof{table}{\small Influence du nombre de cycle sur la capacité d'une cathode \ce{LiMn2O4} à différentes vitesses de décharge.}
+[$N \cdot C$ signifie que l'on décharge $N$ fois plus vite que la courbe 1C]}
+\label{fig:04-17b}
+\end{minipage}%Porous LiMn2 O4 microspheres as durable high power cathode materials for lithium ion batteries
+
+En terme de tension, cela se traduit par une durée de fonctionnement moindre.
+
+\subsection{Influence de la température}
+
+Comme représenté à la Fig. \ref{fig:04-17c}, une baisse de la température a deux conséquences :
+\begin{itemize}
+\item diminuer la capacité maximale de la cathode,
+\item une écroulement de la tension de la batterie.
+\end{itemize}
+
+Ceci est à mettre en relation avec les paramètres cinétiques qui influencent la cinétique de réaction.
+
+\begin{minipage}{0.7\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Fig17c}
+\end{minipage}\hfill \begin{minipage}{0.25\textwidth}
+{\small \captionof{table}{\small Influence de la température sur le nombre de cycle d'une cathode \ce{LiMn2O4} à différentes températures et à une vitesse d'acquisition de $1C$.}}
+\label{fig:04-17c}
+\end{minipage}%https://fr.everexceed.com/blog/charge-and-discharge-theory-and-calculation-method-design-of-lithium-battery_b406
+
 
 \definition{
-\setlength{\columnsep}{5pt}
-\begin{wrapfigure}{r}{0cm}% r à droite et l pour à gauche
-\includegraphics[width=4cm]{Fig18}%https://sciencepost.fr/alessandro-volta-1745-1827-linventeur-de-la-pile-electrique/
-\end{wrapfigure}Les courbes de charge/décharge obéissent au même principe que les titrages coulométriques, mais sont menées à courant fini et donc en dehors de l'équilibre thermodynamique. 
 
-~
+Les courbes de charge-décharge permettent de mesurer une observable : la tension, en condition galvanostatique, en fonction du temps de l'expérience. 
 
-Tout courant électrique conduit à l'apparition d'un phénomène d'hystérèse, provoqué par un \blancbis{retard} à la mise en mouvement des ions lithium ou des électrons. L'ensemble des processus chimique expliquant ce "retard" sont regroupés dans le terme \blancbis{activation}.
+Ces courbes retranscrivent directement des informations sur les matériaux d'électrode : le nombre de phase, la stabilité thermodynamique, les modifications structurales liées à la présence ou l'absence des atomes de lithium et d'éventuelles transitions de phases. 
 
-~
+A ces informations thermodynamiques, nous retrouvons un ensemble d'informations cinétiques : vitesse du processus rédox, vitesse du transport de matière$\ldots$ qui ont un impact sur les performances de la cellule électrochimique.
 
-Enfin, les électrodes réelles présentent des phénomènes résistifs ou de polarisation regroupés sous le terme \blancbis{dissipatif}. Ces phénomènes sont très dépendants de la valeur du courant et provoquent l'échauffement de l'accumulateur ou batterie.}
+Au final, ces courbes contiennent toute l'information sur les processus électrochimiques ayant lieu dans la cellule.}
 
 
 \begin{comment}

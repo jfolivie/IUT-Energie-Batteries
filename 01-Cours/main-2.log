@@ -1,0 +1,3692 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.27)  24 NOV 2024 18:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main-2.tex
+(./main-2.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (./Lecture.sty
+Package: Lecture 
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/opensans.sty
+Package: opensans 2019/06/20 Style file for Open Sans.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count196
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+opensans-TOsF on inp
+ut line 112.
+
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TOsF.fd
+File: T1opensans-TOsF.fd 2019/06/24 Font definitions for T1/opensans-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 112.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen141
+\l@unhyphenated=\language13
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count198
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2023-12-19 v3.5r French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language6). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language6). Reported on input line 92.
+\FB@stdchar=\count199
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count266
+\FBold@everypar=\toks21
+\FB@Mht=\dimen142
+\mc@charclass=\count267
+\mc@charfam=\count268
+\mc@charslot=\count269
+\std@mcc=\count270
+\dec@mcc=\count271
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
+\pgf@xd=\dimen163
+\pgf@yd=\dimen164
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count276
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen165
+\pgfmath@count=\count279
+\pgfmath@box=\box52
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count280
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen166
+\pgf@picmaxx=\dimen167
+\pgf@picminy=\dimen168
+\pgf@picmaxy=\dimen169
+\pgf@pathminx=\dimen170
+\pgf@pathmaxx=\dimen171
+\pgf@pathminy=\dimen172
+\pgf@pathmaxy=\dimen173
+\pgf@xx=\dimen174
+\pgf@xy=\dimen175
+\pgf@yx=\dimen176
+\pgf@yy=\dimen177
+\pgf@zx=\dimen178
+\pgf@zy=\dimen179
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen180
+\pgf@path@lasty=\dimen181
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen182
+\pgf@shorten@start@additional=\dimen183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen185
+\pgf@pt@y=\dimen186
+\pgf@pt@temp=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen189
+\pgf@sys@shading@range@num=\count282
+\pgf@shadingcount=\count283
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box56
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box57
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count284
+\pgfplotmarksize=\dimen194
+)
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikz@lastmovetox=\dimen199
+\tikz@lastmovetoy=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count285
+\tikznumberofchildren=\count286
+\tikznumberofcurrentchild=\count287
+\tikz@fig@count=\count288
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count289
+\pgfmatrixcurrentcolumn=\count290
+\pgf@matrix@numberofcolumns=\count291
+)
+\tikz@expandcount=\count292
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.tex
+(/usr/share/texlive/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen259
+\pgfarrowlength=\dimen260
+\pgfarrowwidth=\dimen261
+\pgfarrowlinewidth=\dimen262
+)
+\CF_cnt_atomgroup=\count293
+\CF_cnt_group=\count294
+\CF_cnt_atom=\count295
+\CF_cnt_cycle=\count296
+\CF_cnt_cyclebonds=\count297
+\CF_cnt_compound=\count298
+\CF_dim=\dimen263
+\CF_turnangle=\dimen264
+\CF_arrowsize=\dimen265
+\CF_zero=\dimen266
+\CF_box=\box62
+\CF_boxstuff=\box63
+\CF_testbox=\box64
+\CF_chargebox=\box65
+\CF_substtoks=\toks34
+)
+Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count304
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen268
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box66
+\shadowsize=\dimen271
+\@Sbox=\box67
+\do@VerbBox=\toks35
+\the@fancyput=\toks36
+\this@fancyput=\toks37
+\EndVerbatimTokens=\toks38
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read4
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count311
+\Gm@cntv=\count312
+\c@Gm@tempcnt=\count313
+\Gm@bindingoffset=\dimen272
+\Gm@wd@mp=\dimen273
+\Gm@odd@mp=\dimen274
+\Gm@even@mp=\dimen275
+\Gm@layoutwidth=\dimen276
+\Gm@layoutheight=\dimen277
+\Gm@layouthoffset=\dimen278
+\Gm@layoutvoffset=\dimen279
+\Gm@dimlist=\toks41
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box68
+)
+\tc@llx=\dimen280
+\tc@lly=\dimen281
+\tc@urx=\dimen282
+\tc@ury=\dimen283
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen284
+\adjbox@Height=\dimen285
+\adjbox@Depth=\dimen286
+\adjbox@Totalheight=\dimen287
+\adjbox@pwidth=\dimen288
+\adjbox@pheight=\dimen289
+\adjbox@pdepth=\dimen290
+\adjbox@ptotalheight=\dimen291
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count314
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box69
+\sift@deathcycles=\count315
+\@vwid@loff=\dimen292
+\@vwid@roff=\dimen293
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count316
+\calc@Bcount=\count317
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count318
+\calc@Cskip=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen296
+)) (/usr/share/texlive/texmf-dist/tex/latex/tikzorbital/tikzorbital.sty
+Package: tikzorbital 2012/12/05 draw atomic orbitals and molecular diagrams wit
+h tikz
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box70
+\pgfnodeparttwobox=\box71
+\pgfnodepartthreebox=\box72
+\pgfnodepartfourbox=\box73
+\pgfnodeparttwentybox=\box74
+\pgfnodepartnineteenbox=\box75
+\pgfnodeparteighteenbox=\box76
+\pgfnodepartseventeenbox=\box77
+\pgfnodepartsixteenbox=\box78
+\pgfnodepartfifteenbox=\box79
+\pgfnodepartfourteenbox=\box80
+\pgfnodepartthirteenbox=\box81
+\pgfnodeparttwelvebox=\box82
+\pgfnodepartelevenbox=\box83
+\pgfnodeparttenbox=\box84
+\pgfnodepartninebox=\box85
+\pgfnodeparteightbox=\box86
+\pgfnodepartsevenbox=\box87
+\pgfnodepartsixbox=\box88
+\pgfnodepartfivebox=\box89
+)))
+\pgf@layerbox@background=\box90
+\pgf@layerboxsaved@background=\box91
+\pgf@layerbox@foreground=\box92
+\pgf@layerboxsaved@foreground=\box93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen297
+\captionmargin=\dimen298
+\caption@leftmargin=\dimen299
+\caption@rightmargin=\dimen300
+\caption@width=\dimen301
+\caption@indent=\dimen302
+\caption@parindent=\dimen303
+\caption@hangindent=\dimen304
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count319
+\c@continuedfloat=\count320
+Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks42
+\ex@=\dimen305
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen306
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count321
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count322
+\leftroot@=\count323
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count324
+\DOTSCASE@=\count325
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box94
+\strutbox@=\box95
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen307
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count326
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count327
+\dotsspace@=\muskip17
+\c@parentequation=\count328
+\dspbrk@lvl=\count329
+\tag@help=\toks43
+\row@=\count330
+\column@=\count331
+\maxfields@=\count332
+\andhelp@=\toks44
+\eqnshift@=\dimen308
+\alignsep@=\dimen309
+\tagshift@=\dimen310
+\tagwidth@=\dimen311
+\totwidth@=\dimen312
+\lineht@=\dimen313
+\@envbody=\toks45
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks46
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks47
+\labelindent=\skip66
+\enit@outerparindent=\dimen314
+\enit@toks=\toks48
+\enit@inbox=\box96
+\enit@count@id=\count333
+\enitdp@description=\count334
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count335
+\l__pdf_internal_box=\box97
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count336
+\g__chemgreek_tmpa_int=\count337
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count338
+\__mhchem_arrow_extPgfLength_skip=\skip67
+\mhchem@minispace@tmp=\skip68
+\mhchem@minibackspace@tmp=\skip69
+\mhchem@bondwidth=\skip70
+\mhchem@bondheight=\skip71
+\mhchem@smallbondwidth@tmpA=\skip72
+\mhchem@smallbondwidth@tmpB=\skip73
+\mhchem@smallbondwidth=\skip74
+\mhchem@bondtmp@minussidebearingleft=\skip75
+\mhchem@bondtmp@minussidebearingright=\skip76
+\l__mhchem_option_version_int=\count339
+\mhchem@option@minusmathsidebearingleft=\dimen315
+\mhchem@option@minusmathsidebearingright=\dimen316
+\mhchem@option@minustextsidebearingleft=\dimen317
+\mhchem@option@minustextsidebearingright=\dimen318
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count340
+\l__siunitx_number_exponent_fixed_int=\count341
+\l__siunitx_number_min_decimal_int=\count342
+\l__siunitx_number_min_integer_int=\count343
+\l__siunitx_number_round_precision_int=\count344
+\l__siunitx_number_lower_threshold_int=\count345
+\l__siunitx_number_upper_threshold_int=\count346
+\l__siunitx_number_group_first_int=\count347
+\l__siunitx_number_group_size_int=\count348
+\l__siunitx_number_group_minimum_int=\count349
+\l__siunitx_angle_tmp_dim=\dimen319
+\l__siunitx_angle_marker_box=\box98
+\l__siunitx_angle_unit_box=\box99
+\l__siunitx_compound_count_int=\count350
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box100
+\l__siunitx_table_tmp_dim=\dimen320
+\l__siunitx_table_column_width_dim=\dimen321
+\l__siunitx_table_integer_box=\box101
+\l__siunitx_table_decimal_box=\box102
+\l__siunitx_table_uncert_box=\box103
+\l__siunitx_table_before_box=\box104
+\l__siunitx_table_after_box=\box105
+\l__siunitx_table_before_dim=\dimen322
+\l__siunitx_table_carry_dim=\dimen323
+\l__siunitx_unit_tmp_int=\count351
+\l__siunitx_unit_position_int=\count352
+\l__siunitx_unit_total_int=\count353
+
+
+Package siunitx Warning: Option "load-configurations" has been removed in this
+(siunitx)                release.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen324
+\ar@mcellbox=\box106
+\extrarowheight=\dimen325
+\NC@list=\toks49
+\extratabsurround=\skip77
+\backup@length=\skip78
+\ar@cellbox=\box107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box108
+\tcb@upperbox=\box109
+\tcb@lowerbox=\box110
+\tcb@phantombox=\box111
+\c@tcbbreakpart=\count354
+\c@tcblayer=\count355
+\c@tcolorbox@number=\count356
+\l__tcobox_tmpa_box=\box112
+\l__tcobox_tmpa_dim=\dimen326
+\tcb@temp=\box113
+\tcb@temp=\box114
+\tcb@temp=\box115
+\tcb@temp=\box116
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count357
+\c@tcbrasterrow=\count358
+\c@tcbrasternum=\count359
+\c@tcbraster=\count360
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
+x
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box117
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box118
+\tcb@totalupperbox=\box119
+\tcb@totallowerbox=\box120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen327
+\tcb@lowerfitdim=\dimen328
+\tcb@upperfitdim=\dimen329
+\tcb@cur@hbadness=\count361
+)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks50
+\thm@bodyfont=\toks51
+\thm@headfont=\toks52
+\thm@notefont=\toks53
+\thm@headpunct=\toks54
+\thm@preskip=\skip79
+\thm@postskip=\skip80
+\thm@headsep=\skip81
+\dth@everypar=\toks55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense.sty
+Package: doclicense 2023/10/01 v3.3.0 Support for putting documents under a lic
+ense
+
+(/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count362
+\xs_countb=\count363
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+Package: hyperxmp 2023/09/10 v5.12 Store hyperref metadata in XMP format
+\hyxmp@aep@toks=\toks56
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@hyxmp@count=\count364
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+))
+\doclicense@hsize=\skip82
+
+(/usr/share/texlive/texmf-dist/tex/latex/doclicense/doclicense-french.ldf
+File: doclicense-french.ldf 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen330
+\WF@size=\dimen331
+\c@WF@wrappedlines=\count365
+\WF@box=\box121
+\WF@everypar=\toks57
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
+.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.
+tex)) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip83
+\multirow@cntb=\count366
+\multirow@dima=\skip84
+\bigstrutjot=\dimen332
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen333
+\lightrulewidth=\dimen334
+\cmidrulewidth=\dimen335
+\belowrulesep=\dimen336
+\belowbottomsep=\dimen337
+\aboverulesep=\dimen338
+\abovetopsep=\dimen339
+\cmidrulesep=\dimen340
+\cmidrulekern=\dimen341
+\defaultaddspace=\dimen342
+\@cmidla=\count367
+\@cmidlb=\count368
+\@aboverulesep=\dimen343
+\@belowrulesep=\dimen344
+\@thisruleclass=\count369
+\@lastruleclass=\count370
+\@thisrulewidth=\dimen345
+)
+(/usr/share/texlive/texmf-dist/tex/latex/background/background.sty
+Package: background 2014/03/04 v2.1 background material
+
+(/usr/share/texlive/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks58
+\AP@partial=\box122
+\AP@footins=\box123
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count371
+\float@exts=\toks59
+\float@box=\box124
+\@float@everytoks=\toks60
+\@floatcapt=\box125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count372
+\sf@farskip=\skip85
+\sf@captopadj=\dimen346
+\sf@capskip=\skip86
+\sf@nearskip=\skip87
+\c@subfigure=\count373
+\c@subfigure@save=\count374
+\c@lofdepth=\count375
+\c@subtable=\count376
+\c@subtable@save=\count377
+\c@lotdepth=\count378
+\sf@top=\skip88
+\sf@bottom=\skip89
+)
+\c@Q=\count379
+Package hyperref Info: Option `colorlinks' set `true' on input line 154.
+
+(/usr/share/texlive/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty
+Package: boxedminipage 2020/04/19 v1.1 Boxed LaTeX2e minipages
+\bmp@box=\box126
+\bmp@width=\skip90
+\bmp@height=\skip91
+)
+\hblanc=\skip92
+\hblancbis=\skip93
+
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (433.62pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (578.15999pt) is ignored.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip94
+\RaggedLeftLeftskip=\skip95
+\RaggedRightLeftskip=\skip96
+\CenteringRightskip=\skip97
+\RaggedLeftRightskip=\skip98
+\RaggedRightRightskip=\skip99
+\CenteringParfillskip=\skip100
+\RaggedLeftParfillskip=\skip101
+\RaggedRightParfillskip=\skip102
+\JustifyingParfillskip=\skip103
+\CenteringParindent=\skip104
+\RaggedLeftParindent=\skip105
+\RaggedRightParindent=\skip106
+\JustifyingParindent=\skip107
+)
+\c@mySideNoteCounter=\count380
+
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@@todonotes@numberoftodonotes=\count381
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count382
+\csq@gtype=\count383
+\csq@glevel=\count384
+\csq@qlevel=\count385
+\csq@maxlvl=\count386
+\csq@tshold=\count387
+\csq@ltx@everypar=\toks61
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (./main-2.aux)
+\openout1 = `main-2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+\c@mv@tabular=\count388
+\c@mv@boldtabular=\count389
+LaTeX Info: Redefining \degres on input line 9.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 9.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 9.
+LaTeX Info: Redefining \up on input line 9.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count390
+\scratchdimen=\dimen347
+\scratchbox=\box127
+\nofMPsegments=\count391
+\nofMParguments=\count392
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count393
+\MPscratchDim=\dimen348
+\MPnumerator=\count394
+\makeMPintoPDFobject=\count395
+\everyMPtoPDFconversion=\toks63
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 9.
+
+(./main-2.out) (./main-2.out)
+\@outlinefile=\write5
+\openout5 = `main-2.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 512.14963pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=142.26378pt
+* \marginparsep=5.69046pt
+* \columnsep=99.58464pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Package chemgreek Info: Activating mapping `default' on line 9.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 9.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+3.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<logo.png, id=220, 737.75626pt x 179.67125pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 18.
+(pdftex.def)             Requested size: 467.33304pt x 113.81102pt.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 20.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <17.28> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 20.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <14.4> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 22.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <12> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 24.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 42.
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
+ut line 43.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+5.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+5.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+45.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+45.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 45.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 45.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 45
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<doclicense-CC-by-nc-sa-eu-88x31.pdf, id=225, 90.3375pt x 31.61812pt>
+File: doclicense-CC-by-nc-sa-eu-88x31.pdf Graphic file (type pdf)
+<use doclicense-CC-by-nc-sa-eu-88x31.pdf>
+Package pdftex.def Info: doclicense-CC-by-nc-sa-eu-88x31.pdf  used on input lin
+e 63.
+(pdftex.def)             Requested size: 74.375pt x 26.03122pt.
+<garde-3.pdf, id=226, 597.3838pt x 793.8137pt>
+File: garde-3.pdf Graphic file (type pdf)
+<use garde-3.pdf>
+Package pdftex.def Info: garde-3.pdf  used on input line 67.
+(pdftex.def)             Requested size: 597.50995pt x 845.10864pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/f
+ontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fo
+ntawesomeone.enc} <./garde-3.pdf> <./logo.png> </usr/share/texlive/texmf-dist/t
+ex/latex/doclicense/images/doclicense-CC-by-nc-sa-eu-88x31.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-dist/tex/latex
+/doclicense/images/doclicense-CC-by-nc-sa-eu-88x31.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+<cc-by-nc-sa.png, id=250, 1284.8pt x 449.68pt>
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 70.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+ [2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/a_p2vepx.enc}
+
+ <./cc-by-nc-sa.png>]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 70.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 70.
+ (./main-2.toc
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 2.
+ [3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 49.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 49.
+)
+\tf@toc=\write6
+\openout6 = `main-2.toc'.
+
+
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/Ch
+p-5.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 1.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[4{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 398.33861pt, 170.71652pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.33861pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=98.44653pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=142.26378pt
+* \marginparsep=5.69046pt
+* \columnsep=99.58464pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 19.70294pt on input line 1.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 1.
+
+LaTeX Font Warning: Font shape `T1/opensans-TOsF/m/sc' undefined
+(Font)              using `T1/opensans-TOsF/m/n' instead on input line 19.
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 23.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 7.59998pt on input line 23.
+
+LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 23.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 5.69998pt on input line 23.
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 4.74998pt on input line 34.
+
+Overfull \hbox (27.65474pt too wide) in paragraph at lines 34--34
+\T1/opensans-TOsF/m/it/8 ta-lite $[][][][][][]$ et am-bly-go-nite $[][][][][][]
+[][] [][][][][]$  
+ []
+
+[5
+
+
+]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 101.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 101.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 105.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 105.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 121.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/sc' will be
+(Font)              scaled to size 9.49997pt on input line 121.
+
+LaTeX Font Warning: Font shape `T1/opensans-TOsF/b/sc' undefined
+(Font)              using `T1/opensans-TOsF/b/n' instead on input line 121.
+
+
+Package siunitx Warning: Unit macro \bar has been deprecated in this release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\bar{bar}
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/sc' will be
+(Font)              scaled to size 9.49997pt on input line 121.
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TOsF on in
+put line 127.
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TOsF.fd
+File: TS1opensans-TOsF.fd 2019/06/24 Font definitions for TS1/opensans-TOsF.
+)
+LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 127.
+
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2//Gpy-01.pgf)
+Overfull \hbox (26.17505pt too wide) in paragraph at lines 779--155
+ [][] 
+ []
+
+
+Overfull \hbox (5.12387pt too wide) in paragraph at lines 779--155
+ [] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 156.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 156--156
+[]\T1/opensans-TOsF/b/sc/10 Figure 1.1 ^^U |[]\T1/opensans-TOsF/m/sc/10 Corréla
+tion
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 161.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 184.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 192.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[7]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 209.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 9.49997pt on input line 231.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 247.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[8]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 267.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (5.02911pt too wide) in paragraph at lines 307--307
+ []|[]| 
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig01-Li.png, id=368, 50.589pt x 126.071pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig01-Li.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig01-Li.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig01-Li.png  used on input line 307.
+(pdftex.def)             Requested size: 22.8343pt x 56.9055pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig01-Na.png, id=369, 51.392pt x 126.071pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig01-Na.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig01-Na.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig01-Na.png  used on input line 307.
+(pdftex.def)             Requested size: 23.19675pt x 56.9055pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig01-K.png, id=370, 50.589pt x 125.268pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig01-K.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig01-K.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig01-K.png  used on input line 307.
+(pdftex.def)             Requested size: 22.98097pt x 56.9055pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig01-Rb.png, id=371, 50.589pt x 126.071pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig01-Rb.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig01-Rb.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig01-Rb.png  used on input line 307.
+(pdftex.def)             Requested size: 22.8343pt x 56.9055pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig01-Cs.png, id=372, 51.392pt x 126.071pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig01-Cs.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig01-Cs.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig01-Cs.png  used on input line 307.
+(pdftex.def)             Requested size: 23.19675pt x 56.9055pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 313.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig28a.png, id=373, 656.4525pt x 65.24374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig28a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig28a.png  used on input line 322.
+(pdftex.def)             Requested size: 239.00558pt x 23.75452pt.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 7.59998pt on input line 322.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig28b.png, id=374, 656.4525pt x 65.24374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig28b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig28b.png  used on input line 323.
+(pdftex.def)             Requested size: 239.00558pt x 23.75452pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig28c.png, id=375, 656.4525pt x 65.24374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig28c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig28c.png  used on input line 324.
+(pdftex.def)             Requested size: 239.00558pt x 23.75452pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig28d.png, id=376, 656.4525pt x 65.24374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig28d.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28d.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig28d.png  used on input line 325.
+(pdftex.def)             Requested size: 239.00558pt x 23.75452pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig28e.png, id=377, 656.4525pt x 65.24374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig28e.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28e.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig28e.png  used on input line 326.
+(pdftex.def)             Requested size: 239.00558pt x 23.75452pt.
+
+Underfull \hbox (badness 1533) in paragraph at lines 328--328
+\T1/opensans-TOsF/m/sc/10 ato-mique dans le do-maine vi-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 328--328
+\T1/opensans-TOsF/m/sc/10 sible des élé-ments al-ca-lins du
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 331.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[9 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale
+/figures-Chp2/Fig01-Li.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_B
+atterie/01-Cours/v_finale/figures-Chp2/Fig01-Na.png> </home/jeff/Documents/IUTO
+rsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig01-K.png> </
+home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figu
+res-Chp2/Fig01-Rb.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batter
+ie/01-Cours/v_finale/figures-Chp2/Fig01-Cs.png>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 370.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (29.1382pt too wide) in paragraph at lines 359--370
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 380.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[10 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig28a.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp2/Fig28b.png> </home/jeff/Documents/IUTOrsa
+y/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig28c.png> </home
+/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-
+Chp2/Fig28d.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-
+Cours/v_finale/figures-Chp2/Fig28e.png>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 406.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (63.15024pt too wide) in paragraph at lines 398--406
+ [][] 
+ []
+
+
+Overfull \hbox (23.6376pt too wide) in paragraph at lines 430--431
+[]\T1/opensans-TOsF/m/sc/10 Dans la pre-mière par-tie, nous avons vu que le po-
+ten-tiel stan-dard du couple oxy-dant $[]$/réducteur
+ []
+
+
+Overfull \hbox (25.60402pt too wide) detected at line 441
+[]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 443.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[11]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 456.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (13.84033pt too wide) in paragraph at lines 449--456
+[][] 
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig03.png, id=428, 289.8027pt x 142.51643pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig03.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig03.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig03.png  used on input line 497.
+(pdftex.def)             Requested size: 113.81102pt x 55.96826pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 499.
+See the caption package documentation for explanation.
+
+
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2//Gpy-02.pgf)
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2//Gpy-03.pgf)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 528.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[12 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig03.png>]
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2//Gpy-04.pgf)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 534.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (8.22273pt too wide) detected at line 541
+[]
+ []
+
+<figures-Chp2/Fig25.png, id=447, 278.9622pt x 272.02428pt>
+File: figures-Chp2/Fig25.png Graphic file (type png)
+<use figures-Chp2/Fig25.png>
+Package pdftex.def Info: figures-Chp2/Fig25.png  used on input line 568.
+(pdftex.def)             Requested size: 110.11331pt x 107.37161pt.
+
+Package siunitx Warning: Unit macro \angstrom has been deprecated in this
+(siunitx)                release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\angstrom{\text {Ã…}}
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 583.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 605.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (8.83253pt too wide) in paragraph at lines 598--605
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 608.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[13 <./figures-Chp2/Fig25.png>])
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/Ch
+p-2.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 1.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[14]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 398.33861pt, 170.71652pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.33861pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=98.44653pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=142.26378pt
+* \marginparsep=5.69046pt
+* \columnsep=99.58464pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Chapitre 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\oplus' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 1.
+
+Underfull \hbox (badness 2080) in paragraph at lines 28--28
+\T1/opensans-TOsF/m/sc/10 liai-son io-nique, sur la base d'ar-gu-ments struc-tu
+-raux (rayons, po-ly-èdres,
+ []
+
+[15
+
+
+]
+Overfull \hbox (0.85878pt too wide) in paragraph at lines 49--49
+[]\T1/opensans-TOsF/b/n/12 Topologie des ma-té-riaux d'in-ser-tion : la di-men-
+sion des ma-té-riaux 
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig09c.png, id=467, 297.11pt x 390.45876pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig09c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig09c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig09c.png  used on input line 55.
+(pdftex.def)             Requested size: 108.25157pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig09a.png, id=468, 304.13625pt x 364.36125pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig09a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig09a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig09a.png  used on input line 56.
+(pdftex.def)             Requested size: 118.74724pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig09b.png, id=469, 330.23375pt x 358.33875pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig09b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig09b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig09b.png  used on input line 57.
+(pdftex.def)             Requested size: 131.10855pt x 142.26378pt.
+
+Overfull \hbox (10.96184pt too wide) in paragraph at lines 72--73
+[]\T1/opensans-TOsF/m/sc/10 Dans le do-maine des bat-te-ries, on fait une dis-t
+inc-tion phy-sique entre la $[]$,
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 95.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 96.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[16 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig09c.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp2/Fig09a.png> </home/jeff/Documents/IUTOrsa
+y/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig09b.png>]
+Overfull \hbox (5.85199pt too wide) in paragraph at lines 97--97
+[]\T1/opensans-TOsF/b/n/12 Environnement chi-mique du li-thium in-séré : in-flu
+ence sur la f.e.m. 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 117.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig30.png, id=490, 792.0792pt x 143.23914pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig30.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig30.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig30.png  used on input line 135.
+(pdftex.def)             Requested size: 358.5023pt x 64.83075pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 136.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 136.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[17]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig14a.png, id=502, 503.8825pt x 577.15625pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig14a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig14a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig14a.png  used on input line 159.
+(pdftex.def)             Requested size: 124.20193pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig14b.png, id=503, 495.8525pt x 571.13374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig14b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig14b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig14b.png  used on input line 160.
+(pdftex.def)             Requested size: 123.50885pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig14c.png, id=504, 503.8825pt x 570.13pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig14c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig14c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig14c.png  used on input line 161.
+(pdftex.def)             Requested size: 125.73196pt x 142.26378pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 180.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 186.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[18 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig30.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp2/Fig14a.png> </home/jeff/Documents/IUTOrsay
+/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig14b.png> </home/
+jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-C
+hp2/Fig14c.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig31.png, id=529, 433.62pt x 342.27875pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig31.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig31.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig31.png  used on input line 189.
+(pdftex.def)             Requested size: 95.6004pt x 75.45822pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 191.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig23a.png, id=535, 398.48875pt x 295.1025pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig23a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig23a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig23a.png  used on input line 242.
+(pdftex.def)             Requested size: 172.89732pt x 128.0374pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig23b.png, id=536, 406.51875pt x 294.09875pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig23b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig23b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig23b.png  used on input line 243.
+(pdftex.def)             Requested size: 176.97688pt x 128.0374pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 249.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[19 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig31.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp2/Fig23a.png> </home/jeff/Documents/IUTOrsay
+/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig23b.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig16a.png, id=559, 458.71375pt x 294.09875pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig16a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig16a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig16a.png  used on input line 272.
+(pdftex.def)             Requested size: 133.13556pt x 85.35826pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig16b.png, id=560, 220.825pt x 260.975pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig16b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig16b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig16b.png  used on input line 273.
+(pdftex.def)             Requested size: 72.22552pt x 85.35826pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig16c.png, id=561, 503.8825pt x 298.11375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig16c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig16c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig16c.png  used on input line 274.
+(pdftex.def)             Requested size: 144.27692pt x 85.35826pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig10.png, id=568, 740.7675pt x 347.2975pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig10.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig10.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig10.png  used on input line 287.
+(pdftex.def)             Requested size: 170.71652pt x 80.03572pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 289.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 299.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[20 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig16a.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp2/Fig16b.png> </home/jeff/Documents/IUTOrsa
+y/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig16c.png> </home
+/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-
+Chp2/Fig10.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig11.png, id=590, 1003.75pt x 327.2225pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig11.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig11.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig11.png  used on input line 301.
+(pdftex.def)             Requested size: 284.52756pt x 92.75508pt.
+
+Overfull \hbox (25.6099pt too wide) in paragraph at lines 301--302
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 303.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 303--303
+\T1/opensans-TOsF/m/sc/10 pi-le-ments ren-con-trés
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--303
+\T1/opensans-TOsF/m/sc/10 dans les struc-tures
+ []
+
+
+Overfull \hbox (1.2017pt too wide) in paragraph at lines 307--313
+\T1/opensans-TOsF/m/sc/10 res-pondent à des $[]$ d'atomes d'oxy-gène dif-fé-ren
+t (resp. $\OML/lmm/m/it/10 BABABA []$\T1/opensans-TOsF/m/sc/10 ,
+ []
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig13.png, id=592, 711.65875pt x 501.875pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig13.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig13.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig13.png  used on input line 316.
+(pdftex.def)             Requested size: 170.71652pt x 120.39119pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 318.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig12.png, id=594, 984.67876pt x 544.0325pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig12.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig12.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig12.png  used on input line 326.
+(pdftex.def)             Requested size: 227.62204pt x 125.75574pt.
+
+Overfull \hbox (8.53459pt too wide) in paragraph at lines 326--327
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 328.
+See the caption package documentation for explanation.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 343.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[21 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig11.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp2/Fig13.png> </home/jeff/Documents/IUTOrsay/
+1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig12.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig15.png, id=612, 592.2125pt x 603.25375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig15.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig15.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig15.png  used on input line 347.
+(pdftex.def)             Requested size: 227.62204pt x 231.8622pt.
+
+Overfull \hbox (8.53459pt too wide) in paragraph at lines 347--348
+ [][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 349.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 350--351
+[]\T1/opensans-TOsF/m/sc/10 [H1-3 est une phase in-ter-mé-
+ []
+
+
+Overfull \hbox (22.9852pt too wide) in paragraph at lines 357--358
+[]\T1/opensans-TOsF/m/sc/10 P3 n'est sont pas ob-servé mais cette struc-ture ex
+iste pour de plus gros ca-tions ($[][][][]\OML/lmm/m/it/10 ; []\OT1/lmr/m/n/10 
+K[][] []$\T1/opensans-TOsF/m/sc/10 ). 
+ []
+
+
+Overfull \hbox (2.68471pt too wide) in paragraph at lines 362--363
+[]\T1/opensans-TOsF/m/sc/10 Il existe des règles per-met-tant de ra-tion-na-li-
+ser la sta-bi-lité des struc-tures cris-tal-lo-gra-phiques :
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig29.png, id=613, 772.8875pt x 549.05125pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig29.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig29.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig29.png  used on input line 367.
+(pdftex.def)             Requested size: 152.96123pt x 108.66054pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 369.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 381.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[22 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig15.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp2/Fig29.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig17.png, id=626, 543.61494pt x 126.18343pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig17.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig17.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig17.png  used on input line 391.
+(pdftex.def)             Requested size: 284.52756pt x 66.0451pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 392.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig18a.png, id=627, 212.04018pt x 199.17612pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig18a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig18a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig18a.png  used on input line 409.
+(pdftex.def)             Requested size: 85.35826pt x 80.17961pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig18c.png, id=628, 227.36142pt x 210.3057pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig18c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig18c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig18c.png  used on input line 410.
+(pdftex.def)             Requested size: 85.35826pt x 78.95428pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig18b.png, id=629, 227.36142pt x 210.3057pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig18b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig18b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig18b.png  used on input line 411.
+(pdftex.def)             Requested size: 85.35826pt x 78.95428pt.
+
+Underfull \hbox (badness 2158) in paragraph at lines 420--420
+\T1/opensans-TOsF/m/sc/10 et il est par-ti-cu-liè-re-ment im-por-tant lorsque l
+e rap-port des rayons ap-proche
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 424.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[23 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig17.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp2/Fig18a.png> </home/jeff/Documents/IUTOrsay
+/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig18c.png> </home/
+jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-C
+hp2/Fig18b.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig19.png, id=645, 301.125pt x 258.9675pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig19.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig19.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig19.png  used on input line 428.
+(pdftex.def)             Requested size: 142.26378pt x 122.35092pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 431.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig20.png, id=647, 623.54556pt x 174.45978pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig20.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig20.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig20.png  used on input line 451.
+(pdftex.def)             Requested size: 358.5023pt x 100.30559pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 452.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 468.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 468.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[24 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig19.png (PNG copy)> </home/jeff/Documents/IUTOrsay/1-Cours/3p0
+6-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig20.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig21.png, id=658, 419.166pt x 196.28532pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig21.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig21.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig21.png  used on input line 475.
+(pdftex.def)             Requested size: 284.52756pt x 133.23863pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 476.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 476--476
+[]\T1/opensans-TOsF/b/sc/10 Figure 2.18 ^^U |[]\T1/opensans-TOsF/m/sc/10 Diagra
+mme d'un atome $\OML/lmm/m/it/10 d[]$ \T1/opensans-TOsF/m/sc/10 (\T1/opensans-T
+OsF/m/it/10 par ex. \T1/opensans-TOsF/m/sc/10 le Mn(III)) en confi-gu-ra-tion c
+hamp
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig07a.png, id=661, 167.87718pt x 240.9pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig07a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig07a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig07a.png  used on input line 491.
+(pdftex.def)             Requested size: 99.14145pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig07b.png, id=662, 154.32657pt x 245.41687pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig07b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig07b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig07b.png  used on input line 492.
+(pdftex.def)             Requested size: 89.46236pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp2/Fig07c.png, id=663, 154.32657pt x 244.66406pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp2/Fig07c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig07c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp2/Fig07c.png  used on input line 493.
+(pdftex.def)             Requested size: 89.73787pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 498.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[25 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig21.png>]
+Overfull \hbox (0.93477pt too wide) in paragraph at lines 501--501
+\T1/opensans-TOsF/m/it/8 Dans ce cours, on se li-mi-tera à la construc- 
+ []
+
+)
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/Ch
+p-3.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 1.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[26 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp2/Fig07a.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp2/Fig07b.png> </home/jeff/Documents/IUTOrsa
+y/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp2/Fig07c.png>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 398.33861pt, 170.71652pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.33861pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=98.44653pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=142.26378pt
+* \marginparsep=5.69046pt
+* \columnsep=99.58464pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Chapitre 3.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig22.pdf, id=695, 111.95728pt x 255.39314pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig22.pdf Graphic file (type pdf)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig22.pdf>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig22.pdf  used on input line 7.
+(pdftex.def)             Requested size: 170.71652pt x 389.44472pt.
+
+Overfull \hbox (14.08536pt too wide) in paragraph at lines 11--12
+[]$ \T1/opensans-TOsF/m/sc/10 in-di-quant l'$[]$ des atomes
+ []
+
+
+Overfull \hbox (3.8224pt too wide) in paragraph at lines 13--14
+[]\T1/opensans-TOsF/m/sc/10 De ces deux pa-ra-mètres mi-cro-sco-piques, la $[]$
+
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 13--14
+\T1/opensans-TOsF/m/sc/10 donc de la $[]$ et des $[]$
+ []
+
+
+Overfull \hbox (1.71529pt too wide) in paragraph at lines 15--15
+\T1/opensans-TOsF/m/it/8 en gé-né-ral pos-sible dès lors que les atomes 
+ []
+
+[27
+
+
+ </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/f
+igures-Chp3/Fig22.pdf>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig01.png, id=743, 1078.0275pt x 611.28375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig01.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig01.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig01.png  used on input line 45.
+(pdftex.def)             Requested size: 398.33861pt x 225.87297pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 46.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 57.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[28 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig01.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig02.png, id=752, 1077.02374pt x 680.5425pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig02.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig02.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig02.png  used on input line 89.
+(pdftex.def)             Requested size: 199.1693pt x 125.84647pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 91.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig04b.png, id=753, 541.01321pt x 354.26755pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig04b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig04b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig04b.png  used on input line 97.
+(pdftex.def)             Requested size: 170.71652pt x 111.78946pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig04c.png, id=755, 302.8113pt x 272.16882pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig04c.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig04c.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig04c.png  used on input line 116.
+(pdftex.def)             Requested size: 199.1693pt x 179.02148pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 118.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 122.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[29 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig02.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp3/Fig04b.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig03.png, id=766, 1071.00125pt x 720.6925pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig03.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig03.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig03.png  used on input line 129.
+(pdftex.def)             Requested size: 199.1693pt x 134.01883pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 131.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 131--131
+[]\T1/opensans-TOsF/b/sc/10 Figure 3.5 ^^U |[]\T1/opensans-TOsF/m/sc/10 Potenti
+el moyen de ca-
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig08.png, id=768, 460.93806pt x 225.4824pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig08.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig08.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig08.png  used on input line 149.
+(pdftex.def)             Requested size: 199.1693pt x 97.43033pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 151.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 155.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[30 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig04c.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp3/Fig03.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig04d.png, id=779, 636.3775pt x 327.2225pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig04d.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig04d.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig04d.png  used on input line 163.
+(pdftex.def)             Requested size: 170.71652pt x 87.77705pt.
+
+Overfull \hbox (5.14996pt too wide) in paragraph at lines 168--169
+\T1/opensans-TOsF/m/sc/10 logues struc-tu-raux des anions phos-phates : $[][][]
+[][]$,
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig04a.png, id=781, 1021.8175pt x 732.7375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig04a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig04a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig04a.png  used on input line 178.
+(pdftex.def)             Requested size: 199.1693pt x 142.82175pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 180.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (1.22426pt too wide) in paragraph at lines 193--194
+[]\T1/opensans-TOsF/m/sc/10 Une ap-pli-ca-tion in-té-res-sante des $[]$, en par
+-ti-cu-lier les $[]$, est d'avoir
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 196.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[31 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig08.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp3/Fig04d.png> </home/jeff/Documents/IUTOrsay
+/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp3/Fig04a.png>]
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 196--196
+[]\T1/opensans-TOsF/b/n/12 Choix de la struc-ture : per-for-mances usuelles des
+ struc-tures com-
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig06.png, id=796, 644.4075pt x 241.90375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig06.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig06.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig06.png  used on input line 202.
+(pdftex.def)             Requested size: 199.1693pt x 74.76422pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 204.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig05.png, id=798, 1066.98625pt x 803.0pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig05.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig05.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig05.png  used on input line 223.
+(pdftex.def)             Requested size: 199.1693pt x 149.88823pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 225.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 225--225
+[]\T1/opensans-TOsF/b/sc/10 Figure 3.9 ^^U |[]\T1/opensans-TOsF/m/sc/10 Profil 
+de dé-charge de
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 225--225
+\T1/opensans-TOsF/m/sc/10 quelques ma-té-riaux ca-tho-diques cou-
+ []
+
+
+Overfull \hbox (21.42453pt too wide) in paragraph at lines 229--229
+\T1/opensans-TOsF/m/it/8 à l'ex-cep-tion de $[][][][][][]$ - $[][][] [][][] [][
+][][][][]$ 
+ []
+
+
+Overfull \hbox (15.62714pt too wide) in paragraph at lines 239--239
+[]\T1/opensans-TOsF/b/n/14.4 Optimisation des sys-tèmes la-mel-laires par une a
+p-proche
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 244.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[32 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig06.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp3/Fig05.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig09.png, id=812, 632.3625pt x 458.71375pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig09.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig09.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig09.png  used on input line 249.
+(pdftex.def)             Requested size: 199.1693pt x 144.4746pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 251.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (0.71507pt too wide) in paragraph at lines 255--256
+[]\T1/opensans-TOsF/m/sc/10 Par consé-quent, lorsque la bat-te-rie est en charg
+e, mo-dé-li-sée par l'équa-tion de demi-réaction
+ []
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+Overfull \hbox (21.67911pt too wide) detected at line 273
+[]
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 286.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (1.76094pt too wide) in paragraph at lines 269--289
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (1.80475pt too wide) in paragraph at lines 290--291
+[]\T1/opensans-TOsF/m/sc/10 Si on cal-cule l'éner-gie ther-mique re-çue par mol
+e d'avan-ce-ment ($\OT1/lmr/m/n/10 = ^^A[]\OML/lmm/m/it/10 H[]$\T1/opensans-TOs
+F/m/sc/10 ), on trouve $\OMS/lmsy/m/n/10 ^^@\OT1/lmr/m/n/10 155$$[] \OMS/lmsy/m
+/n/10 ^^A
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 297.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[33 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig09.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig07.png, id=823, 565.72955pt x 376.23763pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig07.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig07.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig07.png  used on input line 299.
+(pdftex.def)             Requested size: 199.1693pt x 132.45442pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 301.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 302--304
+[]\T1/opensans-TOsF/m/sc/10 [les rayons io-niques sont don-nés en
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig10a.png, id=826, 459.7175pt x 370.38374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig10a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig10a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig10a.png  used on input line 326.
+(pdftex.def)             Requested size: 176.5744pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig10b.png, id=827, 440.64626pt x 369.38pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig10b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig10b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig10b.png  used on input line 327.
+(pdftex.def)             Requested size: 169.7132pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig11.png, id=832, 607.26875pt x 437.635pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig11.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig11.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig11.png  used on input line 335.
+(pdftex.def)             Requested size: 199.1693pt x 143.53185pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 337.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]\T1/opensans-TOsF/b/sc/10 Figure 3.13 ^^U |[]\T1/opensans-TOsF/m/sc/10 Struct
+ure non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\T1/opensans-TOsF/m/sc/10 st÷chiométrique du Ni où les ions
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 337--337
+[][][]$ \T1/opensans-TOsF/m/sc/10 oc-cupent des sites oc-ta-édriques
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 341.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[34 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig07.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp3/Fig10a.png> </home/jeff/Documents/IUTOrsay
+/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp3/Fig10b.png>]
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3//Fig12.pgf)
+Overfull \hbox (26.65349pt too wide) in paragraph at lines 756--380
+[][] 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 381.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig13a.png, id=852, 657.45625pt x 544.0325pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig13a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig13a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig13a.png  used on input line 393.
+(pdftex.def)             Requested size: 171.92775pt x 142.26378pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig13b.png, id=853, 706.64pt x 554.07pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig13b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig13b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig13b.png  used on input line 394.
+(pdftex.def)             Requested size: 181.43619pt x 142.26378pt.
+
+Underfull \hbox (badness 2111) in paragraph at lines 396--396
+[]\T1/opensans-TOsF/b/sc/10 Figure 3.15 ^^U |[][]\T1/opensans-TOsF/m/sc/10 3.15
+a[][] Courbe de cy-clage de $[][][][][][][][][]$ sous une den-sité de cou-
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 396--396
+\T1/opensans-TOsF/m/sc/10 rant de $\OT1/lmr/m/n/10 400 [] \OMS/lmsy/m/n/10 ^^A 
+[][]$\T1/opensans-TOsF/m/sc/10 , [][]3.15b[][] Va-ria-tion de la den-sité d'éne
+r-gie d'un ac-cu-mu-la-teur
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 398.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[35 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig11.png>]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 6.64998pt on input line 401.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 4.74998pt on input line 401.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 401.
+
+
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3//Fig14.pgf)
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig16.png, id=872, 565.72955pt x 376.23763pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig16.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig16.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig16.png  used on input line 415.
+(pdftex.def)             Requested size: 191.20082pt x 127.15555pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 417.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 7.59998pt on input line 427.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 428.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[36 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig13a.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Ba
+tterie/01-Cours/v_finale/figures-Chp3/Fig13b.png> </home/jeff/Documents/IUTOrsa
+y/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-Chp3/Fig16.png>]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig15.png, id=885, 589.20125pt x 425.59pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig15.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig15.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig15.png  used on input line 431.
+(pdftex.def)             Requested size: 191.20082pt x 138.1073pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 433.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig19.png, id=886, 993.7125pt x 771.88374pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig19.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig19.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig19.png  used on input line 448.
+(pdftex.def)             Requested size: 191.20082pt x 148.50858pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 450.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\T1/opensans-TOsF/b/sc/10 Figure 3.18 ^^U |[]\T1/opensans-TOsF/m/sc/10 Courbe
+ de cy-clage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/opensans-TOsF/m/sc/10 (charge/décharge) d'un ac-cu-mu-la-teur
+ []
+
+
+Overfull \hbox (20.66284pt too wide) in paragraph at lines 459--460
+\T1/opensans-TOsF/m/sc/10 tir à un ma-té-riau qui ré-ponde au mieux au ca-hier 
+des charges : $[]$, $[]$
+ []
+
+
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3//Fig20.pgf)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 463.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (27.50256pt too wide) in paragraph at lines 1123--463
+ [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 463.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[37 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig15.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-Chp3/Fig19.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-Chp3/Fig21.png, id=901, 488.5452pt x 310.47192pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-Chp3/Fig21.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig21.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-Chp3/Fig21.png  used on input line 471.
+(pdftex.def)             Requested size: 231.03711pt x 146.82666pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 473.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+[]\T1/opensans-TOsF/m/sc/10 [à cela s'ajoute la com-pa-rai-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+\T1/opensans-TOsF/m/sc/10 son de plu-sieurs cycles de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+\T1/opensans-TOsF/m/sc/10 charge/décharge : le cy-clage]
+ []
+
+)
+(/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/Ch
+pAnn-3.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 1.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[38 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-Chp3/Fig21.png>]
+Annexe A.
+
+Overfull \hbox (17.37813pt too wide) in paragraph at lines 10--10
+[]\T1/opensans-TOsF/b/n/14.4 Construction de la théo-rie pour la géo-mé-trie oc
+-ta-édrique 
+ []
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig01.png, id=909, 1295.84125pt x 226.8475pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig01.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig01.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig01.png  used on input line 13.
+(pdftex.def)             Requested size: 318.67209pt x 55.78407pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 14.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig02.png, id=910, 1190.4475pt x 308.15125pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig02.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig02.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig02.png  used on input line 21.
+(pdftex.def)             Requested size: 318.67209pt x 82.48723pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 22.
+See the caption package documentation for explanation.
+
+[39
+
+ </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/f
+igures-ChpAnn3/Fig01.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Bat
+terie/01-Cours/v_finale/figures-ChpAnn3/Fig02.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig03.png, id=919, 851.18pt x 448.67625pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig03.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig03.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig03.png  used on input line 58.
+(pdftex.def)             Requested size: 219.08745pt x 115.48236pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig04.png, id=920, 1656.1875pt x 520.94624pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig04.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig04.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig04.png  used on input line 69.
+(pdftex.def)             Requested size: 318.67209pt x 100.23676pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 70.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 70.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[40 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig03.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_
+Batterie/01-Cours/v_finale/figures-ChpAnn3/Fig04.png>]
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig05.png, id=929, 1016.79875pt x 835.12pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig05.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig05.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig05.png  used on input line 80.
+(pdftex.def)             Requested size: 318.67209pt x 261.72618pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 81.
+See the caption package documentation for explanation.
+
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig06a.png, id=932, 486.81876pt x 190.7125pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig06a.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig06a.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig06a.png  used on input line 97.
+(pdftex.def)             Requested size: 113.81102pt x 44.58463pt.
+</home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/fi
+gures-ChpAnn3/Fig06b.png, id=933, 491.8375pt x 220.825pt>
+File: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_fina
+le/figures-ChpAnn3/Fig06b.png Graphic file (type png)
+<use /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig06b.png>
+Package pdftex.def Info: /home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batte
+rie/01-Cours/v_finale/figures-ChpAnn3/Fig06b.png  used on input line 97.
+(pdftex.def)             Requested size: 113.81102pt x 51.09866pt.
+
+Overfull \hbox (48.3709pt too wide) in paragraph at lines 97--98
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 99--99
+\T1/opensans-TOsF/m/sc/10 fort / bas spin ; [][]A.6b[][] confi-gu-ra-tion champ
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 106.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+[41 </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_final
+e/figures-ChpAnn3/Fig05.png> </home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_
+Batterie/01-Cours/v_finale/figures-ChpAnn3/Fig06a.png> </home/jeff/Documents/IU
+TOrsay/1-Cours/3p06-Cours_Batterie/01-Cours/v_finale/figures-ChpAnn3/Fig06b.png
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 121.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4464pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4464pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-0.4464pt}.
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 118.
+(pdftex.def)             Requested size: 40.64pt x 14.22636pt.
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [42]
+(./main-2.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main-2.out' has not changed.
+(rerunfilecheck)             Checksum: B5EFF40C585CDA61AD577DB09900140E;15542.
+ ) 
+Here is how much of TeX's memory you used:
+ 44888 strings out of 476039
+ 986681 string characters out of 5791729
+ 1953975 words of memory out of 5000000
+ 65820 multiletter control sequences out of 15000+600000
+ 644267 words of font info for 146 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 132i,20n,135p,1277b,1236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regula
+r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pf
+b>
+Output written on main-2.pdf (42 pages, 38705086 bytes).
+PDF statistics:
+ 1140 PDF objects out of 1200 (max. 8388607)
+ 850 compressed objects within 9 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 811 words of extra memory for PDF output out of 10000 (max. 10000000)
+

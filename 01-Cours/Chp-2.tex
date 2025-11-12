@@ -1,588 +1,35 @@
-\anachapter{Propriétés élèmentaires du lithium}
-\label{chp:prop_lithium}
+\anachapter{De l'atome de lithium aux matériaux du pôle $\oplus$}
+%\anachapter{Propriétés élèmentaires du lithium}
+\label{chp:atom_to_mat}
 
 \objectif{
-\faBattery[0] Les éléments chimiques au sein du tableau périodique
-\begin{itemize}[label=\faAngleRight]
-\item Savoir identifier les métaux/semi-métaux/non-métaux ;
-\item Interpréter l'évolution des grandeurs atomiques : potentiel d'ionisation, attachement électronique et électronégativité au sein du tableau périodique ;
-\item Mettre en perspective la nature des liaisons chimiques : ionique, covalente ou métallique en fonction de l'électronégativité des élements ;
-\item Connaître les différents rayons et interpréter leur évolution au sein du tableau périodique ;
-\item Utiliser et interpréter les températures de changement d'état sur la base de la force de liaison interatomiques  ;
-\item Connaître et interpréter la dureté en perspective avec la nature de la liaison chimique.
-\end{itemize}
-\faBattery[1] Le lithium : un élément chimique d'intérêt dans les batteries
-\begin{itemize}[label=\faAngleRight]
-\item Connaître les spécificités atomiques du lithum au sein du tableau périodique ;
-\item Identifier l'anomalie de potentiel rédox du lithium au sein de sa famille chimique et la mettre en perspective avec ses propriétés en solution.
-\end{itemize}
-\faBattery[2] De l'atome au matériau
+\faBattery[0] De l'atome au matériau
 \begin{itemize}[label=\faAngleRight]
 \item Connaître la classification de dimensionnement et citer quelques matériaux d'intérêt dans les batteries ;
-\item Identifier les sites d'insertion dans une structure ;
-\item Identifier la coordination de l'ion lithium dans les sites interstitiels et justifier de la stabilité de l'ion ;
-\item Savoir juger de la stabilité d'une structure hôte en utilisant le modèle de liaison ionique, sur la base d'arguments structuraux et énergétiques ;
-\item Justifier une transition de phase lors de l'insertion du lithium ; 
-\end{itemize}
-
-\faBattery[2] Processus d'insertion
-\begin{itemize}[label=\faAngleRight]
+\item Savoir donner un sens thermodynamique sur la base d'arguments enthalpique et entropique justifiant l'insertion du lithium dans une structure ;
 \item Avoir quelques idées sur les différents modes d'insertion du lithium dans une structure ;
-\item Mettre en relation l'existence de transition de phase avec le mécanisme de lithiation d'un matériau ;
-\item Prévoir le profil de potentiel attendu en fonction des phases présentes.
+\item Savoir interpréter la stabilité d'une phase/structure/variété allotropique à l'aide d'une courbe de solvus ;
+\item Justifier l'évolution de la f.e.m. à l'aide de la stabilité des phases, du nombre de phase dans une courbe de charge/décharge.
 \end{itemize}
 
-\faBattery[3] Notions élementaires de théorie des bandes
+\faBattery[2] Stabilité des structures d'insertion les plus courantes
 \begin{itemize}[label=\faAngleRight]
-\item Connaître l'origine orbitalaire de la théorie des bandes ;
-\item Connaître les termes associés au modèle de bande : niveau de Fermi, bandes de conduction, bandes de valence, densité d'état, gap d'énergie ;
-\item Justifier l'influence d'une oxydation et d'une réduction sur une bande.
+\item Connaître les paramètres stabilisant une charpente moléculaire ;
+\item Identifier les sites d'insertion dans une structure ;
+\item Connaître les paramètres pouvant jouer un rôle dans la stabilité des sites d'insertion lors de l'occupation par des ions lithium.
 \end{itemize}
 
-
-\faBattery[4] Courbe de charge-décharge
+\faBattery[4] Stabilité des liaisons iono-covalentes
 \begin{itemize}[label=\faAngleRight]
-\item Expliquer la position des bandes dans le cas d'interactions intra-maille fortes ;
-\item Expliquer la position des bandes dans le cas d'interactions inter-maille fortes ;
-\item Connaître qualitativement et justifier l'effet d'une distorsion de Jahn-Teller ;
-\item Connaître qualitativement et justifier l'existence d'un transition de Mott-Hubbard ;
-\item Justifier l'impact sur les courbes de potentiel.
+\item Identifier la coordination des cations dans la charpente moléculaire et justifier de la stabilité de l'ion ;
+\item Savoir juger de la stabilité d'une structure hôte en utilisant le modèle de liaison ionique, sur la base d'arguments structuraux (rayons, polyèdres, connectivité$\ldots$) et énergétiques (champs cristallin) ;
+\item Interpréter des modifications structurales (\emph{par ex.} paramètres de maille) ou des paramètres énergétique (\emph{par ex.} f.e.m.) sur la base d'une interaction à deux orbitales.
 \end{itemize}
 }
-%utilisation : domaine industriel, produits chimiques
-%https://new.societechimiquedefrance.fr/produits/lithium/
 
-Le lithium est le troisième élément du tableau périodique, appartenant à la famille des alcalins. Selon les règles de l'Aufbau, le lithium a pour structure électronique $1s^2 2s^1 = \left[ \ce{He} \right]^2 2s^1$. La configuration électronique nous indique qu'il existe deux degrés d'oxydation : 0 (métal, état natif) et +I (ionique). Ce transfert d'électron entre ces deux formes est à l'origine des propriétés rédox du lithium\mySideNote{modélisée par une demi-équation rédox de la forme \begin{equation*}
-Li = Li^+ + e^-
-\end{equation*}}. Le lithium n'existe pas à l'état natif\mySideNote{Il s'oxyde au contact de l'air.}, mais ce n'est pas un métal rare sous forme ionique.
+%\section{De l'atome aux matériaux}
 
-Il est le $30^e$ le plus abondant sur Terre et a pour principaux réservoirs naturels\mySideNote{Par réserves croissantes} :
-\begin{enumerate}
-\item les océans, mais le lithium y est présent en solution de manière extrêmement dilué ($\sim 0.18$ ppm) ;
-\item les salars (\SI{60}{\percent}) et les minerais (\SI{40}{\percent}).
-\end{enumerate}
-
-Dans les salars, principalement au Chili et en Bolivie, le lithium représente approximativement \SI{0.15}{\percent} de la masse de sels. Dans les minerais\mySideNote{Principaux minerais sont spodumène \ce{LiAlSi2O6}, lépidolite \ce{KLiAl(F,OH)2Si4O10}, petalite \ce{LiAlSi4O10} et amblygonite \ce{(Li,Na)AlPO4 (F,OH)}}, le lithium représente entre 0.5 et \SI{2}{\percent} en masse.
-
-Pour préparer le lithium à partir des salars, principale source exploitée, les industriels dissolvent le sel dans l'eau salée (formation de \ce{LiCl}), et le concentre par évaporation. Le lithium est alors précipité par des carbonates à basse température\mySideNote{Ceci permet de le séparer du sodium puisque \ce{Na2CO3} est soluble dans l'eau à froid}.
-\begin{align*}
-\ce{LiCl + Na2CO3 &-> Li2CO3 + NaCl} \\
-\ce{Li2SO4 + Na2CO3 &-> Li2CO3 + Na2SO4}
-\end{align*}
-
-Un des enjeux aujourd'hui est de parvenir à diversifier les sources de lithium et de rendre les batteries durables, notamment en développant le recyclage des batteries. Pour donner un ordre d'idée : produire \SI{1}{\tonne} de lithium nécessite \SI{750}{\tonne} de saumure ou \SI{250}{\tonne} de minerais ou \SI{28}{\tonne} de batteries. Développer des procédés\mySideNote{Il existe deux procédés actuls : pyrométallurgie (à haute température) et hydrométallurgie (à basse température)} pour séparer les métaux utilisés dans les batteries : \ce{Li}, \ce{Co}, \ce{Mn}, \ce{Ni}, \ce{Al}$\ldots$ sera un des enjeux à venir pour les futurs chimistes que vous êtes !
-
-Dans le cas présent, nous nous focaliserons sur les propriétés atomiques, physiques et chimiques qui font du lithium un bon candidat dans les batteries.
-
-
-
-%Cependant, toute la difficulté aujourd'hui est dans le nombre de métaux impliqué dans les électrodes : \ce{LiCoO2}, \ce{LiMn2O4}, \ce{LiFePO4}, \ce{LiMnPO4} puis \ce{Li Ni_{1-x-y} Co_x Al_y O2}  et \ce{Li Ni_{1-x-y} Mn_x Co_y O2}. Ce minerais peut etre récupéré par deux voies distinctes : la pyrométallurgie (à haute température) et l'hydrométallurgie (à basse température).
-
-%Malgré ceci, la législation sur le sujet n'oblige les industriels à recycler que \SI{60}{\percent} en masse de la batterie. Du fait de sa masse, le lithium est rarement l'élement recyclé (ce sont plutôt les métaux "lourds" comme le cobalt \ce{Co}). De plus, il n'existe que peu de contrainte sur la conception des batteries facilitant leur recyclage.
-
-%https://record-net.org/storage/etudes/17-0915-1A/synthese/Synth_record17-0915_1A.pdf
-%https://record-net.org/storage/etudes/17-0915-1A/rapport/Rapport_record17-0915_1A.pdf
-
-%Deux voies de recyclage sont possibles : 
-
-%- structure électronique
-%- abondance
-%- souces : salars (60%), minerais (40%)
-
-% Salar de Atocama, sala de Ayuni
-% LiCl + Na2 CO3 -> Li2CO3 + NaCl
-% Li2SO4 + Na2CO3 -> Li2CO3 + Na2SO4
-% LiCl 55% - KCl -45% -> electrolyse
-
-%spodumène, amblygonite, pétalite, lépidolite
-
-%réserves : 0.18 ppm -g/tonne
-% eau thermales : 7 up (1931) abandon (étourdissements, nausées, pb de thydroïdes)
-
-%https://www.planetoscope.com/matieres-premieres/671-production-mondiale-de-lithium.html
-%https://www.encyclo-ecolo.com/Lithium
-%répartition des ressources
-
-%Nombre de métaux ompliqués dans les technologies : 
-%6 (1700), 9 (1800), 21(1900), 50(2000)
-
-%temps : LiCoO2, LiMn2O4, LiFePO4, LiMnPO4, Li Ni 1-x-y Cox Aly O2, Li Ni1-x-y Mn x Coy O2
-
-%recyclage : 1 tonne de lithium :
-%250 T de minerais, 750 T de saumure, 28T de batteries Li-ion
-
-%2 voies de recyclage : pyrométallurgie (HT, fusion), hydrométallurgie (BT, chimie des solutions)
-%Lithium Process Chemistry 2015
-%ex : LiCoO2
-%Courtoisie A. Chagnes
-%- pas de loi pour le recyclage des batteries au Li-ion (récupération non pas du lithium actuellement, mais du Co)
-%- europe oblige recyclage 60% du poids de la batterie, lithium = élément léger donc pas recyclé.
-%- personne ne recycle de lithium
-%- innovation au niveau du recyclage / hydro/pyro métallurgie (solution : recyclage direct par les américains)
-%- concevoir des batteries où les élèments sont bien séparés.
-%- qui paie pour le recyclage lorsqu'il n'est pas rentable ?
-
-%OLIVIER Vidal, directeur de rcherche, CNRS ISTerre : La consommation de métaux a doublé depuis le début du siècle et si la tendance se poursuit, nous devrons d'ici 2025 en produire plus que nous n'en avons produits depuis le début de l'humanité.
-
-
-%Rapport annuel de l'ADEME 2013, recyclage du plomb (facile, viable)
-
-\section{\`{A} l'échelle atomique$\ldots$}
-
-
-
-\subsection{Propriétés corps purs}
-
-\subsubsection{Densité et masse volumique}
-
-\definition{La masse volumique d'une substance pure ou d'un mélange est le rapport entre la masse de cette substance ramenée et le volume qu'elle occupe. Elle est donnée en \si{\kilo\gram\per\meter\cubed}.}
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs}\\
-\midrule
-Masse volumique [\si{\kilo\gram\per\deci\meter\cubed}] & 0.535 & 0.668 & 0.856 & 1.532 & 1.879 \\
-Masse molaire [\si{\gram\per\mole}] & 6.94 & 23.0 & 39.1 & 85.5 & 133 \\
-\bottomrule
-%d & 0.53 & 0.97 & 0.86 donnée Tarascon
-\end{tabular}
-\captionof{table}{\'{E}volution de la masse volumique des éléments alcalins dans leur état solide sous \SI{1}{\bar} et \SI{25}{\celsius}}
-\end{center}
-
-%\begin{boxedminipage}[t]{\textwidth}
-\textbf{Observation :} 
-\begin{itemize}
-\item Li, Na, K sont moins denses que l'eau à 25°C
-\item Rb et Cs sont plus denses que l'eau
-\end{itemize}
-Est-ce contre-intuitif ? Rb et Cs présentent un remplissage de couches $f$. Par conséquent, la masse molaire augmente plus vite entre K et Rb, ainsi qu'entre Rb et Cs, qu'entre les autres alcalins.
-
-~\
-
-\textbf{Justification}
-On peut qualitativement montrer que ces données sont cohérentes en estimant le rayon moyen des atomes. On sait que tous les alcalins cristallisent dans une maille cubique centrée dans les conditions ambiantes. On peut donc calculer l'ordre de grandeur du rayon métallique dans les solides :
-
-\begin{equation}
-\rho \sim \frac{Z M }{N_a a^3} \quad \& \quad \sqrt{3} a = 4 R \implies R \sim \frac{\sqrt{3}}{4} \sqrt[3]{\frac{Z M}{\rho N_a}}
-\end{equation}
-
-avec $a$ le paramètre de maille, $Z$ la multiplicité, $M$ la masse molaire de l'élément, $N_a$ le nombre d'Avogadro, $R$ le rayon métallique.
-
-On trouve avec $Z = 2$ : 
-
-\begin{minipage}[]{0.66\textwidth}
-\centering
-\input{\FigPath/Gpy-01.pgf}
-\begin{tabular}{cccccc}
-\toprule
-Element & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs}\\
-\midrule
-Rayons métallique calculé & 152 & 210 & 231 & 247 & 267 \\
-\bottomrule
-\end{tabular}
-\end{minipage}\hfill\begin{minipage}[]{0.30\textwidth}
-\captionof{figure}{Corrélation entre le rayon calculé et le rayon tabulé.}
-\end{minipage}
-
-%\end{boxedminipage}
-
-\definition{Le \ce{Li} est l'alcalin le moins \blancbis{dense}, à cause de sa faible masse molaire, mais il présente les distances \blancbis{interatomiques} les plus \blancbis{faibles}.}
-
-\subsubsection{Température de fusion et d'ébullition}
-
-\definition{Les températures de \blancbis{fusion} et \blancbis{d'ébullition} sont les températures de transition de phase, modélisées en chimie par les équilibres suivants : 
-\begin{align*}
-\ce{X (s) -> X (l)} \quad & \text{fusion} & T_f \\
-\ce{X (l) -> X (g)} \quad & \text{ébullition} & T_{eb}
-\end{align*}
-
-Ces grandeurs nous renseignent sur la \blancbis{cohésion inter-atomique} au sein de la phase d'origine (donc pour la fusion le solide).}
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-Température de fusion $T_f ~ [\si{\celsius}]$ & 180 & 98 & 63.5 & 39 & 28.4 \\
-Température d'ébullition $T_{eb} ~ [\si{\celsius}]$ & 1336 & 883 & 757 & 700 & 670 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution de la température de fusion et d'ébullition au sein de la famille des alcalins à pression ambiante.}
-\end{center}
-
-\`{A} titre de comparaison, si on prend l'élément fer, sa température de fusion (resp. d'ébullition) est de \SI{1540}{\celsius} (resp. \SI{2860}{\celsius}). Cette différence s'explique par la présence d'un \blancbis{unique} électron de \blancbis{valence} contribuant à la liaison chimique.
-
-\definition{
-Tous les alcalins présentent une température de fusion et d'ébullition faible par rapport aux métaux de transition. Cependant, du fait de sa petite "taille", il s'agit de l'alcalin présentant la \blancbis{liaison métallique} la plus \blancbis{forte} des alcalins.}
-
-\subsubsection{Dureté}
-
-\definition{Les matériaux peuvent être classés en fonction de leur dureté. La dureté permet de comparer les éléments à 10 éléments courants classés de 1 (le talc) à 10 (le diamant) selon une échelle, appelée \blancbis{échelle de Mohs}.}
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-Dureté & 0.6 & 0.4 & 0.5 & 0.3 & 0.2 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{Classification des alcalins en fonction de leur dureté selon dans l'échelle de Mohs}
-\end{center}
-
-\definition{Les alcalins sont tous moins durs que le talc, du fait de la nature diffuse de la liaison métallique. Ils présentent une dureté qui \blancbis{corrèle qualitativement} avec la \blancbis{force de la liaison métal-métal}.}
-
-\subsubsection{Rayon de covalence, ionique et métallique}
-Bien que par nature, une orbitale atomique soit spatialement étendue (c.-à-d. que l'orbitale est définie sur l'ensemble des réels positifs), les chimistes cherchent à quantifier la zone où la densité électronique est non nulle autour des atomes ou ions. Pour cela, il pose des conventions à connaître et comprendre avant de manipuler ces grandeurs : 
-
-\definition{
-
-%\item[] \textbf{Rayon atomique} \'{A} partir de calculs quantiques \emph{ab initio}, un chimiste peut calculer la forme et les paramètres des orbitales atomiques d'un atome. Ainsi, il peut définir une distance entre le centre de l'atome et l'orbitale atomique occupée la plus externe (= la plus diffuse).
-
-\blancbis{Rayon métallique} \'{A} partir de la mesure par diffraction aux rayons X, un expérimentateur obtient le paramètre de maille. Si on considère le métal corps pur, le rayon métallique est défini comme la moitié de la distance entre les centres de deux atomes plus proches voisins.
-
-~
-
-\blancbis{Rayon covalent} \'{A} partir des données des molécules diatomiques symétriques (\emph{par ex.} \ce{Cl2}, \ce{Br2}$\ldots$), deux atomes sont unis par une liaison simple. La moitié de la distance entre les centres de ces deux atomes est appelée rayon de covalence.
-
-~
-
-\blancbis{Rayon ionique} Dans les solides comportant des éléments de natures différentes, il y a un transfert partiel de charge de l'élément le moins électronégatif (chargé positivement) vers l'élément le plus électronégatif (chargé négativement). Dans un solide ionique, par simplicité, la charge est redistribuée sous forme de cation et anions et la limite entre le cation et l'anion est estimable à l'aide de la diffraction aux rayons X sur cristaux. Dans le cas des cations, ce rayon dépend fortement de l'état de coordination.
-
-
-}
-
-Ces rayons nous renseignent sur la nature de la liaison chimique. En effet, si la liaison est purement ionique entre deux entités \ce{A} et \ce{B}, la distance inter-atomique devrait être la somme des rayons ioniques.
-
-
-\exercice{
-Argumenter sur la nature de la liaison chimique dans le solide LiF (sachant que la distance inter-atomique expérimentale est de \SI{200}{\pico\meter})  et la molécule \ce{CCl4} (sachant que la distance inter-atomique expérimentale est de \SI{177}{\pico\meter}).
-
-
-\begin{itemize}
-\item Rayons de covalence : $R_c( \ce{C} ) = 77 ~ \si{\pico\meter}$ ;  $R_c (\ce{Cl}) = 99 ~ \si{\pico\meter}$
-\item Rayons ioniques : $R_i (\ce{Li}) = 76 \si{\pico\meter}$ ; $R_i ( \ce{F} ) =  119 ~ \si{\pico\meter}$
-\end{itemize}}
-
-
-
-Le rayon métallique est une grandeur utile permettant de quantifier la métallicité de votre solide (à quel point les électrons sont délocalisés). En le comparant au rayon ionique et covalent, vous disposez d'une information sur le type de liaison chimique formé par le lithium : métallique, ionique ou covalent\mySideNote{Ou n'importe quel caractère intermédiaire}.
-
-Dans la série des alcalins, les grandeurs suivantes sont obtenues : 
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-Rayon covalent [\si{\pico\meter}] & 134 & 154 & 196 & 211 & 225 \\
-Rayon ionique IV [\si{\pico\meter}] & 59 & 99 & 137 & - & - \\
-Rayon ionique VI [\si{\pico\meter}] & 76 & 102 & 138 & 152 & 167 \\
-Rayon métallique [\si{\pico\meter}] & 157 & 191 & 235 & 250 & 272 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{Evolution des rayons covalent, ionique IV (tétraèdrique), ionique VI (octaédrique) et métallique dans la série des alcalins}
-%http://www.wiredchemist.com/chemistry/data
-%Ptable
-%http://abulafia.mt.ic.ac.uk/shannon/radius.php?Element=Li
-\end{center}
-
-\exercice{
-
-\Q Justifiez l'évolution du rayon covalent, ionique et métallique au sein d'une famille.
-
-%\begin{boxedminipage}[t]{\textwidth}
-%\blanc{Lorsque l'on descent au sein d'une famille, le nombre quantique principal augmente (ajout d'une couche électronique), ce qui résulte en une augmentation des rayons covalents, ioniques et métalliques.}
-%\end{boxedminipage}
-
-\Q Justifiez l'évolution du rayon ionique avec la coordination.
-%\begin{boxedminipage}[t]{\textwidth}\blanc{On constate une augmentation du rayon ionique avec l'état de coordination. En effet, plus il y a d'anions autour du cation concerné, plus la répulsion inter-anion est grande. Systèmétiquement, une augmentation de la coordination conduit à une augmentation de volume du site de coordination et un allongement des liaisons.}
-%\end{boxedminipage}
-
-
-\Q Mettez en relation l'évolution de l'enthalpie libre standard de sublimation des alcalins avec l'évolution des rayons.
-Expliquer l'évolution des différents rayons au sein de la famille des alcalins et comparez-les entre eux.
-%\begin{boxedminipage}[t]{\textwidth}
-%\blanc{Le rayon métallique augmente lorsque l'on augmente le nombre quantique principal, ce qui résulte en une diminution du recouvrement orbitalaire entre les métaux et donc un diminution de la cohésion du métal. Ainsi, l'énergie réticulaire (associée à la sublimation) et le rayon métallique évolue de manière opposées.}
-%\end{boxedminipage}
-}
-
-
-Il faudra être extrêmement prudent. Ces rayons sont utilisables pour interpréter la coordination et les propriétés au sein des cristaux, mais il faudra bien veiller à ne pas abuser de leur usage, notamment dans l'interprétation des propriétés rédox.
-
-
-
-\subsection{Propriétés dérivant de l'énergie}
-
-L'observation des couleurs de flamme des éléments alcalins est un test caractéristique permettant de les identifier.
-\begin{center}
-\begin{tabular}{M{3cm}M{1.5cm}M{1.5cm}M{1.5cm}M{1.5cm}M{1.5cm}}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-\multirow{3}{*}{\bf Couleur de flamme} & \includegraphics[height=2cm]{Fig01-Li} & \includegraphics[height=2cm]{Fig01-Na} & \includegraphics[height=2cm]{Fig01-K} & \includegraphics[height=2cm]{Fig01-Rb} & \includegraphics[height=2cm]{Fig01-Cs} \\
- & rouge & jaune & violet & violet &  violet \\
-%\midrule
-%\textbf{Longueur d'onde d'émission [\si{\nano\meter}]} & 670.8 & 589.0 & 766.5 & 794.8 & - \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution de la couleur d'émission atomique lors d'un test à la flamme.}
-%https://www.nagwa.com/fr/explainers/417129769426/
-%Spectrométrie d'émission de flamme, 1987,
-\end{center} % valeur du lithium à discuter avec Philippe !
-
-Cette évolution de la couleur révèle la différence de structure électronique de ces éléments et donc de leur propension à s'ioniser.
-
-
-\subsubsection{Potentiel d'ionisation et affinité électronique}
-
-Il existe deux propriétés atomiques fondamentales permettant d'interpréter l'affinité d'un élément en phase gazeuse vis-à-vis d'un électron.
-
-\definition{
-L'\blancbis{attachement/affinité électronique}, notée $A_e$ permet de quantifier l'affinité électronique de l'atome pour un nouvel électron. L'équilibre associé est le suivant : 
-\begin{align*}
-\ce{X (g) + e^- (g) -> X^- (g)}
-\end{align*}
-
-~
-
-L'\blancbis{enthalpie/le potentiel d'ionisation}, noté(e) $I_p$, permet de quantifier l'affinité électronique de l'atome pour ses électrons de valence. L'équilibre associé est le suivant : 
-\begin{align*}
-\ce{X (g) -> X^+ (g) + e^- (g)}
-\end{align*}}
-
-\begin{center}
-\begin{tabular}{ccccccc}
-\toprule
- & & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-\multirow{2}{*}{\bf Potentiel d'ionisation} & $\si{\electronvolt}$ & 5.39 & 5.14 & 4.34 & 4.18 & 3.80 \\
- & $\si{\kilo\joule\per\mole}$ & 520 & 496 & 419 & 402 & 376 \\
-\midrule
- \multirow{2}{*}{\bf Affinité électronique} & $\si{\electronvolt}$ & 0.618 & 0.547 & 0.502 & 0.486 & 0.472 \\
- & $\si{\kilo\joule\per\mole}$ & 59.6 & 52.8 & 48.4 & 46.9 & 45.5 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution du potentiel d'ionisation et de l'affinité électronique de la famille des alcalins}
-\end{center}
-
-
-Dans la série des alcalins, on \blancbis{augmente} progressivement le \blancbis{nombre quantique principal} $n$, ce qui a pour effet d'augmenter l'écrantage du noyau atomique par les couches électroniques profondes\mySideNote{c.-à-d. les orbitales de c{\oe}ur}. Il est par conséquent plus simple d'ioniser un alcalin de la dernière période, mais aussi plus facile de lui attacher un électron (l'opposé pour le lithium).
-
-\subsubsection{\'{E}lectronégativité : affinité des élements aux électrons}
-
-Les deux grandeurs précédentes ne sont pas indépendantes l'une de l'autre, et en général on leur préfère une grandeur plus simple appelée \blancbis{électronégativité}, notée $\chi$. Il existe de multiples façon de définir cette grandeur, mais on se limitera à la définition de Mulliken.
-
-
-\definition{
-Mulliken considère que l'électronégativité peut être vue comme une moyenne pondérée entre $I_p$ et $A_e$. 
-\begin{align*}
-\chi \propto \frac{A_e + I_p}{2}
-\end{align*}
-
-On trouve parfois cette formule en présence d'un préfacteur purement empirique qui permet d'\blancbis{accorder l'échelle de Mulliken} à l'échelle de \blancbis{Pauling}.}
-
-
-
-Cette grandeur est très utile car elle peut s'interpréter qualitativement comme : la propension d'un élément chimique à \blancbis{attirer les électrons} vers lui.
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-Electronégativité $\chi$ & 0.98 & 0.93 & 0.82 & 0.82 & 0.79 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution de l'électronégativité de Mulliken au sein de la famille des alcalins}
-\end{center}
-
-On constate que les alcalins sont des éléments \blancbis{électropositifs}\mySideNote{électronégativité très faible}. L'électronégativité évolue de manière opposée au nombre quantique principal $n$. Du fait de ce comportement, les alcalins perdent le plus souvent leur électrons au contact d'autres éléments chimiques : on les retouve le plus souvent sous la forme d'ions monovalents stables et peu réactifs en solution (\emph{par ex.} dans l'eau).
-
-
-\exercice{Résumer l'évolution de l'électronégativité au sein du tableau périodique en donnant son évolution selon : 
-\begin{enumerate}
-\item une ligne
-\item une colonne
-\end{enumerate}
-Vous justifierez l'origine physique de ces tendances.}
-
-\definition{\`{A} l'état gazeux, le lithium est l'élèment présentant la plus grande électronégativité de la famille des alcalins. A priori, il ne peut être considéré comme le meilleur candidat dans les batteries. Cependant, c'est négligé un aspect important : l'environnement chimique du lithium (\emph{par ex.} le solvant).}
-
-
-
-\section{Propriétés rédox : le pouvoir réducteur du lithium}
-
-\subsection{Potentiel rédox standard}
-
-Au chapitre \ref{chp:thermochimie}, on a vu que le potentiel standard du couple oxydant \ce{Ox}/réducteur \ce{Red} est la force électromotrice d'une pile sans potentiel de jonction associant à la cathode le couple considéré dans son état standard et à l'anode l'électrode standard à hydrogène. %associant à droite (cathode) le couple considéré dans son état standard et à gauche l'électrode standard à hydrogène (anode). 
-
-Dans le cas du lithium par exemple, ceci revient à étudier l'équilibre de réaction fictif suivant : 
-
-\begin{center}
-\begin{minipage}{0.4\textwidth}
-\begin{align*}
-\ce{e^- + Li^+(aq) &= Li(s)} & \times 1 \\
-\ce{H^+ (aq) + e^- &= 1/2 H2 (g)} & \times n\\
-\hline
-\ce{1/2 H2 (g) + Li^+(aq) &= Li(s) + H^+(aq)}
-\end{align*}
-\end{minipage}
-\end{center}
-
-Dans la série des alcalins, les valeurs suivantes sont tabulées :
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
-\midrule
-$E^\circ ~ [\si{\volt / {ESH}}]$ & -3.04 & -2.71 & -2.92 & -2.98 & -3.03 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution du potentiel rédox standard, en \si{\volt / {ESH}}, dans la série des alcalins à \SI{298}{\kelvin}}
-%http://www.wiredchemist.com/chemistry/data
-%Metal Ions in solution
-%Potentiel rédox standard $E^\circ ~ [\si{\volt / {ESH}}]$ & -3.04 & -2.71 & -2.92 & -2.98 & -3.03 ligne donné par Tarascon
-%$E^\circ ~ [\si{\volt / {ESH}}]$ & -3.045 & -2.714 & -2.925 & -2.925 & -2.923 \\
-\end{center}
-
-Du \ce{Na} au \ce{Cs}, le comportement de la série est en bon accord avec ce que prédisait l'électronégativité. Cependant, le lithium a un potentiel rédox aussi bon que le \ce{Cs}$\ldots$ Pourquoi ?
-
-\begin{comment}
-En réduction, ceci revient à s'intéresser à l'équation de réaction suivante : 
-\begin{center}
-\begin{minipage}{0.4\textwidth}
-\begin{align*}
-\ce{ne^- + Ox &= Red} & \times 1 \\
-\ce{H^+ (aq) + e^- &= 1/2 H2 (g)} & \times n\\
-\hline
-\ce{H^+ (aq) + Ox &= Red + n/2 H2 (g)}
-\end{align*}
-\end{minipage}
-\end{center}
-
-Dans les conditions standard sous $P =P^\circ$ et $T = 298 ~ \si{\kelvin}$,
-
-\begin{align*}
-\Delta_r G^\circ = \frac{n}{2} \mu_{H_2}^\circ + \mu_{Red}^\circ - \mu_{Ox}^\circ - n \mu_{H^+}^\circ
-\end{align*}
-
-Dans la convention de Latimer, l'ESH est définie thermodynamiquement par $\mu_{H^+}^\circ = \mu_{H_2}^\circ = 0$. En utilisant la définition de l'enthalpie libre standard, on a :
-\begin{align*}
-\Delta_r G^\circ = - \frac{\mu_{Red}^\circ - \mu_{Ox}^\circ}{n F}
-\end{align*}
-
-Ce potentiel standard dépend de la température et du solvant.
-\end{comment}
-
-\subsection{Comprendre l'anomalie rédox du lithium}
-
-\begin{minipage}[]{0.5\textwidth}
-\centering
-\includegraphics[width=6cm]{Fig03.png}
-\end{minipage}\hfill\begin{minipage}[]{0.45\textwidth}
-\captionof{figure}{Cycle de Born-Haber [$\color{red}\star$ : sublimation, $\color{blue}\star$ : ionisation, $\color{olive}\star$ : hydratation]}
-\label{fig:03}
-\end{minipage}
-
-Bien que le lithium soit l'élément le moins ionisable, il présente parmis les meilleures performances rédox. Deux autres phénomènes physiques fictifs sont à prendre en compte pour décrire l'enthalpie libre standard associée à un transfert d'électron : 
-\begin{enumerate}
-\item la capacité de sublimation de l'élément ;
-\item la solvatation de l'ion.
-\end{enumerate}
-
-%- le lithium est le plus réducteur (potentiel d'ionisation le plus faible = plus ionisable ?
-%- lien avec l'enthalpie d'ionisation ?
-%- lien avec l'énergie de solvatation %tracer l'enthalpie d'ionisation en comparaison du potentiel rédox standard.
-
-\begin{figure}[H]
-\begin{centering}
-\subfloat[\label{fig:Gpy-02}]{\resizebox{!}{0.45\linewidth}{\input{\FigPath/Gpy-02.pgf}}}
-\subfloat[\label{fig:Gpy-03}]{\resizebox{!}{0.45\linewidth}{\input{\FigPath/Gpy-03.pgf}}}
-\end{centering}
-\caption{\ref{fig:Gpy-02} \'{E}volution de l'enthalpie libre de sublimation, le potentiel d'ionisation et l'enthalpie libre d'hydratation dans la famille des alcalins ; \ref{fig:Gpy-03} Enthalpie libre de demi-réaction résultant du cycle de Born-Haber de la Fig. \ref{fig:03}.}
-\end{figure}
-
-Comme on pouvait s'y attendre, les enthalpies de sublimation sont dans l'ensemble assez faible pour tous les éléments alcalins et ne sont pas dans cette série un critère déterminant. De son côté, l'enthalpie de solubilisation du lithium est très faible en comparaison aux autres alcalins, et justifie l'anomalie observée au niveau rédox. Alors pourquoi le cation lithium est-il si soluble dans l'eau ?
-
-
-\begin{minipage}[]{0.5\textwidth}
-\resizebox{1.0\linewidth}{!}{\input{\FigPath/Gpy-04.pgf}}
-\end{minipage}\hfill\begin{minipage}[]{0.45\textwidth}
-\captionof{figure}{Corrélation entre l'enthalpie libre de réaction et le potentiel standard}
-
-Ce graphique montre que la relation 
-
-$$\Delta_r G^\circ = -mF \left( E^\circ (\ce{Li^+} / \ce{Li}) - E^\circ ( \ce{H^+} / \ce{H2}) \right)$$ 
-
-démontrée au Chp.\ref{chp:thermochimie} est bien vérifiée.
-\end{minipage}
-
-
-%- sublimation/hydratation/cycle de Born Haber
-%- relation entre Delta r G et E° = carte de corrélation !
-%Tracer l'énergie de sublimation, énergie d'ionisation et énergie d'hydratation
-
-
-%- le lithium est le plus réducteur grâce à son énergie de solvatation !
-
-\subsection{Importance de la solvatation dans les propriétés du lithium}
-
-Il existe des paramètres permettant de comprendre la solvatation du lithium.
-
-\subsubsection{Rayon de cavité/hydrodynamique}
-
-\definition{
-\begin{minipage}{0.30\textwidth}
-\includegraphics[width=\textwidth]{figures-Chp2/Fig25}
-\end{minipage} \hfill \begin{minipage}{0.68\textwidth}
-Le \blancbis{rayon de cavité} est la distance entre le centre de l'ion et la première sphère de solvatation de l'ion.\\
-Cela signifie qu pour tout distance inférieure au rayon de cavité, il existe une probabilité nulle de rencontrer une molécule de solvant.
-\end{minipage}} 
-
-Par conséquent, plus le rayon de cavité est petit, plus les molécules de solvant sont proches de l'ion et plus les liaisons ion-molécules de solvant sont fortes.
-
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs}\\
-\midrule
-Rayon cavité \si{\angstrom} & 1.38 & 1.73 & 2.11 & 2.21 & 2.41 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution du rayon de cavité en milieu aqueux dans la série des alcalins dans les conditions ambiantes.}
-%Fosset, Chimie physique expérimental, CAPES, 2000
-\end{center}
-
-Le lithum est donc l'ion possédant les \blancbis{interactions intermoléculaires} les plus fortes avec les molécules d'eau, ce qui explique la grande \blancbis{enthalpie de solvatation} résultante.
-
-
-\subsubsection{Coordination}
-
-La \blancbis{coordination}\mySideNote{Attention, la définition de la coordination dans un liquide et un solide est un peu différente. Dans un solide, la coordinence correspond au nombre de plus proches voisins, c'est-à-dire au nombre d'atomes liés par une liaison chimique à l'atome d'intérêt.} correspond au nombre de molécules présentes dans les couches de solvatation successives. Plus ce nombre est grand et plus il y a de molécules de solvant coordinés (c.-à-d. ressentant des interactions issues du soluté) au cation.
-
-\begin{center}
-\begin{tabular}{cccccc}
-\toprule
- & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs}\\
-\midrule
-Nombre de coordination & 22-25 & 13-17 & 7-11 & 6-10 & 6-10 \\
-\bottomrule
-\end{tabular}
-\captionof{table}{\'{E}volution de la coordination dans la série des alcalins en milieu aqueux dans les conditions ambiantes}
-%Fosset, Chimie physique expérimental, CAPES, 2000
-\end{center}
-
-Dans le cas du lithium, on remarque que sa petite taille et son petit rayon de cavitation lui permettent d'avoir de nombreuses molécules d'eau impliquées dans sa solvatation.
-
-\definition{La petite taille du cation lithium fait que cet ion porte une densité de charge très grande, ce qui rend l'interaction de l'ion avec le solvant très forte (faible rayon de cavité). Par conséquent, de nombreuses molécules d'eau (via les oxygènes) sont sensibles aux interactions électrostatiques avec le cation (grande coordinence).}
-
-\section{De l'atome aux matériaux}
-
-Dans cette section, nous allons aborder l'aspect structural des électrodes. Comme souvent en chimie, les chimistes des matériaux disposent d'un pool restreint de "structures cristallographiques" qui peuvent être viables pour les batteries. \`{A} partir de ce pool, les chimistes réalisent des substitutions d'élements afin d'améliorer les performances d'une batterie.
+Dans cette section, nous allons aborder l'aspect structural des matériaux d'insertion du pôle $\oplus$. Comme souvent en chimie, les chimistes des matériaux disposent d'un pool restreint de "structures cristallographiques" qui peuvent être viables pour les batteries. \`{A} partir de ce pool, les chimistes réalisent des substitutions d'éléments afin d'améliorer les performances d'un matériau et de répondre au cahier des charges fixé.
 
 %WARNING ci-dessous
 %\ce{M^{no} O2 + xLi^+ + x e^- = A_x M^{no-x} O2}
@@ -592,26 +39,35 @@ Dans la majorité des technologies de batteries d'aujourd'hui, il est important 
 
 De ce fait, il est important de penser la structure des matériaux comme quelque chose de \blancbis{dynamique}, et non pas de statique et immuable. En effet, lorsqu'il y a insertion du lithium dans un matériau, plusieurs questions se posent : 
 \begin{itemize}
-\item le lithium est-il stable dans le matériau. Si oui, dans quels sites cristallographiques ?
-\item le matériau hôte est-il stable ? Si oui, va-t-il ne connaître qu'une légère dilatation de sa structure ? Sinon, va-t-il subir une modification de structure ou carrément se vitrifier ?
+\item le lithium stabilise-t-il ou destabilise-t-il le matériau ? 
+\item dans quels sites cristallographiques le lithium s'insère-t-il de manière préférentielle ?
+\item le matériau hôte est-il stable ? Si oui, va-t-il ne connaître qu'une légère dilatation de sa structure ? Sinon, va-t-il subir un changement de structure (transition de phase) ou carrément se vitrifier ?
 \end{itemize}
 
-\subsection{Le lithium au sein d'un matériau hôte}
+\section{Le lithium au sein d'un matériau hôte}
 
-\subsubsection{Topologie des matériaux d'insertion : la dimension des matériaux}
+\subsection{Topologie des matériaux d'insertion : la dimension des matériaux}
 
 Les matériaux d'insertion sont des structures disposants de sites interstitiels\mySideNote{En cristallographie, vous avez vu jusque-là les sites octaédriques et les sites tétraédriques.} pouvant accueillir des ions lithium.
 
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:Fig09c}]{\includegraphics[height=5cm]{Fig09c}}\hfill
-\subfloat[\label{fig:Fig09a}]{\includegraphics[height=5cm]{Fig09a}}\hfill
-\subfloat[\label{fig:Fig09b}]{\includegraphics[height=5cm]{Fig09b}}
+\subfloat[\label{fig:02-09c}]{\includegraphics[height=5cm]{Fig09c}}\hfill
+\subfloat[\label{fig:02-09a}]{\includegraphics[height=5cm]{Fig09a}}\hfill
+\subfloat[\label{fig:02-09b}]{\includegraphics[height=5cm]{Fig09b}}
 \end{centering}
-\caption{Exemples de structures : \ref{fig:Fig09c}  1D (Olivine \ce{LiFePO4}) ; \ref{fig:Fig09a} 2D (Lamellaire \ce{LiCoO2}) ; \ref{fig:Fig09b} 3D (Spinelle \ce{LiMn2O4})}
+\caption{Exemples de structures : \ref{fig:02-09c}  1D (Olivine \ce{LiFePO4}) ; \ref{fig:02-09a} 2D (Lamellaire \ce{LiCoO2}) ; \ref{fig:02-09b} 3D (Spinelle \ce{LiMn2O4})}
+\label{fig:09}
 \end{figure}
 
-\definition{Les structures moléculaire d'insertion se distinguent par le "nombre de direction" orthogonales par lesquelles un ion inséré peut diffuser. Ce critère permet de les classer.}
+\definition{Les structures moléculaires d'insertion se distinguent par le \blancbis{nombre de directions} orthogonales par lesquelles un ion inséré peut \blancbis{diffuser}. Ce critère permet de les \blancbis{catégoriser}.}
+
+Comme représenté à la Fig. \ref{fig:09}, la diffusion des ions lithium peut avoir lieu :
+\begin{itemize}
+\item dans la direction $\vec{b}$ dans l'olivine ;
+\item dans les directions $(\vec{a}, \vec{b})$ dans les matériaux lamellaires ;
+\item dans les trois directions dans la spinelle.
+\end{itemize} 
 
 Dans le domaine des batteries, on fait une distinction physique entre la \blancbis{charpente moléculaire}, laquelle existe toujours que l'on charge/décharge et les \blancbis{sites} accueillant le \blancbis{lithium} (qui peut être plus ou moins présent en fonction du SoC).
 
@@ -638,9 +94,9 @@ En fonction du type de structure rencontré, plusieurs termes de vocabulaire son
 \captionof{table}{Termes fréquemment rencontrés pour décrire les structures d'insertion/intercalation du lithium}
 \end{center}}
 
-\subsubsection{Environnement chimique du lithium inséré}
+\subsection{Environnement chimique du lithium inséré : influence sur la f.e.m.}
 
-Lorsque l'on étudie les performances de matériaux de différentes dimentions, on se rend compte qu'en théorie, tous les matériaux d'une même classe disposent de la même capacité théorique.
+Lorsque l'on étudie les performances de matériaux de différentes dimensions, on se rend compte qu'en théorie, tous les matériaux d'une même classe disposent d'une  capacité théorique proche\mySideNote{éléments de transition proches dans le tableau périodique}.
 
 \begin{center}
 \begin{tabular}{cccc}
@@ -661,25 +117,182 @@ Lorsque l'on étudie les performances de matériaux de différentes dimentions, 
 \captionof{table}{Capacités spécifiques et potentiels rédox de quelques structures cristallographiques lithiées.}
 \end{center} %Inorganics 2014, 2
 
-En effet, si deux matériaux lithiés ont la même \blancbis{charpente moléculaire}\mySideNote{donc ils appartiennent au même groupe d'espace}, on peut s'attendre théoriquement à ce qu'ils puissent \blancbis{accueillir autant} d'ions lithium. Cependant, en pratique, ceci n'est pas forcément vérifié expérimentalement à cause d'eventuelles différences de stabilité de ces deux structures vis-à-vis de la présence d'ions lithium inséré.
+En effet, si deux matériaux lithiés ont la même \blancbis{charpente moléculaire}\mySideNote{donc ils appartiennent au même groupe d'espace}, on peut s'attendre théoriquement à ce qu'ils puissent \blancbis{accueillir autant} d'ions lithium. Cependant, en pratique, ceci n'est pas forcément vérifié expérimentalement à cause d'éventuelles différences de stabilité de ces deux structures vis-à-vis de la présence d'ions lithium insérés.
 
-Le \blancbis{potentiel rédox}, lui, est très dépendant de la \blancbis{nature} des atomes, particulièrement des \blancbis{cations}\mySideNote{mais aussi indirectement des anions comme nous le verrons au dernier chapitre} de la charpente qui changent l'environnement chimique des atomes de lithium. Cet environnement chimique va jouer un rôle crucial dans la \blancbis{stabilité} des phases cristallines.
+Le \blancbis{potentiel rédox}, lui, est très dépendant de la \blancbis{nature} des atomes, particulièrement des \blancbis{cations}\mySideNote{mais aussi indirectement des anions comme nous le verrons au dernier chapitre} de la charpente qui changent l'environnement chimique des atomes de lithium\mySideNote{comme l'hydratation des ions lithium impacte les performances rédox par rapport à la phase gaz}. Cet environnement chimique va jouer un rôle crucial dans la \blancbis{stabilité} des phases cristallines.
 
-\paragraph{Paramètres influençant la stabilité du lithium au sein de la structure hôte}
+\definition{La capacité spécifique est liée à la structure, tandis que la force électromotrice est liée à la force des liaisons chimiques mises en jeu dans les structures.}
 
-Nous allons nous appuyer sur les structures lamellaires pour définir quelques règles de bon sens permettant de stabiliser les cations lithium au sein d'une de ces structures.
+%\section{Diffusion du Li au sein d'un hôte et stabilité thermodynamique}
+
+\subsection{Critères de stabilité des sites et mécanisme de diffusion}
+
+Lorsque le lithium va s'insérer dans un matériau, il peut apparaître de multiples phases stables thermodynamiquement\mySideNote{Nous nous contenterons d'interpréter des stabilités d'ordre thermodynamique. Bien entendu, la vitesse d'insertion trop rapide des ions lithium peut conduire à la formation de phases instables thermodynamiquement, mais qui se forment plus rapidement}.
+
+Pour les interpréter, il faut comparer les phases thermodynamiquement stable : 
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{Fig30}
+\captionof{figure}{Réaction "fictive" de mélange d'une phase contenant que du lithium à une phase ne contenant pas de lithium}
+\end{center}
+
+Dans cette réaction, l'enthalpie de mélange $\Delta G_m$ associée à la différence d'enthalpie entre la phase sans lithium et la phase avec lithium s'écrit à une température et une pression donnée :
+
+\begin{align*}
+\Delta G_m (x) = G (x) - \left[ x G(x = 1) + (1-x) G(x=0) \right]
+\end{align*}
+
+avec $x$ la fraction de lithium inséré dans le matériau. Le signe de $\Delta G_m$ à une fraction $x$ de lithium nous informe sur le gain de stabilité apporté lorsque l'on ajoute du lithium dans la structure. Or, cette enthalpie de mélange dépend de deux facteurs : 
+
+\begin{align*}
+\Delta G_m (x) = \Delta H_m (x) - T \Delta S_m (x)
+\end{align*}
+
+avec $\Delta H_m$ représentant le terme enthalpique et $\Delta S_m$ représentant le terme entropique.
+
+\`{A} un courant modéré, si le lithium ne perturbe pas\mySideNote{n'interagit pas} la structure, l'\blancbis{entropie} permettra toujours au lithium de s'insérer/de se solubiliser dans une structure présentant des sites d'insertion.
+
+Cependant, en général, l'insertion ou la desinsertion de lithium peut créer une instabilité \blancbis{enthalpique} de la structure : il se passe alors un phénomène démixion, c'est-à-dire l'apparition de plusieurs phases thermodynamiquement stables, l'une enrichie en lithium et l'une appauvrie en lithium.
+
+\begin{figure}[H]
+\begin{centering}
+\subfloat[\label{fig:02-14a}]{\includegraphics[height=5cm]{Fig14a}}\hfill
+\subfloat[\label{fig:02-14b}]{\includegraphics[height=5cm]{Fig14b}}\hfill
+\subfloat[\label{fig:02-14c}]{\includegraphics[height=5cm]{Fig14c}}
+\caption{\ref{fig:02-14a} Diffusion aléatoire de l'ion inséré sans modification de structure ; \ref{fig:02-14b} Diffusion aléatoire de l'ion intercalé avec apparition de deux phases distinctes (avec et sans lithium) ; \ref{fig:02-09b} Diffusion ordonnée de l'ion intercalé avec apparition de deux phases distinctes (avec et sans lithium)}
+\end{centering}
+\end{figure}
+
+Le mécanisme de diffusion est largement dépendant de l'effet enthalpique du lithium sur la structure :
+
+\begin{center}
+\begin{minipage}{0.40\textwidth}
+\begin{tabular}{cccc}
+\toprule
+& \ref{fig:02-14a} & \ref{fig:02-14b} & \ref{fig:02-14c} \\
+\midrule
+$\Delta H_m$ & $\sim 0$ & $\gg 0$ & $\ll 0$ \\
+$-T \Delta S_m$ & $<0$ & $<0$ & $<0$ \\
+$\Delta G_m$ & $< 0$ & $> 0$ & $\ll 0$ \\
+\bottomrule
+\end{tabular}
+\end{minipage}\begin{minipage}{0.56\textwidth}
+\captionof{table}{Types de mécanismes attendus en fonction de la stabilité de la structure lors de l'insertion du lithium}
+\end{minipage}
+\end{center}
+
+Expérimentalement, on peut retranscrire l'effet de la température et de la fraction de lithium à l'aide d'une courbe de solubilité, appelée courbe du \blancbis{solvus} : 
+
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{Fig31}
+\end{minipage}\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Allure d'une courbe de solvus en fonction de la fraction en lithium dans la structure.}
+\end{minipage}
+\end{center}
+
+En général dans les solides, la température favorise l'insertion du lithium dans une structure. Au-dessus d'une température critique, appelée \blancbis{température de consolution}, le système est monophasique pour toute composition en lithium. On se retrouve alors dans la situation de la Fig. \ref{fig:02-14a}.
+
+Sinon, le système peut avoir une place de composition pour laquelle il existe de manière biphasique. On se retrouve alors dans la situation de la Fig. \ref{fig:02-14b}.
+
+\definition{
+Les mécanismes d'insertion du lithium sont largement dépendants de la stabilité de la structure lors de l'insertion. Le terme \blancbis{enthalpique} joue un rôle crucial dans les mécanismes mis en jeu et dépend exclusivement :
+\begin{itemize}
+\item la stabilité de la charpente moléculaire en présence ou absence de lithium ;
+\item la stabilité du lithium dans les sites d'insertions.
+\end{itemize}
+}
+
+
+%Ainsi, on peut dresser un bilan du type de mécanisme que l'on peut observer pour le lithium en fonction de deux considérations précédentes (stabilité des sites/stabilité de la charpente) : 
+
+%\begin{center}
+%\begin{tabular}{cccc}
+%\toprule
+%& \ref{fig:02-14a} & \ref{fig:02-14b} & \ref{fig:02-14c} \\
+%\midrule
+%Charpente initiale stable avec Li & \faCheck & \faRemove & \faRemove \\
+%Sites préférentiels & \faRemove & \faRemove & \faCheck \\
+%\bottomrule
+%\end{tabular}
+%\captionof{table}{Types de mécanisme attendu en fonction de la stabilité du lithium dans les différents sites d'insertion et la stabilité de la charpente moléculaire en présence d'ions lithiums}
+%\end{center}
+%Charpente alternative stable avec Li & \faCheck ou \faRemove & \faCheck & \faCheck \\
+
+%Dans l'ensemble, cela détermine les différents modes de diffusion. Lors de l'insertion du lithium, si celui-ci est toléré dans la structure hôte mais que tous les sites sont équivalens, on se retrouve dans la situation \ref{fig:14a}. Dans le cas où une transition de phase permet à la structure d'accueillir le lithium, mais que tous
+
+
+\subsection{Conséquences sur la force électromotrice}
+
+Nous avons vu que les courbes de charge/décharge contiennent une information thermodynamique via la force électromotrice. Dans le système :
+\begin{equation*}
+\oplus ~ \ce{MO} (s) | \ce{Li^+} (\text{electrolyte}) | \ce{Li(s)} ~ \ominus
+\end{equation*} 
+
+la force électromotrice nous donne le potentiel d'électrode au pôle $\oplus$, laquelle sera liée à la nature des phases présentent au sein du matériau. On a du point de vu des phases, trois cas possibles illustrés à la section précédente : 
+\begin{enumerate}
+\item formation d'une seule phase homogène où le lithum diffuse aléatoirement au sein du matériau (c.-à-d. une phase \ce{Li_x MO}) (cf. Fig. \ref{fig:02-14a}) ; 
+\item formation de deux phases, non miscibles, où le lithium diffuse aléatoirement au sein du matériau (c-à-d. formation d'une phase \ce{Li MO} et une phase \ce{MO}) (cf. Fig. \ref{fig:02-14b}) ;
+\item formation de deux phases, partiellement miscibles, où le lithium diffusion aléatoire au sein du matériau (c-à-d. formation d'une phase enrichie en lithium \ce{Li_x MO} et une phase appauvrie \ce{Li_y MO} où $x \gg y$) (cf. Fig. \ref{fig:02-14c}).
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{centering}
+\subfloat[\label{fig:23a}]{\includegraphics[height=4.5cm]{Fig23a}}\hfill
+\subfloat[\label{fig:23b}]{\includegraphics[height=4.5cm]{Fig23b}}
+\end{centering}
+\caption{\'{E}volution du potentiel d'électrode $\oplus$ en fonction de la composition $x$ de l'électrode en Li dans le cas \ref{fig:23a} monophasé et dans le cas \ref{fig:23b} biphasé}
+\end{figure}
+
+\definition{Les courbes de charge/décharge sont donc capable de nous renseigner sur les phases présentent, ainsi que les transitions de phases à une température donnée.}
+
+\section{Stabilité de la structure hôte et transition de phase}
+
+\subsection{Stabilisation d'une charpente moléculaire}
+
+Afin de réflechir à la \blancbis{stabilité} d'une \blancbis{charpente moléculaire}, nous allons poser une structure \blancbis{lamellaire} \ce{MX2} où M est le \blancbis{métal} et X un \blancbis{anion divalent} (oxygène, soufre, sélénium).%adoptant une structure lamellaire.
+
+%Comme vu dans l'étude de la stabilité des sites du lithium, la répulsion coulombienne entre les feuillets est un critère de stabilité important. La stabilisation d'une charpente lamellaire peut se faire de deux manières :
+Dans les structures lamellaires, la stabilité d'une charpente lamellaire est liée à la répulsion coulombienne entre les plaques, qui peut être diminuée en :
+\begin{enumerate}
+\item réduisant la charge partielle des anions \ce{X} au sein de la structure,
+\item écrantant la charge partielle des anions \ce{X}.
+\end{enumerate}
+
+Pour cela, diverses stratégies sont envisageables par le chimiste : 
+\begin{enumerate}
+\item utiliser des anions plus gros (\emph{par ex.} soufre, sélénium), permettant de rendre plus \blancbis{diffuse} la charge $\ominus$ des anions (cf. \ref{fig:16a}) ;
+\item utiliser des \blancbis{métaux de transition} avec un grand degré d'oxydation\mySideNote{ou nombre d'oxydation} qui augmentera la \blancbis{donation d'électrons} de l'anion $X$ vers le métal $M$ (cf. \ref{fig:16b}) ;
+\item utiliser des structures où il existe une fraction non négligeable de \blancbis{cations} dans les galeries pour stabiliser la charpente (cf. \ref{fig:16c}).
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{centering}
+\subfloat[\label{fig:16a}]{\includegraphics[height=3cm]{Fig16a}}\hfill
+\subfloat[\label{fig:16b}]{\includegraphics[height=3cm]{Fig16b}}\hfill
+\subfloat[\label{fig:16c}]{\includegraphics[height=3cm]{Fig16c}}
+\end{centering}
+\caption{\ref{fig:16a} Structures soufrés ; \ref{fig:16b} Structures à haut d.o. ; \ref{fig:16c} Cations \ce{Li+} ou \ce{H+} présents pour stabiliser la structure.}
+\end{figure}
+
+Dans le cas des autres structures : olivine et spinelle, l'absence de galeries implique beaucoup moins de modification structurales lors de l'ajout ou du départ du lithium.
+
+\subsubsection{Paramètres influençant la stabilité du lithium au sein de la structure hôte}
+
+Nous allons nous appuyer sur les structures lamellaires pour définir quelques règles de bon sens justifiant la stabilité des cations lithium au sein d'une de ces structures.
 
 \begin{minipage}{0.45\textwidth}
 \centering
 \includegraphics[width=6cm]{Fig10}
 \end{minipage}\hfill\begin{minipage}{0.45\textwidth}
-\captionof{figure}{Trois polyèdres de coordination couramment rencontrés dans les structures lithiées.}
+\captionof{figure}{Trois polyèdres de coordination couramment rencontrés dans les structures lithiées}
 \label{fig:10}
 \end{minipage}
 
-\definition{On définit l'environnement de coordination du lithium en fonction de la forme géométrique du polyèdre formé des anions qui lui sont les plus proches voisins.}
+\definition{L'environnement de coordination du lithium est défini par le polyèdre formé par les anions qui lui sont les plus proches voisins.}
 
-Comme illustré à la Fig. \ref{fig:10}, dans les structures lamellaires, on trouve trois types de polyèdres de coordination\mySideNote{Coordinence d'un atome A est le nombre d'atomes qui sont proches voisins de lui.} : l'octaèdre [6], le prisme [6] et le tétraèdre [4].
+Comme illustré à la Fig. \ref{fig:10}, dans les structures lamellaires, on trouve trois types de polyèdres de coordination\mySideNote{Coordinence d'un atome \ce{A} est le nombre d'atomes qui sont proches voisins de lui.} : l'octaèdre [6], le prisme [6] et le tétraèdre [4].
 
 Au sein des structures lamellaires, les scientifiques ont par exemple étudié les structures lithiées \ce{LiCoO2} et \ce{LiTiS2}.
 
@@ -696,7 +309,7 @@ Au sein des structures lamellaires, les scientifiques ont par exemple étudié l
 \item une lettre pour le polyèdre formé par l'atome inséré ;
 \item un nombre pour le nombre minimal de plaques à inclure dans la maille élémentaire.
 \end{enumerate}
-} communes sont présentées. Ces structures correspondent à des empilements compacts d'atomes d'oxygène différent (resp. $BABABA\ldots$, $BACBACBA\ldots$, $BAACCB\ldots$), séparées par des galeries. Ces trois variétés allotropiques de \ce{LiCoO2} sont structuralement proches, puisque l'on peut passer de l'une à l'autre par un simple glissement relatif des plaques. On peut donc s'attendre à rencontrer ces trois structures pour tout état de charge et puisqu'elles sont proches, qu'elles puissent coexister simultanément\mySideNote{Comme le dit l'adage britannique, "like dissolves like"}.
+} communes sont présentées. Ces structures correspondent à des \blancbis{empilements compacts} d'atomes d'oxygène différent (resp. $BABABA\ldots$, $BACBACBA\ldots$, $BAACCB\ldots$), séparées par des galeries. Ces trois \blancbis{variétés allotropiques} de \ce{LiCoO2} sont structuralement proches, puisque l'on peut passer de l'une à l'autre par un \blancbis{simple glissement} relatif des \blancbis{plaques}. On peut donc s'attendre à rencontrer ces trois structures pour tout état de charge et puisqu'elles sont proches, qu'elles puissent coexister simultanément\mySideNote{Comme le dit l'adage britannique, "like dissolves like"}.
 
 \begin{minipage}{0.45\textwidth}
 \centering
@@ -715,7 +328,7 @@ Dans ces structures, deux environnements de coordination du lithium sont présen
 \captionof{figure}{Comparaison du rapport entre le rayon du cation alcalin et du rayon des anions au sein d'un octaèdre et d'un tétraèdre.}
 \end{minipage}
 
-Cependant, la structure P3 n'est pas celle observée à l'état \SI{100}{\percent} chargé, ce n'est \emph{a priori} pas la plus stable. En effet, si on considère qu'il y a contact anion-anion et entre le lithium-anion, on peut alors calculer l'espacement entre deux plaques (slabs). On observe que celle-ci est plus courte pour un prisme que pour un octaèdre. Cet effet déstabilisant est d'autant plus grand que le cation est petit\mySideNote{or le lithium est le plus "petit" alcalin.}.
+Cependant, la structure P3 n'est pas celle observée à l'état \SI{100}{\percent} chargé, ce n'est \emph{a priori} pas la plus stable. En effet, si on considère qu'il y a contact anion-anion et entre le lithium-anion, on peut alors calculer l'espacement entre deux plaques\mySideNote{slabs}. On observe que celle-ci est plus courte pour un prisme que pour un octaèdre. Cet effet déstabilisant est d'autant plus grand que le cation est petit\mySideNote{or le lithium est le plus "petit" alcalin.}.
 
 Enfin, un autre aspect qui peut-être abordé est la connectivité entre les polyèdres de lithium et des cations de la charpente. On peut compter le nombre de faces mises en jeu : O3 < O1 < P3\mySideNote{avec "<" qui signifie "a moins de face commune entre polyèdres que"}.
 
@@ -723,8 +336,8 @@ Enfin, un autre aspect qui peut-être abordé est la connectivité entre les pol
 Lorsque les ions lithium s'insérent dans une structure, ils le font en général en obéissant à quelques règles de bon sens :
 
 \begin{enumerate}
-\item minimisant la répulsion électrostatique entre les cations métalliques insérés ;
-\item minimisant la répulsion électrostatique entre les cations insérés et ceux de la charpente ; 
+\item minimisant la répulsion électrostatique entre les cations lithium insérés ;
+\item minimisant la répulsion électrostatique entre les cations lithium et ceux de la charpente ; 
 \item minimisant la répulsion entre anions coordonnés à l'ion lithium (donc entre les plaques lorsque la structure est lamellaire).
 \end{enumerate}}
 
@@ -744,46 +357,32 @@ Dans \ce{Li_x CoO2}, il a été observé que :
 \item P3 n'est sont pas observé mais cette structure existe pour de plus gros cations ($\ce{Na^+}, \ce{K^+}\ldots$).
 \end{itemize}
 
-\subsection{Stabilité de la structure hôte et transition de phase}
+\subsection{Interprétation de la stabilité des liaisons chimiques}
 
-\subsubsection{Stabilisation d'une charpente moléculaire}
+Il existe des règles permettant de rationnaliser la stabilité des structures cristallographiques : que ça soit au niveau de la charpente moléculaire ou au niveau des ions insérés. Cependant, ces règles dépendent de la nature de la liaison chimique : covalente ou ionique pour les oxudes.
 
-Afin de poser le problème nous allons poser une structure \ce{MX2} où M est le métal et X un anion divalent (oxygène, soufre, sélénium), adoptant une structure lamellaire.
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{Fig29}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Triangle de Katelaar}
+\label{fig:29}
+\end{minipage}
+\end{center}
 
-Comme vu dans l'étude de la stabilité des sites du lithium, la répulsion coulombienne entre les feuillets est un critère de stabilité important. La stabilisation d'une charpente lamellaire peut se faire de deux manières :
-\begin{enumerate}
-\item réduire la charge partielle des anions \ce{X} au sein de la structure,
-\item écranter la charge partielle des anions \ce{X}.
-\end{enumerate}
+Comme le représente le triangle de Katelaar à la Fig. \ref{fig:29}, l'ionicité de la liaison dépend de la différence d'électronégativité entre les atomes. Plus cette différence est grande, plus les liaisons chimiques sont proches d'un modèle purement ionique. Dans le cas contraire, la liaison possède un caractère covalent, le pôle métallique n'étant pas accessible pour un oxyde ou dérivé.
 
-Pour cela, diverses stratégies sont envisageables par le chimiste : 
-\begin{enumerate}
-\item utiliser des anions plus gros (par ex. soufre, sélénium), permettant de rendre plus diffuse la charge $\ominus$ ;
-\item utiliser des métaux de transition avec un grand nombre d'oxydation qui augmentera la donation d'électrons de l'anion $X$ vers le métal $M$ ;
-\item utiliser des structures où il existe toujours une fraction non négligeable de cations dans les galeries pour stabiliser la charpente.
-\end{enumerate}
 
-\begin{figure}[H]
-\begin{centering}
-\subfloat[\label{fig:Fig16a}]{\includegraphics[height=3cm]{Fig16a}}\hfill
-\subfloat[\label{fig:Fig16b}]{\includegraphics[height=3cm]{Fig16b}}\hfill
-\subfloat[\label{fig:Fig16c}]{\includegraphics[height=3cm]{Fig16c}}
-\end{centering}
-\caption{\ref{fig:Fig16a} Structures soufrés ; \ref{fig:Fig16b} Structures à haut d.o. ; \ref{fig:Fig16c} Cations \ce{Li+} ou \ce{H+} présents pour stabiliser la structure.}
-\end{figure}
 
-\subsubsection{Interprétation de la stabilité des liaisons chimiques}
-
-Il existe des règles rendant compte de la stabilité des structures cristallographiques. Cependant, ces règles dépendent de la nature de la liaison chimique : covalente ou ionique.
-
-\paragraph{Caractère ionique : critères structuraux}
+\subsubsection{Caractère ionique : critères structuraux}
 %Solid State Chemistry and its Applications
-Des règles \blancbis{structurales} ont été pausé par Pauling en 1929 pour rationaliser la stabilité d'une structure cristallographique. Ces règles sont au nombre de 5\mySideNote{Ces règles ne sont pas absolues, il n'existe que très peu de structures qui respectent l'ensemble des règles. Toutefois, elles restent un outil rapide pour rationaliser le comportement des structures.} :  
+Des règles \blancbis{structurales} ont été pausé par \blancbis{Pauling} en 1929 pour rationaliser la stabilité d'une structure cristallographique. Ces règles sont au nombre de 5\mySideNote{Ces règles ne sont pas absolues, il n'existe que très peu de structures qui respectent l'ensemble des règles. Toutefois, elles restent un outil rapide pour rationaliser le comportement des structures.} :  
 
 \definition{
 \blancbis{Règle du rapport des rayons} 
 
-La distance entre un cation et un anion est déterminée par la somme des rayons ioniques, soit $r_\oplus + r_\ominus$. La coordinence du polyèdre de coordination dépend du rapport des rayons : 
+La distance entre un cation et un anion est déterminée par la somme des rayons \blancbis{ioniques}, soit $r_\oplus + r_\ominus$. La coordinence du polyèdre de coordination dépend du rapport des rayons : 
 \begin{align*}
 \frac{r_\oplus}{r_\ominus}
 \end{align*}}
@@ -807,40 +406,40 @@ est grand.}
 
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:Fig18a}]{\includegraphics[width=3cm]{Fig18a}}\hfill
-\subfloat[\label{fig:Fig18c}]{\includegraphics[width=3cm]{Fig18c}}\hfill
-\subfloat[\label{fig:Fig18b}]{\includegraphics[width=3cm]{Fig18b}}
+\subfloat[\label{fig:02-18a}]{\includegraphics[width=3cm]{Fig18a}}\hfill
+\subfloat[\label{fig:02-18c}]{\includegraphics[width=3cm]{Fig18c}}\hfill
+\subfloat[\label{fig:02-18b}]{\includegraphics[width=3cm]{Fig18b}}
 \end{centering}
 \caption{Classement de 3 coordinations par ordre croissant de stabilité en allant de gauche à droite.}
 \end{figure}
 
-Cette règle vous permet de "prédire" la force des liaisons ioniques dans un matériau. Elle suppose qu'entre deux structures cristallographiques équivalentes, les effets de dilatation/contraction de la structure sont négligeables.
+Cette règle vous permet de "prédire" la force des liaisons ioniques dans un matériau. Elle suppose qu'entre deux structures cristallographiques équivalentes, les effets de dilatation ou contraction de la structure sont négligeables.
 
 \definition{\blancbis{Règle de connectivité des polyèdres}
 
-La présence d'arêtes partagées, et en particulier de faces partagées, dans une structure coordonnée diminue sa stabilité ; cet effet est important pour les cations ayant une grande valence (un grande d.o.) et un petit nombre de coordinations, et il est particulièrement important lorsque le rapport des rayons approche la limite inférieure de stabilité du polyèdre.}
+La présence d'arêtes partagées, et en particulier de faces partagées, dans une structure coordonnée diminue sa stabilité. Cet effet est d'autant plus important pour les cations ont une \blancbis{grande valence} (un grand d.o.) et un petit \blancbis{nombre de coordinations}, et il est particulièrement important lorsque le rapport des rayons approche \blancbis{la limite inférieure} de stabilité du polyèdre.}
 
-Cette règle est assez importante, et permet de facilement d'identifier la stabilité des polyèdres entre eux en fonction de leur connectivité.
+Cette règle est assez importante, et permet de facilement identifier la stabilité des polyèdres entre eux en fonction de leur \blancbis{connectivité}.
 
-\definition{\blancbis{Règle des "mélanges" de cations} Dans un cristal contenant différents cations, ceux qui ont une grande valence et un petit nombre de coordinations ont tendance à ne pas partager les éléments du polyèdre les uns avec les autres.}
+\definition{\blancbis{Règle des "mélanges" de cations} Dans un cristal contenant différents cations, ceux qui ont une grande valence et un petit nombre de coordinations ont tendance à ne pas avoir de connexions les uns les autres.}
 
-\begin{minipage}[]{0.65\textwidth}
+\begin{minipage}[]{0.5\textwidth}
 \centering
 \includegraphics[width=5cm]{Fig19}
-\end{minipage}\hfill\begin{minipage}[]{0.20\textwidth}
+\end{minipage}\hfill\begin{minipage}[]{0.46\textwidth}
 \centering
 \captionof{figure}{Projection de la structure d'une olivine Forstérite \ce{Mg2SiO4}}
 \end{minipage}
 
-Par exemple, lorsque l'on regarde la structure d'une olivine dans un plan, on constate que les polyèdres de silicium ne sont jamais liés directement en eux.
+Par exemple, lorsque l'on regarde la structure d'une olivine dans un plan, on constate que les polyèdres de silicium ne sont jamais directement reliés entre eux.
 
 \definition{\blancbis{Règle de parcimonie} Le nombre de polyèdres différents dans un cristal tend à être faible.}
 
 En général, on trouve 1 ou 2 polyèdres différents dans un cristal. Ceci se comprend bien si on considère qu'un cation va privilégier un environnement chimique\mySideNote{un polyèdre de coordination} donné.
 
-On remarquera que l'on a utilisé des idées équivalentes pour interpréter la stabilité du lithium, peut-être est-ce dû au caractère assez ionique de la liaison \ce{Li-O} ?
+On remarquera que l'on a utilisé des idées équivalentes pour interpréter la stabilité du lithium, peut-être est-ce dû au caractère assez ionique de la liaison \ce{Li-O} ?%WARNING
 
-\paragraph{Caractère ionique : critères énergétiques}
+\subsubsection{Caractère ionique : critères énergétiques}
 
 La stabilité d'une structure à fort caractère ionique peut être expliquée à l'aide du formalisme de la \blancbis{théorie du champ cristallin}\mySideNote{cf annexe \ref{chp:cristal_field}, vu en BUT1}. Cette théorie peut permettre d'interpréter la stabilité des \blancbis{oxydes métalliques} utilisés dans les batteries, comme par exemple : 
 \begin{itemize}
@@ -877,120 +476,41 @@ On montre ainsi que dans les deux structures limites, le \ce{Co} est \emph{a pri
 \captionof{figure}{Diagramme d'un atome $d^4$ (\emph{par ex.} le Mn(III)) en configuration champ faible/haut spin}
 \end{center}
 
-La théorie du champ cristallin est aussi parfois un bon moyen d'interpréter les déformations ayant lieu au sein des polyèdres de coordination. Par exemple, dans le cas d'un octaèdre, il est courant que les configurations $d^4$ (champ faible), $d^7$ (champ fort) et $d^9$ se stabilisent en ayant un polyèdre irrégulier (octaèdre étiré).
+La théorie du champ cristallin est aussi parfois un bon moyen d'interpréter les déformations ayant lieu au sein des polyèdres de coordination. Par exemple, dans le cas d'un octaèdre, il est courant que les configurations $d^4$ (champ faible), $d^7$ (champ fort) et $d^9$ se stabilisent en ayant un polyèdre irrégulier (octaèdre étiré). Cet effet est communément appelé effet \blancbis{Jahn-Teller}.
 
-\definition{La théorie du champ cristallin est une méthode appropriée pour interpréter les polyèdres de coordination présent dans les oxydes ou dérivés utilisés dans les batteries.}
+\definition{La théorie du champ cristallin est une méthode appropriée pour interpréter énergétiquement la stabilité des polyèdres de coordination présents dans les oxydes ou dérivés utilisés dans les batteries. Cependant, la nature \blancbis{ionique} des liaisons chimiques sous-tend son utilisation.}
 
-\paragraph{Caractère covalent}
+\subsubsection{Caractère covalent}
 
 Au sein des oxydes métalliques, les oxygènes forment des \blancbis{liaisons chimiques} avec les métaux, souvent des métaux de transition.
 
-L'écart d'électronégativité entre les oxygènes et les métaux de transition est souvent insuffisante pour conduire à la formation de liaisons chimiques purement ionique, comme représenté à la Fig. \ref{fig:Fig07c}.\mySideNote{Au contraire, on s'attend à ce que la liaison \ce{Li-O} soit proche de ce qui est représenté à la Fig. \ref{fig:Fig07c}.}
+L'écart d'électronégativité entre les anions et les métaux de transition est souvent insuffisante pour conduire à la formation de liaisons chimiques purement ionique, comme représenté à la Fig. \ref{fig:02-07c}.\mySideNote{Au contraire, on s'attend à ce que la liaison \ce{Li-O} soit proche de ce qui est représenté à la Fig. \ref{fig:02-07c}.}
 
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:Fig07a}]{\includegraphics[height=5cm]{Fig07a}}\hfill
-\subfloat[\label{fig:Fig07b}]{\includegraphics[height=5cm]{Fig07b}}\hfill
-\subfloat[\label{fig:Fig07c}]{\includegraphics[height=5cm]{Fig07c}}
+\subfloat[\label{fig:02-07a}]{\includegraphics[height=5cm]{Fig07a}}\hfill
+\subfloat[\label{fig:02-07b}]{\includegraphics[height=5cm]{Fig07b}}\hfill
+\subfloat[\label{fig:02-07c}]{\includegraphics[height=5cm]{Fig07c}}
 \end{centering}
-\caption{Diagramme d'orbitales moléculaires entre une entité atomique \ce{A} et une entité atomique \ce{B} attendu pour une liaison \ref{fig:Fig07a} purement covalente, \ref{fig:Fig07b} iono-covalente et \ref{fig:Fig07c} purement ionique}
-[$\Delta \chi$ montre que la nature du diagramme orbitalaire dépend de la différence d'électronégativité des entités atomiques]
+\caption{Diagramme d'orbitales moléculaires entre une entité atomique \ce{A} et une entité atomique \ce{B} attendu pour une liaison \ref{fig:02-07a} purement covalente, \ref{fig:02-07b} iono-covalente et \ref{fig:02-07c} purement ionique}
+[$\Delta \chi = \chi_B - \chi_A$ montre que l'évolution du diagramme orbitalaire dépend de la différence d'électronégativité des entités atomiques, avec ici \ce{B} plus électronégatif que \ce{A}]
 \end{figure}
 
-Par conséquent, les liaisons moléculaires formées sont généralement des liaisons \blancbis{iono-covalentes}, où l'utilisation de modèles prévu pour les liaisons ioniques (règles de Pauling, champ cristallin) ne fonctionnent pas ou ne permettent pas de justifier tous les résultats expérimentaux.
+Par conséquent, comme représenté à la Fig{fig:02-07b}, les liaisons formées sont généralement des liaisons \blancbis{iono-covalentes} où l'utilisation de modèles prévu pour les liaisons ioniques (règles de Pauling, champ cristallin) ne fonctionnent pas ou ne permettent pas de justifier tous les résultats expérimentaux.
 
-Ainsi, au second ordre, on pourra être emmené à construire des \blancbis{diagrammes d'orbitales} pour interpréter les déviations entre l'expérience et le modèle ionique.\mySideNote{On se limitera à la construction d'interactions orbitalaires simples$\ldots$}
+Ainsi, au second ordre, on pourra être emmené à interpréter des \blancbis{diagrammes d'orbitales} pour interpréter les déviations entre l'expérience et le modèle ionique.\mySideNote{Dans ce cours, on se limitera à la construction d'interactions orbitalaires simples entre deux orbitales atomiques$\ldots$} 
 
-
-\subsection{Diffusion du Li au sein d'un hôte et stabilité thermodynamique}
-
-\subsubsection{Type de diffusion et stabilité des sites}
-
-La stabilité des phases est difficile à rationaliser, mais l'idée de base est d'identifier :
-\begin{itemize}
-\item l'ensemble des phases pouvant exister et comment l'on passe de l'une à l'autre ; 
-\item les sites interstitiels et stabilité enthalpique du lithium un fois inséré.
-\end{itemize}
-
-En effet, dans tous les cas, il faut garder du fait de l'entropie, une fraction (faible) de lithium pourra toujours s'insérer dans une structure présentant des cavités. Cependant, ce qui distinguera les phases observées expérimentalement de celles qui ne le sont pas, ou les sites occupés des cavités restées vides, ce sont des considérations enthalpiques (forces électrostatiques, valence$\ldots$).
-
-\begin{figure}[H]
-\begin{centering}
-\subfloat[\label{fig:Fig14a}]{\includegraphics[height=5cm]{Fig14a}}\hfill
-\subfloat[\label{fig:Fig14b}]{\includegraphics[height=5cm]{Fig14b}}\hfill
-\subfloat[\label{fig:Fig14c}]{\includegraphics[height=5cm]{Fig14c}}
-\caption{\ref{fig:Fig14a} Diffusion aléatoire de l'ion inséré sans modification de structure ; \ref{fig:Fig14b} Diffusion aléatoire de l'ion intercalé avec apparition de deux phases distinctes (avec et sans lithium) ; \ref{fig:Fig09b} Diffusion ordonnée de l'ion intercalé avec apparition de deux phases distinctes (avec et sans lithium)}
-\end{centering}
-\end{figure}
-
-Ainsi, on peut dresser un bilan du type de mécanisme que l'on peut observer pour le lithium en fonction de deux considérations précédentes (stabilité des sites/stabilité de la charpente) : 
-
-\begin{center}
-\begin{tabular}{cccc}
-\toprule
-& \ref{fig:Fig14a} & \ref{fig:Fig14b} & \ref{fig:Fig14c} \\
-\midrule
-Charpente initiale stable avec Li & \faCheck & \faRemove & \faRemove \\
-Sites préférentiels & \faRemove & \faRemove & \faCheck \\
-\bottomrule
-\end{tabular}
-\captionof{table}{Types de mécanisme attendu en fonction de la stabilité du lithium dans les différents sites d'insertion et la stabilité de la charpente moléculaire en présence d'ions lithiums}
-\end{center}
-%Charpente alternative stable avec Li & \faCheck ou \faRemove & \faCheck & \faCheck \\
-
-%Dans l'ensemble, cela détermine les différents modes de diffusion. Lors de l'insertion du lithium, si celui-ci est toléré dans la structure hôte mais que tous les sites sont équivalens, on se retrouve dans la situation \ref{fig:14a}. Dans le cas où une transition de phase permet à la structure d'accueillir le lithium, mais que tous
-
-
-\subsubsection{Stabilité et transition de phase : relation aux courbes de titrage coulométrique}
-
-Nous avons vu que les courbes de titrage permettent de sonder la présence éventuelle de transitions de phase au sein des matériaux d'électrode. Par exemple, dans un système : 
-\begin{equation*}
-\oplus ~ \ce{MO} (s) | \ce{Li^+} (\text{electrolyte}) | \ce{Li(s)} ~ \ominus
-\end{equation*} 
-
-la force électromotrice nous donne le potentiel d'électrode au pôle $\oplus$. Lors d'une décharge, on a diffusion du lithium au sein de l'électrode \ce{MO}.
-
-On a du point de vu des phases, trois cas possibles : 
+\definition{Pour interpréter la stabilité des liaisons possédant un caractère \blancbis{covalent}, à l'aide de diagrammes orbitalaires, on aura besoin :
 \begin{enumerate}
-\item formation d'une seule phase homogène où le lithum diffuse aléatoirement au sein du matériau (c.-à-d. une phase \ce{Li_x MO}) ; 
-\item formation de deux phases, non miscibles, où le lithium diffuse aléatoirement au sein du matériau (c-à-d. formation d'une phase \ce{Li MO} et une phase \ce{MO}) ;
-\item formation de deux phases, partiellement miscibles, où le lithium diffusion aléatoire au sein du matériau (c-à-d. formation d'une phase enrichie en lithium \ce{Li_x MO} et une phase appauvrie \ce{Li_y MO} où $x \gg y$).
+\item de représenter les orbitales $s$, $p$ et $d$ ;
+\item de connaître l'influence de l'électronégativité sur la position des orbitales $s$, $p$ et $d$ d'un atome ;
+\item de construire des interactions à deux orbitales ;
+\item d'interpréter la distribution des électrons dans les orbitales liantes et anti-liantes résultant d'une interaction à deux orbitales.
 \end{enumerate}
-
-\begin{figure}[H]
-\begin{centering}
-\subfloat[\label{fig:23a}]{\includegraphics[height=4.5cm]{Fig23a}}\hfill
-\subfloat[\label{fig:23b}]{\includegraphics[height=4.5cm]{Fig23b}}
-\end{centering}
-\caption{\'{E}volution du potentiel d'électrode $\oplus$ en fonction de la composition $x$ de l'électrode en Li dans le cas \ref{fig:23a} monophasé et dans le cas \ref{fig:23b} biphasé}
-\end{figure}
-
-Dans le premier (resp. deuxième et troisième) cas, on se ramène à la situation illustrée à la Fig. \ref{fig:23a} (resp. Fig. \ref{fig:23b}). 
-
-Thermodynamiquement, dans la pile décrit ci-dessus, il est possible de lier la force électromotrice au potentiel chimique du lithium au pôle $\oplus$ :  
-\begin{align}
-e(x) = -\frac{1}{F} \left( \mu_{Li}^\oplus (x) - \mu_{Li}^\circ \right)
-\end{align}
-
-Or, on sait que le potentiel chimique au pôle $\oplus$ est lié à l'enthalpie libre de l'électrode par : 
-\begin{equation}
-\mu_{Li}^\oplus = \frac{\partial G^\oplus}{\partial n_{Li}^\oplus}
-\end{equation}
-
-Dans ce cas, la courbe de f.e.m. est, à un facteur près, la dérivée de la courbe d'énergie libre du système. Ainsi, en l'absence de plateau, on s'attend à avoir un profil d'énergie libre présentant un unique minimum\mySideNote{Il n'existe donc qu'une seule phase thermodynamiquement stable}, alors qu'en présence d'un plateau ou quasi-plateau, on s'attend à la présence de deux minimums\mySideNote{Il existe deux minimums locaux donc deux phases thermodynamiquement stable.}
-
-
-\begin{minipage}{0.7\textwidth}
-\centering
-\includegraphics[width=9cm]{Fig24}
-\end{minipage}\hfill \begin{minipage}{0.25\textwidth}
-\captionof{figure}{Relation entre l'enthalpie libre à une électrode et le potentiel d'électrode. Le nombre de minimum locaux de l'enthalpie libre en fonction de la fraction en lithium dans le matériau indique le nombre de phases existantes. Les courbes d'enthalpie libre permettent d'interpréter la stabilité relative des phases avec la composition en lithium à l'électrode.}
-\end{minipage}
-
-Les profils de Gibbs ne seront pas davantage formalisés dans le cadre de ce module\mySideNote{Dans la suite, les transitions de phases qui sont des phénomènes importants dans le domaine des matériaux, seront réabordée. La construction des profils de Gibbs sera alors formalisée et complétée.}.
+}
 
 \begin{comment}
-%\subsubsection{Comportement des courbes de titrage coulométriques}
+%\subsection{Comportement des courbes de titrage coulométriques}
 
 %A voir !
 
@@ -1027,15 +547,16 @@ Lien : Maille élémentaire -> Cristal
 Electrochimie : Dualité ion - électron 
 \end{comment}
 
+\begin{comment}
 \section{Relation entre structure cristallographique et transfert des électrons}
 
 Lorsque l'on étudie les réactions rédox, il va de soi qu'il est nécessaire de parler de structure électronique. Or, au sein de molécules, la structure électronique peut être décrite à l'aide de la théorie des \blancbis{orbitales moléculaires}\mySideNote{abordée en BUT1}, résultats pouvant être qualitativement décrits, feuille et crayon en main, à l'aide de la méthode des \blancbis{combinaisons linéaires d'orbitales atomiques}.
 
-\subsection{Formalisme simplifié de la théorie des bandes}
+\section{Formalisme simplifié de la théorie des bandes}
 
 Dans le cas des solides cristallins, l'approche est bien plus complexe. En effet, vous avez vu qu'un solide peut être décrit comme un \blancbis{enchaînement infini} de \blancbis{motifs cristallins} sur le réseau périodique. De cela, il en résulte qu'un solide peut-être vu comme une molécule géante composée d'une infinité d'atomes, espacés de manière constante et régulière sur le réseau.
 
-\subsubsection{Construction du modèle}
+\subsection{Construction du modèle}
 
 Nous n'allons pas chercher à construire un modèle de bande parfait, nous nous limiterons aux notions importantes pour comprendre les comportements électroniques dans les solides cristallins, et plus précisément les \blancbis{oxydes métalliques} ou autres dérivés analogues.
 
@@ -1055,7 +576,7 @@ La structure électronique de l'atome de lithium nous indique qu'il ne possède 
 
 Lorsque l'on atteind une infinité d'atome\mySideNote{Cela n'a pas de sens physique, pour un physico-chimiste, on peut appréciablement considérer que le nombre d'atomes dans une molécule tend vers $\infty$ lorsque le nombre d'atomes mis en jeu en commensurable au nombre d'Avogadro $N_A$.}, les niveaux sont infiniment proche\mySideNote{Cela signifie physiquement que la différence d'énergie entre deux niveaux est plus petite que l'énergie thermique (de l'ordre de $\sim RT$).}. On a alors formation d'une \blancbis{bande continue d'énergie}.
 
-\subsubsection{Modèle des bandes au c{\oe}ur des transferts rédox}
+\subsection{Modèle des bandes au c{\oe}ur des transferts rédox}
 Le transfert d'électron implique le plus souvent des matériaux d'électrodes, dont la structure électronique est décrite par une ou plusieurs bandes. On considère initialement une électrode $\ominus$ composée de lithium métallique.
 
 \begin{minipage}{0.5\textwidth}
@@ -1126,9 +647,9 @@ Dans une cellule électrochimique en circuit ouvert, on pourra alors écrire :
 où $e$ indique la charge élementaire de l'électron et $e_{f.e.m}$ la force électromotrice.}
 
 
-\subsubsection{Autres grandeurs du modèle des bandes}
+\subsection{Autres grandeurs du modèle des bandes}
 
-\paragraph{Densité d'état}
+\subsubsection{Densité d'état}
 
 Dans les pays anglophones, cette grandeur appelée Density-Of-States\mySideNote{Souvent notée DOS dans les exercices, et en général, dans la littérature}, peut se lire de la manière suivante : 
 \begin{equation}
@@ -1141,7 +662,7 @@ Ainsi, la valeur de cette fonction vous indique comme sont réparties les niveau
 
 
 
-\paragraph{Gap d'énergie}
+\subsubsection{Gap d'énergie}
 
 Les bandes d'énergies ne sont pas forcément continues comme nous le verrons par la suite, mais il peut exister une zone où aucun état existe\mySideNote{c'est-à-dire que la densité d'état est nulle} entre la bande de valence et de conduction.
 
@@ -1152,9 +673,9 @@ E_g = \epsilon_c - \epsilon_v
 et est le plus souvent exprimée en \si{\electronvolt}.}
 
 
-\subsection{Comprendre les bandes au sein des oxydes et dérivés}
+\section{Comprendre les bandes au sein des oxydes et dérivés}
 
-Les oxydes métalliques sont composés de liaisons iono-covalent, majoritairement ioniques. Lorsqu'un cation et anion forment une liaison ionique comme représenté à la Fig. \ref{fig:Fig07c}, on sait que les niveaux de haute (resp. basse) énergie sont centrés sur l'orbitale atomique du cation (resp. anion).
+Les oxydes métalliques sont composés de liaisons iono-covalent, majoritairement ioniques. Lorsqu'un cation et anion forment une liaison ionique comme représenté à la Fig. \ref{fig:02-07c}, on sait que les niveaux de haute (resp. basse) énergie sont centrés sur l'orbitale atomique du cation (resp. anion).
 
 En général, on classifie les bandes en deux catégories dans les oxydes :
 \begin{itemize}
@@ -1170,7 +691,7 @@ Le physicien américain J.-B. Goodenough, prix nobel 2019\mySideNote{avec S. Whi
 
 L'ensemble sera illustré sur l'exemple du monoxyde de titane \ce{TiO}, qui cristallise en mode cubique face centré\mySideNote{cf. \ce{CoO} et \ce{NiO} en 3.05}. 
 
-\subsubsection{Modèle de bande en supposant une liaison purement ionique}
+\subsection{Modèle de bande en supposant une liaison purement ionique}
 
 D'après les règles de l'Aufbau, le remplissage électronique donne : 
 \begin{align*}
@@ -1207,7 +728,7 @@ On retrouve bien que les états de basses (resp. hautes) énergies sont anioniqu
 
 Ce diagramme ionique type est à avoir en tête, car c'est la description la plus basique que l'on puisse faire des bandes. Les choses se compliquent lorsque l'on ajoute la covalence.
 
-\subsubsection{Modèle de bande en supposant une liaison iono-covalente, faiblement covalente}
+\subsection{Modèle de bande en supposant une liaison iono-covalente, faiblement covalente}
 
 Prendre en compte la covalence revient à dire qu'il existe des recouvrements orbitalaires entre les orbitales, ce qui signifie que lors d'une interaction orbitalaire, les électrons de l'anion (resp. centre métallique) sont partiellement partagés le centre métallique (resp. l'anion).
 
@@ -1255,9 +776,9 @@ où $\Delta E$ est l'écart d'énergie et $s$ le recouvrement entre les deux orb
 L'interaction joue sur l'\blancbis{éclatement des bandes} et la \blancbis{largeur de bande}.
 }
 
-\subsection{"Manipuler" les bandes quand on est chimiste}
+\section{"Manipuler" les bandes quand on est chimiste}
 
-\subsubsection{Rédox classique versus rédox interne}
+\subsection{Rédox classique versus rédox interne}
 
 Lorsque l'on charge une batterie, il y a apparition de phénomènes d'oxydation interne entre le(s) métal(ux) de transition et le lithium au pôle $\oplus$. Par exemple, dans un dioxyde métallique lithié \ce{Li_xMO2}: 
 \begin{center}
@@ -1267,20 +788,20 @@ $SoC = \SI{0}{\percent}$ & $x=1$ & no(\ce{M}) = +III
 \end{tabular}
 \end{center}
 
-Classiquement, comme représenté à la Fig.\ref{fig:Fig08a}, ce sont les orbitales $d$ du métal\mySideNote{orbitales cationiques} qui sont concernées par les processus rédox.
+Classiquement, comme représenté à la Fig.\ref{fig:02-08a}, ce sont les orbitales $d$ du métal\mySideNote{orbitales cationiques} qui sont concernées par les processus rédox.
 \begin{figure}[H]
 \begin{centering}
-\subfloat[\label{fig:Fig08a}]{\includegraphics[height=5cm]{Fig08a}}\hfill
-\subfloat[\label{fig:Fig08b}]{\includegraphics[height=5cm]{Fig08b}}\hfill
-\subfloat[\label{fig:Fig08c}]{\includegraphics[height=5cm]{Fig08c}}
+\subfloat[\label{fig:02-08a}]{\includegraphics[height=5cm]{Fig08a}}\hfill
+\subfloat[\label{fig:02-08b}]{\includegraphics[height=5cm]{Fig08b}}\hfill
+\subfloat[\label{fig:02-08c}]{\includegraphics[height=5cm]{Fig08c}}
 \end{centering}
-\caption{Allure du diagramme de bande lorsque \ref{fig:Fig08a} les interactions orbitalaires sont faibles ; \ref{fig:Fig08b} les interactions orbitalaires sont fortes, causant l'apparition de rédox interne ; \ref{fig:Fig08c} le processus de rédox interne a lieu.}
+\caption{Allure du diagramme de bande lorsque \ref{fig:02-08a} les interactions orbitalaires sont faibles ; \ref{fig:02-08b} les interactions orbitalaires sont fortes, causant l'apparition de rédox interne ; \ref{fig:02-08c} le processus de rédox interne a lieu.}
 \end{figure}
 
-Cependant, quand les interactions covalentes sont très fortes, comme représenté à la Fig.\ref{fig:Fig08b}, les bandes aioniques peuvent être très proche du niveau de Fermi. Dans ce genre de situation, il apparaît des phénomènes de \blancbis{rédox interne} où l'oxydation n'est plus localisée sur le métal, mais aussi sur l'anion.
+Cependant, quand les interactions covalentes sont très fortes, comme représenté à la Fig.\ref{fig:02-08b}, les bandes aioniques peuvent être très proche du niveau de Fermi. Dans ce genre de situation, il apparaît des phénomènes de \blancbis{rédox interne} où l'oxydation n'est plus localisée sur le métal, mais aussi sur l'anion.
 
 
-\subsubsection{Substitution}
+\subsection{Substitution}
 
 La principale manière qu'a le chimiste de contrôler la position des bandes, c'est de réaliser des substitutions.
 
@@ -1289,7 +810,7 @@ Soit la substitution est \blancbis{cationique}, ce qui permettra de jouer sur la
 Soit la substitution est \blancbis{anionique}, ce qui permettra de jouer sur la position des bandes des anions et de manière indirect\mySideNote{interaction orbitalaire} jouer sur la position des bandes cationiques $d$.
 
 Au chapitre suivant, on sera emmené à visiter un cas d'école pour voir comment vous pouvez jouer sur la composition chimique des solides pour obtenir les propriétés désirées.
-
+\end{comment}
 
 
 
@@ -1333,7 +854,7 @@ Au chapitre suivant, on sera emmené à visiter un cas d'école pour voir commen
 
 
 \begin{comment}
-%\subsubsection{Aspect électroniques des matériaux d'électrode}
+%\subsection{Aspect électroniques des matériaux d'électrode}
 
 
 Structure de bande : bande 2p
@@ -1371,7 +892,7 @@ Rédox atomique ou rédox moléculaire.
 
 Dureté chimique corrélable
 
-%\subsubsection{Structures cristallographiques}
+%\subsection{Structures cristallographiques}
 
 Classification 0D, 1D, 2D, 3D
 Sites Td versus sites Oh
@@ -1408,10 +929,10 @@ Lien : Maille élémentaire -> Cristal
 
 
 
-\paragraph{Influence de la substitution}
+\subsubsection{Influence de la substitution}
 
 
-\paragraph{Relation entre potentiel d'électrode et structure électronique}
+Relation entre potentiel d'électrode et structure électronique}
 
 
 %https://www.youtube.com/watch?v=zdZIwLedZ5w&t=2518s&ab_channel=EliasSebti
