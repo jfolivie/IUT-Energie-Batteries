@@ -1,0 +1,38 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {I}Bases élémentaires sur les générateurs électriques}{2}{section.1}%
+\contentsline {subsection}{\numberline {I.1}\'{E}quation de réaction}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.1}Réactivité : Technologies pré-lithium}{2}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {I.2}Réactivité \& Classification : Technologies au lithium}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {I.3}\'{E}tude thermodynamique de quelques piles en solution aqueuse}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {I.4}\'{E}tude d'une pile de concentration}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {I.5}\'{E}tude d'une pile galvanique}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {I.6}Interpréter les performances de quelques accumulateurs électrochimiques}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {I.7}Comparaison des capacités spécifiques massiques de quelques électrodes courantes des batteries \ce {Li}}{7}{subsection.1.7}%
+\contentsline {subsection}{\numberline {I.8}Comparaison des performances de quelques technologies de batterie}{8}{subsection.1.8}%
+\contentsline {subsection}{\numberline {I.9}Caractéristiques d'une pile commerciale}{9}{subsection.1.9}%
+\contentsline {section}{\numberline {II}Thermodynamique à usage des batteries}{13}{section.2}%
+\contentsline {subsection}{\numberline {II.1}Grandeurs de réaction}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {II.2}Réactivité du lithium métallique}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {II.3}Thermochimie du lithium}{15}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {II.3.1}Pile au lithium}{17}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.4}Chimie des batteries lithium-ion}{19}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {II.4.1}\'{E}tude des performances d'une batterie de voiture électrique}{23}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {II.5}Introduction au potentiel chimique}{26}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {II.5.1}Influence de (T, P) sur le potentiel chimique du dibrome}{26}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {II.5.2}Etats physiques du carbone}{28}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {II.5.3}Abaissement cryoscopique : salage des routes}{29}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {II.6}Potentiel chimique et force électromotrice}{31}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {II.6.1}Piles au lithium}{32}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {II.6.2}Utiliser la thermodynamique pour établir une relation structure-propriété}{34}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {II.6.3}Relation entre le potentiel chimique du lithium et la force électromotrice}{37}{subsubsection.2.6.3}%
+\contentsline {section}{\numberline {III}Bases élémentaires de cristallographie à usage des batteries}{39}{section.3}%
+\contentsline {subsection}{\numberline {III.1}Occupation des sites interstitiels par les cations}{39}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {III.1.1}Sites cristallographiques interstitiels : \@FB@og critère stérique \@FB@fg \xspace {}}{39}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {III.1.2}Stabilité de la "charpente" cristalline : \@FB@og critère énergétique \@FB@fg \xspace {}}{41}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {III.2}\'{E}tude de quelques structures cristallographiques courantes}{43}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {III.2.1}L’oxyde lamellaire : reférence \ce {LiCoO2}}{43}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {III.2.2}Structure des matériaux de type spinelle (\ce {AB2X4})}{46}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {III.2.3}Structure des matériaux de type olivine (\ce {ABPO4})}{49}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {III.3}Relation entre la structure cristallographique et la structure électronique}{54}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {III.3.1}Modèle des bandes rend compte du comportement en charge/décharge}{54}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {III.3.2}Modèle des bandes : un outil pour comprendre l'optimisation des propriétés rédox}{57}{subsubsection.3.3.2}%

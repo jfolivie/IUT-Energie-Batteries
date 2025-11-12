@@ -1,0 +1,185 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Notions élémentaires à usage dans les batteries}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Classification des générateurs électrochimiques}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Dispositif constitué d'une seule cellule électrochimique}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Dispositifs constitués de plusieurs cellules électrochimiques}{13}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Vocabulaire associé aux réactions électrochimiques}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Description d'une batterie}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Partie électroactive}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Partie électroinactive}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Batterie, tension électrique et force électromotrice}{17}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Type de réactions}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Réactions de recomposition}{19}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}dites de formation}{19}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}dites de déplacement}{19}{subsubsection.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.4.2}Réactions d'insertion}{19}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Caractériser un accumulateur ou une batterie}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Charge, \'{E}nergie \& Puissance}{20}{subsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.1.1}Définition}{20}{subsubsection.2.5.1.1}%
+\contentsline {subsubsection}{\numberline {2.5.1.2}État de charge}{20}{subsubsection.2.5.1.2}%
+\contentsline {subsection}{\numberline {2.5.2}Capacité spécifique (CS)}{20}{subsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2.1}Définition}{20}{subsubsection.2.5.2.1}%
+\contentsline {subsubsection}{\numberline {2.5.2.2}\'{E}tat de santé (SoH, State-of-Health)}{21}{subsubsection.2.5.2.2}%
+\contentsline {subsection}{\numberline {2.5.3}Qualité de l'énergie stockée}{21}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}\'{E}nergie théorique maximale (ETM)}{22}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Cyclabilité}{22}{subsection.2.5.5}%
+\contentsline {chapter}{\numberline {3}Thermochimie à usage dans les batteries}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Description d'une transformation chimique : le potentiel chimique}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Modélisation du système thermodynamique}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Travail chimique et potentiel chimique}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Forme différentielle des fonctions d'état}{25}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Définition intégrale de l'enthalpie libre}{26}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Relation entre grandeurs de réaction et potentiel chimique}{26}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Expression, propriétés et utilisation du potentiel chimique}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Expression}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Résultats importants}{28}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Influence de la température}{28}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Expression de l'enthalpie libre de réaction}{28}{subsubsection.3.2.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Application aux batteries : le transfert de phase}{28}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}\'{E}tude de l'équilibre chimique}{29}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Conséquence}{29}{subsubsection.3.2.3.2}%
+\contentsline {section}{\numberline {3.3}Travail électrique}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Définition}{30}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Relation à l'enthalpie libre}{30}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Réaction fictive d'une cellule électrochimique et force électromotrice}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Relation entre l'enthalpie de réaction et la f.e.m.}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Relation entre f.e.m. et grandeurs de référence}{31}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Utilisation de la loi de Hess}{31}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}\'{E}tude de l'influence de la température}{32}{subsubsection.3.4.2.2}%
+\contentsline {subsection}{\numberline {3.4.3}D'où vient la relation de Nernst ?}{33}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Force électromotrice \& relation aux matériaux}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Quelles informations peut-on tirer de l'étude de la f.e.m. ?}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Titrage coulométrique}{36}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Principe de la technique}{36}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}\'{E}volution de la quantité de A dans B}{36}{subsubsection.4.1.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Variation de f.e.m. et variance}{37}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Rappel sur la variance et système multiphasé}{37}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Interpretation des courbes de titrage}{37}{subsubsection.4.1.2.2}%
+\contentsline {section}{\numberline {4.2}\'{E}tude de la force électromotrice d'un système simple Li||Sb}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Interprétation de la courbe de titrage coulométrique}{38}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Identification des phases}{39}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}\'{E}tude de la f.e.m.}{39}{subsubsection.4.2.1.2}%
+\contentsline {subsection}{\numberline {4.2.2}Estimation des paramètres}{40}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Capacité spécifique massique}{40}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Energie théorique maximale}{40}{subsubsection.4.2.2.2}%
+\contentsline {section}{\numberline {4.3}\'{E}tude de la force électromotrice d'un système complexe}{41}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Systèmes ternaires}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}\'{E}tude et exploitation des diagrammes ternaires}{43}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Interprétation thermodynamique de la stabilité des oxydes lithiés et non lithiés}{44}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}Diagramme d'Ellingham : une façon de classer thermodynamiquement la stabilité des oxydes métalliques}{44}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}Quelques mots sur la relation entre force électromotrice et diagramme d'Ellingham}{46}{subsubsection.4.3.3.2}%
+\contentsline {section}{\numberline {4.4}\'{E}cart à la thermodynamique : les courbes de charge - décharge}{47}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Origine de l'hystérèse}{47}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Influence de la vitesse de charge}{49}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Propriétés élèmentaires du lithium}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\`{A} l'échelle atomique$\ldots $}{52}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Propriétés corps purs}{52}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Densité et masse volumique}{52}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Température de fusion et d'ébullition}{54}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}Dureté}{54}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}Rayon de covalence, ionique et métallique}{54}{subsubsection.5.1.1.4}%
+\contentsline {subsection}{\numberline {5.1.2}Propriétés dérivant de l'énergie}{56}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Potentiel d'ionisation et affinité électronique}{56}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}\'{E}lectronégativité : affinité des élements aux électrons}{56}{subsubsection.5.1.2.2}%
+\contentsline {section}{\numberline {5.2}Propriétés rédox : le pouvoir réducteur du lithium}{57}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Potentiel rédox standard}{57}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Comprendre l'anomalie rédox du lithium}{58}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Importance de la solvatation dans les propriétés du lithium}{59}{subsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.3.1}Rayon de cavité/hydrodynamique}{59}{subsubsection.5.2.3.1}%
+\contentsline {subsubsection}{\numberline {5.2.3.2}Coordination}{59}{subsubsection.5.2.3.2}%
+\contentsline {section}{\numberline {5.3}De l'atome aux matériaux}{60}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Le lithium au sein d'un matériau hôte}{60}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}Topologie des matériaux d'insertion : la dimension des matériaux}{60}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}Environnement chimique du lithium inséré}{61}{subsubsection.5.3.1.2}%
+\contentsline {paragraph}{Paramètres influençant la stabilité du lithium au sein de la structure hôte}{61}{section*.14}%
+\contentsline {subsection}{\numberline {5.3.2}Stabilité de la structure hôte et transition de phase}{63}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}Stabilisation d'une charpente moléculaire}{63}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}Interprétation de la stabilité des liaisons chimiques}{64}{subsubsection.5.3.2.2}%
+\contentsline {paragraph}{Caractère ionique : critères structuraux}{64}{section*.16}%
+\contentsline {paragraph}{Caractère ionique : critères énergétiques}{65}{section*.18}%
+\contentsline {paragraph}{Caractère covalent}{66}{section*.19}%
+\contentsline {subsection}{\numberline {5.3.3}Diffusion du Li au sein d'un hôte et stabilité thermodynamique}{67}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}Type de diffusion et stabilité des sites}{67}{subsubsection.5.3.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.3.2}Stabilité et transition de phase : relation aux courbes de titrage coulométrique}{68}{subsubsection.5.3.3.2}%
+\contentsline {section}{\numberline {5.4}Relation entre structure cristallographique et transfert des électrons}{69}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Formalisme simplifié de la théorie des bandes}{69}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}Construction du modèle}{69}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}Modèle des bandes au c{\oe }ur des transferts rédox}{70}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}Autres grandeurs du modèle des bandes}{72}{subsubsection.5.4.1.3}%
+\contentsline {paragraph}{Densité d'état}{72}{section*.24}%
+\contentsline {paragraph}{Gap d'énergie}{72}{section*.25}%
+\contentsline {subsection}{\numberline {5.4.2}Comprendre les bandes au sein des oxydes et dérivés}{72}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Modèle de bande en supposant une liaison purement ionique}{72}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}Modèle de bande en supposant une liaison iono-covalente, faiblement covalente}{74}{subsubsection.5.4.2.2}%
+\contentsline {subsection}{\numberline {5.4.3}"Manipuler" les bandes quand on est chimiste}{75}{subsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}Rédox classique versus rédox interne}{75}{subsubsection.5.4.3.1}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}Substitution}{76}{subsubsection.5.4.3.2}%
+\contentsline {chapter}{\numberline {6}Explorer tous les possibles : "designer" un matériau d'électrode quand on est chimiste !}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Paramètres d'optimisation des chimistes}{78}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Substitution cationique : quels cations ?}{79}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}Amélioration des performances en tension}{79}{subsubsection.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.2}Impact sur la capacité massique}{80}{subsubsection.6.1.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Substitution anionique : quels anions ?}{80}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}Influence des anions simple sur le degré d'oxydation des métaux}{80}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}Exacerber l'ionicité par l'utilisation de polyèdres anioniques}{81}{subsubsection.6.1.2.2}%
+\contentsline {subsection}{\numberline {6.1.3}Choix de la structure : performances usuelles des structures communes}{81}{subsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.3.1}Influence sur le potentiel d'électrode moyen de la cellule}{81}{subsubsection.6.1.3.1}%
+\contentsline {subsubsection}{\numberline {6.1.3.2}Influence de la composition en Li sur le potentiel d'électrode}{82}{subsubsection.6.1.3.2}%
+\contentsline {section}{\numberline {6.2}Optimisation des systèmes lamellaires par une approche déductive}{82}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Matériaux de départ : le pôle Co}{83}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Stabiliser les systèmes lamellaires : quels métaux ?}{83}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}\'{E}tude des pôles}{84}{subsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3.1}Etude du pôle Ni}{84}{subsubsection.6.2.3.1}%
+\contentsline {paragraph}{Le corps pur}{84}{section*.31}%
+\contentsline {paragraph}{Etude de la substitution par le Co}{85}{section*.33}%
+\contentsline {subsubsection}{\numberline {6.2.3.2}\'{E}tude du pôle \ce {Mn}}{86}{subsubsection.6.2.3.2}%
+\contentsline {paragraph}{Comportement thermique des oxydes de \ce {Mn}}{87}{section*.35}%
+\contentsline {paragraph}{Mariage du meilleur des deux mondes : le ternaire \ce {Co}-\ce {Ni}-\ce {Mn}}{87}{section*.36}%
+\contentsline {section}{\numberline {6.3}Bilan}{87}{section.6.3}%
+\contentsline {chapter}{\numberline {A}Rappels de thermodynamique}{89}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Description d'un systèmes thermodynamique}{89}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}\'{E}tat d'un système}{89}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Variable d'état}{90}{subsection.A.1.2}%
+\contentsline {subsubsection}{\numberline {A.1.2.1}$\ldots $ extensives}{90}{subsubsection.A.1.2.1}%
+\contentsline {subsubsection}{\numberline {A.1.2.2}$\ldots $ intensives}{90}{subsubsection.A.1.2.2}%
+\contentsline {subsection}{\numberline {A.1.3}Fonctions d'état}{90}{subsection.A.1.3}%
+\contentsline {subsubsection}{\numberline {A.1.3.1}Entropie et ses grandeurs d'échanges}{91}{subsubsection.A.1.3.1}%
+\contentsline {subsubsection}{\numberline {A.1.3.2}\'{E}nergie interne}{91}{subsubsection.A.1.3.2}%
+\contentsline {subsubsection}{\numberline {A.1.3.3}Enthalpie}{91}{subsubsection.A.1.3.3}%
+\contentsline {subsubsection}{\numberline {A.1.3.4}Enthalpie libre}{92}{subsubsection.A.1.3.4}%
+\contentsline {subsubsection}{\numberline {A.1.3.5}Propriétés et bilan}{92}{subsubsection.A.1.3.5}%
+\contentsline {section}{\numberline {A.2}Description d'une transformation thermodynamique}{92}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Grandeurs d'échange}{92}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Type de transformations}{93}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Condition d'équilibre}{94}{subsection.A.2.3}%
+\contentsline {subsubsection}{\numberline {A.2.3.1}\'{E}quilibre thermique}{94}{subsubsection.A.2.3.1}%
+\contentsline {subsubsection}{\numberline {A.2.3.2}\'{E}quilibre mécanique}{95}{subsubsection.A.2.3.2}%
+\contentsline {section}{\numberline {A.3}Principes thermodynamiques}{95}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Premier principe}{95}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Second principe}{96}{subsection.A.3.2}%
+\contentsline {section}{\numberline {A.4}Grandeurs de réaction}{97}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Définition}{97}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Critère d'évolution}{97}{subsection.A.4.2}%
+\contentsline {subsection}{\numberline {A.4.3}Relation entre grandeurs de réaction}{98}{subsection.A.4.3}%
+\contentsline {subsection}{\numberline {A.4.4}Utilisation des réactions de formation}{98}{subsection.A.4.4}%
+\contentsline {subsubsection}{\numberline {A.4.4.1}\'{E}tat standard de référence}{98}{subsubsection.A.4.4.1}%
+\contentsline {subsubsection}{\numberline {A.4.4.2}Réaction de formation}{99}{subsubsection.A.4.4.2}%
+\contentsline {subsubsection}{\numberline {A.4.4.3}Loi de Hess}{99}{subsubsection.A.4.4.3}%
+\contentsline {subsection}{\numberline {A.4.5}Utilisation des grandeurs molaires}{99}{subsection.A.4.5}%
+\contentsline {subsubsection}{\numberline {A.4.5.1}Définition des grandeurs molaires}{99}{subsubsection.A.4.5.1}%
+\contentsline {subsubsection}{\numberline {A.4.5.2}Calcul d'une grandeur standard de réaction}{100}{subsubsection.A.4.5.2}%
+\contentsline {chapter}{\numberline {B}Fonctions à plusieurs variables}{101}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Rappel sur la notation différentielle}{101}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Dérivées partielles}{101}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Différentielle totale exacte}{103}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Définition}{103}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Conséquence sur les différentielles croisées}{103}{subsection.B.3.2}%
+\contentsline {subsection}{\numberline {B.3.3}Intégration}{104}{subsection.B.3.3}%
+\contentsline {subsection}{\numberline {B.3.4}Recherche des extremums}{105}{subsection.B.3.4}%
+\contentsline {chapter}{\numberline {C}Théorie du champ cristallin}{107}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Construction de la théorie pour la géométrie octaédrique}{107}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Règle du barycentre et paramètre du champ cristallisation}{108}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Autres géométries}{108}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Energie de stabilisation du champ cristallin (ESCC) et configuration électronique}{109}{section.C.4}%
+\contentsline {section}{\numberline {C.5}Paramètres influençant $\Delta _O$ et $P$}{110}{section.C.5}%

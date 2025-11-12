@@ -1,0 +1,143 @@
+\subsection{Cycle de Born-Haber : relation structure-propriété}
+\label{subsection:born-haber}
+
+Le cycle de Born-Haber permet d'établir un lien structure-propriété. Une façon d'y parvenir est de construire un autre chemin thermodynamique basé sur trois processus élémentaires :
+\begin{enumerate}
+\item \text{Hydratation d'un ion}
+\item \text{Sublimation d'un métal}
+\item \text{Ionisation d'un atome}
+\end{enumerate}
+
+\Q Donner l'équation de réaction modélisation les trois processus élémentaires précédents.
+\solution{\textbf{Equations de réactions :}
+\begin{align*}
+\text{Hydratation d'un ion} \quad \ce{X^{z+}(g) -> X^{z+}(aq)} \\
+\text{Sublimation d'un métal} \quad \ce{X(s) -> X(g)} \\
+\text{Ionisation d'un atome} \quad \ce{X(s) -> X^{z+}(g)} \\
+\end{align*}
+}
+
+\Q Construire un cycle thermodynamique, appelé cycle de Born-Haber, permettant de remonter à l'enthalpie standard de réaction à partir de ces trois processus élémentaires. Faites les applications numériques pour les différents alcalins.
+\solution{On peut faire le cycle de Born-Haber suivant : 
+\begin{center}
+\includegraphics[width=0.3\textwidth]{Ex38/Corr01.pdf}
+\end{center}
+On en tire immédiatement que : 
+\begin{align*}
+\Delta_r H^\circ &= \Delta_{sub} H^\circ + I_p^\circ + \Delta_{hyd} H^\circ
+\end{align*}
+\textbf{AN :} 
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+Métal & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
+\midrule
+$\Delta_r H^\circ$ & $135.2$ & $169.8$ & $149.6$ & $143.0$ & $137.6$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+}
+
+\Q Montrer qu'il existe une corrélation linéaire entre l'enthalpie libre standard de réaction et l'enthalpie standard de réaction à \SI{298}{\kelvin}. D'où provient le biais systématique entre l'évolution du $E^\circ$ et celle du $\Delta_r H^\circ$ ?
+\solution{Le potentiel rédox standard sera lié à l'enthalpie libre de réaction :
+\begin{align*}
+\Delta_r G^\circ = F E^\circ \left( \ce{X^+ (aq)} / \ce{X(s)} \right)
+\end{align*}
+dans le sens d'une oxydation.
+On peut représenter dans la série des alcalins le potentiel rédox en fonction de l'enthalpie standard de réaction :
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex38/Corr02.pdf}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}tablissement d'une corrélation linéaire entre le potentiel rédox standard et l'enthalpie standard de réaction à \SI{298}{\kelvin}}
+\end{minipage}
+\end{center}
+On en tire la relation suivante : 
+\begin{align*}
+E^\circ = 0.009727 \Delta_r H^\circ - 4.366
+\end{align*}
+La pente est en bon accord avec $1/F \approx 1/96.485 \approx 0.010364 ~ \si{\milli\mole\per\coulomb}$. Il existe une biais systématique qui est dû à l'entropie de réaction, puisque :
+\begin{align*}
+\Delta_r G^\circ = \Delta_r H^\circ - T \Delta_r S^\circ
+\end{align*}
+Le terme $\Delta_r S^\circ$ est approximativement le même pour toute la famille des alcalins à priori.
+}
+
+On connaît les informations suivantes sur les alcalins : 
+\begin{itemize}
+\item Températures de fusion à \SI{1}{\bar}: 
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+Métal & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
+\midrule
+$T_f^\star ~ [\si{\celsius}]$ & $180$ & $98$ & $63.5$ & $39$ & $28.4$ \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\item Mode de cristallisation et paramètre de maille : cubique centré
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+Métal & \ce{Li} & \ce{Na} & \ce{K} & \ce{Rb} & \ce{Cs} \\
+\midrule
+$a ~ [\si{\angstrom}]$ & $3.51$ & $4.29$ & $5.334$ & $5.62$ & $6.14$ \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+\end{itemize}
+
+\Q En quoi ces paramètres structuraux rendent-ils compte du comportement d'une partie de la série des alcalins ?
+
+\solution{
+On observe : 
+\begin{itemize}
+\item une diminution de la température de fusion ;
+\item une augmentation du paramètre de maille $a$.
+\end{itemize}
+qui traduisent un allongement de la distance interatomique (donc de la liaison) et un affaiblissement de la liaison métallique entre les alcalins.
+}
+
+\Q Quels paramètres structuraux peuvent justifier l'anomalie du lithium ?
+
+\solution{
+Dans la série des alcalins, on observe que l'enthalpie standard d'hydration du lithium est très faible comparée aux autres, ce qui traduit une excellente solvatation de l'ion lithium du fait de sa petite taille. \\
+Structurellement, cela devrait se manifester via : 
+\begin{itemize}
+\item un rayon hydrodynamique ;
+\item un rayon de cavité ;
+\item un nombre de coordination.
+\end{itemize}
+}
+
+
+\paragraph*{Données à \SI{298}{\kelvin}}
+\begin{itemize}
+\item Constante de Faraday : $F = 96485 ~ \si{\coulomb\per\mole}$
+
+\item Données pour le cycle de Born-Haber en \si{\kilo\joule\per\mole} :
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+Enthalpie standard de réaction & Notation & \ce{Li^{+} / Li} & \ce{Na^{+} / Na} & \ce{K^{+} / K} & \ce{Rb^{+} / Rb}  & \ce{Cs^{+} / Cs}\\
+\midrule
+Sublimation du métal & $\Delta_{sub} H^\circ$ & $120$ & $77.9$ & $61.0$ & $55.6$ & $51.1$  \\
+Ionisation d'un atome & $I_p$ & $517$ & $493$ & $417$ & $400$ & $374$\\
+Hydratation de l'ion & $\Delta_{hyd} H^\circ$ & $-502$ & $-401$ & $-328$ & $-313$ & $-287$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\item Potentiel rédox standard :
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+Couples & \ce{Li^{+} / Li} & \ce{Na^{+} / Na} & \ce{K^{+} / K} & \ce{Rb^{+} / Rb}  & \ce{Cs^{+} / Cs}\\
+\midrule
+$E^\circ ~ [\si{\volt\per{ESH}}]$ & $-3.04$ & $-2.71$ & $-2.92$ & $-2.98$ & $-3.03$ \\
+%$E^\circ ~ [\si{\volt\per{ESH}}]$ & $-3.045$ & $-2.714$ & $-2.925$ & $-2.925$ & $-2.923$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\end{itemize}

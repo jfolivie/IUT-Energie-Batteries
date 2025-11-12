@@ -1,0 +1,772 @@
+\anachapter{Explorer tous les possibles : "designer" un matériau d'électrode quand on est chimiste !}
+\label{chp:designer}
+
+
+\setlength{\columnsep}{5pt}
+\begin{wrapfigure}{r}{0cm}% r à droite et l pour à gauche
+\includegraphics[width=6cm]{Fig22}
+\end{wrapfigure}
+Dans le chapitre précédent, nous avons étudié les paramètres microscopiques et structuraux influençant les performances et la stabilité d'une batterie mesurée à l'aide de deux grandeurs électrochimiques : le \blancbis{potentiel} de chacun des pôles (et la f.e.m. résultante) ainsi que la \blancbis{capacité}.
+
+Or un matériau d'électrode est avant tout le résultat d'une synthèse dont les conditions opératoires vont jouer sur sa cristallinité, ses écarts à la st{\oe}chiométrique$\ldots$ dont l'étude sera faite en S4. Suite à cette synthèse et mise en forme, le matériau dispose d'un \blancbis{motif} (=formule brute) indiquant sa \blancbis{composition chimique} et d'une \blancbis{structure cristallographique} indiquant l'\blancbis{agencement} des atomes dans l'espace.
+
+De ces deux paramètres microscopiques, la \blancbis{capacité} résulte exclusivement des \blancbis{sites cristallographiques} disponibles pouvant accueillir le \blancbis{lithium}, tandis que le \blancbis{potentiel} résulte de la \blancbis{structure des bandes} et donc de la \blancbis{nature chimique} et des \blancbis{interactions} entre les élements du matériau.  
+
+En 3.05, vous avez vu que la \blancbis{substitution}\mySideNote{en général possible dès lors que les atomes présentent des électronégativités proches, des tailles équivalentes, des degrés d'oxydation proches et le même mode de cristallisation.} est une bonne manière d'\blancbis{influer sur} les propriétés et de les optimiser. Pour choisir \blancbis{intelligemment} ces substitutions, un chimiste peut procéder des manières suivantes : 
+\begin{enumerate}
+\item Chimie \blancbis{expérimentale combinatoire} : le chimiste teste toutes les substitutions possibles expérimentalement ;
+\item Chimie \blancbis{théorique combinatoire} : le chimiste prédit les substitutions les plus intéressants computationnellement puis teste expérimentalement les matériaux les plus prometteurs ;
+\item \blancbis{Déduction et analogie} : le chimiste connaît le comportement de quelques matériaux de référence et extrapole la modification des propriétés attendues dans le cas d'une \blancbis{substitution}.
+\end{enumerate} 
+
+Dans le cadre de ce dernier chapitre, nous allons voir comment opérer de la dernière manière en nous appuyant sur la relation intime entre structure et propriété !
+
+\objectif{
+\faBattery[0] Bases de l'optimisation du rédox cationique par une approche déductive
+\begin{itemize}[label=\faAngleRight]
+\item Connaître et argumenter les choix d'une substitution cationique ;
+\item Connaître et argumenter les choix d'une substitution anionique ;
+\item Connaître et argumenter de l'influence d'une structure sur le potentiel de la cellule.
+\end{itemize}
+
+\faBattery[4] Un exemple d'optimisation du rédox cationique : les oxydes lamellaires
+\begin{itemize}[label=\faAngleRight]
+\item Connaître les spécificités de chacun des pôles Co-Ni-Mn ;
+\item Savoir utiliser des arguments simples comme l'atomistique pour relativiser les comportements expérimentaux ;
+\item Savoir lire les informations moléculaires et énergétiques dans une courbe de charge-décharge.
+\end{itemize}
+}
+
+\section{Paramètres d'optimisation des chimistes}
+
+Lorsqu'un chimiste va chercher à optimiser ses matériaux, il va chercher à améliorer les performances de ces deux grandeurs en partant d'une structure cristallographique donnée et en réalisant des \blancbis{substitutions}.
+
+\begin{center}
+\includegraphics[width=\textwidth]{Fig01}
+\captionof{figure}{Délimitation du pool d'élement chimique utilisable pour les batteries dans un tableau périodique des élements}
+[\ce{V} et \ce{Co} sont toujours étudiés malgré leur toxicité avéré ; \ce{Sn}, \ce{Nb}, \ce{Mo} et \ce{W} présente des performances életrochimiques à priori viable, mais le peu d'étude actuel sur ces élements font qu'ils ne figurent pas dans ce tableau]
+\label{fig:03-01}
+\end{center}%Understanding electrochemical potentials of cathode materials in rechargeable batteries
+
+La majorité des matériaux d'insertions sont de la forme \ce{LiM_xX_y} où \ce{M} est un métal de transition $d$. Le choix du métal de transition est critique et répond à différents critères\mySideNote{pour que ça soit économiquement viable et pouvoir les commercialiser}  : 
+\begin{itemize}
+\item l'élément ne doit pas présenter de toxicité pour l'Homme et l'environnement ;
+\item l'élément n'est pas radioactif ;
+\item l'élément est abondant sur Terre et peu cher ; 
+\item l'élément présente une masse molaire faible pour permettre d'obtenir des capacités massiques acceptables.
+\end{itemize}
+
+\`{A} la Fig.\ref{fig:03-01}, on a utilisé l'ensemble de ces critères pour délimiter un pool de cations viables pour les batteries.
+\begin{center}
+\begin{tabular}{c}
+\toprule
+Pool d'élément de transition \\
+\midrule
+\ce{Ti}, \ce{V}, \ce{Mn}, \ce{Fe}, \ce{Co}, \ce{Ni}, \ce{Cu} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+%\attention{Le }
+
+\subsection{Substitution cationique : quels cations ?}
+
+\subsubsection{Amélioration des performances en tension}
+
+Lors du Chp. \ref{chp:thermochimie}, nous avons montré que dans une pile où l'on étudie la tension à courant nul en fonction d'une référence $| \ce{Li^+} (\text{électrolyte}) | \ce{Li (s)} ~ \ominus$, l'enthalpie de réaction du pôle $\oplus$ est donné par : 
+\begin{equation*}
+\Delta_r G = -m F E_\oplus
+\end{equation*}
+
+avec $m$ le nombre d'électrons échangés et $E_\oplus$ donné en \si{\volt\per{\ce{Li+/Li}}}
+
+Or l'enthalpie libre de réaction $\Delta_r G$ est directement liée à l'état de valence, au rayon ionique et à l'électronégativité des éléments de transition des oxydes\mySideNote{En effet, ce sont ces éléments qui en général acceptent et donnent un électron. On parle de rédox cationique dans le domaine des batteries.}.
+
+Un beau résultat consiste à s'intéresser à la variation du potentiel d'électrode de certains oxydes en fonction de la structure de valence des métaux 
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig02}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Corrélation entre le potentiel cathodique et le nombre d'électron dans les orbitales $d$.}
+\label{fig:03-02}
+\end{minipage}%Understanding electrochemical potentials of cathode materials in rechargeable batteries
+
+Ainsi, dans un modèle purement ionique, le nombre d'électron de la couche $d$ d'une même période corrèle \blancbis{linéairement} avec le potentiel d'électrode cathodique. On peut interpréter cette évolution comme suit : 
+\begin{itemize}
+\item au sein d'une même famille, les éléments ont le plus souvent la même coordination et la même valence, le rayon ionique des éléments de transition est donc le seul paramètre critique. Or celui-ci décline en allant de droite à gauche du tableau périodique, les électrons sont donc plus proches du noyau et l'oxydation des métaux est plus \blancbis{difficile} ;
+\item en augmentant le nombre quantique principal (\ce{Mo}, \ce{Ru}), on augmente le rayon ionique ce qui facilite l'oxydation des métaux, et par conséquent, abaisse le potentiel d'oxydation.
+\end{itemize}
+
+\setlength{\columnsep}{5pt}
+\begin{wrapfigure}{r}{0cm}% r à droite et l pour à gauche
+\includegraphics[width=6cm]{Fig04b}
+\captionof{figure}{Abaissement de la $\sigma^\star$ par augmentation de l'ionicité de la liaison \ce{M-X}}
+\end{wrapfigure}%Design and Preparation of Materials for Advanced Electrochemical Storage
+
+Orbitalairement, ceci se comprend assez facilement. Imaginons que l'on \blancbis{augmente} le caractère ionique d'une liaison, cela signifie que :
+\begin{itemize}
+\item la \blancbis{différence d'énergie} entre la \ce{HO} de l'anion et la \ce{BV} du métal \blancbis{augmente}\mySideNote{augmentation de la différence d'électronégativité} ; 
+\item le \blancbis{recouvrement} entre les orbitales du métal et de l'anion diminue, ce qui abaisse l'orbitale $\sigma^\star$.
+\end{itemize}
+
+Comme représenté dans la Fig. \ref{fig:03-04c}, l'abaissement de la $\sigma^\star$ du métal se traduit par un abaissement du \blancbis{niveau de Fermi} de la cathode, et donc du \blancbis{potentiel chimique} de l'électron à la cathode.  
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Fig04c}
+\end{minipage}\hfill\begin{minipage}{0.45\textwidth}
+\captionof{figure}{Abaissement du niveau de Fermi au pôle $\oplus$.}
+\label{fig:03-04c}
+\end{minipage}
+
+Par conséquent, la force électromotrice\mySideNote{qui est, pour le système étudié, le potentiel à la cathode.} augmente.
+
+\subsubsection{Impact sur la capacité massique}
+
+Bien entendu, il ne faut pas perdre de vu que les performances d'une batterie résulte aussi de la \blancbis{capacité spécifique} (massique). Or l'utilisation éventuelle de métaux lourd pourrait dégrader les performances en capacité.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig03}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Potentiel moyen de cathodes composées de phosphates métalliques en fonction de la capacité spécifique massique.}
+[les densités d'énergies à \SI{600}{\watt\hour\per\kilo\gram} et à \SI{800}{\watt\hour\per\kilo\gram} sont représentés en {\color{blue} - - -}]
+\label{fig:03-03}
+\end{minipage}%Understanding electrochemical potentials of cathode materials in rechargeable batteries
+
+\`{A} la Fig. \ref{fig:03-03}, le \ce{Bi} et le \ce{Mo} possède une \blancbis{grande masse atomique} ce qui se traduit par une faible capacité spécifique (< \SI{100}{\ampere\hour\per\kilo\gram}). Cependant, le \ce{Bi} est plus électronégatif que le \ce{Mo}, ce qui traduit une liaison \ce{Bi}-\ce{O} plus \blancbis{ionique}, et donc un \blancbis{potentiel cathodique} plus grand pour le \ce{Bi}.
+
+Au niveau des phosphates métalliques, on retrouve exactement la même série pour les éléments de transitions de la troisième période que précédent, donc les capacités spécifiques sont relativement proches\mySideNote{En effet, dans la série $3d$, la masse molaire ne varie que de 45 à 66 masses atomiques.}.
+
+\subsection{Substitution anionique : quels anions ?}
+
+\subsubsection{Influence des anions simple sur le degré d'oxydation des métaux}
+
+Si le polyèdre de coordination du cation est invariant lors de la substitution des anions, on s'attend à avoir selon la première règle de Pauling, un ratio $r_\oplus / r_\ominus$ quasi constant.
+
+Par conséquent, toute \blancbis{augmentation} du rayon ionique de l'anion, doit se traduire par un \blancbis{diminution} du rayon du cation.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig08}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Influence du rayon de l'anion sur le nombre d'oxydation du métal de transition.}
+\label{fig:03-08}
+\end{minipage}
+
+\`{A} nombre de coordination fixé, la seule manière de diminuer le rayon du cation est que celui-ci augmente son degré d'oxydation.
+
+Cette augmentation abaisse le nombre d'électrons de la bande $d$, ce qui se traduit par un abaissement du niveau de Fermi et donc du potentiel d'électrode $\oplus$.
+
+\subsubsection{Exacerber l'ionicité par l'utilisation de polyèdres anioniques}
+
+\setlength{\columnsep}{5pt}
+\begin{wrapfigure}{r}{0cm}% r à droite et l pour à gauche
+\includegraphics[width=6cm]{Fig04d}
+\end{wrapfigure}%Design and Preparation of Materials for Advanced Electrochemical Storage
+
+Un chimiste peu chercher à optimiser l'environnement de coordination du polyèdre du métal de transition. En effet, si on mesure le potentiel cathodique de \ce{LiCoO2}, on trouve une valeur autour de \SI{4}{\volt}. Or, en substituant l'anion superoxide \ce{O^{2-}} par un phosphate, on constate que le potentiel d'électrode est autour de \SI{4.8}{\volt}.
+
+Ce constat est généralisable avec tous les analogues structuraux des anions phosphates : \ce{MoO4^{2-}}, \ce{WO4^{2-}}, \ce{SO4^{2-}}. Contrairement aux ions \ce{O^{2-}}, la présence d'effets mésomères attracteurs tend à stabiliser la charge négative dans le polyèdre anionique. La densité électronique est davantage centrée au niveau des tétraèdres.
+
+De plus, si on analyse plus finement et que l'on regarde les structures proposées à la Fig. \ref{fig:03-04a}, les scientifiques ont remarqué que dans la série \ce{MoO4^{2-}}, \ce{WO4^{2-}}, \ce{SO4^{2-}} la distance métal-oxygène était similaire et que ces structures possèdent la même charge formelle. Or, avec le tableau périodique, on sait que : 
+\begin{equation*}
+\chi (S) > \chi ( \ce{Mo} ) > \chi( \ce{W} ) 
+\end{equation*}
+
+avec "$>$" qui signifie \og être plus électronégatif que \fg{} 
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig04a}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{\'{E}volution du potentiel cathodique moyen d'une électrode composée de Fe en fonction de l'affinité du ligand pour les électrons [appelée par abus de langage électronégativité]}
+\label{fig:03-04a}
+\end{minipage}%Understanding electrochemical potentials of cathode materials in rechargeable batteries
+
+Ainsi, plus l'\blancbis{élément central} du tétraèdre est électronégatif, plus la densité electronique sera \blancbis{localisée} au niveau du \blancbis{tétraèdre}.
+
+Cette série de mesures du potentiel d'électrode cathodique permet de classer les contre-ions en fonction de leur affinité pour les électrons.\mySideNote{L'électronégativité est un terme "abusif" dans la Fig. \ref{fig:03-04a}.} En effet, plus le tétraédre lié au métal est électroattracteur, plus la liaison métal-oxygène devient ionique, ce qui se traduit par une augmentation de son potentiel rédox (comme justifié aux sections précédentes.).
+
+Le comportement peut-être généralisé aux anions les plus communs : 
+\begin{align*}
+\ce{S^{2-}} < \ce{O^{2-}} < \ce{PO4^{3-}} \text{(et analogues)} < \ce{F-}
+\end{align*}
+
+Une application intéressante des \blancbis{polyèdres anioniques}, en particulier les \blancbis{sulfates}, est d'avoir permis aux chimistes d'obtenir des performances en tension des \blancbis{batteries sodium} à des niveaux comparables aux \blancbis{batteries lithium}.
+
+
+\subsection{Choix de la structure : performances usuelles des structures communes}
+\subsubsection{Influence sur le potentiel d'électrode moyen de la cellule}
+
+La structure cristallographique va avoir une influnce sur la capacité spécifique, mais dépend aussi de la \blancbis{nature} de la \blancbis{liaison chimique}.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig06}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{\'{E}volution de la masse volumique et de la longueur de liaison \ce{Fe-O} dans différents composés de fer.}
+\label{fig:03-06}
+\end{minipage}%Design and Preparation of Materials for Advanced Electrochemical Storage
+
+\`{A} la Fig. \ref{fig:03-06}, la longueur de liaison diminuent en allant de gauche à droite. Ce raccourcissement traduit une \blancbis{augmentation} du recouvrement orbitalaire entre les orbitales de l'oxygène et celles du métal, donc une \blancbis{augmentation} du \blancbis{caractère covalent} de la liaison chimique.
+
+La densité des solides évolue dans le sens inverse de ce que l'on pourrait attendre. En général, les structures \blancbis{ioniques} sont plus \blancbis{compactes}\mySideNote{au sens du terme \og compacité \fg{} vu en BUT1.}
+
+Ainsi, on a deux effets antagonistes lorsque l'ionicité des liaisons chimiques augmente :
+\begin{enumerate}
+\item amélioration de la force électromotrice du dispositif ;
+\item augmentation de la "masse", soit diminution de la capacité spécifique.
+\end{enumerate}
+Tout le travail du chimiste est de trouver le juste équilibre entre ces deux phénomènes.
+
+\subsubsection{Influence de la composition en Li sur le potentiel d'électrode}
+Nous avons vu les structures lamellaires (2D) où les ions lithium s'introduisent dans des galeries, séparées par des plaques et les structures spinelles (1D) et olivines (3D) dans lesquels les ions s'insèrent dans des canaux ou des cavités.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig05}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Profil de décharge de quelques matériaux cathodiques couramment utilisés}
+\label{fig:03-05}
+\end{minipage}%Understanding electrochemical potentials of cathode materials in rechargeable batteries
+
+Dans tous ces matériaux, la capacité spécifique est similaire\mySideNote{à l'exception de \ce{Li2MnO3} - \ce{LiCo_{0.33} Ni_{0.33} Mo_{0.33}O2} à cause de la présence de 2 Li par Mn dans une partie de la structure} à cause de l'utilisation d'élément de transition proches dans le tableau périodique. 
+
+Le choix des structures d'insertion joue un rôle prépondérant dans le comportement en charge de la tension électrique.
+
+Dans les structures présentant une architecture moléculaire\mySideNote{olivine et spinelle} peu distordue par la présence ou l'absence des ions \ce{Li+}, le potentiel chimique du Li à la cathode est quasi constant à toute composition.
+
+Dans les structures lamellaires, l'insertion d'ions \ce{Li+} modifient grandement les paramètres cristallins, modifiant l'énergie des sites d'insertion avec la composition en Li. On s'attend alors à ce que la composition en \ce{Li} impacte fortement le potentiel du \ce{Li} à la cathode, et donc le potentiel à cette électrode.
+
+
+
+\section{Optimisation des systèmes lamellaires par une approche déductive}
+
+L'approche déductive nécessite d'avoir un minimum de connaissances sur les propriétés des matériaux, ici des oxydes composés d'un seul élément de transition.
+
+
+\subsection{Matériaux de départ : le pôle Co}
+
+Nous avons à plusieurs reprises abordé \ce{LiCoO2}, matériau de cathode utilisé depuis les années 1990, qui présence une capacité spécifique théorique de \SI{290}{\milli\ampere\hour\per\gram}. Cependant, lors d'expériences de cyclage (charge/décharge), les électrochimistes se sont rendu compte que ce matériau n'était stable dans le temps que si l'on ne dépassait pas une capacité spécifique expérimentale de \SI{150}{\milli\ampere\hour\per\gram} de capacité en charge et décharge.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig09}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Expérience de cyclage réalisée sur \ce{Li_{1-x} CoO2} en fonction de la fraction molaire en \ce{Li^+} absente de la cathode}
+\label{fig:03-09}
+\end{minipage}
+
+Par conséquent, lorsque la batterie est en charge, modélisée par l'équation de demi-réaction cathodique :
+\begin{align*}
+\ce{LiCoO2 = Li_{1-x}CoO2 + x Li^+ + x e^-}
+\end{align*}
+
+On ne parvient jamais expérimentalement au départ de plus de \SI{50}{\percent} de \ce{Li} des galeries sans perdre les performances de \blancbis{cyclage}\mySideNote{Il faut se rappeler que maintenir des ions \ce{Li^+} au sein des galeries est un moyen de stabiliser les galeries}.
+
+Que peut-il bien se passer si on descend en-dessous de \SI{50}{\percent} ? Imaginons qu'une batterie soit complètement chargé. Sous une pression en \ce{O2}\mySideNote{D'après le principe de Le Chatelier, si la pression en \ce{O2} diminue, on déplace l'équilibre thermodynamique dans le sens direct.} trop faible, on s'attend à avoir décomposition du dioxyde en monoxyde métallique : 
+\begin{equation*}
+\ce{MO2 (s) = MO (s) + \frac{1}{2} O2 (g)}
+\end{equation*}
+
+Si on estime de manière rudimentaire l'enthalpie libre standard de réduction\mySideNote{on parle de \og réduction sèche \fg{}} de cette réaction à l'aide des enthalpies de dissociation, on observe que : 
+
+\begin{minipage}{0.5\textwidth}
+\begin{align*}
+\Delta_r H^\circ &= \underbrace{\left( \frac{1}{2} D^\circ (\ce{O=O}) + D^\circ ( \ce{M-O} ) \right)}_{\text{produits}} - \underbrace{D^\circ ( \ce{M-O} )}_{\text{réactifs}} \\
+&= \frac{1}{2} D^\circ (\ce{O=O}) - D^\circ ( \ce{M-O} )
+\end{align*}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\begin{tabular}{cc}
+\toprule
+Liaison & Enthalpie de dissociation \\
+ & [\si{\kilo\joule\per\mole}] \\
+\midrule
+\ce{Co-O} & 368 \\
+\ce{Ni-O} & 392 \\
+\ce{Mn-O} & 402 \\
+\ce{O=O} & 497 \\
+\bottomrule
+\end{tabular}
+\captionof{table}{Enthalpie de dissociation, notée $D^\circ$, de quelques liaisons utiles dans les cathodes d'oxydes métalliques.}
+\label{tab:enthalpy}
+\end{minipage}
+
+Si on calcule l'énergie thermique reçue par mole d'avancement ($= \Delta_r H^\circ$), on trouve \SI{-155}{\kilo\joule\per\mole}, soit $-62 R T_{amb}$ ! Inéluctablement, tout augmentation du potentiel cathodique au délà de 4.2-4.3 \si{\volt} risque de conduire à l'explosion de la structure lamellaire.  
+
+
+
+\subsection{Stabiliser les systèmes lamellaires : quels métaux ?}
+
+Le fait de ne décharger qu'à \SI{50}{\percent} \ce{LiCoO2} a permis le développement des premiers accumulateurs à des performances bien moindres que celles attendues. Bien entendu, commercialement, l'optimisation reste nécessaire et elle passe par l'identification d'éléments chimiques permettant de stabiliser des systèmes cristallins lamellaires.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig07}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Influence de la différence de rayon ionique entre les métaux de transition et et le lithium}
+[les rayons ioniques sont donnés en configuration haut spin pour une coordination octaédrique]
+\label{fig:03-07}
+\end{minipage}
+
+Si on analyse les structures obtenues en fonction du rayon ionique des métaux de transition, par rapport à celui du lithium, il a été observé que les structures lamellaires étaient le plus souvent obtenues pour des métaux de transition présentant des rayons ioniques faibles, soit la plus grande différence avec le lithium.
+
+En particulier, on observe que le \ce{Co^{3+}} (dans \ce{LiCoO2}) et le \ce{Ni^{3+}} (dans \ce{LiNiO2}) sont de bons candidats. On peut donc essayer d'étudier le pôle \ce{Ni}, qui présente \blancbis{un rayon ionique}, une \blancbis{électronégativité} et une \blancbis{structure cristallographique} proche de \ce{Co}, et devrait permettre sans aucune souci la \blancbis{substitution}.
+
+%Partir des propriétés atomiques (par ex. rayon ionique)
+%-> stabilisation des sytèmes lamellaires passe par l'utilisation de métaux ayant une grande différence de taille avec le lithium : 
+%ex : Ni3+/Mn4+/Co3+
+
+%Diagramme ternaire :Quels composés ?
+
+\subsection{\'{E}tude des pôles}
+
+\subsubsection{Etude du pôle Ni}
+\paragraph{Le corps pur} Expérimentalement, lorsque l'on étudie le pôle \ce{LiNiO2} par des expériences de cyclage (voir Fig. \ref{fig:03-10a}), l'instabilité thermique observée dans \ce{LiCoO2} existe toujours. Cependant, 2/3 des ions lithium peuvent être retirés de la structure sans que celle-ci n'explose\mySideNote{Là encore, avec les données à la Tab. \ref{tab:enthalpy}, vous pourriez montrer que la réaction serait exothermique !}
+
+
+
+
+\begin{figure}[H]
+\begin{centering}
+\subfloat[\label{fig:03-10a}]{\includegraphics[height=5cm]{Fig10a}}\hfill
+\subfloat[\label{fig:03-10b}]{\includegraphics[height=5cm]{Fig10b}}
+\end{centering}
+\caption{Expérience de cyclage (2 cycle de charge/décharge) de \ref{fig:03-10a} \ce{Li_x Ni_{1.02} O2} et \ref{fig:03-10b} \ce{Li_x Ni_{1.24} O2}}
+\end{figure}%A. Rougier et al 1996 J. Electrochem. Soc. 143 1168
+
+Cependant, les composés aux \ce{Ni} ont tendance à s'éloigner fortement de la st{\oe}chiométrie.
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{Fig11}
+\end{minipage}\hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Structure non-st{\oe}chiométrique du Ni où les ions \ce{Ni^{2+}} occupent des sites octaédriques occupés normalement par le \ce{Li^+}.}
+\label{fig:03-11}
+\end{minipage}%A. Rougier et al 1996 J. Electrochem. Soc. 143 1168
+
+En effet, si on reprend les rayons ioniques présentés à la Fig. \ref{fig:03-07}, on observe que le \ce{Ni^{2+}} a un rayon ionique proche de celui du \ce{Li^+}. Par conséquent, comme présenté à la Fig. \ref{fig:03-11}, la non-st{\oe}chiométrie est provoquée par l'apparition d'ions \ce{Ni^{2+}} au sein des sites octaédriques des galeries, ce qui se traduit par l'équation de réaction : 
+
+\begin{equation*}
+\ce{LiNiO2 = x Li + Li_{1-x} [ Ni^{II}_x Ni^{III}_{1-x}]O2}
+\end{equation*}
+
+où $x$ indique l'écart à la st{\oe}chiométrie.
+
+Bien entendu, comme illustré à la Fig. \ref{fig:03-10b}, un tel écart à la st{\oe}chiométrie se traduit pas une dégradation notable des capacités spécifiques expérimentales du dioxyde de nickel. De plus, la capacité de diffusion du \ce{Li^+} au sein des galeries diminue.
+
+Dans ce cas, un chimiste ne peut que pousser le système vers la st{\oe}chiométrie. Pour cela, comme on s'y attend\mySideNote{encore une fois, repenser au diagramme d'Ellingham}, la synthèse de \ce{LiNiO2} dans des conditions très oxydantes et à une température bien choisie permettra sûrement d'approcher au mieux la st{\oe}chiométrie.\mySideNote{on est parvenu à synthétiser tout de même un composé comme \ce{Li Ni_{1.02} O_2} !}
+
+
+
+%Soucis de réversibilité du système : 
+%- instabilité thermique du système
+
+%\begin{align*}
+%\ce{LiCoO2 = Li_{1-x}CoO2 + x Li^+ + x e^-}
+%\end{align*}
+
+
+
+
+%- perte de performances en capacité : 
+%= \ce{Li_{1-z} Ni_{1+z} O2} car rédox interne conduit à \ce{Ni^{2+} -> Ni^{3+} +e^-} (perte de capacité)
+%= perte des capacités de diffusion de Li au sein des galeries.
+
+%=> favoriser formation de LiNiO2 z-> 1 en utilisant une atmosphère oxydante ! 
+%Meilleures performances.
+
+%-> 
+
+\paragraph{Etude de la substitution par le Co}
+
+Lorsque l'on substitue le Ni par le Co, le \blancbis{volume} de la maille hexagonale diminue du fait que le \blancbis{rayon ionique} du cobalt est légèrement \blancbis{plus petit} que celui du \blancbis{nickel}. \`{A} la Fig. \ref{fig:03-12}, les données montrent que le volume suit une loi de Vegard, ce qui traduit généralement une substitution parfaite\mySideNote{c'est-à-dire sans insertion} des atomes de Ni par ceux de Co.
+\begin{center}
+\begin{minipage}[]{0.5\textwidth}
+\input{\FigPath/Fig12.pgf}
+\end{minipage}\hfill\begin{minipage}[]{0.45\textwidth}
+\captionof{figure}{Loi de Vegard décrivant la substitution du Co par le Ni dans une structure lamellaire.}
+\label{fig:03-12}
+\end{minipage}
+\end{center}
+
+En testant les performances en cyclage pour des substitutions en Co croissantes, il a été observé que la structure \ce{LiNi_{0.7}Co_{0.3}O2} est la première structure où la st{\oe}chiométrie est conservée lors de cycles de charge/décharge !
+
+En effet, comme le montre la Fig. \ref{fig:03-13a}, \ce{LiNi_{0.7}Co_{0.3}O2} a subi une augmentation de la capacité d'accueil des ions Li (allant jusqu'à 0.9). La Fig. \ref{fig:03-13b}) montre que l'amélioration de la capacité s'accompagne d'une conservation des performances en énergie lors d'expériences de cyclage.
+
+
+\begin{figure}[H]
+\begin{centering}
+\subfloat[\label{fig:03-13a}]{\includegraphics[height=5cm]{Fig13a}}\hfill
+\subfloat[\label{fig:03-13b}]{\includegraphics[height=5cm]{Fig13b}}
+\end{centering}
+\captionof{figure}{\ref{fig:03-13a} Courbe de cyclage de \ce{LiNi_{0.7}Co_{0.3}O2} sous une densité de courant de \SI{400}{\micro\ampere\per\centi\meter\square}, \ref{fig:03-13b} Variation de la densité d'énergie d'un accumulateur $\ominus ~ \ce{Li}||\ce{LixNi_{0.7}Co_{0.3}O2} ~ \oplus$ en fonction du nombre de cycle de charge/décharge.}
+\end{figure}
+
+Cependant, un autre problèm persiste dans ce matériau : sa stabilité thermique de ces matériaux ! En effet, il a été impossible de charger au-delà de \SI{4.0}{\volt} sans perte des performances de cyclage. 
+
+\subsubsection{\'{E}tude du pôle \ce{Mn}}
+
+\begin{center}
+\input{\FigPath/Fig14.pgf}
+\end{center}
+
+Afin d'améliorer la stabilité thermique du matériau \ce{LiNi_{0.7}Co_{0.3}O2}, un chimiste va chercher un troisième constituant chimique permettant d'améliorer les \blancbis{performances thermiques}. Ainsi, à l'axe de composition ci-dessus, les chercheurs vont ajouter un nouvel axe vertical et donc chercher le meilleur compromis au sein d'un diagramme ternaire.
+
+Un des métaux proche du couple Ni/Co est le \blancbis{manganèse}, élément utilisé dans les cathodes \ce{LiMn2O4}\mySideNote{laquelle est synthétisée et étudiée expérimentalement aux TPs du module 3.16.}. 
+
+Dans cette cathode, le manganèse existe à deux degrés d'oxydation : III et IV. Or, si on ajoute le rayon du manganèse IV à la Fig. \ref{fig:03-07}, celui-ci présente un rayon ionique proche du \ce{Co^{3+}} et \ce{Ni^{3+}}.
+
+\begin{center}
+\begin{minipage}[]{0.48\textwidth}
+\includegraphics[width=\textwidth]{Fig16}
+\end{minipage}\hfill\begin{minipage}[]{0.48\textwidth}
+\captionof{figure}{Ajout du manganèse IV à la Fig. \ref{fig:03-07}}
+\label{fig:03-16}
+\end{minipage}
+\end{center}
+
+Par conséquent, cet élément au degré d'oxydation IV doit être un bon candidat à la substitution et éventuellement un bon candidat pour stabiliser la phase lamellaire.
+
+
+\paragraph{Comportement thermique des oxydes de \ce{Mn}}
+
+En particulier, une étude de la stabilité relative de \ce{NiO2} et \ce{CoO2} par rapport à l'allotrope $\lambda$\mySideNote{il s'agit d'une des structures cristallographiques possibles pour \ce{MnO2}} du dioxyde de manganèse \ce{MnO2} a été menée par thermogravimétrie\mySideNote{cf annexe TP n°2}.  
+
+\begin{center}
+\begin{minipage}[]{0.48\textwidth}
+\includegraphics[width=\textwidth]{Fig15}
+\end{minipage}\hfill\begin{minipage}[]{0.48\textwidth}
+\captionof{figure}{Analyse thermogravimétrique (TGA) de trois matériaux composés respectivement de Ni, Co et Mn sous la forme de la dérivée de la masse en fonction de la tempéature pour une rampe en température de \SI{2}{\celsius\per\minute} en atmosphère de \ce{Ar}}
+\label{fig:03-15}
+\end{minipage}
+\end{center} %Thermal stability of LixCoO2, LixNiO2 and 2-MnO2 and consequences for the safety of Li-ion cells
+
+En appliquant une rampe de température entre 0 et \SI{600}{\celsius} pendant \SI{5}{\hour}, les scientifiques ont représenté les variations de la masse perdue par chacun des oxydes en fonction de la température. L'objectif était d'identifier le pic exothermique associé à la décomposition des dioxydes en monoxydes.
+
+La perte de masse du \ce{MnO2} a lieu à des températures bien plus haute ($\sim 450 ~ \si{\celsius})$ que les deux autres composés ($200-250$ \si{\celsius}). Par conséquent, le pôle \blancbis{manganèse} semble être \blancbis{un bon candidat} pour \blancbis{stabiliser} thermiquement les matériaux.
+
+\paragraph{Mariage du meilleur des deux mondes : le ternaire \ce{Co}-\ce{Ni}-\ce{Mn}}
+
+Il se trouve que l'ajout de manganèse a permis le développement du matériau \ce{LiCo_{1/3}Ni_{1/3}Mn_{1/3}O2}, appelé NMC par les spécialistes du domaine, qui est un des meilleurs compromis entre stabilité en cyclage, capacité de décharge et stabilité thermique. 
+
+\begin{center}
+\begin{minipage}[]{0.48\textwidth}
+\includegraphics[width=\textwidth]{Fig19}
+\end{minipage}\hfill\begin{minipage}[]{0.48\textwidth}
+\captionof{figure}{Courbe de cyclage (charge/décharge) d'un accumulateur $\ominus ~ \ce{Li}||\ce{LiCo_{1/3}Ni_{1/3}Mn_{1/3}O2} ~ \oplus$ à une densité de courant de \SI{0.17}{\milli\ampere\per\centi\meter\squared} entre 2.5 et \SI{5.0}{\volt\per{\ce{Li^+}/\ce{Li}}} à \SI{30}{\celsius}}
+\label{fig:03-19}
+\end{minipage}
+\end{center}%Layered Lithium Insertion Material of LiCo 1/3 Ni 1/3 Mn 1/3 O 2 for Lithium-Ion Batteries, Ohzuku
+
+
+Comme observé ici, contrairement à \ce{LiCoO2} et \ce{LiNiO2}, ce ternaire est capable de cycler à des tensions au-delà de \SI{4.5}{\volt\per{\ce{Li^+}/\ce{Li}}} sans subir de détérioration majeure en cyclage. De plus, la capacité expérimentale autour de \SI{200}{\milli\ampere\per\hour\per\gram} est meilleure que celle de \ce{LiCoO2}.
+
+\section{Bilan}
+Nous avons vu que le chimiste sur une bonne lecture du tableau périodique et une connaissance des matériaux simples (les \ce{LiMO2}) est capable d'orienter ses substitutions afin d'aboutir à un matériau qui réponde au mieux au cahier des charges : capacité, stabilité électrochimique \& stabilité thermique.  
+
+\begin{center}
+\input{\FigPath/Fig20.pgf}
+\captionof{figure}{Diagramme ternaire indiquant les phases lithiées à 1 constituant à chaque pôle, la propriété optimisée ainsi que les phases présentées dans ce polycopié}
+\label{fig:03-20}
+\end{center}
+
+Bien entendu, toute mesure des performances des matériaux d'électrode se fait par une bonne maîtrise de la lecture des courbes de cyclage des matériaux d'électrode. 
+
+\begin{center}
+\begin{minipage}[]{0.58\textwidth}
+\includegraphics[width=\textwidth]{Fig21}
+\end{minipage}\hfill\begin{minipage}[]{0.38\textwidth}
+\captionof{figure}{Lecture d'une courbe de cyclage lors de l'étude du matériau au pôle $\oplus$ dans un accumulateur composé d'un pôle $\ominus$ en Li.}
+[à cela s'ajoute la comparaison de plusieurs cycles de charge/décharge : le cyclage]
+\label{fig:03-21}
+\end{minipage}
+\end{center}
+
+
+\begin{comment}
+
+%\paragraph{\'{E}tude du binaire \ce{Ni}-\ce{Mn}}
+
+%Les conclusions précédentes peuvent être vérifiées en étudiant un soluton solide contenant \SI{50}{\percent} de nickel et \SI{50}{\percent} de manganèse.
+
+%\begin{center}
+%\begin{minipage}[]{0.48\textwidth}
+%\includegraphics[width=\textwidth]{Fig17}
+%\end{minipage}\hfill\begin{minipage}[]{0.48\textwidth}
+%\captionof{figure}{Courbes de calorimétrie différentielle pour une vitesse de balayage de \SI{5}{\celsius\per\minute} \ce{NiO2} (a), \ce{Mn2O4} (b) et \ce{Li_{0.11} Ni_{0.50} Mn_{0.5} O2} (c)}
+%[La convention de lecture est \faArrowUp $EXO$]
+%\label{fig:03-17}
+%\end{minipage}
+%\end{center}%Y. Makimura, T. Ohzuku / Journal of Power Sources 119–121 (2003) 156–160
+
+%\begin{figure}[H]
+%\begin{centering}
+%\subfloat[\label{fig:03-18a}]{\includegraphics[height=5cm]{Fig18a}}\hfill
+%\subfloat[\label{fig:03-18b}]{\includegraphics[height=5cm]{Fig18b}}
+%\end{centering}
+%\caption{\ref{fig:03-18a} Courbe de cyclage sur 30 cycles à \SI{0.17}{\milli\ampere\per\centi\meter\squared} sur la plage de 2.5-\SI{4.5}{\volt\per{\ce{Li^+}/\ce{Li}}} d'un accumulateur $\ominus \ce{Li}||\ce{LiNi_{1/2}Mn_{1/2}O2} ~ \oplus$ ; \ref{fig:03-18b} Capacité spécifique en charge $\bullet$ et en décharge $\bigcirc$ associée à la Fig. \ref{fig:03-18a}}
+%\end{figure}%Y. Makimura, T. Ohzuku / Journal of Power Sources 119–121 (2003) 156–160
+
+
+\section{Origine}
+\subsection{Technologies plus anciennes}
+%batteries au plomb : électrolyte acide actif / Converson 25/35 Wh/kg  et 60/120 Wh/L
+
+%batteries Ni-Cd : électrolyte alcalin, Ni(OH)2 matériau d'insertion
+%45-60 Wh/kg, 240 Wh/L
+%pb Cd toxique
+
+%batteries Ni - MH 
+%éectrolyte alcalin,
+%Ni(OH)2 matériau d'ionsertion
+% MxHy matériau d'inversion
+% 80 Wh/kg, 320 Wh/L
+
+%Milieu H2O
+% Stabilité thermodynamique : 1.2 V
+
+
+\subsection{Degrés de liberté du chimiste}
+Comment améliorer la densité d'énergie de ces systèmes ?
+%Potentiel x Capacité = Energie
+
+- Augmenter le potentiel
+
+- Augmenter la capacité :
+-- Passage du proton au lithium (élément le plus électropositif)
+-- Passer d'électrolytes aqueux à des électrolytes non aqueux
+-- Changement de paradigme 
+
+- Apparition années 1970 : MnO2/Zn - remplacé par MnO2/Li
+%passage de milieu aqueux
+
+
+\subsection{Systèmes rechargeables}
+\subsubsection{Technologie métal-ion}
+TiS2 (Exxon), NbSe3 (Bell Labs), MoS2 (Moli Energy)
+Matériau d'inversion / Métal-Li
+% Fin de la technologie Li-métallique
+
+\subsubsection{Alternatives}
+% Remplacer l'élctrolyte liquide par un électrolyte polymère
+% Li-métal-polymère : limite formation de dendrit, absence de solvant organique, pb : faible conductivité ionique
+% Li-ion : deux matériaux d'insertion, 
+%Concept : DWMurphy, B Scrosati (1980)
+%Electrode positive (métériau d'inversion
+% Electrode négative (graphite)
+% C [Ah/kg] = 26.8 * Nb de Li / M
+
+Stratégies : augmenter le nb de lacune ou abaisser la masse molaire
+%Commercialisation Sony 1991
+
+\section{Développements}
+%M.M. Thackeray , Mat Res Bull, 18, 461-472
+%K.B. Goodenough Mat Res Bull, 15, 783-789
+%Cahier des charges : 
+- Conductvité électronique élevée
+- Large particules 
+- Stable chimiquement
+- Diffusion rapide du Li+
+- Bas coûts et sans toxcité
+- Sites cristalographiques cides
+- Centres cationiques rédox.
+
+\subsection{Maturation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Electrode positive
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Electrode - liant - conducteur électronique
+- transfert des électrons,
+- transfert des ions
+- interfaces
+
+Performance de la batterie : 
+Matériau d'électrode + Interface + Electrolytes
+
+Sulfures -> oxydes
+
+Quelques matériaux répondent au cahier des charges : 
+- Spinelle 3D LiMn2O4
+- Oxydes lamellaires 2D LiCoO2, LiNiO2
+- Tension = f-C
+
+Etude du diagramme ternaire : 
+LiCoO2 Li2MnO3 LiNi1/2Mn1/2O2
+
+Li Ni 1/3 Mn1/3 Co1/3 O2
+- Stabilité thermiqu
+- Capacité de décharge
+- Meilleur cyclage 
+avec la sécurité.
+%T Ohzuku, J Electrochem Soc 141 2972 1994
+%J Dahn J Electrochem Soc 138 2207-2211 1991
+%HJ Noh J Power Sources 233 121 2013
+
+Transition structurale : 
+Mn2 O4 + Li0 + e- -> LiMn3+ Mn4+ O4
+
+Broyage électrochimique (effet Jahn Teller -> variation de volume du matériau)
+Dissolution du Mn
+Electrolyte résistants à 4V
+
+Renault-Nissan (2014) Moli Energy 1999
+
+Solutions : 
+- Electrolyte LP30 depuis 1994
+- Enrobage (revêtement verre d'oxyde)
+
+% Thackerey Mater Res Buil 18 461 1983
+%J.M. Tarascon Solid State Ionics 69 293-305 1994
+%G.G. Amatucci et al Solid State Ionics 104 13-25 1997
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Electrode négative
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Difficulté : interaction entre le carbone/électrolyte
+
+- Carbones mous (préparés 
+- Carbonate de propylène rentrait, intercalation du PC dans le graphite nature).
+- Solution avec le carbonate d'éthylène
+- Carbones durs (non synthétisables)
+%J R Dahn t al, Idustrial Chemistry Library Vol 5 (ed Pistoia G) 1994
+
+- interface solide électrolyte
+1979 : E Peled : modèle de cette SEI
+1987 : D Aurbauch 
+1997 : Peled et al : D Aurbach et al, J Phys Chem 104 12282 
+2008 : Edstrom, Gonbeau et al (couche mixte organique/inorganique)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configuration des électrolutes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+- Cyclindre, prisme, bouton
+
+Devéloppement des batteries plastiques à ions PLiON 1994
+
+%J.M. Tarascon, Solid State Ionics 86 49-54, 1996
+
+
+
+
+\subsection{Exploration de tous les possibles}
+%Tuer les dogmes : 
+Stable chimiquement, bas coût, centrre cationiques rédox
+
+Nanomatériaux :
+- Echelle nanométrique d'avantage de SEI
+- Réduire la taille des matériaux et de faire un enrobage (permet de stabiliser le matériau)
+Armand M, Gauthier, Magnan, Rave World Patentn WO 02/27823 A1
+- Enrobage
+
+Surface : Chimie de greffage, pyrolyse de sucres
+
+
+%Matériaux : 
+- LiFePO4 : Commercialisé A123, Valence, 2006
+- Li-Si ou Li-Sn : Echelle nanométrique empêche une augmentation de volume lors des charges
+
+%Nexelon, Sony 2005
+
+% N. Ravet et al Abstr No 127, ECS Fall Meeting Haaii 1999
+% Saint J Advanced Functional Materials, 17, 1765-1774, 2007
+
+Réaction de conversion, 2000 : 
+CoO + 2e + 2Li+ Co + Li2O
+Tous les systèmes binaires permettent d'obtenir des larges tensions 0.2V et 3.5V
+- 16 ans de publication mais de nombreux verrous technologiques majeurs
+- Pb : Efficacité énergétique faible (perte de 25\% de l'énergie)
+- Magnifiqu images en TEM
+- Attention : Nano métrique != meilleurs performances.
+%P. Poizot et al, Nature, 407, 496-499, 2000
+
+Technologies nanomatériaux -> importance ! Passage des systèmes portatifs aux systèmes voumineux.
+
+\subsection{Développement durable}
+Journaux : The Seattle Tmes: Bolivia, Th Saudi Arabia of Lithium
+Peak Lithium : Will supply fears drive alternative batteries ? The wall street journal
+
+Ishihara K. et al, Life Cycle Analysis, Proc. 5th Int, Conf. EcoBalance, 293-294, 2009
+JM Tarascon, D. Larcher, Nature Chemistry Decembre 2014
+
+4 axes d traaillles : 
+- conception de matériaux d'électrodes à partir d'éléments abondants
+- développement d synthèses moins énergivores
+- utilisation d'électrodes organiques renouvelables provenant de la biomasse
+- explorer de nouvelle chimie au delà du Li
+
+G Rousse, Tarascon, Chemistry of materials, 26, 394-406, 2014
+J. Miot ... Tarascon, Energy and Environmental Science, 7, 451-460
+
+ex : Na3V2(PO4) -> RS2E
+Avantage: nombre de cycle, performances en charge/décharge rapide
+Technologie qui va émerger 5-10 années -> mais dans des niches économiques
+Diagramme de Ragone -> performanches en puissance supériur au Li-ion mais avec moins de densié d'énergie
+
+Quelle aures technologies : 
+Li/air : 2 Li + O2 = Li2O2 3.0V/ESH Densité d'énergie 3505 Wh/kg
+Li/S : 2Li + S = Li2S 2.2 V/ESH 257 Wh/kg
+-> voir cours LiAir LiS
+
+Retourner sur des systèmes aqueux : 
+C Grey, JM Tarascon Nature Materials 2017
+-> potentiel limité
+-> travailler sur des aspects de surface pour bloquer cinétiquement une réacton électrochimique
+
+Na0.44 MnO2 -> technologie sodium ions stable
+Whitecare et al Power source 2009
+Technologie : Aquion Energy (28 kWh -> coût trop élevé)
+
+\subsection{Nouvel élan}
+NMC phases
+Stable chimiqument, Bas coût et sans toxicité, Centres cationiques redox
+
+Idée : acjouter des atomes de lithium dans les feuillets -> amplifie les capacités !
+Li[LiNiMnCo]O3 !
+
+Techniques analytiques : Rayons X (XPS) et RPE
+Li2 Ru0.75 Sn0.25 O3
+Formation de liaisons peroxo : accumulation d'espèces rédox cationiques et anioniques
+Fin de 25 ans de croyances -> la capacité d'un matériau ne dépend pas uniquement de la charpente cationique
+
+
+Jean Rouxel : chimie des trous
+-> situation classique (orbitales d plus hautes que p de l'oxygène)
+-> situation illicite (orbitales d plus basses que les p)
+
+Oxygène devient moins électronégatifs que le métal ?
+
+
+Yabuushi et al PNAS May 2015
+M Freire et al Nature materials Nov. 2015
+P. Pearce et al, Nature materials in press 2017
+
+Imbriquer l'activité anionique dans la charpente
+Designer des matériaux à double capacité
+
+-> jouer avec le tableau périodique : 
+--> niveau de Fermi O -> S -> Se
+--> Fe -> Ru -> Os
+
+Critères : Stable chimiquement, bas coût et sans toxicité (dernier critère encore existants)
+
+Verrous technologiques : 
+- chute de potentiel avec le cyclage 
+- limitation cinétique (deux mécanismes en fonction de la cinétique)
+
+Y.K. Sun, Y-K et al Nat Mater 11 942-947, 2012 
+J. Li et al, Chem Mater 27 3366-3377, 2015
+Sathya et al Nature Materials, 2015, vol 14, no2
+
+\subsection{Reve sur l'au-delà}
+2015 : Tesla power wall (même matériau que toutes les batteries) 
+- bas-coût
+
+Coût = Chimie/densité d'énergie + effet de volume + seconde vie batterie
+
+Seconde vie : 
+- on n'a pas d'idée de traçabilité sur l'état de santé de la batterie
+- développement techniques in situ afin de sonder l'état des batteries à différentes échelles.
+- difficulté : rajouter des vapteurs sur une batterie afin de sonder son état de santé - ientifier les défaillances - réparation - autoréparation
+--> inspiration dans la médecine.
+
+Attention : le stockage électrochimique ne suit pas la loi de Moore ! 
+Toujours un grand avenir  : 
+- autonomie (nouveau matériaux, concepts)
+- durabilité (methode analyse in situ)
+- fiabilité, diminuer l'anxiété (traçabilité)
+\end{comment}

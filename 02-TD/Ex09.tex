@@ -1,0 +1,259 @@
+\subsection{Chimie des batteries lithium-ion}
+\label{subsubsection:chimie_des_batteries_lithium-ion}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+%E3a Polytech, Filiere PSI, Session 2020
+Aujourd'hui, la plupart des équipements électroniques nomades (ordinateurs, téléphones portables, appareils photo$\ldots$) sont équipés de batteries lithium-ion, mises en lumière à l'occasion de l'attribution du Prix Nobel de chimie en octobre 2019.
+
+Les premières batteries au lithium utilisaient ce métal sous forme solide. Le problème avec cette technologie est la formation d'excroissances de lithium, appelées dendrites, qui entraînent une dégradation de l'isolation entre l'anode et la cathode. Celle-ci peut aller parfois jusqu'à l'apparition de courts-circuits donc de surchauffes, voire d'explosions.
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Ex09/Fig02}
+\captionof{figure}{Apparition de dendrites, percolant l'électrolyte, et pouvant conduire à un court-circuit anode-cathode.}
+\end{center}
+
+Utiliser le lithium sous forme d'ions, s'intercalant au sein d'électrodes constituées d'autres matériaux, a été l'idée fondatrice de la grande famille des batteries lithium-ion au début des années 1990.
+
+\paragraph*{Équation-bilan de fonctionnement}
+
+~
+
+Le numéro atomique du lithium est $Z = 3$.
+
+\Q Où se situe-t-il dans la classification périodique des éléments chimiques ? Justifier grâce à sa structure électronique.
+\solution{
+D'après les règles de l'Aufbau,  $_3 [\ce{Li}] = ~_2[\ce{He}]2s^1$
+}
+
+\Q L'ion lithium le plus stable est \ce{Li^+} ; justifier.
+\solution{La configuration électronique du \ce{Li^+} est : $_3 [\ce{Li}] = ~_2[\ce{He}]2s^0$. On trouve la configuration de l'Hélium (gaz noble le plus proche), le degré d'oxydation +I est stable.}
+
+La batterie lithium-ion fonctionne sur l'échange réversible d'ions lithium entre une électrode négative carbonée, notée $\ce{C_6}$, et une électrode positive constituée le plus souvent d'un oxyde de métal de transition. Dans le cas du cobalt \ce{Co}, l'oxyde a pour formule \ce{CoO2}.
+
+Lors de la charge de la batterie, la réaction électrochimique qui se produit à l'électrode négative est la réduction des ions lithium, s'accompagnant de l'insertion d'un atome de lithium dans la structure graphite de formule \ce{C6}.
+
+\Q Écrire la demi-équation rédox de réduction des ions lithium, puis l'équation traduisant l'insertion de l'atome de lithium dans la structure carbonée.
+\solution{
+Le couple rédox du lithium est \ce{Li^+ / Li}. Or, lors de l'insertion dans une structure carbonée, deux processus chimique sont mis en jeu : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li^+ + e^- &= Li} \quad \text{processus rédox}\\
+\ce{Li + C_6 &= LiC_6} \quad \text{insertion du lithium} \\
+\hline
+\ce{Li^+ + e^- + C_6 &= LiC_6}
+\end{align*}
+\end{minipage}
+\end{center}}
+%On peut faire une analogie avec la solubilisation/précipitation en chimie des solutions.
+
+
+\Q En déduire la demi-équation rédox qui a lieu à l'électrode négative.
+\solution{On peut définir un nouveau couple \ce{Li^+ / LiC6} plus approprié pour décrire les phénomènes à l'électrode $\ominus$ : 
+\begin{align*}
+\ce{Li^+ + e^- + C_6 = LiC_6}
+\end{align*}}
+
+%Dans les deux questions qui suivent, on fait l'hypothèse que les atomes de carbone constituant cette électrode s'organisent selon une structure cubique à faces centrées (cfc).
+
+%\Q Identifier sur un schéma soigné les sites octaédriques de cette structure et calculer leur habitabilité maximale.
+
+%\Q Est-ce alors possible de former un alliage d'insertion avec le lithium ? Justifier numériquement et conclure.
+
+À l'électrode positive, des ions lithium se désinsèrent d'un cristal de dioxyde de cobalt et de lithium de formule \ce{LiCoO2}, formant ainsi le cristal de dioxyde de cobalt \ce{CoO2}.
+
+\Q De la même manière que pour l'électrode négative, écrire la demi-équation rédox ayant lieu à l'électrode positive.
+\solution{
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li^+ + e^- &= Li} \quad \text{processus rédox}\\
+\ce{Li + CoO2 &= LiC_6} \quad \text{insertion du lithium} \\
+\hline
+\ce{Li^+ + e^- + CoO2 &= LiCoO2}
+\end{align*}
+\end{minipage}
+\end{center}}
+
+\Q \label{Q:09-06} Finalement, écrire l'équation rédox traduisant le fonctionnement de la batterie en charge et en décharge.
+
+\solution{En décharge, $\ominus = anode$, $\oplus = cathode$ :
+\begin{align*}
+\ce{LiC6_{(\ominus)} + CoO2_{(\oplus)}  = LiCoO2_{(\oplus)}  + C6_{(\ominus)}}
+\end{align*}
+En charge, $\ominus = cathode$, $\oplus = anode$ :
+\begin{align*}
+\ce{ LiCoO2_{(\oplus)}  + C6_{(\ominus)} = LiC6_{(\ominus)} + CoO2_{(\oplus)}}
+\end{align*}}
+
+\paragraph*{Masse de la batterie}
+
+~
+
+La question \ref{Q:09-06} a permis de mettre en évidence l'échange d'un électron entre les deux couples rédox en présence.
+
+\Q Déterminer la charge électrique maximale $Q_{max}$ , en Coulomb par gramme, transférée par gramme d'ions lithium.
+
+\solution{
+On cherche à savoir quelle est la quantité de charge $Q_{max}$ délivrable par \si{\gram} de lithium métallique. On commence par dresser un tableau d'avancement : 
+\begin{center}
+\begin{tabular}{cccccc}
+\si{\mole} & \ce{Li (s)} & \ce{=} & \ce{Li^+} & \ce{ + } & \ce{e^-} \\
+$t=0$ & $\frac{m (\ce{Li} )}{M (\ce{Li}) }$ & & 0 & & 0 \\
+$t \to \infty$ & $\frac{m (\ce{Li} )}{M (\ce{Li})} - \xi_\infty$ & & $\xi_\infty$ & & $\xi_\infty$ \\
+\end{tabular}
+\end{center}
+Si tout le lithium est consommé, on a une relation avec le nombre de moles d'électrons échangé $n_e$
+\begin{align*}
+n_e = \xi_\infty = \frac{m ( \ce{Li} )}{M (\ce{Li}) }
+\end{align*}
+On peut alors remonter à la quantité de charge par gramme de lithium : 
+\begin{align*}
+Q_{max} = \frac{F n_e}{m ( \ce{Li} )} = \frac{F}{M ( \ce{Li} )} \quad [\si{\coulomb\per\gram}]
+\end{align*}
+\textbf{AN :} $Q_{max} = 13.9 \cdot 10^3 ~ \si{\coulomb\per\gram}$}
+
+\Q En vous aidant des données, déterminer la masse d'ions lithium dans une batterie de téléphone portable.
+\solution{
+La capacité de la batterie, notée $C$, est fournie dans les données. La masse de lithium est donnée par le rapport suivant : 
+\begin{align*}
+m ( \ce{Li} ) = \frac{C}{Q_{max}} \stackrel{AN}{=} = \frac{2675 \times 3.6}{13900} = 0.69 ~ \si{\gram}
+\end{align*}
+La batterie de téléphone portable contient \SI{0.69}{\gram} de lithium.
+}
+
+\Q Quel problème écologique cela peut-il soulever ?
+\solution{
+On sait qu'il y a 8 milliards d'habitants sur Terre. Pour que chaque habitant dispose d'un téléphone portable, qu'il puisse le changer tous les 2 ans, il faudrait consommer 3 milliards de grammes de \ce{Li} par an, soit 3000 tonnes de lithium par an. \\
+Une telle consommation semble relativement faible au regard des réserves mondiales estimées autour de 89 millions de tonnes de lithium. La principale conséquence de l'extraction réside : 
+\begin{itemize}
+\item dans l'utilisation d'eau pour extraire le lithium des salars ;
+\item dans le rejet de \ce{CO2} pour extraire le lithium de roches.
+\end{itemize}
+De plus, les rendements d'extraction sont autour de 20-\SI{40}{\percent}, conduisant à des pertes énergétiques et un rejet d'élément lithium dans l'environnement.}%https://roulezelectrique.com/impacts-de-lextraction-et-du-raffinage-du-lithium-sur-lenvironnement-1-les-methodes-traditionnelles/
+
+\Q Déterminer, en \si{\watt\hour}, l'énergie de la batterie d'un téléphone portable à \SI{25}{\celsius}.
+\solution{On peut déterminer l'énergie théorique maximale de cette batterie dans les conditions standard : 
+\begin{align*}
+ETM^\circ = Q \cdot e^\circ \stackrel{AN}{=} 9.6 ~ \si{\watt\hour}
+\end{align*}}
+
+\Q En déduire la masse de la batterie. Ce résultat vous paraît-t-il plausible ?
+\solution{Il faudrait une batterie de \SI{48}{\gram}, valeur complètement compatible avec son utilisation au sein d'un dispositif portatif comme un téléphone portable.}
+
+\paragraph*{Rendement}
+
+~
+
+On étudie la décharge de la batterie : le dispositif se comporte comme une pile.
+
+\Q Déterminer l'enthalpie libre standard $\Delta_r G^\circ$ (\SI{25}{\celsius}) de la réaction de décharge de la batterie à \SI{25}{\celsius}.
+\solution{D'après le second principe de la thermodynamique, en présence d'un travail électrique, on a :
+\begin{equation}
+\Delta_r G \stackrel{def}{=} -n F e
+\end{equation}
+avec $n$ le nombre d'électrons échangé par mole d'oxydant.
+En condition standard, pour la réaction de la Q. \ref{Q:09-06}, on trouve : 
+\begin{align*}
+\Delta_r G^\circ (25 ~ \si{\celsius}) = -F e^\circ (25 ~ \si{\celsius}) 
+\end{align*}
+\textbf{AN :} $\Delta_r G^\circ (25 ~ \si{\celsius}) = - 347 ~ \si{\kilo\joule\per\mole}$}
+
+\Q Déduire de la Fig. \ref{fig:09-01} donnant l'évolution de la tension à vide $e^\circ$ de la pile en fonction de la température, l'entropie standard de réaction $\Delta_r S^\circ$.
+
+\solution{En condition standard, on peut écrire à partir de la relation $G \stackrel{def}{=} H - TS$
+\begin{align*}
+\Delta_r G^\circ  = \Delta_r H^\circ - \Delta_r S^\circ T 
+\end{align*}
+On va se placer dans le cadre de l'approximation d'Ellingham qui consiste à supposer le couple $(H, S)$ indépendant de la température : 
+\begin{align*}
+\Delta_r G^\circ (T) = \Delta_r H^\circ (25 ~ \si{\celsius})- \Delta_r S^\circ (25 ~ \si{\celsius}) T
+\end{align*}
+Par conséquent, en utilisant la relation entre travail électrique et enthalpie de réaction, on peut écrire : 
+\begin{align*}
+e^\circ (T) = -\frac{\Delta_r H^\circ (25 ~ \si{\celsius})}{F} + \frac{\Delta_r S^\circ (25 ~ \si{\celsius})}{F} T 
+\end{align*}
+On sait que la pente de la fonction $e(T)$ est égale à $\Delta_r S^\circ (25 ~ \si{\celsius})$ :
+\begin{align*}
+\text{pente} = \frac{0.0032 - 0.0005}{280 - 310} = - 9 \cdot 10^{-5} ~ \si{\volt\per\kelvin}
+\end{align*}
+soit : $\Delta_r S^\circ (25 ~ \si{\celsius}) = -8.685 ~ \si{\joule\per\mole\per\kelvin}$}
+
+\begin{center}
+	\includegraphics[width=10cm]{Ex09/Fig01}
+	\captionof{figure}{Variation de la f.e.m. de la pile Li-ion avec la température. La fem à une température donnée est obtenue en ajoutant \SI{3.598}{\volt} à la valeur lue sur l'axe des ordonnées.}
+	\label{fig:09-01}
+\end{center}
+
+
+\Q Déterminer l'enthalpie standard $\Delta_r H^\circ$ de la réaction de décharge.
+\solution{En évaluant la relation de $\Delta_r G^\circ$ à \SI{25}{\celsius}, on peut remonter à l'enthalpie : 
+\begin{align*}
+\Delta_r H^\circ (25 \si{\celsius} )  = \Delta_r G^\circ (25 ~ \si{\celsius} ) + T_{25} \cdot \Delta_r S^\circ (25 ~ \si{\celsius} )
+\end{align*}
+\textbf{AN :} $\Delta_r H^\circ (25 \si{\celsius} ) = -347 \cdot 10^3 + 298 \cdot (-8.69) = -350 ~ \si{\kilo\joule\per\mole}$
+}
+
+On définit le rendement de la pile par le rapport du travail électrique sur l'énergie chimique.
+
+\Q Donner le sens de ce rendement. Déterminer la valeur du rendement pour la pile lithium-ion.
+\solution{Ce rendement mesure le rapport entre le travail électrique réversible (c.-à-d. l'énergie utile) et l'énergie thermique (c.-à-d. l'énergie disponible issue de la réaction chimique fictive).
+\begin{align*}
+r = \frac{\Delta_r G^\circ}{\Delta_r H^\circ} \stackrel{AN}{=} \SI{99}{\percent}
+\end{align*}
+Lors de la décharge, la pile permet d'exploiter \SI{99}{\percent} de l'énergie.
+}
+
+Certaines personnes proposent de frotter la batterie pendant plusieurs minutes entre leurs mains pour la recharger.
+
+\Q Commenter cette proposition d'hurluberlue.
+\solution{
+On sait que $\Delta_r H^\circ < 0$ lors de la décharge (resp. charge), la réaction de décharge est exothermique (resp. endothermique). \\
+A priori, selon la thermodynamique, en frottant la batterie entre ses mains, on devrait déplacer l'équilibre dans le sens indirect (cf loi de van't Hoff, BUT1). Cependant, "déplacer" ne signifie pas qu'elle aura lieu dans le sens indirect. Pour preuve, il faudrait que $\Delta_r G^\circ > 0$
+d'où :
+\begin{align*}
+T > \frac{\Delta_r H^\circ}{\Delta_r S^\circ} \quad \text{(car }\Delta_r S^\circ < 0\text{)}
+\end{align*}
+\textbf{AN :} $T > 40.3 \cdot 10^3 \si{\kelvin}$
+\`{A} moins que vous soyez capable de chauffer entre vos mains à une température supérieure à 6/7 fois la température à la surface du soleil, la recharge de la batterie risque d'être difficile !
+}
+
+\begin{comment}
+\paragraph*{Caractéristiques de l'électrolyte}
+
+~
+
+L'électrolyte de la pile Li-ion est un liquide qui baigne l'espace inter-électrodes. C'est un solvant organique contenant des sels fluorés de lithium. Hautement inflammable et toxique, il a surtout l'inconvénient d'être instable. Qu'un échauffement le porte au-delà de \SI{100}{\celsius} et voilà qu'y démarre une
+cascade de réactions chimiques exothermiques. Généralement, l'électrolyte est le sel \ce{LiPF6} dissous dans un solvant organique aprotique car le lithium est détruit par tout solvant protique.
+
+\Q Qu'est-ce qu'un solvant protique ? Donner un exemple.
+
+Certaines personnes proposent de frotter la batterie pendant plusieurs minutes entre leurs mains pour la recharger.
+
+\Q Énoncer la loi d'Arrhenius de la cinétique chimique. Définir les différents termes qui y apparaissent, en précisant leurs unités.
+
+\Q Que pensez-vous de la méthode proposée en termes de cinétique chimique ?
+
+\Q Que pensez-vous de cette méthode en termes de thermochimie, sachant que la réaction de décharge de la batterie est exothermique ?
+\end{comment}
+
+\paragraph*{Données}
+
+~
+
+\begin{itemize}
+	\item Masse molaire \ce{Li} : $M ( \ce{Li} ) = 6.941 ~ \si{\gram\per\mole}$
+	\item Constante de Faraday : $F = 96.5 \cdot 10^3 ~ \si{\coulomb\per\mole}$ ;
+	\item Nombre d'Avogadro : $N_a = 6.02 \cdot 10^{23} ~ \si{\per\mole}$ ;
+	%\item Rayon de l'atome de lithium : $R (\ce{Li}) = 145 ~ \si{\per\mole}$ ;
+	%\item Rayon ionique du lithium : $R (\ce{Li+}) = 76 ~ \si{\pico\meter}$ ;
+	%\item Rayon de l'atome de carbone : $R(\ce{C}) = 70 ~ \si{\pico\meter}$ ;
+	\item Caractéristiques de la batterie Li-ion d'un téléphone portable usuel :
+\begin{itemize}
+	\item Capacité : $C = 2 675 ~ \si{\milli\ampere\hour}$ ;
+	\item Énergie massique : $E_{massique} = 200 ~ \si{\watt\hour\per\kilo\gram}$ de batterie ;
+	\item Tension à vide à \SI{25}{\celsius} : $e^\circ = 3.6 ~ \si{\volt}$.
+\end{itemize}
+\end{itemize}

@@ -1,0 +1,12 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1. }Synthèse du précurseur \ce {MnCO3} [Synthèse - {{\FAthree \symbol {47}}}~ \SI {1}{\hour } - Caractérisation - {{\FAthree \symbol {47}}}~ \SI {30}{\minute }]}{2}{section.1}%
+\contentsline {section}{\numberline {2. }Synthèse du matériaux final \ce {LiMn2O4} [Synthèse - {{\FAthree \symbol {47}}}~ \SI {1.5}{\hour } - Caractérisation - {{\FAthree \symbol {47}}}~ \SI {1}{\hour }]}{6}{section.2}%
+\contentsline {section}{\numberline {A}Produits chimiques}{11}{appendix.A}%
+\contentsline {section}{\numberline {B}Analyse thermique : exemple de l'analyse thermogravimétrique}{12}{appendix.B}%
+\contentsline {subsection}{\numberline {B1. }Considérations générales}{12}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B2. }Exemple d'expérience de décomposition : étude d'un mélange}{13}{subsection.B.2}%
+\contentsline {section}{\numberline {C}Diffractogrammes et tables de diffraction sur poudre}{15}{appendix.C}%
+\contentsline {subsection}{\numberline {C1. }\ce {MnSO4.H2O} : $C12/c1$ - 15}{15}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C2. }\ce {Li2CO3} : $C12/c1$ - 15}{16}{subsection.C.2}%
+\contentsline {subsection}{\numberline {C3. }\ce {MnCO3} : $R\bar {3}c$ - 167}{17}{subsection.C.3}%
+\contentsline {subsection}{\numberline {C4. }\ce {LiMn2O4} : $Fd\bar {3}m$ - 227}{17}{subsection.C.4}%

@@ -1,0 +1,60 @@
+\subsection{\'{E}tude d'une pile galvanique}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+Considérons la pile formée par l'association de deux demi-piles. La demi-pile de gauche est constituée d'un fil de cuivre plongeant dans une solution de sulfate de cuivre, l'une dans un volume $V_1 = 100$ \si{\milli\liter} à $c_1 = 1.00$ \si{\mole\per\liter} (demi-pile \textbf{1}). L'autre demi-pile est constituée d'un fil d'aluminium plongeant dans une solution de sulfate d'aluminium à $c_2 = 1.00$ \si{\mole\per\liter} dans un volume $V_2 = 100$ \si{\milli\liter} (demi-pile \textbf{2}). Une solution de
+nitrate d'ammonium gélifiée assure la jonction électrolytique interne entre les deux demi-piles. Les électrodes métalliques sont en "excès" dans chacun de leurs compartiments.
+
+\Q Faire un schéma de cette pile.
+\solution{
+$$\ce{Al(s, 2)} | \ce{Al^{3+} (aq, 2)}, \ce{SO4^{2-} (aq, 2)} || \ce{Cu^{2+}} (aq, 1), \ce{SO4^{2-} (aq, 1)} | \ce{Cu(s) (s, 1)}$$
+}
+
+\Q Déterminer la polarité de la pile, les équations des réactions se déroulant dans chaque demi-pile et la réaction globale de fonctionnement de la pile.
+\solution{
+Chaque demi-pile est décrite par la demi-équation rédox : 
+\begin{align*}
+\ce{Cu^{2+} (aq) + 2 e^- &= Cu(s)} \\
+\ce{Al^{3+} (aq) + 3 e^- &= Al(s)}
+\end{align*}
+On se place à l'équilibre thermodynamique, on peut donc écrire l'équation de Nernst pour lier le potentiel de chaque électrode au potentiel du couple.
+\begin{align*}
+E_1 &= E^\circ (\ce{Cu^{2+}}/ \ce{Cu}) + \frac{RT}{2F} \ln \left( \frac{a (\ce{Cu^{2+} (aq)})}{a (\ce{Cu (s)})} \right) \\
+E_1 &= E^\circ (\ce{Cu^{2+}}/ \ce{Cu}) + \frac{RT}{2F} \ln \left( \frac{[\ce{Cu^{2+}}]_1}{c^\circ} \right) \\
+E_2 &= E^\circ (\ce{Al^{3+}}/ \ce{Al}) + \frac{RT}{3F} \ln \left( \frac{a (\ce{Al^{3+} (aq)})}{a (\ce{Al (s)})} \right) \\
+E_2 &= E^\circ (\ce{Al^{3+}}/ \ce{Al}) + \frac{RT}{3F} \ln \left( \frac{[\ce{Al^{3+}}]_2}{c^\circ} \right) \\
+\end{align*}
+On sait que $[\ce{Cu^{2+}}]_1 = [\ce{Al^{3+}}]_2 \text{ et } E^\circ (\ce{Cu^{2+}}/ \ce{Cu}) > E^\circ (\ce{Al^{3+}}/ \ce{Al}) \implies E_1 > E_2$. Ainsi, la demi-pile 1 (resp. 2) est le siège de réduction (resp. de l'oxydation), soit la cathode (resp. l'anode).
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Cu^{2+}(aq, 1) + 2e^- &= Cu (s, 1)} \times 3\\
+\ce{Al (s, 2) &= Al^{3+}(aq, 2) + 3e^-} \times 2\\
+\hline
+\ce{3Cu^{2+}(aq, 1) + 2Al (s, 2) &= 3Cu (s, 1) + 2Al^{3+}(aq, 2)}
+\end{align*}
+\end{minipage}
+\end{center}}
+
+
+\Q Calculer la f.e.m. de cette pile à \SI{298}{\kelvin}.
+\solution{
+\begin{align*}
+e &\widehat{=} ~ E_\oplus - E_\ominus \\
+&= E_1 - E_2 \\
+&= E^\circ ( \ce{Cu^{2+} (aq)} / \ce{Cu (s)}) - E^\circ ( \ce{Al^{3+} (aq)} / \ce{Al (s)})
+\end{align*}
+\textbf{AN :} $e = e^\circ = 2.00 ~ \si{\volt}$ 
+}
+
+\Q Commenter l'appellation \og pile galvanique \fg{} pour cette pile.
+\solution{
+La différence de potentiel de cette pile est dûe à la différence de potentiel entre ces deux couples rédox. Par conséquent, c'est une différence de "noblesse" des métaux (le cuivre est plus noble que le zinc) qui est à l'origine de la f.e.m.
+}
+
+\paragraph*{Données à \SI{298}{\kelvin}}
+\begin{align*}
+E^\circ \left( \ce{Al^{3+} (aq)} / \ce{Al (s)} \right) &= -1.66 ~ \si{\volt\per{ESH}} \\
+E^\circ \left( \ce{Cu^{2+} (aq)} / \ce{Cu (s)} \right) &= 0.34 ~ \si{\volt\per{ESH}}
+\end{align*}

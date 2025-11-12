@@ -1,0 +1,107 @@
+\subsubsection{Relation entre le potentiel chimique du lithium et la force électromotrice}
+\label{subsubsection:relation_potentiel_chimique-fem}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+Nous allons chercher à modéliser le comportement d'un matériau d'insertion à l'aide du potentiel chimique. Nous allons modéliser un matériau hôte par la formule brute $\square\ce{M}$ où $\square$ indique les sites d'insertion vacants du matériau. Lors de la charge, le matériau recevra une fraction molaire $x$ d'atomes de lithium, que nous définirons comme : 
+\begin{align*}
+x = \frac{n_{Li}}{n_{Li} + n_\square} = \frac{n_{Li}}{n_S}
+\end{align*}
+où $n_{Li}$ (resp. $n_\square$) indique le nombre de sites d'insertion occupés par du lithum (resp. sites d'insertion vacants) et $n_S$ le nombre total de sites d'insertion.
+
+\Q Donner la formule brute du matériau lorsqu'une fraction $x$ d'atomes de lithium occupe les sites d'insertion.
+\solution{La formule brute du matériau pourra donc s'écrire comme $\square_{1-x}\ce{Li_x M}$}
+
+\Q \label{Q:25-02} Exprimer l'enthalpie libre $G(x)$ en fonction du potentiel chimique des sites vacants $\square$, du potentiel chimique du lithium, de la fonction molaire $x$ et du nombre de mole de site $n_S$
+\solution{D'après le cours, on a : 
+\begin{align*}
+G = n_{Li} \mu_{Li} + n_\square \mu_\square
+\end{align*}
+On peut donc exprimer ceci en fonction de la fraction molaire, tel que pour une transformation isotherme et isobare : 
+\begin{align*}
+G(x) = n_S (x \mu_{Li} (x) + (1-x) \mu_\square (x))
+\end{align*}}
+On va considérer initialement que l'activité du lithium (resp. des sites vacants) est assimilée à la fraction molaire en lithium (resp. des sites vacants). On appellera enthalpie libre molaire $g(x)$, l'enthalpie libre par site d'insertion, soit : 
+\begin{align*}
+g(x) = \frac{G(x)}{n_S}
+\end{align*}
+
+\Q Exprimer le potentiel chimique de chacun des constituants. En déduire une expression de l'enthalpie libre molaire.
+\solution{D'après le cours, on a :
+\begin{align*}
+\mu_{Li} (x) &= \mu_{Li}^\circ + RT \ln (x) \\
+\mu_\square (x) &= \mu_\square^\circ + RT \ln (1-x)
+\end{align*}
+On peut intégrer ces deux relations à celle de la \ref{Q:25-02} : 
+\begin{align*}
+g(x) = x \mu^\circ_{Li} + (1-x) \mu^\circ_\square + RT (x \ln( x ) + (1-x) \ln (1-x))
+\end{align*}}
+
+Comme représenté à la \ref{fig:25-01}, cette solution solide $Li-\square$ peut être vu comme le mélange d'un matériau hôte contenant que les ions Li, de fraction $x$, et d'un matériau hôte contenant que les sites vacants, de fraction $1-x$.
+
+\begin{center}
+\includegraphics[width=0.88\textwidth]{Ex25/Fig01}
+\label{fig:25-01}
+\end{center}
+
+
+On peut définir une enthalpie libre molaire de mélange 
+\begin{align*}
+\Delta g_m (x) = g(x) - x \mu^\circ_{Li} - (1-x) \mu^\circ_{\square}
+\end{align*}
+
+\Q Donner l'expression de cette enthalpie libre molaire de mélange.
+\solution{
+\begin{align*}
+\Delta g_m = RT \left( x \ln x + (1-x) \ln (1-x) \right)
+\end{align*}
+}
+
+\Q Identifier ce qui est d'origine enthalpique et entropique dans cette expression. Identifier l'hypothèse à l'origine de ce résultat et donnez-en le sens physique.
+\solution{
+En partant de la définition de $G$, on peut exprimer l'enthalpie libre de mélange comme n'importe quelle grandeur de réaction, soit : 
+\begin{align*}
+\Delta g_m = \Delta h_m - T \Delta s_m
+\end{align*}
+Par conséquent,
+\begin{align*}
+\Delta s_m &= \frac{d g_m}{dx} \\
+\Delta h_m &= \Delta g_m + T \Delta s_m
+\end{align*}
+On trouve alors que : 
+\begin{align*}
+\Delta h_m &= 0 \\
+\Delta s_m &= -R (x \ln x + (1-x) \ln (1-x))
+\end{align*}
+L'hypothèse d'assimiler l'activité $a_{Li}$ à $x$, a conduit à une enthalpie de mélange nulle, c'est-à-dire que les interactions dans un hôte \SI{100}{\percent} lithium et un hôte \SI{0}{\percent} lithium sont les mêmes que dans une structure $x ~ \si{\percent}$ lithium.}
+
+\Q Commenter le signe de $\Delta G_m$.
+\solution{
+On sait que $0 \leq x \leq 1$. Par conséquent, $\ln x < 0$ et $\ln 1-x < 0$, ce qui signifie que l'enthalpie de mélange est toujours négative ! L'entropie conduit spontanément le lithium à occuper les sites d'insertion.}
+
+\Q On rappelle que le potentiel de l'électrode dérive de l'enthalpie libre : 
+\begin{align*}
+E(x) = - \frac{1}{F} \frac{d \Delta g_m}{dx} (x)
+\end{align*}
+En déduire le profil du potentiel de cette électrode attendue dans une expérience de titrage coulométrique. Représenter-le.
+\solution{
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\begin{align*}
+E (x) &= - \frac{1}{F} \frac{d \Delta g_m}{dx} (x) \\
+&= - \frac{RT}{F} \ln \left( \frac{x}{1-x} \right)
+\end{align*}
+On peut estimer trois points particuliers : 
+\begin{align*}
+\lim_{x \to 0} E(x) &= \lim_{x \to 0} -\frac{RT}{F} \ln ( x ) = + \infty \\
+\lim_{x \to 1} E(x) &= \lim_{x \to 0} +\frac{RT}{F} \ln ( 1-x ) = - \infty \\
+E(0.5) &= 0
+\end{align*}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=\textwidth]{Ex25/Corr01}
+\end{center}
+Fonction associée
+\end{minipage}
+\end{center}}

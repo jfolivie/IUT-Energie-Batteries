@@ -1,0 +1,156 @@
+\subsubsection{\'{E}tude d'un système ternaire Li-Cu-Cl}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+On se propose d'étudier de manière thermodynamique le ternaire Li-Cu-Cl. 
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex28/Fig01}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Diagramme ternaire isotherme à \SI{25}{\celsius} où les corps purs, simples et complexes, sont indiqués}
+\label{fig:28-01}
+\end{minipage}
+\end{center}
+
+Sur la Fig. \ref{fig:28-01}, les lignes en trait plein indiquent les zones de démarcation entre des régions de composition différentes en chacune des phases. On cherchera à déterminer la f.e.m. où le système ternaire Li-Cu-Cl est au pôle $\oplus$ et la référence lithium métallique \ce{Li (s) | Li^+} à l'interface $\ominus$. Le système subit une évolution isotherme et isobare.
+
+\Q Indiquer la composition dans toutes les régions du diagramme ternaire. Calculer la variance particulière et conclure.
+\solution{On fait bien attention à indiquer la composition aussi sur les pôles et lignes de démarcation, sinon la réponse est incomplète. On peut alors écrire : 
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Ex28/Corr03}
+\end{center}
+Tous les domaines où $v_p = 0$ auront une f.e.m. constante (aucun degré de liberté intensif). Les sauts de potentiel auront lieu sur les lignes de démarcation où $v_p = 1$.}
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex28/Fig02}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Ligne de composition lorsque la fraction de lithium varie au sein d'une pile \ce{Li||CuCl}}
+\end{minipage}
+
+On considère dans un second temps que l'on étudie la pile suivante : 
+\begin{align*}
+\ominus ~ \ce{Li} | \ce{LiCl} | \ce{CuCl} ~ \oplus
+\end{align*}
+
+\Q Où se trouve-t-on dans le diagramme lorsque la pile est chargée et lorsqu'elle est déchargée ?
+\solution{Au début, lorsque la pile est chargée, on se trouve au pôle \ce{CuCl}. Ensuite, en déchargeant progressivement, on libère des ions lithium vers le pôle $\oplus$. On parcourt la ligne en pointillé vers le pôle chimique $\ce{Li}$ (qui n'est jamais atteint physiquement).}
+
+\Q Représenter le profil de potentiel associé à la décharge pour une st{\oe}chiométrie de lithium comprise dans l'intervalle $[0,1]$.
+\solution{On utilise la relation entre enthalpie et travail chimique, qui nous permet d'écrire : 
+\begin{align*}
+\Delta_r G = - n F e = -n F E_\oplus [\si{\volt\per{\ce{Li^+} / \ce{Li}}}]
+\end{align*}
+On sait que dans le domaine B la variance est nulle. On peut donc calculer la valeur du plateau de f.e.m. dans ce domaine. Commençons par modéliser l'équation de décharge : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li &= Li^+ + e^-} \\
+\ce{CuCl + e^- &= CuCl + Cl^-} \\
+\hline
+\ce{CuCl + Li &= Cu + Li^+ + Cl^-} \\
+\ce{CuCl + Li &= Cu + LiCl}
+\end{align*}
+\end{minipage}
+\end{center}
+On peut calculer les enthalpies de formation de Gibbs à \SI{298}{\kelvin} du domaine B : 
+\begin{align*}
+\Delta_r G^\circ ( \text{B} ) &=  \Delta_f G^\circ ( \ce{LiCl} ) - \Delta_f G^\circ ( \ce{CuCl} ) \\
+& \stackrel{AN}{=} -245.3 ~ \si{\kilo\joule\per\mole}
+\end{align*}
+On peut ainsi écrire le potentiel cathodique du domaine B comme :
+\begin{align*}
+E_\oplus ( \text{B} ) &= -\frac{\Delta_r G^\circ ( \text{B} ) }{F} \stackrel{AN}{=} 2.542 ~ \si{\volt\per{\ce{Li^+ / Li}}}
+\end{align*}
+On s'attend à un profil comme suit :
+\begin{center}
+\includegraphics[width=0.2\textwidth]{Ex28/Corr01}
+\end{center}}
+
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex28/Fig03}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Ligne de composition lorsque la fraction de lithium varie au sein d'une pile \ce{Li||CuCl2}}
+\end{minipage}
+
+
+On considère dans un second temps que l'on étudie la pile suivante : 
+\begin{align*}
+\ominus ~  \ce{Li} | \ce{LiCl} | \ce{CuCl2} ~ \oplus
+\end{align*}
+
+\Q Où se trouve-t-on dans le diagramme lorsque la pile est chargée et lorsqu'elle est déchargée ?
+\solution{Au début, lorsque la pile est chargée, on se trouve au pôle \ce{CuCl2}. Ensuite, en déchargeant progressivement, on libère des ions lithium vers le pôle $\oplus$. On parcourt la ligne en pointillé vers le pôle chimique $\ce{Li}$ (qui n'est jamais atteint physiquement).}
+
+\Q Représenter le profil de potentiel associé à la décharge pour une st{\oe}chiométrie de lithium comprise dans l'intervalle $[0,2]$.
+\solution{On utilise la relation entre enthalpie et travail chimique, qui nous permet d'écrire : 
+\begin{align*}
+\Delta_r G = - n F e = -n F E_\oplus [\si{\volt\per{\ce{Li^+} / \ce{Li}}}]
+\end{align*}
+On sait que dans les domaines C et B la variance est nulle. On peut donc calculer la valeur du plateau de f.e.m. dans ces domaines. Commençons par modéliser les équations de décharge : 
+\begin{itemize}
+\item dans le domaine C : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li &= Li^+ + e^-} \\
+\ce{CuCl2 + e^- &= CuCl + Cl^-} \\
+\hline
+\ce{CuCl2 + Li &= CuCl + Li^+ + Cl^-} \\
+\ce{CuCl2 + Li &= CuCl + LiCl}
+\end{align*}
+\end{minipage}
+\end{center}
+\item dans le domaine B : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li &= Li^+ + e^-} \\
+\ce{CuCl + e^- &= Cu + Cl^-} \\
+\hline
+\ce{CuCl + Li &= Cu + Li^+ + Cl^-} \\
+\ce{CuCl + Li &= Cu + LiCl}
+\end{align*}
+\end{minipage}
+\end{center}
+\end{itemize}
+On peut alors calculer les enthalpies de formation de Gibbs à \SI{298}{\kelvin} dans chacun des domaines : 
+\begin{itemize}
+\item dans le domaine C :  
+\begin{align*}
+\Delta_r G^\circ ( \text{C} ) &=  \Delta_f G^\circ ( \ce{LiCl} ) + \Delta_f G^\circ ( \ce{CuCl} ) - \Delta_f G^\circ ( \ce{CuCl2}  ) \\
+&\stackrel{AN}{=} -348.9 ~ \si{\kilo\joule\per\mole}
+\end{align*}
+\item dans le domaine B : 
+\begin{align*}
+\Delta_r G^\circ ( \text{B} ) &=  \Delta_f G^\circ ( \ce{LiCl} ) - \Delta_f G^\circ ( \ce{CuCl} ) \\
+& \stackrel{AN}{=} -245.3 ~ \si{\kilo\joule\per\mole}
+\end{align*}
+\end{itemize}
+On peut alors écrire le potentiel cathodique dans les domaines B/C comme :
+\begin{align*}
+E_\oplus ( \text{C} ) &= -\frac{\Delta_r G^\circ ( \text{C} ) }{F} \stackrel{AN}{=} 3.615 ~ \si{\volt\per{\ce{Li^+ / Li}}} \\
+E_\oplus ( \text{B} ) &= -\frac{\Delta_r G^\circ ( \text{B} ) }{F} \stackrel{AN}{=} 2.542 ~ \si{\volt\per{\ce{Li^+ / Li}}}
+\end{align*}
+On s'attend à un profil comme suit :
+\begin{center}
+\includegraphics[width=0.4\textwidth]{Ex28/Corr02}
+\end{center}}
+
+\paragraph*{Données}
+\begin{itemize}
+\item Enthalpie libre de formation à \SI{298}{\kelvin}
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+Phase & $\Delta_f G^\circ$ \\
+& [\si{\kilo\joule\per\mole}] \\
+\midrule
+\ce{LiCl} & -384.0 \\
+\ce{CuCl} & -138.7 \\
+\ce{CuCl2} & -173.8 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{itemize}
