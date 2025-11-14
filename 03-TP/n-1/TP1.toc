@@ -9,5 +9,5 @@
 \contentsline {section}{\numberline {A}Produits chimiques}{17}{appendix.A}%
 \contentsline {subsection}{\numberline {A1. }\'{E}chelle de potentiel}{17}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A2. }Détermination de grandeurs thermodynamique et cinétique de cellules électrochimiques}{17}{subsection.A.2}%
-\contentsline {section}{\numberline {B}Grandeurs de réaction dans les conditons standard}{18}{appendix.B}%
+\contentsline {section}{\numberline {B}Grandeurs de réaction dans les conditions standard}{18}{appendix.B}%
 \contentsline {section}{\numberline {C}Courbes courant-potentiel}{19}{appendix.C}%

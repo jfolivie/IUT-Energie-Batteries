@@ -88,7 +88,7 @@ $n^\circ 2$ :
 \tito{Expériences autour des concepts de base d'électrochimie pour l'énergie}
 
 \paragraph*{But} 
-Lors de cette séance de TP, vous serez emmené à revisiter les concepts élémentaires des réactions rédox par une approche expérimentale. Avant toute chose, l'objectif est de se familiariser avec plusieurs concepts théoriques vus dans les deux premiers chapitres du cours sur les batteries.
+Lors de cette séance de TP, vous serez emmené à revisiter les concepts élémentaires des réactions redox par une approche expérimentale. Avant toute chose, l'objectif est de se familiariser avec plusieurs concepts théoriques vus dans les deux premiers chapitres du cours sur les batteries.
 
 \paragraph*{Quelques remarques :}
 \begin{enumerate}
@@ -170,7 +170,7 @@ avec ">" qui signifie \og plus noble que \fg{}
 \question[1] \label{Q:02} Déduire de la Q. \ref{Q:01}, l'ordre attendu des potentiels standard des couples mis en jeu à température ambiante.
 
 \begin{solution}[3cm]
-Les étudiants doivent associer la "noblesse" de l'espèce à sa capacité à oxyder. Or ils savent que le meilleur oxydant présente le potentiel rédox le plus élevé.
+Les étudiants doivent associer la "noblesse" de l'espèce à sa capacité à oxyder. Or ils savent que le meilleur oxydant présente le potentiel redox le plus élevé.
 \begin{align*}
 E^\circ (\ce{Ag+ / Ag} ) > E^\circ (\ce{Cu^{2+} / Cu} ) > E^\circ (\ce{Fe^{2+} / Fe} ) > E^\circ (\ce{Zn^{2+} / Zn} ) > E^\circ (\ce{Al^{3+} / Al} )
 \end{align*}
@@ -182,7 +182,7 @@ Ces valeurs peuvent être mises en relief avec les données de la littérature �
 Couple & \ce{Ag+ / Ag} & \ce{Cu^{2+} / Cu} & \ce{Fe^{2+} / Fe} & \ce{Zn^{2+} / Zn} & \ce{Al^{3+} / Al} \\
 $E^\circ $ & 0.80 & 0.34 & -0.44 & -0.76 & -1.66 \\
 \end{tabular}
-\captionof{table}{Potentiel rédox standard des couples à \SI{298}{\kelvin}}
+\captionof{table}{Potentiel redox standard des couples à \SI{298}{\kelvin}}
 \end{center}
 %E°
 %Al3+/Al -1.66
@@ -209,7 +209,7 @@ P = e \cdot I - R \cdot I^2
 \end{align*}
 où $e$ est la f.e.m., $R$ est la résistance interne.
 
-Afin de minimiser le terme associé à l'effet Joule/chute ohmique, les étudiants doivent proposer le couple rédox maximisant la f.e.m. : 
+Afin de minimiser le terme associé à l'effet Joule/chute ohmique, les étudiants doivent proposer le couple redox maximisant la f.e.m. : 
 \begin{align*}
 e &\approx e^\circ \approx  E^\circ_\oplus - E^\circ_\ominus \\
 &\approx E^\circ ( \ce{Ag+ / Ag} ) - E^\circ ( \ce{Al^{3+} / Al} ) \\
@@ -349,7 +349,7 @@ En changeant l'orientation du voltmètre, les étudiants remarquent que la tensi
 \end{mybox}
 
 \begin{mybox}
-\question[1] Complèter le schéma de la Fig.\ref{fig:01}, lorsque la pile se décharge en indiquant : la polarité, le sens du courant et de circulation des électrons ainsi que l'anode et la cathode. Donner les demi-équations rédox associé à chaque demi-pile.
+\question[1] Compléter le schéma de /la Fig.\ref{fig:01}, lorsque la pile se décharge en indiquant : la polarité, le sens du courant et de circulation des électrons ainsi que l'anode et la cathode. Donner les demi-équations redox associé à chaque demi-pile.
 \begin{solution}[5cm]
 \begin{center}
 \includegraphics[width=8cm]{figures/Corr03}
@@ -467,7 +467,12 @@ Dans ces deux situations, les tensions mesurent :
 %\question[1] Appeler l'enseignement pour qu'il vérifie le montage électrique et chimique.
 
 \begin{mybox}
-\question[2] {\color{purple} Décomposer le potentiel électrostatique, noté $\Phi$, entre la borne $\oplus$ et $\ominus$ de la pile, et démontrer que l'on fait bien l'acquisition des tensions indiquées à la question précédente. }\\ 
+\question[2] {\color{purple} Décomposer le potentiel électrostatique, noté $\Phi$, entre la borne $\oplus$ et $\ominus$ de la pile, et démontrer que l'on fait bien l'acquisition des tensions indiquées à la question précédente. On pourra exprimer cela sous la forme : 
+\begin{align*}
+U_G [V] &= E_\oplus [V/ECS] + U [V] - E_\ominus [V/ECS]
+\end{align*}
+avec $E_\oplus$ le potentiel de l'électrode $\oplus$ par rapport à l'ECS, $E_\ominus$ le potentiel de l'électrode $\ominus$ par rapport à l'ECS et $U$ la chute ohmique dans la pile.
+}\\ 
 \emph{Aide : Pour cela, vous aurez besoin de faire apparaître le potentiel électrostatique aux électrodes $\oplus$ \& $\ominus$, le potentiel électrostatique à chacune des électrodes au calomel saturé et le potentiel électrostatique au sein de la solution dans chacun des compartiments.}
 \begin{solution}[5cm]
 On peut décomposer le potentiel électrostatique : 
@@ -595,7 +600,7 @@ Lorsque la pile se comporte comme un générateur, à un courant donné, la tens
 \setcounter{foo}{\value{question}}
 \end{questions}
 
-Par la suite, on va chercher à comprendre l'origine chimique du terme non linéaire en représentant l'évolution des potentiels rédox du cuivre et du zinc avec le courant.
+Par la suite, on va chercher à comprendre l'origine chimique du terme non linéaire en représentant l'évolution des potentiels redox du cuivre et du zinc avec le courant.
 
 \newpage
 
@@ -618,7 +623,7 @@ Appuyez-vous sur l'annexe \ref{sec:I-E} pour répondre aux questions suivantes.
 I > 0 \implies \text{oxydation} ;\\
 I < 0 \implies \text{réduction}.
 \end{align*}
-et vous prendre un potentiel rédox exprimé en $\si{\volt\per{ECS}}$.
+et vous prendre un potentiel redox exprimé en $\si{\volt\per{ECS}}$.
 
 
 
@@ -936,7 +941,7 @@ Zinc & - & - & -\\
 \end{tabular}
 \end{center}
 
-\section{Grandeurs de réaction dans les conditons standard}
+\section{Grandeurs de réaction dans les conditions standard}
 \label{sec:DrH&DrS}
 
 Dans cette annexe, on fournit les démonstrations thermodynamiques sur lesquelles vous pouvez vous appuyez pour assimiler les grandeurs de réaction mesurées en condition ambiante aux grandeurs en condition standard.
@@ -995,7 +1000,7 @@ L'Eq. \ref{eq:DrH-DrH°} montre que l'enthalpie de réaction s'assimile assez bi
 
 {\tiny La résistance interne de la cellule électrochimique sera négligée dans les explications ci-dessous pour un intérêt purement pédagogique.}% M. Olivieri se décharge de toute responsabilité sur les conséquences sur le cerveau des étudiants.}
 
-Un des outils les plus utilisés permettant de décrire la thermodynamique et la cinétique des réactions de transfert d'électron (rédox) ayant lieu à la surface des électrodes est la \textbf{courbe courant-potentiel}.
+Un des outils les plus utilisés permettant de décrire la thermodynamique et la cinétique des réactions de transfert d'électron (redox) ayant lieu à la surface des électrodes est la \textbf{courbe courant-potentiel}.
 
 Considérons une batterie en décharge, où dans chaque compartiment, on a les réactions suivantes : 
 
@@ -1073,7 +1078,7 @@ Félicitation, vous savez expliquer \textbf{électrochimiquement} le \textbf{ph�
 
 \newpage
 
-\section*{Barême}
+\section*{Barème}
 
 \begin{minipage}{0.33\textwidth}
 Noms-Prénoms du binôme
