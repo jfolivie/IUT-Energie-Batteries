@@ -2,15 +2,19 @@
 
 
 \usepackage[teacher]{Lecture-TD}
+%teacher or student
+
 
 %Changer l'interligne par défaut.
-\renewcommand{\baselinestretch}{1.5}  
+%\renewcommand{\baselinestretch}{1.5}  
 
 \lhead{Travaux dirigés - Bases sur les piles et accumulateurs} \chead{} \rhead{3.06 Propriétés des matériaux}
-\lfoot{IUT d'Orsay - BUT 2A - 2024/2025} \cfoot{\includegraphics[height=0.5cm]{cc-by-nc-sa.png}}  \rfoot{Jean-François Olivieri \quad \thepage}
+\lfoot{IUT d'Orsay - BUT 2 - 2025/2026} \cfoot{\includegraphics[height=0.5cm]{cc-by-nc-sa.png}}  \rfoot{Jean-François Olivieri \quad \thepage}
 
 
 \begin{document}
+
+% Define base path variable
 
 \begin{center}
 \Large \textbf{TD n$^\circ ~ 1$} \\
@@ -20,7 +24,7 @@ Bases élémentaires sur les générateurs électriques
 \objectives{
 \begin{itemize}
 \item Connaître les composants d'une cellule électrochimique ;
-\item Savoir identifier l'anode, la cathode et les pôles dans le cas où l'accumulateur joue le rôle de recepteur électrique ou de générateur électrique ;
+\item Savoir identifier l'anode, la cathode et les pôles dans le cas où l'accumulateur joue le rôle de récepteur électrique ou de générateur électrique ;
 \item Savoir orienter le sens de circulation des électrons, du courant $I$ et la migration des ions ;
 \item Savoir écrire les demi-équations et les équations "fictives" des différentes technologies ;
 \item Connaître les grandes familles de réaction ayant lieu dans les technologies lithium ;
@@ -47,24 +51,25 @@ Vous pouvez vous appuyer sur quelques vidéos si vous souhaitez agrémenter votr
 %Les sources de f.e.m. : galvanique, concentration et température peuvent être abordées en s'appuyant sur la relation de Nernst. Ne traiter que la pile de concentration. Une analogie, non traitée en CM, est à établir à la fin de l'exercice : batterie Li-ion vs pile de concentration. Bien entendu, il y a de grosses limites à cette analogie, mais il se trouve que l'on retrouvera, pour la f.e.m., des expressions mathématiques similaires.
 %}
 
+\def \BasePath{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Polycopies/02-TD/}
+
 \section{Constituants et orientation des piles et des accumulateurs}
 
+\input{\BasePath Ex35}
 
-\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex35}
+\input{\BasePath Ex36}
 
-\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex36}
-
-%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex19}
+%\input{\BasePath Ex19}
 
 \section{\'{E}quations fictives de réaction}
 
-\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex30}
+\input{\BasePath Ex30}
 
 \section{Force électromotrice}
 
 
-\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex20}
+\input{\BasePath Ex20}
 
-\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex21}
+\input{\BasePath Ex21}
 
 \end{document}
