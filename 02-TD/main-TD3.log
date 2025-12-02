@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.13)  19 NOV 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.13)  2 DEC 2025 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,7 +1217,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{Q.1.1}) has be
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.9 \Q \label
-             {Q:04-01} Donner les demi-équations rédox associées à chacu... <./Ex05/Fig01.jpg> <./Ex05/Fig02.png> <./Ex05/Fig03.png> <./cc-by-nc-sa.png>]
+             {Q:04-01} Donner les demi-équations redox associées à chacun... <./Ex05/Fig01.jpg> <./Ex05/Fig02.png> <./Ex05/Fig03.png> <./cc-by-nc-sa.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{Q.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1240,10 +1240,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 143.
 ) (/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Polycopies/02-TD/Ex38.tex
-Overfull \hbox (9.86981pt too wide) in paragraph at lines 4--6
+Overfull \hbox (9.86981pt too wide) in paragraph at lines 7--9
 []\T1/opensans-TOsF/m/sc/10 Le cycle de Born-Haber per-met d'�ta-blir un lien structure-propri�t�. Une fa-�on d'y par-ve-nir est de construire
  []
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{Q.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \Q D
+         onner l'équation de réaction modélisation les trois processus é...
+pdfTeX warning (ext4): destination with the same identifier (name{Q.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \Q C
+         onstruire un cycle thermodynamique, appelé cycle de Born-Haber, pe...
+pdfTeX warning (ext4): destination with the same identifier (name{Q.1.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \Q M
+         ontrer qu'il existe une corrélation linéaire entre l'enthalpie li...
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.4464pt, for example:
@@ -1253,7 +1269,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: cc-by-nc-sa.png Graphic file (type png)
 <use cc-by-nc-sa.png>
-Package pdftex.def Info: cc-by-nc-sa.png  used on input line 65.
+Package pdftex.def Info: cc-by-nc-sa.png  used on input line 68.
 (pdftex.def)             Requested size: 40.64pt x 14.22636pt.
 [2]
 
@@ -1275,7 +1291,17 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                
 (siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
 
-) (/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Polycopies/02-TD/Ex22.tex
+
+pdfTeX warning (ext4): destination with the same identifier (name{Q.1.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \Q E
+         n quoi ces paramètres structuraux rendent-ils compte du comporteme...
+pdfTeX warning (ext4): destination with the same identifier (name{Q.1.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \Q Q
+          uels paramètres structuraux peuvent justifier l'anomalie du lithi...) (/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Polycopies/02-TD/Ex22.tex
 <Ex22/7-BatteryLithium.png, id=87, 806.96683pt x 497.79576pt>
 File: Ex22/7-BatteryLithium.png Graphic file (type png)
 <use Ex22/7-BatteryLithium.png>
@@ -1292,7 +1318,7 @@ File: cc-by-nc-sa.png Graphic file (type png)
 Package pdftex.def Info: cc-by-nc-sa.png  used on input line 20.
 (pdftex.def)             Requested size: 40.64pt x 14.22636pt.
 [3]
-<Ex22/11-graphene.png, id=99, 487.8225pt x 412.54124pt>
+<Ex22/11-graphene.png, id=94, 487.8225pt x 412.54124pt>
 File: Ex22/11-graphene.png Graphic file (type png)
 <use Ex22/11-graphene.png>
 Package pdftex.def Info: Ex22/11-graphene.png  used on input line 24.
@@ -1313,7 +1339,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 186.
 See the caption package documentation for explanation.
 
-<Ex22/10-SoC.png, id=118, 618.31pt x 429.605pt>
+<Ex22/10-SoC.png, id=113, 618.31pt x 429.605pt>
 File: Ex22/10-SoC.png Graphic file (type png)
 <use Ex22/10-SoC.png>
 Package pdftex.def Info: Ex22/10-SoC.png  used on input line 198.
@@ -1324,7 +1350,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 ) (/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/01-Polycopies/02-TD/Ex09.tex
-<Ex09/Fig02.png, id=119, 1222.5675pt x 143.53625pt>
+<Ex09/Fig02.png, id=114, 1222.5675pt x 143.53625pt>
 File: Ex09/Fig02.png Graphic file (type png)
 <use Ex09/Fig02.png>
 Package pdftex.def Info: Ex09/Fig02.png  used on input line 13.
@@ -1355,12 +1381,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{Q.2.3}) has be
 <to be read again> 
                    \relax 
 l.37 \Q É
-          crire la demi-équation rédox de réduction des ions lithium, pui...
+          crire la demi-équation redox de réduction des ions lithium, puis...
 pdfTeX warning (ext4): destination with the same identifier (name{Q.2.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 \Q E
-         n déduire la demi-équation rédox qui a lieu à l'électrode nég...
+         n déduire la demi-équation redox qui a lieu à l'électrode néga...
 pdfTeX warning (ext4): destination with the same identifier (name{Q.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1370,7 +1396,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{Q.2.6}) has be
 <to be read again> 
                    \relax 
 l.80 \Q \label{Q:09-06} F
-                         inalement, écrire l'équation rédox traduisant le...
+                         inalement, écrire l'équation redox traduisant le ...
 pdfTeX warning (ext4): destination with the same identifier (name{Q.2.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1391,7 +1417,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{Q.2.10}) has b
                    \relax 
 l.143 \Q E
           n vous aidant des données, déterminer la masse d'ions lithium da...
-<Ex09/Fig01.png, id=131, 803.0pt x 602.25pt>
+<Ex09/Fig01.png, id=126, 803.0pt x 602.25pt>
 File: Ex09/Fig01.png Graphic file (type png)
 <use Ex09/Fig01.png>
 Package pdftex.def Info: Ex09/Fig01.png  used on input line 210.
@@ -1424,22 +1450,25 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main-TD3.out' has not changed.
 (rerunfilecheck)             Checksum: 899DB50F0A1863344A571A39D4361624;1855.
  ) 
 Here is how much of TeX's memory you used:
- 43244 strings out of 476039
- 908612 string characters out of 5791729
- 1946975 words of memory out of 5000000
+ 43239 strings out of 476039
+ 908582 string characters out of 5791729
+ 1945975 words of memory out of 5000000
  64472 multiletter control sequences out of 15000+600000
  596411 words of font info for 101 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  132i,15n,135p,919b,1175s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main-TD3.pdf (7 pages, 3843497 bytes).
+Output written on main-TD3.pdf (7 pages, 3843406 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
