@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.13)  2 DEC 2025 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.13)  2 DEC 2025 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1308,12 +1308,6 @@ LaTeX Font Info:    Font shape `T1/lmss/b/sc' in size <10> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 125.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 142.
-LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 142.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 142.
 <figures/Corr03.png, id=93, 1284.8pt x 1124.2pt>
 File: figures/Corr03.png Graphic file (type png)
 <use figures/Corr03.png>
@@ -1329,13 +1323,13 @@ Overfull \hbox (0.11461pt too wide) in paragraph at lines 150--165
 []$[]$$[]$ 
  []
 
-[2 <./figures/Corr03.png> <./figures/I-Fig01.png>]
-<figures/I-Fig05.png, id=124, 468.75125pt x 548.0475pt>
+[2 <./figures/I-Fig01.png>]
+<figures/I-Fig05.png, id=121, 468.75125pt x 548.0475pt>
 File: figures/I-Fig05.png Graphic file (type png)
 <use figures/I-Fig05.png>
 Package pdftex.def Info: figures/I-Fig05.png  used on input line 201.
 (pdftex.def)             Requested size: 73.00616pt x 85.35826pt.
-<figures/I-Fig04.png, id=125, 600.2425pt x 649.42625pt>
+<figures/I-Fig04.png, id=122, 600.2425pt x 649.42625pt>
 File: figures/I-Fig04.png Graphic file (type png)
 <use figures/I-Fig04.png>
 Package pdftex.def Info: figures/I-Fig04.png  used on input line 202.
@@ -1345,28 +1339,23 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 197--208
 []$[]$ $[]$ 
  []
 
-<figures/I-Fig06.png, id=130, 484.81125pt x 586.19pt>
+<figures/I-Fig06.png, id=127, 484.81125pt x 586.19pt>
 File: figures/I-Fig06.png Graphic file (type png)
 <use figures/I-Fig06.png>
 Package pdftex.def Info: figures/I-Fig06.png  used on input line 275.
 (pdftex.def)             Requested size: 47.06361pt x 56.9055pt.
 [3 <./figures/I-Fig05.png> <./figures/I-Fig04.png>]
-<figures/I-Fig07a.png, id=150, 1105.12875pt x 240.14719pt>
+<figures/I-Fig07a.png, id=147, 1105.12875pt x 240.14719pt>
 File: figures/I-Fig07a.png Graphic file (type png)
 <use figures/I-Fig07a.png>
 Package pdftex.def Info: figures/I-Fig07a.png  used on input line 291.
 (pdftex.def)             Requested size: 381.95422pt x 82.99742pt.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 294.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 294.
-<figures/I-Fig07b.png, id=151, 1162.3425pt x 260.47313pt>
+<figures/I-Fig07b.png, id=148, 1162.3425pt x 260.47313pt>
 File: figures/I-Fig07b.png Graphic file (type png)
 <use figures/I-Fig07b.png>
 Package pdftex.def Info: figures/I-Fig07b.png  used on input line 307.
 (pdftex.def)             Requested size: 381.95422pt x 85.59471pt.
- [4 <./figures/I-Fig06.png> <./figures/I-Fig07a.png> <./figures/I-Fig07b.png>]
-<figures/I-Fig03.png, id=166, 397.05138pt x 344.0052pt>
+<figures/I-Fig03.png, id=149, 397.05138pt x 344.0052pt>
 File: figures/I-Fig03.png Graphic file (type png)
 <use figures/I-Fig03.png>
 Package pdftex.def Info: figures/I-Fig03.png  used on input line 356.
@@ -1376,6 +1365,10 @@ Overfull \hbox (39.9454pt too wide) in paragraph at lines 355--361
  []\T1/lmss/bx/n/10.95 Protocole $[]$$[]$ 
  []
 
+
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+ [4 <./figures/I-Fig06.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 372.
@@ -1398,14 +1391,16 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18> not available
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13.6799> not available
 (Font)              size <14.4> substituted on input line 89.
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (./datas/U-Q.pgf)
 
- [6] (./datas/U-Q.pgf)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `Corr:U-t' on page 6 undefined on input line 457.
 
- [7] (./datas/U-SoC.pgf) [8]
-<datas/EE.pdf, id=222, 433.62pt x 289.08pt>
+(./datas/U-SoC.pgf)
+
+LaTeX Warning: Reference `Corr:U-t' on page 6 undefined on input line 470.
+
+[6]
+<datas/EE.pdf, id=197, 433.62pt x 289.08pt>
 File: datas/EE.pdf Graphic file (type pdf)
 <use datas/EE.pdf>
 Package pdftex.def Info: datas/EE.pdf  used on input line 500.
@@ -1413,13 +1408,11 @@ Package pdftex.def Info: datas/EE.pdf  used on input line 500.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 549.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-) [9{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./datas/EE.pdf>]
-
-LaTeX Font Warning: Font shape `U/fontawesomethree/m/it' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 584.
-
-[10] [11]
-<pictos/exclam.pdf, id=275, 568.82893pt x 568.78152pt>
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 549.
+ [7{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] [8] [9]
+<pictos/exclam.pdf, id=229, 568.82893pt x 568.78152pt>
 File: pictos/exclam.pdf Graphic file (type pdf)
 <use pictos/exclam.pdf>
 Package pdftex.def Info: pictos/exclam.pdf  used on input line 694.
@@ -1428,37 +1421,40 @@ File: pictos/exclam.pdf Graphic file (type pdf)
 <use pictos/exclam.pdf>
 Package pdftex.def Info: pictos/exclam.pdf  used on input line 698.
 (pdftex.def)             Requested size: 28.45274pt x 28.44942pt.
-<figures/Ann01.png, id=276, 1310.0142pt x 398.9304pt>
+<figures/Ann01.png, id=230, 1310.0142pt x 398.9304pt>
 File: figures/Ann01.png Graphic file (type png)
 <use figures/Ann01.png>
 Package pdftex.def Info: figures/Ann01.png  used on input line 730.
 (pdftex.def)             Requested size: 483.69687pt x 147.29758pt.
- [12 <./pictos/exclam.pdf> <./figures/Ann01.png>]
-<figures/Ann02.png, id=286, 724.1454pt x 293.898pt>
+ [10 <./pictos/exclam.pdf> <./figures/Ann01.png>]
+<figures/Ann02.png, id=240, 724.1454pt x 293.898pt>
 File: figures/Ann02.png Graphic file (type png)
 <use figures/Ann02.png>
 Package pdftex.def Info: figures/Ann02.png  used on input line 739.
 (pdftex.def)             Requested size: 483.69687pt x 196.31418pt.
- [13 <./figures/Ann02.png>]
-<figures/Ann03.png, id=298, 373.05774pt x 296.01791pt>
+ [11 <./figures/Ann02.png>]
+<figures/Ann03.png, id=250, 373.05774pt x 296.01791pt>
 File: figures/Ann03.png Graphic file (type png)
 <use figures/Ann03.png>
 Package pdftex.def Info: figures/Ann03.png  used on input line 819.
 (pdftex.def)             Requested size: 142.26378pt x 112.88545pt.
-<figures/Ann04.jpg, id=299, 306.4905pt x 260.829pt>
+<figures/Ann04.jpg, id=251, 306.4905pt x 260.829pt>
 File: figures/Ann04.jpg Graphic file (type jpg)
 <use figures/Ann04.jpg>
 Package pdftex.def Info: figures/Ann04.jpg  used on input line 819.
 (pdftex.def)             Requested size: 142.26378pt x 121.0693pt.
- [14 <./figures/Ann03.png> <./figures/Ann04.jpg>] [15]
+ [12 <./figures/Ann03.png> <./figures/Ann04.jpg>] [13]
 Overfull \hbox (12.16568pt too wide) in paragraph at lines 848--855
 []$[]$$[]$$[]$ 
  []
 
-[16]
+[14]
 This exam contains 21 questions with 3 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 21 and a half points.
 This exam has a total of 0 bonus points.
+
+Class exam Warning: Point totals have changed. Rerun to get point totals right.
+
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./TP3.aux)
@@ -1474,22 +1470,28 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `TP3.out' has not changed.
 (rerunfilecheck)             Checksum: 4A26FE291C72716048F08094F16E6A8B;2794.
  ) 
 Here is how much of TeX's memory you used:
- 39699 strings out of 476039
- 775472 string characters out of 5791729
- 3031145 words of memory out of 5000000
- 60930 multiletter control sequences out of 15000+600000
- 665195 words of font info for 192 fonts, out of 8000000 for 9000
+ 39666 strings out of 476039
+ 775020 string characters out of 5791729
+ 2290498 words of memory out of 5000000
+ 60912 multiletter control sequences out of 15000+600000
+ 652359 words of font info for 182 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 99i,20n,101p,997b,1256s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TP3.pdf (16 pages, 5234805 bytes).
+ 99i,20n,101p,997b,1192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TP3.pdf (14 pages, 4537642 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 373 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

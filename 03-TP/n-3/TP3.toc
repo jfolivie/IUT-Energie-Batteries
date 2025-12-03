@@ -5,10 +5,10 @@
 \contentsline {subsection}{\numberline {1. 3. }Membrane \& Montage de la cellule électrochimique}{5}{subsection.1.3}%
 \contentsline {section}{\numberline {2. }Expérience de charge/décharge - {{\FAthree \symbol {47}}}~ \SI {2.5}{\hour }}{5}{section.2}%
 \contentsline {subsection}{\numberline {2. 1. }\'{E}tude d'une cellule électrochimique commerciale}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2. 2. }\'{E}tude de votre cellule électrochimique}{9}{subsection.2.2}%
-\contentsline {section}{\numberline {A}Produits chimiques}{12}{appendix.A}%
-\contentsline {section}{\numberline {B}Potentiostat galvanostat}{12}{appendix.B}%
-\contentsline {subsection}{\numberline {B1. }Définition}{12}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B2. }Expérience d'essais de cyclage}{12}{subsection.B.2}%
-\contentsline {subsection}{\numberline {B3. }Évaluer l'efficacité d'un cycle}{14}{subsection.B.3}%
-\contentsline {subsection}{\numberline {B4. }Montage à trois électrodes}{14}{subsection.B.4}%
+\contentsline {subsection}{\numberline {2. 2. }\'{E}tude de votre cellule électrochimique}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {A}Produits chimiques}{10}{appendix.A}%
+\contentsline {section}{\numberline {B}Potentiostat galvanostat}{10}{appendix.B}%
+\contentsline {subsection}{\numberline {B1. }Définition}{10}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B2. }Expérience d'essais de cyclage}{10}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B3. }Évaluer l'efficacité d'un cycle}{12}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B4. }Montage à trois électrodes}{12}{subsection.B.4}%
