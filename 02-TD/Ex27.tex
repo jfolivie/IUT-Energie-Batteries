@@ -1,0 +1,230 @@
+\subsubsection{\'{E}tude d'un système binaire}
+\label{subsubsection:etude_dun_systeme_binaire}
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+Dans cet exercice, on se propose d'étudier du système binaire lithium-bismuth Li-Bi à \SI{380}{\celsius} à une pression proche de la pression standard. Cette étude est menée à l'aide d'un titrage coulométrique conduit avec la pile modèle : 
+\begin{align*}
+\ominus ~ \ce{Li(s) | LiCl-KCl \SI{1}{\mole\per\liter} | Li_x Bi} ~ \oplus
+\end{align*}
+
+\paragraph*{Construction d'un modèle}
+
+On va chercher à construire une courbe de titrage modèle qui sera confrontée à l'expérience par la suite. Les écarts au modèle permettront d'interpréter le comportement réel de l'alliage \ce{LiBi}. Dans un premier temps, on va considérer que la solubilité du \ce{Li} dans le \ce{Bi} conduit à la formation de trois corps purs complexes de composition définie : 
+\begin{center}
+\begin{tabular}{cc}
+\ce{Li_0 Bi = Bi} & $x = 0$ \\
+\ce{Li_1 Bi} & $x = 1$ \\
+\ce{Li_3 Bi} & $x = 3$
+\end{tabular}
+\end{center}
+où $x$ indique la st{\oe}chiométrie du lithium dans le composé. On considérera dans un premier temps que ces phases sont non miscibles.
+
+\Q \label{Q:27-01} Tracer un axe en composition $x$ et indiquer les phases attendues dans cette hypothèse. Calculer la variance particulière dans chacun des domaines.
+\solution{WARNING
+\textbf{Calcul de la variance particulière}
+On sait que la variance particulière s'écrit comme : $v_p = v - 2$ puisque (T, P) sont imposés dans cette étude. Or d'après la règle de Gibbs, on sait que $v = 2 + N - P$ d'où 
+\begin{align*}
+v_p = N - P
+\end{align*}
+avec $N$ le nombre de constituants chimique, $P$ le nombre de phases.
+\begin{itemize}
+\item $0 < x < 1$ N : Li, Bi \& P : Bi (CP) et LiBi (CP) $\implies v_p = 0$ 
+\item $1 < x < 3$ N : Li, Bi \& P : LiBi (CP) et \ce{Li3Bi} (CP) $\implies v_p = 0$ 
+\end{itemize}
+On trouve donc une variance nulle dans notre modèle pour chaque phase.
+}
+
+Dans le système Li-Bi, les équilibres de formations sont connus et deux équations d'Ellingham ont été proposés pour ces systèmes :
+\begin{align*}
+\ce{Li + Bi &= LiBi} \quad \forall T \in [355,420] ~ \si{\celsius}, \Delta_f G^\circ = 0.0245 T - 92.6 \\
+\ce{3 Li + Bi &= Li3Bi} \quad \forall T \in [355,600] ~ \si{\celsius}, \Delta_f G^\circ = 0.0589 T - 255.4
+\end{align*}
+où l'enthalpie libre est donnée en \si{\kilo\joule\per\mole}.
+
+\Q Identifier les enthalpies et entropies de formations des corps purs complexes. Calculer la valeur de l'enthalpie libre à \SI{380}{\celsius}.
+\solution{Les données suivantes peuvent être tirées de la relation bien connue maintenant : 
+\begin{align*}
+\Delta_r G^\circ = \Delta_r H^\circ - T \Delta_r S^\circ
+\end{align*}
+On peut indiquer les valeurs dans un tableau :
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Réaction & $\Delta_f H^\circ$ & $\Delta_f S^\circ$ & $\Delta_f G^\circ ( 380 ~ \si{\celsius})$ \\
+ & [$\si{\kilo\joule\per\mole}$] & [$\si{\joule\per\mole\per\kelvin}$] & [$\si{\kilo\joule\per\mole}$] \\
+\midrule
+\ce{Li + Bi = Li Bi} & $- 92.6$ & $-24.5$ & $-76.6$ \\
+\ce{3 Li + Bi = Li3 Bi } & $- 255.4$ & $-58.9$ & $-140$ \\
+\bottomrule
+\end{tabular}
+\end{center}}
+
+\Q En déduire l'expression de la force électromotrice de la pile Li-Bi pour $x \in [0,1]$. Calculer sa valeur à \SI{380}{\celsius}
+\solution{Comme toujours, on commence par modéliser les processus rédox mis en jeux. Les deux couples sont \ce{Li^+}/\ce{Li} et \ce{Bi}/\ce{LiBi}, d'où les équations : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li^+ + e^- = Li} \\
+\ce{Bi + Li^+ + e^- = LiBi} \\
+\hline
+\ce{Bi + Li = LiBi}
+\end{align*}
+\end{minipage}
+\end{center}
+Par le travail électrique, on a : $\Delta_r G^\circ = -F e^\circ = -F E_\oplus^\circ [\si{\volt\per{\ce{Li^+ / Li}}}]$, tandis que par les équations de formation, on tire $\Delta_r G^\circ = \Delta_f G^\circ ( \ce{LiBi} )$. On en déduit donc : 
+\begin{align*}
+E_\oplus^\circ = - \frac{\Delta_f G^\circ ( \ce{LiBi} )}{F}
+\end{align*}
+On trouve alors que : 
+\begin{align*}
+E_\oplus^\circ \stackrel{AN}{=} 0.794 ~ \si{\volt\per{\ce{Li^+ / Li}}}
+\end{align*}
+}
+
+
+\Q En déduire les forces électromotrices de la pile Li-Bi pour $x \in [1,3]$.
+\solution{Comme toujours, on commence par modéliser les processus rédox mis en jeux. Les deux couples sont \ce{Li^+}/\ce{Li} et \ce{Bi}/\ce{LiBi}, d'où les équations : 
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Li^+ + e^- &= Li} \\
+\ce{LiBi + 2Li^+ + 2e^- &= Li3Bi} \\
+\hline
+\ce{LiBi + 2Li &= Li3Bi}
+\end{align*}
+\end{minipage}
+\end{center}
+Par le travail électrique, on a : $\Delta_r G^\circ = -2 F e^\circ = -2 F E_\oplus^\circ [\si{\volt\per{\ce{Li^+ / Li}}}]$, tandis que par les équations de formation, la réponse est plus complexe puisque la réactio fictive de la pile n'est pas une réaction de formation. Cependant, on remarque aisément qu'on peut l'exprimer avec des combinaisons linéaires d'équations de formation : 
+\begin{center}
+\begin{minipage}{0.6\textwidth}
+\begin{align*}
+\ce{LiBi &= Li + Bi} \quad - \Delta_f G^\circ ( \ce{LiBi} ) \\
+\ce{3Li + Bi &= Li3Bi} \quad \Delta_f G^\circ ( \ce{Li3Bi} ) \\
+\hline
+\ce{LiBi + 2 Li &= Li3Bi} \quad \Delta_r G^\circ = \Delta_f G^\circ ( \ce{Li3Bi} ) - \Delta_f G^\circ ( \ce{LiBi} )
+\end{align*}
+\end{minipage}
+\end{center}
+On en déduit donc : 
+\begin{align*}
+E_\oplus^\circ = - \frac{\Delta_f G^\circ ( \ce{Li3Bi} ) - \Delta_f G^\circ ( \ce{LiBi} )}{2F}
+\end{align*}
+On trouve alors que : 
+\begin{align*}
+E_\oplus^\circ \stackrel{AN}{=} 0.725 ~ \si{\volt\per{\ce{Li^+ / Li}}}
+\end{align*}
+}
+
+\Q Représenter la courbe de titrage coulométrique théorique calculée par le modèle. En déduire la capacité spécifique théorique de ce système et l'énergie théorique maximale stockable.
+\solution{Le matériau hôte est ici le bismuth qui peut accueillir au maximum 3 électrons. Comme démontré nombre de fois, on s'attend à avoir
+\begin{align*}
+C = \frac{3 F}{M (\ce{Bi} ) } \quad [\si{\coulomb\per\gram}]
+\end{align*}
+\textbf{AN :} $C = 1385 ~ \si{\coulomb\per\gram} = 385 ~ \si{\milli\ampere\hour\per\gram}$ \\
+Pour le calcul de l'énergie stockée, il faut intégrer sous la courbe de titrage. Pour cela, on va découper la courbe en deux rectangles \textbf{A} et \textbf{B} dont l'aire peut facilement être évaluée crayon et papier en main : 
+\begin{align*}
+ETM &= ETM (\text{A}) + ETM (\text{B})  \\
+&= C_A E_\oplus^\circ ( \text{A} ) + C_B E_\oplus^\circ ( \text{B} ) \\
+&= \frac{F}{M(\ce{Bi})} ( E_\oplus^\circ ( \text{A} ) + 2 E_\oplus^\circ ( \text{B} ) ) \\
+&= - \frac{ \Delta_r G^\circ ( \text{A} ) + \Delta_r G^\circ ( \text{B})}{ M ( \ce{Bi} ) } \quad [\si{\kilo\joule\per\kilo\gram}]
+\end{align*}
+\textbf{AN :} $ETM = 1.03 \cdot 10^3 \si{\kilo\joule\per\kilo\gram}$\\
+On trouve que la batterie peut stocker $286 ~ \si{\milli\watt\hour\per\kilo\gram}$.}
+
+\paragraph*{Comparaison à l'expérience}
+
+La courbe de titrage acquis à \SI{380}{\celsius} est présentée à la Fig. \ref{fig:27-01}.
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex27/Fig01}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}volution de la f.e.m. de la pile lors d'un titrage coulométrique d'une pile Li-Bi menée à \SI{380}{\celsius}}
+\label{fig:27-01}
+\end{minipage}
+%Results from a coulometric titration experiment on the Li–Bi system at 360 ◦ C [3]
+
+
+\Q Identifier les écarts au modèle thermodynamique proposé.
+\solution{On observe qu'il existe deux régions où la f.e.m. est non nulle, ce qui traduit que $v_p \neq 0$ ! Dans deux régions, on observe un déclin de la f.e.m. Pour $0 < x < 0.5$, le potentiel tend vers la valeur calculée pour deux phases non miscibles, tandis que pour $2.78 < x < 3.0$, on observe une courbe de potentiel beaucoup plus slim qu'une marche.} 
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex27/Fig03}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}volution de la force électromotrice de la pile $\ce{Li}||\ce{Bi}$ à différentes températures, zoomé sur l'écart au modèle initial dans le domaine de st{\oe}chiométrie $0 < x < 1$}
+\end{minipage}
+
+
+Les auteurs ont supposé que le bismuth pouvait accueillir pour $x < 0.5$ une proportion non négligeable de lithium
+
+\Q Nommer ce mélange. Quelle en est l'origine ? Calculer la variance si cette phase se forme.
+\solution{On parle d'une solution solide \ce{Bi}-\ce{Li}. On forme une phase Bi enrichie en lithium \ce{Li}, à cause de la tolérance du réseau cristallin \ce{Bi} pour le \ce{Li}.
+Si on reprend les calculs de la Q. \ref{Q:27-01}, on a $v_p = N - P$ donc ici : 
+\begin{align*}
+\text{N : Li, Bi ; P : }\ce{Li_\epsilon Bi} \implies v = 2 - 1 = 1
+\end{align*}
+Le système évolue avec un paramètre intensif libre : le potentiel chimique du lithium.}
+
+\Q Justifier thermodynamiquement que l'évolution de la f.e.m. nous indique de la concentration en lithium dans le bismuth. Interpréter la courbe à \SI{375}{\celsius}.
+\solution{D'après l'approche des transferts de phase, on sait la f.e.m. exprime une différence de potentiel chimique entre le pôle $\oplus$ et $\ominus$ : 
+\begin{align*}
+-F e = \mu_\oplus ( \ce{Li} ) - \mu_\ominus ( \ce{Li} )
+\end{align*}
+Or, on peut exprimer les potentiels chimiques des différentes électrodes : 
+\begin{align*}
+\mu_\ominus ( \ce{Li} ) &= \mu_\ominus^\circ ( \ce{Li} ) \quad \text{car Li est un CP au pôle } \ominus \\
+\mu_\oplus ( \ce{Li} ) &= \mu_\oplus^\circ ( \ce{Li} ) + RT \ln a ( \ce{Li} ) \\
+\end{align*}
+On a donc : 
+\begin{align*}
+E_\oplus &= - \frac{\mu_\oplus ( \ce{Li} ) - \mu_\ominus ( \ce{Li} )}{F} \\
+E_\oplus &= - \frac{RT}{F} \ln a ( \ce{Li} ) \\
+\end{align*}
+L'activité de $\ce{Li}$ est fonction de la quantité de lithium dans le bismuth. Or, on observe qu'à \SI{375}{\celsius}, la f.e.m. devient constante autour de 0.4, ce qui indique que la phase enrichie en lithium est saturée au-delà de cette st{\oe}chiométrie. \\
+Par la suite, la f.e.m. est constante, ce qui indique que l'on forme deux phases : la phase Bi enrichie en Li et le composé défini \ce{LiBi} (soit retour à 2 phases, $v_p = 0$) !}
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex27/Fig02}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}volution de la force électromotrice de la pile $\ce{Li}||\ce{Bi}$ à \SI{380}{\celsius}, zoomé sur l'écart au modèle initial dans le domaine proche du composé défini "\ce{Li3Bi}"}
+\end{minipage}
+
+\Q Interpréter l'origine cristalline de la variation de f.e.m. du composé $\ce{Li_3^{+\delta}Bi}$.
+\solution{\ce{Li3Bi} est un composé défini qui peut s'écarter de la st{\oe}chiométrie. A priori, la phase \ce{Li_3^{+\delta}Bi} est stable thermodynamiquement même en présence de lacune d'oxygène dans un ratio maximal lacune/\ce{Li} de $0.6 ~ \si{\percent}$ !}
+%https://www.chemtube3d.com/_li3bifinal/
+
+Le lithium bismuthide \ce{Li3Bi} forme une maille cubique face centrée où les atomes de \ce{Li} occupent tous les sites \ce{Td} et \ce{Oh}. On supposera par la suite que le rayon ionique au degré d'oxydation -III du bismuth peut être assimilé à son rayon covalent, et que la structure cristallographique reste inchangée pour $\delta \in [-0.02, 0]$
+
+\Q Dessiner la maille et identifier la proportion de lithium occupant chacun des sites. En assimilant le rayon covalent de \ce{Bi} à son rayon ionique au degré d'oxydation -III, identifier le site tolérant le mieux des lacunes de lithium.
+\solution{
+Pour la multiplité, en indiçant $Oh$ (resp. $Td$) les sites octaédriques (resp. tétraédriques), on trouve : 
+\begin{align*}
+Z ( \ce{Bi} ) = \frac{1}{8} \times 8 + \frac{1}{2} \times 6 = 4 \\
+Z_{Oh} ( \ce{Li} ) = \frac{1}{4} \times 12 + 1 = 4 \\
+Z_{Td} ( \ce{Li} ) = 1 \times 8 = 8  
+\end{align*}
+On peut alors écrire la formule brute suivante : $\ce{Li_2^{Td} Li^{Oh} Bi}$. Le rapport $r_\oplus / r_\ominus = 0.375$, ce qui indique que le lithium est plus stable dans les sites $Td$. A priori, l'écart à la st{\oe}chiométrie s'écrirait : 
+\begin{align*}
+\forall \delta \in [-0.2,0], \quad \square_{-\delta}^{Oh} \ce{Li_{1+\delta}^{Oh} Li_2^{Td} Bi}
+\end{align*}
+ce qui traduit la présence d'une fraction $-\delta$ de lacune cationique et/ou de bismuth au degré d'oxydation +II.
+}
+
+
+%Coulometric titration measurements within the composition range of the phase “Li 3 Bi”
+
+
+%\begin{minipage}{0.48\textwidth}
+%\includegraphics[width=\textwidth]{Ex27/Fig04}
+%\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+%\captionof{figure}{lala}
+%\end{minipage}
+%Equilibrium potentials of the three two-phase plateaus in the Nb–O system at two temperatures
+
+\paragraph*{Données}
+\begin{itemize}
+\item Constante de Faraday : $F = 96500 \si{\coulomb\per\mole}$ ;
+\item Masse molaire du bismuth : $M ( \ce{Bi} ) \approx 209 ~ \si{\gram\per\mole}$ ;
+\item Rayon ionique du lithium : $r_\oplus = 0.60 ~ \si{\angstrom}$ ;
+\item Rayon covalent du bismuth : $r_\ominus = 160 ~ \si{\angstrom}$.
+\end{itemize}

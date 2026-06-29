@@ -1,0 +1,150 @@
+\subsection{Caractéristiques d'une pile commerciale}
+%Panasonic
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+
+Panasonic Energy{\copyright} commercialise l'accumulateur ML2020, appelé \emph{Coin-type Manganese Rechargeable Lithium Batteries}, dont les spécifications techniques suivantes sont fournies : 
+\begin{center}
+\begin{minipage}{0.70\textwidth}
+\begin{tabular}{cc}
+\toprule
+Spécifications & Valeurs prises \\
+\midrule
+Tension de charge & \SI{2.8}{\volt}$\sim$\SI{3.2}{\volt} \\
+Tension nominale & \SI{3.0}{\volt} \\
+Capacité nominale & \SI{45}{\milli\ampere\hour} \\
+Courant de décharge & \SI{0.12}{\milli\ampere} \\
+Dimensions & D : \SI{20.0}{\milli\meter} $\times$ H : \SI{2.0}{\milli\meter} \\
+Poids & \SI{2.20}{\gram} \\
+Nombre de cycles de vie avant $SoH = 10 \si{\percent}$ & $\approx 1000$ \\
+Température de fonctionnement & -20 à \SI{60}{\celsius} \\ 
+\bottomrule
+\end{tabular}
+\end{minipage}\begin{minipage}{0.28\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{Ex24/Fig04}
+\end{minipage}
+\captionof{table}{Spécifications techniques de l'accumulateur ML2020 de Panasonic{\copyright} [la capacité nominale correspond à la capacité de décharge obtenue lorsque la tension vaut \SI{2.0}{\volt}.]}
+\end{center}
+
+D'après le commercial, cette batterie présente une capacité élevée ce qui en fait un dispositif idéal destiné aux clés, télécommandes ou autres objet nécessitant de l'énergie sur le long terme.
+
+L'objectif est d'interpréter quelques expériences ayant conduit à ces spécifications techniques.
+
+\paragraph*{Analyse de la décharge}
+Lors de cycles de décharge, un expérimentateur a suivi l'évolution de la tension au sein d'un accumulateur ML2020 neuf dans les conditions expérimentales suivantes : 
+\begin{itemize}
+\item Charge : un générateur de tension de 3.1 \si{\volt}, une résistance de \SI{160}{\ohm} pendant 60 heures ;
+\item Décharge : une résistance de \SI{20}{\kilo\ohm} (équivaut à un courant de décharge de \SI{120}{\micro\ampere}) jusqu'à ce que la tension aux bornes de l'accumulateur vale \SI{2}{\volt}.
+\end{itemize}
+L'ensemble a été réalisé à 4 températures différentes.
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex24/Fig02}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Courbe de décharge à 4 températures différentes : -20, 0, 20 et \SI{60}{\celsius}.}
+\end{minipage}
+
+\Q Représenter schématiquement l'état de charge de la batterie lorsque la capacité est 0, 22 et 44.
+\solution{L'état de charge représente le rapport entre la quantité de charges stockées sur la quantité de charges maximale dans la batterie, on peut donc représenter les symboles suivants : 
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+Capacité du graphe [\si{\milli\ampere\hour}] & Schéma \\
+\midrule
+0 & \faBattery[4] \\
+22 & \faBattery[2] \\
+44 & \faBattery[0] \\
+\bottomrule
+\end{tabular}\end{center}
+}
+
+\Q Comment évolue la quantité maximale de charge stockable dans la batterie lorsque la température augmente. Pourquoi ?
+\solution{On lit les valeurs suivantes : 
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+Température [\si{\celsius}] & -20 & 0 & 20 & 60 \\
+\midrule
+Capacité [\si{\milli\ampere\hour}] & 40 & 42 & 44 & 44 \\ 
+\bottomrule
+\end{tabular}
+\end{center}
+La cinétique chimique est à l'origine de la diminution de la température lors d'un processus rédox de charge ou décharge.
+On rappelle que la loi d'Arrhénius s'écrit : 
+\begin{align*}
+k(T) = A \exp \left( - \frac{E_A}{RT} \right)
+\end{align*}
+avec $A$ le facteur préexponentiel et $E_A$ l'énergie d'activation (grandeur strictement positive).
+Par conséquent, une augmentation en température favorise cinétiquement le processus rédox et permet une charge plus rapide, donc une meilleure capacité.\\
+\faWarning ~ Il est important de préciser trois choses supplémentaires aux étudiants : 
+\begin{enumerate}
+\item lors d'un refroidissement, la résistance interne augmente à cause de la perte de "mobilité" (notion non abordée en cours) des ions, illustrable à l'aide de la formule de Thévenin ;
+\item si l'élevation de la température est trop grande, d'autres réactions chimiques indésirables sont aussi favorisés cinétiquement (dégradation de l'électrolyte, réaction rédox des métaux de l'électrode$\ldots$) ce qui peut causer une diminution de la capacité à plus haute température. En effet, une partie du courant de charge servira à alimenter ces processus rédox indésirables ; 
+\item lors d'un échauffement, la durée de vie de la batterie diminue (c.-à-d. $SoH$ diminue)
+\end{enumerate} 
+} 
+%La batterie décharge moins de charge à basse température, probablement à cause de la perte de mobilité des ions lithium.}
+
+\Q Lors de la charge et de la décharge, il a été observé que la tension moyenne de charge ($\sim \SI{3.0}{\volt}$) est plus grande que la tension moyenne de décharge. Quel est l'origine de ce processus ? Une explication énergétique est attendue.
+%La tension nominale, c'est-à-dire lorsque $SoC=100 ~ \si{\percent}$, correspond approximativement à la valeur qu'on aurait lors d'une charge. Qu'observe-t-on lors de la décharge ? Quel peut-être l'explication ?
+\solution{La tension de décharge est plus faible que la tension de charge. En effet, lors de la charge, l'expérimentateur est emmené à devoir fournir plus d'énergie que l'énergie chimique stockable pour permettre au lithium de migrer au sein de l'électrolyte, lui permettre de changer de phase$\ldots$
+Lors de la décharge, une partie de l'énergie chimique libérée est perdue pour les mêmes raisons, ce qui résulte en une tension de décharge plus faible que la tension de charge.}
+
+\Q \`{A} partir de quel état de charge $SoC$, la tension de décharge diminue-t-elle ? Pourquoi ? Commenter l'influence de la température.%Commenter l'évolution de la tension de décharge avec la température.
+\solution{Tant que la batterie est chargée $SoC > 70 ~ \si{\percent}$, la tension de la pile est relativement constante avec la température. Ce qui traduit un coefficient thermique en \si{\volt\per\kelvin} très faible. On rappelle que le coefficient thermique s'exprime comme :
+\begin{align*}
+e = - \frac{\Delta_r H}{mF} + \frac{\Delta_r S}{mF} T \iff \left( \frac{\partial e}{\partial T} \right)_{P, \xi} = \frac{\Delta_r S}{mF}
+\end{align*}
+Pour $SoC < 30 ~ \si{\percent}$, la chute de potentiel est dû à l'augmentation de la résistance interne/surtension de l'accumulateur. Microscopiquement, il devient de plus ne plus difficile pour les ions \ce{Li^+} de quitter l'anode et de s'insérer dans la cathode.
+}
+
+
+\paragraph*{\'{E}volution de l'état de santé de l'accumulateur en fonction du nombre de cycles de charge/décharge}
+
+Dans les mêmes conditions que précédemment, l'accumulateur a été soumis à 10000 cycles de charge/décharge.
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex24/Fig01}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}volution de l'état de santé d'une batterie après $N$ cycles de charge/décharge.}
+\end{minipage}
+
+\Q Sachant qu'un condensateur peut faire des centaines de milliers, voire des millions d cycles, comparer cette technologie à celle de la batterie lithium. 
+\solution{
+Au bout de 100 cycles, cette batterie lithium a perdu \SI{50}{\percent} de ses capacités de stockage. On est très loin des performances de stockage d'un condensateur.
+Cette différence est assez simple à comprendre. Le stockage d'énergie d'un condensateur est d'origine physique (confinement d'un champ électrique entre deux plaques chargées), ce qui n'induit pas de modifications chimiques pourvant être des sources microscopiques d'irréversibilité. Au contraire, les batteries sont basées sur le stockage chimique qui s'accompagne nécessairement d'une multitude de sources d'irréversibilité.
+}
+
+\Q Vérifier les spécifications $SoH$ du constructeur.
+\solution{On observe qu'après 1000 cycles de charge/décharge, l'état de santé de la pile est de \SI{10}{\percent}. Ceci est en accord avec les informations du constructeur.}
+
+Le constructeur garantit les spécifications fournies pour une tension de charge inférieure à \SI{3.3}{\volt}.
+
+\Q Quel serait l'allure de ce graphique si la charge de l'accumulateur avait lieu à une plus grande tension ? Pourquoi ?
+\solution{On doit s'attendre à avoir un déclin de l'état de santé de la batterie bien plus rapide. On peut proposer la courbe suivante : 
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Ex24/Corr01}
+\end{center}
+On s'attend à avoir une dégradation des matériaux sous l'effet d'une charge $I$ trop importante. \\
+\textbf{Nota Bene : } Vous pouvez commenter l'effet de température sur l'évolution du $SoH$ avec le nombre de cycle.
+}
+
+\begin{comment}
+\paragraph*{\'{E}volution de la capacité en charge continue à \SI{60}{\celsius}}
+
+La capacité 
+\begin{itemize}
+\item Charge : un générateur de tension de 3.1 à 3.3 \si{volt}, 
+\item Décharge : une résistance de \SI{1.5}{\kilo\ohm} jusqu'à ce que la tension aux bornes de l'accumulateur vale \SI{2}{\volt}.
+\end{itemize}
+
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex24/Fig03}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{Charge continue à \SI{60}{\celsius} entre 3.1 et \SI{3.3}{\volt}.}
+\end{minipage}
+\end{comment}

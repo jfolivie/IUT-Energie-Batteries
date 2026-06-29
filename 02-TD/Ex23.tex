@@ -1,0 +1,79 @@
+\subsection{Comparaison des performances de quelques technologies de batterie}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+Les performances d'une batterie sont jugées en premier lieu à la densité massique d'énergie. En effet, on cherche en général à stocker un maximum d'énergie dans un dispositif léger qui prend le minimum de place.%avec un minimum d'encombrement.
+\begin{center}
+\begin{adjustbox}{width=0.95\textwidth}
+\begin{tabular}{cccccc}
+    \toprule
+     \textbf{Technologie} & \textbf{Année de développement} & \textbf{\'{E}nergie massique} & \textbf{\'{E}nergie volumique} & \textbf{Tension} & \textbf{Cyclabilité}\\
+     Unité & & \si{\watt\hour\per\kilo\gram} & \si{\watt\hour\per\liter} & \si{\volt}/au couple \ce{Li^+}/\ce{Li} & $\emptyset$ \\
+     \midrule
+     Plomb & 1859 & 35 & 70 & 2.0 & 200-250\\
+     Nickel-Cadmium & 1900 & 60 & 100 & 1.2 & 400-500\\
+     Nickel-Métal-Hydrure & 1975 & 80 & 240 & 1.2 & 400-500\\
+     Lithium-Ion & 1978 & 250 & 400 & 3.6 & > 1000\\
+     \bottomrule
+\end{tabular}   
+\end{adjustbox}
+\captionof{table}{\small \'{E}volution de l'ordre de grandeur de l'énergie massique, volumique, de la tension ainsi que de la cyclabilité d'une batterie en fonction de la technologie.}
+\label{tab:battery_time}
+\end{center}
+
+\Q Définir la densité massique d'énergie et la densité volumique d'énergie. Définir le wattheure et rappeler sa relation aux unités du système international. 
+\solution{La densité massique/volumique d'énergie électrique délivrable par une batterie correspond au produit : 
+\begin{align*}
+\text{tension de la cellule} \times \text{capacité massique/volumique}
+\end{align*}
+Cette grandeur permet donc de condenser deux informations cruciales : le nombre d'électrons échangeables et le "potentiel" électrique de chacun de ces électrons ! \\
+Le joule \si{\joule} est l'unité de l'énergie dans le système international. Le watt-heure représente l'énergie délivrée par un dispositif électrique fournissant une puissance électrique de \SI{1}{\watt} pendant \SI{1}{\hour}. Or, il y a \SI{3600}{\second} dans \SI{1}{\hour}, d'où  
+\begin{align*}
+\SI{1}{\watt\hour} = \SI{3600}{\joule}
+\end{align*}}
+
+\Q Déterminer la capacité spécifique massique et volumique moyenne de chacune des technologies.
+\solution{On note $CS_m$ (resp. $CS_V$) les capacités spécifiques massiques (resp. volumique) de chacune de ces technologies.
+\begin{center}
+\begin{adjustbox}{width=0.95\textwidth}
+\begin{tabular}{cccc}
+    \toprule
+     \textbf{Technologie} & \textbf{Année de développement} & \textbf{Capacité massique} & \textbf{Capacité volumique} \\
+     Unité & & \si{\ampere\hour\per\kilo\gram} & \si{\ampere\hour\per\liter} \\
+     \midrule
+     Plomb & 1859 & 17.5 & 35 \\
+     Nickel-Cadmium & 1900 & 50 & 84\\
+     Nickel-Métal-Hydrure & 1975 & 67 & 200\\
+     Lithium-Ion & 1978 & 70 & 111\\
+     \bottomrule
+\end{tabular}   
+\end{adjustbox}
+\end{center}}
+
+\Q Commenter les valeurs de la Tab.\ref{tab:battery_time}. Quel est l'intérêt de la technologie Li-ion par rapport à d'autres technologies ?
+\solution{On peut soulever les avantages de la batterie Li : 
+\begin{itemize}
+\item l'énergie massique la plus grande ;
+\item l'énergie volumique la plus grande ;
+\item la meilleure f.e.m. ;
+\item la meilleure cyclabilité.
+\end{itemize}
+Les batteries lithium sont donc parfaitement adaptées aux dispositifs portatifs nécessitant de grandes quantités d'énergies (\emph{par ex.} les portables).  \\
+Il est à noter toutefois que la technologie Ni-M-H présente des capacités spécifiques volumiques et massiques équivalentes, voire plus intéressantes, que la technologie lithium ce qui peut offrir des performances intéressantes pour les applications nécessitant de faibles capacités en énergie (\emph{par ex.} les terminaux de paiement bancaire, les technologies NFC, les accessoires d'Airsoft, certains capteurs). 
+}
+
+\Q Rappeler ce qu'est la qualité de l'énergie stockée et expliquer l'intérêt des batteries Li. Expliquez-en l'origine.
+
+\solution{La qualité d'énergie est une façon d'exprimer l'origine de la puissance électrique qui est soit potentielle (venant de la f.e.m.), soit cinétique (venant du courant électrique). En effet, dans un modèle de Thévenin simple (cf cours), la puissance électrique est donnée par : 
+\begin{align*}
+P = e I - R I^2
+\end{align*}
+Un dispositif présentant une grande tension à vide $e$ présente l'avantage de délivrer moins de courant pour une même puissance électrique, ce qui a pour conséquence :
+\begin{itemize}
+\item de diminuer les déperditions d'énergie, sous forme thermique, dû aux phénomènes résistifs (terme en $-R I^2$) ;
+\item d'augmenter la durée de décharge (c.-à.-d. que la batterie se décharge plus lentement).
+\end{itemize}}
+
+\Q Mettre en relation ces données avec la place de l'élément Li au sein du tableau périodique.
+\solution{Le lithium se situe en haut à gauche du tableau périodique ($3^e$ élément du tableau). C'est un élément métallique, parmi les plus électropositifs (explique la f.e.m.), de faible poids moléculaire (explique les capacités massiques) et de faible nombre quantique principal (soit un élément de petite taille, ce qui explique les capacités volumiques).}

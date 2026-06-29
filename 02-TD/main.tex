@@ -1,0 +1,332 @@
+\documentclass[a4paper]{article}
+
+
+\usepackage[teacher]{Lecture}
+
+\lhead{Travaux dirigés} \chead{} \rhead{3.06 Propriétés des matériaux}
+\lfoot{IUT d'Orsay - BUT 2A - 2023/2024} \cfoot{\includegraphics[height=0.5cm]{cc-by-nc-sa.png}}  \rfoot{Jean-François Olivieri \quad \thepage}
+
+
+\begin{document}
+
+\begin{titlepage}
+  \begin{sffamily}
+  \begin{center}
+
+    % Upper part of the page. The '~' is needed because \\
+    % only works if a paragraph has started.
+    \includegraphics[height=4cm]{logo.png}~\\[0.5cm]
+
+    \textsc{\LARGE Université Paris-Saclay}\\[0.5cm]
+    
+    \textsc{\Large IUT d'Orsay - Département de Chimie}\\[0.5cm]
+    
+    \textsc{\large BUT 2, module 3.06 - Propriétés des matériaux}\\[3.0cm]
+
+    % Title
+    \HRule \\[0.4cm]
+    { \huge \bfseries Travaux dirigés\\
+    Matériaux pour l'énergie\\[0.4cm] }
+
+    \HRule \\[0.4cm]
+    
+       
+    \textsc{\Large  Une introduction aux batteries}\\[0.5cm] 
+    
+    \textsc{\Large  Année 2023-2024}\\[4.0cm]
+    
+
+
+    % Author and supervisor
+    \begin{minipage}{0.48\textwidth}
+      \begin{flushleft} \large
+        \faPencil ~ Jean-François Olivieri\\
+        ~ \faPaperPlane ~ jean-francois.olivieri@universite-paris-saclay.fr
+      \end{flushleft}
+    \end{minipage} \hfill
+    \begin{minipage}{0.48\textwidth}
+      \begin{flushleft} \large
+      	\faUsers ~ Lionel Tinat \\
+      	~ \faPaperPlane ~ lionel.tinat@universite-paris-saclay.fr
+        \faUsers ~ Frederic Banse \\
+        ~ \faPaperPlane ~ frederic.banse@universite-paris-saclay.fr
+      \end{flushleft}
+    \end{minipage}
+
+    \vspace{2.0cm}
+
+   	{\scriptsize Photo de garde tirée de \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/advs.202370028}{All-Solid-State Garnet-Based Lithium Batteries at Work-In Operando TEM Investigations of Delithiation/Lithiation Process and Capacity Degradation Mechanism}, An-Yuan Hou \& co-workers.}
+
+    % Bottom of the page
+    
+    {\scriptsize \doclicenseThis}
+
+  \end{center}
+  \end{sffamily}
+\end{titlepage}
+
+
+\tableofcontents
+
+\newpage
+\section{Bases élémentaires sur les générateurs électriques}
+
+\subsection{\'{E}quation de réaction}
+
+\objectives{
+\begin{itemize}
+\item Savoir écrire les demi-équations et les équations "fictives" des différentes technologies ;
+\item Connaître la correspondance entre le pôle $\oplus / \ominus$(notion électrique) et le processus physico-chimique mise en jeu cathode/anode (notion chimique oxydation/réduction) ;
+\item Savoir nommer le type de réaction mise en jeux.
+\end{itemize}
+}
+
+\cteacher{Vous pouvez essayer de faire un point de culture G sur les technologies desquelles ils devront équilibrer les équations de réaction. Je conseille de parler des technologies suivantes :
+\begin{itemize}
+\item plomb (abordé au TP1), nickel-métal-hydrure (un peu discuté en CM comme technologie précurseure du Li) ;
+\item un exemple de chacun des trois types de réaction du lithium vu en CM : insertion, formation et déplacement.
+\end{itemize}
+Quelques vidéos bien faites peuvent servir à l'appui : 
+\begin{itemize}
+\item Accumulateurs au plomb : \url{https://youtu.be/uyMA7padCKk?si=UZKlchj8XFr2ffVq} ;
+\item Accumulateur lithium-métal : \url{https://youtu.be/geZfckIfZsY?si=_GK2_VEkmCT7F2SY} ;
+\item Accumulateur lithium-ion : \url{https://youtu.be/4-1psMHSpKs?si=GGkTw7WFvgBwDOSW}.
+\end{itemize}}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex19}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex30}
+
+\subsection{\'{E}tude thermodynamique de quelques piles en solution aqueuse}
+
+\objectives{
+\begin{itemize}
+\item Distinguer les piles par l'origine de leur f.e.m. : galvanique, concentration ou température ;
+\item Représenter schématiquement une cellule électrochimique ;
+\item Utiliser la relation de Nernst pour prédire la f.e.m. d'une cellule électrochimique à une composition donnée ;
+\item Relier avancement d'une réaction à la charge délivrée par l'anode ou reçue à la cathode ; 
+\item Comprendre l'analogie entre les technologies Li-ion et les piles de concentration.
+\end{itemize}
+}
+
+\cteacher{
+Les sources de f.e.m. : galvanique, concentration et température peuvent être abordées en s'appuyant sur la relation de Nernst. Ne traiter que la pile de concentration. Une analogie, non traitée en CM, est à établir à la fin de l'exercice : batterie Li-ion vs pile de concentration. Bien entendu, il y a de grosses limites à cette analogie, mais il se trouve que l'on retrouvera, pour la f.e.m., des expressions mathématiques similaires.
+}
+
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex20}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex21}
+
+\subsection{Interpréter les performances de quelques accumulateurs électrochimiques}
+
+\objectives{
+\begin{itemize}
+\item Savoir quantifier la capacité théorique d'une batterie ;
+\item Savoir interpréter une courbe de charge/décharge ou d'évolution de l'état de santé en fonction du nombre de cycles, 
+\item Savoir calculer et interpréter le SoC, SoD et SoH ;
+\item Savoir calculer un rendement en charge et en puissance d'une batterie.
+\end{itemize}
+}
+
+\cteacher{
+L'objectif de cette partie est d'apprendre aux étudiants à évaluer la capacité théorique massique et d'observer les écarts expérimentaux à cette valeur. L'interprétation viendra dans les parties suivantes du TD. \\
+Ils doivent être en capacité d'interpréter les données fournies par les constructeurs sur certaines piles/accumulateurs commerciaux et de mettre en relation avec des résultats de courbe de charge/décharge ou de cyclage.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex11}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex23}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex24}
+
+\newpage
+
+\section{Thermodynamique à usage des batteries}
+
+\subsection{Grandeurs de réaction}
+
+
+\objectives{
+\begin{itemize}
+\item Connaître la réactivité du lithium métallique au contact de l'atmosphère ou de solutions aqueuses ;
+\item Justifier thermodynamiquement le potentiel très réducteur du lithium et mettre en perspective avec son utilisation dans les accumulateurs ;
+\item Montrer qu'une réaction est spontanée/exergonique (resp. endergonique) en décharge (resp.charge) ;
+\item \'{E}tablir la f.e.m. d'une cellule à l'aide de la relation de Nernst ou des grandeurs thermodynamiques tabulées (enthalpies de formation, entropies molaires$\ldots$) ;
+\item Utiliser les grandeurs associées au travail électrique, à la puissance électrique, à la capacité et estimer un rendement défini par l'énoncé ; 
+\item Savoir établir des relations simples entre grandeurs électriques : charge/courant et avancement d'une réaction.
+\end{itemize}
+}
+
+\cteacher{Dans cette partie, on étudie quelques réactivités typiques du lithium. Un petit point sur la haute réactivité du lithium aux gaz atmosphériques (\ce{O2}, \ce{N2}) et à l'eau est à faire au début de cette partie. Si possible, il faudrait mettre en perspective avec les synthèses réalisées en TP où nous n'aurons pas besoin de boîte à gants. \\
+On se propose de traiter en priorité : Ex. \ref{subsubsection:thermochimie_du_lithium} qui traite thermodynamiquement la réactivité du lithium dans l'eau, et l'Ex. \ref{subsubsection:chimie_des_batteries_lithium-ion} qui permet d'étudier deux matériaux d'insertion qu'ils rencontreront beaucoup par la suite : la graphite et le dioxyde de cobalt. Cet exercice aborde à peu près toute la gamme de questions que je pourrai mettre en partiel sur cette partie.
+Vous pouvez utiliser la vidéo suivante : \url{https://www.youtube.com/watch?v=5mvWQdad31o&ab_channel=mopatin} ou \url{http://www.chim.lu/ch2343.php} pour montrer que les processus de réaction du lithium avec \ce{N2}, \ce{O2} et \ce{H2O} sont assez fulgurant et rapide.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex05}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex04}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex07}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex09}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex22}
+
+\subsection{Introduction au potentiel chimique}
+\objectives{
+\begin{itemize}
+\item Exprimer le potentiel chimique d'un corps pur ou d'un mélange ;
+\item Exprimer l'équilibre chimique à partir des potentiels chimiques ;
+\item Exprimer l'évolution du potentiel chimique en température et pression ;
+\item Inclure le terme de mélange au potentiel chimique.
+\end{itemize}
+}
+
+\cteacher{Les exercices de cette partie n'ont aucun rapport avec les batteries. L'objectif est juste d'introduire auprès des étudiants la notion de potentiel chimique sur des "grands classiques". J'ai choisi trois problèmes, vous devrez traiter uniquement : \ref{subsubsection:relation_potentiel_chimique_CP-transition_phase} et \ref{subsubsection:relation_potentiel_chimique_melange-abaissement_cryoscopique}.
+Le premier doit permettre de parler du potentiel chimique d'un corps pur, et le second une introduction au terme de mélange. Je précise qu'il ne peut être exigé des étudiants de définir : les états de référence ou de choisir une échelle appropriée pour l'activité (concentration, fraction molaire, $\ldots$). Je vais en dire 3 mots en cours, mais nous ne pouvons passer du temps dessus. Par conséquent, on ne voit qu'une référence (le corps purs), et la définition de l'activité sera donnée dans tout exercice et/ou partiel.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex32}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex31}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex33}
+
+\subsection{Potentiel chimique et force électromotrice}
+
+\objectives{
+\begin{itemize}
+\item Exprimer le potentiel chimique dans un mélange à l'aide de l'activité ;
+\item Exprimer l'enthalpie d'une transformation en fonction des potentiels chimiques des constituants chimiques mis en jeux ;
+\item \'{E}tablir et exploiter un cycle de Born-Haber afin d'établir des relations structures-propriétés ;
+\item Justifier l'origine thermodynamique de la f.e.m. dans un titrage coulométrique à l'aide des potentiels chimiques dans un mélange miscible et non miscible.
+\end{itemize}
+Attention, toute question sur le dernier point sera guidé étape par étape ! C'est un niveau au-dessus du reste.
+}
+
+\cteacher{L'objectif de cette partie est de leur introduire progressivement le potentiel chimique. En effet, ils seront amenés à le revoir à de nombreuses reprises par la suite alors qu'ils n'auront plus de thermodynamique.\\
+Par conséquent, tout l'intérêt ici est : de leur montrer que toutes les combinaisons linéaires d'enthalpies de formations peuvent être justifiées proprement par le potentiel chimique et qu'elles sont très utiles dans le domaine des batteries.\\
+Les exercices à traiter en priorité sont la première pile de l'exercice \ref{subsubsection:piles_au_lithium} et les exercices \ref{subsubsection:relation_structure-propriete} \& \ref{subsubsection:relation_potentiel_chimique-fem} en entier.
+Le dernier exercice est un niveau au-dessus des autres, mais il permet de leur montrer qu'on peut donner un sens "microscopique" à la courbe de titrage à l'aide de ce type de calcul. Toute question en partiel sur ce type d'exercice serait extrêmement guidée.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex01}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex26}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex25}
+
+%\subsection{Transitions de phase}
+
+%\objectives{
+%\begin{itemize}
+%\item Utiliser la variance particulière pour comprendre l'évolution de la f.e.m. ;
+%\item Prédire la f.e.m. d'une région de variance particulière nulle ;
+%\item Interpréter la variation de f.e.m. à l'aide de l'activité du lithium ou d'un autre constituant ;
+%\item Savoir lire un diagramme ternaire isotherme (fractions molaires, compositions, constituants présents) ;
+%\item \'{E}tablir l'allure d'une courbe de titrage à l'aide des lignes de démarcation et d'une ligne de composition définie par l'énoncé ou l'expérience.
+%\end{itemize}
+%}
+
+%\cteacher{
+%L'objectif de cette partie est d'apprendre aux candidats à lier l'allure des courbes de titrage au nombre et à la nature des phases constituants la cathode.\\
+%Dans un diagramme binaire, les exercices vont assez loin du point de vue de l'interprétation. Dans les diagrammes ternaires, la difficulté vient de l'interprétation et de la lecture du diagramme. L'avantage pour nous est de représenter avec eux l'"espace chimique" de l'électrode. Ce type de représentation sera réutilisé en CM par exemple pour les substitutions.\\
+%Le dernier exercice cherche à interpréter la stabilité des phases lithiées à l'aide de la f.e.m. en comparant la stabilité des oxydes avec celles des oxydes lithiés. On observe alors quelles sont les phases déstabilisées par la présence de lithiums.
+%On traitera en priorité les exercices Ex. \ref{subsubsection:etude_dun_systeme_binaire} et \ref{subsubsection:etude_dun_systeme_ternaire_LiCoO}.
+%}
+
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex27}
+
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex28}
+
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex29}
+
+\newpage
+
+\section{Bases élémentaires de cristallographie à usage des batteries}
+
+\subsection{Occupation des sites interstitiels par les cations}
+
+\objectives{
+\begin{itemize}
+\item Démontrer et utiliser le \og critère stérique \fg{}  ;
+\item Utiliser le critère \og énergétique \fg{} en utilisant la théorie du champ cristallin ;
+\item Montrer si les tendances préditent pas ces deux modèles sont synergiques ou antagonistes et corréler ces tendances à l'expérience.
+\end{itemize}}
+
+\cteacher{Cette partie ne sera pas traitée en TD, ce sont des rappels de première année et de 3.05. Par conséquent, on va les considérer comme acquis. Toutefois, un rafraichissement rapide de mémoire peut être fait sur la théorie du champ cristallin qui n'a pas été réutilisé depuis le BUT1.}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex13}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex14}
+
+\newpage
+
+\subsection{\'{E}tude de quelques structures cristallographiques courantes}
+
+\objectives{
+\begin{itemize}
+\item Connaître les principales caractéristiques cristallographiques des structures lamellaires, des spinelles et des olivines ;
+\item Interpréter ou établir la dimension du matériau ;
+\item Interpréter la connectivité des polyèdres de coordination ;
+\item Justifier la capacité d'un matériau à accueillir du lithium et interpréter stériquement la stabilité éventuelle de ces sites ; 
+\item Connaître l'effet Jahn-Teller, justifier son existence éventuelle et l'utiliser pour rationaliser l'évolution des paramètres de maille.
+\end{itemize}
+}
+
+\cteacher{Dans cette partie, on va chercher à donner une interprétation microscopique à la f.e.m. en corrélant les paramètres du tableau périodique (rayons, électronégativité) avec les propriétés du matériau. Les exercices à traiter sont : \ref{subsubsection:oxyde_lamellaire} et \ref{subsubsection:olivine}. \\
+Le premier système a été largement traité en CM, il est donc inutile d'y passer un temps démentiel.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex16}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex12}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex15}
+
+\newpage
+
+\subsection{Relation entre la structure cristallographique et la structure électronique}
+
+\objectives{
+\begin{itemize}
+\item Interpréter la f.e.m. et son évolution à l'aide de la relation entre le potentiel chimique/niveau de Fermi du lithium aux pôles et la f.e.m. ;
+\item Interpréter l'influence du degré d'oxydation, de l'électronégativité, $\ldots$ sur la position des bandes des anions et cations ;
+\item Mettre en relation la forme des bandes avec la nature et l'intensité des liaisons chimiques ; 
+\item Remplir les bandes en estimant le nombre d'électrons de valence mis en jeu.
+\end{itemize}
+}
+
+\cteacher{Cette partie n'est pas dédiée à la construction des bandes ou à l'introduction des notions orbitalaires associées aux cristaux (orbitales de Bloch, orbitales de cristal). \\
+L'accent est mis sur la position du niveau de Fermi et l'origine électronique de la f.e.m. L'impact de l'oxydation et la réduction, et de tout effet inductif sur la position du niveau de Fermi sont à expliciter.\\
+Les diagrammes sont établis en considérant des entités liées par des liaisons ioniques. Les écarts à ce modèle pourront avoir lieu et les questions en partiel devront conduire les étudiants à proposer des ajustements ou des corrections à ce modèle. \\
+Aucune construction de diagramme de bande ne sera exigible.
+}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex18}
+
+\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex17}
+\begin{comment}lala
+\end{comment}
+
+%%%% A voir si c'est utile les exos en dessous : 
+%\graphicspath{{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/2023-Cours/Ex02/}}
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex02}
+
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex03}
+
+
+
+%\graphicspath{{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex06/}}
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex06}
+
+%Batterie Li-S
+%\graphicspath{{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex08/}}
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex08}
+
+%Batterie Li Mn2O4
+%\graphicspath{{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex10/}}
+%\input{/home/jeff/Documents/IUTOrsay/1-Cours/3p06-Cours_Batterie/02-TD/Ex10}
+
+\end{document}

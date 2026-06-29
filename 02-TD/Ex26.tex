@@ -1,0 +1,177 @@
+\subsubsection{Utiliser la thermodynamique pour établir une relation structure-propriété}
+\label{subsubsection:relation_structure-propriete}
+%Bottin-Mallet, pg 162 Attention, erreur dans le livre, les potentiels chimiques sont faux.
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+La pile Daniell est une pile galvanique où la f.e.m. est issue de la différence de potentiel rédox entre les couples \ce{Cu^{2+} (aq)}/\ce{Cu (s)} et \ce{Zn^{2+} (aq)}/\ce{Zn (s)}. L'idée ici est de déterminer deux façons d'obtenir la force électromotrice.% et le c{\oe}fficent de température d'une pile. à voir !
+
+\paragraph*{\`{A} partir d'une réaction fictive}
+
+\Q \'{E}crire l'équation fictive de réaction du système.
+\solution{
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Zn (s) = Zn^{2+} (aq) + 2e^-} \\
+\ce{Cu^{2+} (aq) + 2e^- = Cu (s)} \\
+\hline
+\ce{Zn(s) + Cu^{2+} (aq) = Zn^{2+} (aq) + Cu(s)} 
+\end{align*}
+\end{minipage}
+\end{center}
+}
+
+\Q En déduire l'expression de l'enthalpie libre de réaction en condition standard.
+\solution{
+On a démontré en cours que :
+\begin{align*}
+\Delta_r G = \sum_j \nu_j \mu_j
+\end{align*}
+Dans le cas présent, l'expression vaut : 
+\begin{align*}
+\Delta_r G^\circ = \mu^\circ ( \ce{Zn^{2+}} ) + \mu^\circ ( \ce{Cu} ) - \mu^\circ ( \ce{Zn} ) - \mu^\circ ( \ce{Cu^{2+}} )
+\end{align*}}
+
+\Q Pourquoi l'enthalpie molaire du cuivre et du zinc est nulle à \SI{0}{\kelvin} ?
+\solution{Le Cu et le Zn sont des corps simples dans leur état standard de référence.}
+
+\Q Calculer le potentiel chimique de chacun des constituants de la pile Daniell.
+\solution{On tire de la définition de $G = H - TS$, une relation équivalente molaire :
+\begin{align*}
+\mu^\circ = h^\circ - s^\circ T
+\end{align*}
+\textbf{AN : }
+\begin{align*}
+\mu^\circ ( \ce{Cu} ) = 9.86 ~ \si{\kilo\joule\per\mole} \\
+\mu^\circ ( \ce{Cu^{2+}} ) = 12.4 ~ \si{\kilo\joule\per\mole} \\
+\mu^\circ ( \ce{Zn} ) = 94.5 ~ \si{\kilo\joule\per\mole} \\
+\mu^\circ ( \ce{Zn^{2+}} ) = -120.5 ~ \si{\kilo\joule\per\mole} \\
+\end{align*}}
+
+\Q Dans les conditions standard, déterminer la relation existant entre la force électromotrice et les potentiels chimiques et déduisez en la force électromotrice.
+\solution{
+\begin{align*}
+\Delta_r G^\circ = -2 F e^\circ \implies e^\circ = -\frac{\mu^\circ ( \ce{Zn^{2+}} ) + \mu^\circ ( \ce{Cu} ) - \mu^\circ ( \ce{Zn} ) - \mu^\circ ( \ce{Cu^{2+}} )}{2F}
+\end{align*}
+\textbf{AN :} $e^\circ (298 ~ \si{\kelvin}) = 1.12 ~ \si{\volt}$}
+
+\Q Ce résultat est-il en accord avec les potentiels de réactions, sachant que les potentiels rédox sont donnés par $E^\circ (\ce{Zn^{2+}(aq) / Zn (s)} = -0.762 ~ \si{\volt\per{ESH}}$ et $E^\circ (\ce{Cu^{2+}(aq) / Cu (s)} = 0.340 ~ \si{\volt\per{ESH}}$
+\solution{La f.e.m. nous est donnée par : 
+\begin{align*}
+e^\circ &= E_\oplus^\circ - E_\ominus^\circ \\
+&= E^\circ (\ce{Cu^{2+}(aq) / Cu (s)}) - E^\circ (\ce{Zn^{2+}(aq) / Zn (s)}) \\
+&\stackrel{AN}{=} 1.12 ~ \si{\volt}
+\end{align*}
+Les données thermodynamiques ont permis de remonter à la f.e.m. attendue.
+}
+
+
+\paragraph*{\`{A} partir d'un cycle de Born-Haber}
+La méthode précédente offre l'avantage d'exploiter des grandeurs thermodynamiques tabulées pour déterminer les grandeurs caractéristiques d'un système électrochimique, quelqu'il soit. Cependant, il ne permet pas d'établir le lien structure-propriété. Une façon d'y parvenir est de construire un autre chemin thermodynamique basé sur trois réactions élémentaires : 
+\begin{align*}
+\text{Hydratation d'un ion} \quad \ce{X^{z+}(g) -> X^{z+}(aq)} \\
+\text{Sublimation d'un métal} \quad \ce{X(s) -> X(g)} \\
+\text{Ionisation d'un atome} \quad \ce{X(s) -> X^{z+}(g)} \\
+\end{align*}
+
+\Q Construire un cycle thermodynamique, appelé cycle de Born-Haber, permettant de remonter à l'enthalpie libre standard de réaction à partir de ces trois processus élémentaires. Faites l'application numérique et vérifier le résultat.
+\solution{On peut faire le cycle de Born-Haber suivant : 
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Ex26/Corr01.png}
+\end{center}
+On en tire immédiatement que : 
+\begin{align*}
+\Delta_r G^\circ &= \underbrace{ \Delta_{sub} G^\circ ( \ce{Zn} ) - \Delta_{sub} G^\circ ( \ce{Cu} )}_{\text{sublimation}}
++ \underbrace{ \Delta_{i} G^\circ ( \ce{Zn} ) - \Delta_{i} G^\circ ( \ce{Cu} )}_{\text{ionisation}}
++\underbrace{ \Delta_{hyd} G^\circ ( \ce{Zn} ) - \Delta_{hyd} G^\circ ( \ce{Cu} )}_{\text{hydratation}}
+\end{align*}
+\textbf{AN :} $\Delta_r G^\circ = 244 ~ \si{\kilo\joule\per\mole}$, ce qui est en bon accord avec la f.e.m attendue (on obtient \SI{1.26}{\volt}, soit un écart relatif de \SI{15}{\percent}).
+}
+
+\Q Déduire de l'expression précédente trois termes qui font sens chimiquement. Quel est l'origine physique de la f.e.m. de la pile Daniell ?
+\solution{On identifie un terme de sublimation, un terme d'ionisation et un terme d'hydratation, qui valent respectivement :
+\begin{align*}
+\Delta_{sub} G^\circ ( \ce{Zn} ) - \Delta_{sub} G^\circ ( \ce{Cu} ) &\stackrel{AN}{=} -210 ~ \si{\kilo\joule\per\mole} \\
+\Delta_{i} G^\circ ( \ce{Zn} ) - \Delta_{i} G^\circ ( \ce{Cu} ) &\stackrel{AN}{=} -91 ~ \si{\kilo\joule\per\mole} \\
+\Delta_{hyd} G^\circ ( \ce{Zn} ) - \Delta_{hyd} G^\circ ( \ce{Cu} ) &\stackrel{AN}{=} 57 ~ \si{\kilo\joule\per\mole}
+\end{align*}
+Le terme dominant du cycle thermodynamique fictif est l'enthalpie libre standard de sublimation des deux métaux. L'origine physique de la f.e.m. vient de la différence de cohésion des liaisons chimiques \ce{Zn-Zn} et \ce{Cu-Cu} dans leurs corps purs respectifs.
+}
+
+On connaît les informations suivantes sur le zinc et le cuivre : 
+\begin{itemize}
+\item Températures de fusion : $T_f^\star (\ce{Zn}) = 907 ~ \si{\celsius}$, $T_f^\star (\ce{Cu}) = 2310 ~ \si{\celsius}$
+\item Mode de cristallisation et paramètre de maille : 
+\begin{itemize}
+\item cuivre cristallise en mode cubique face centrée, $a (\ce{Cu}) = 360 \si{\pico\meter}$ ;
+\item zinc cristallise en mode hexagonal compact $a(\ce{Zn}) = 266 ~ \si{\pico\meter}$ \& $c(\ce{Zn}) = 495 ~ \si{\pico\meter}$. %r (Zn)=133 picometer.
+\end{itemize} 
+\end{itemize}
+
+\Q Justifier l'origine du terme dominant à partir de ces considérations structurales.
+\solution{
+Calcul du rayon métallique de ces deux métaux :
+\begin{center}
+\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Ex26/Corr02}
+\end{center}
+Condition de contact :
+\begin{align*}
+4 r (\ce{Cu}) &= \sqrt{2} a \\
+r (\ce{Cu}) &= \frac{a}{2\sqrt{2}} \\
+&\stackrel{AN}{=} 127 ~ \si{\pico\meter}
+\end{align*}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Ex26/Corr03}
+\end{center}
+Condition de contact :
+\begin{align*}
+2 r (\ce{Zn}) &= a \\
+r (\ce{Zn}) &= \frac{a}{2} \\
+&\stackrel{AN}{=} 133 ~ \si{\pico\meter}
+\end{align*}
+\end{minipage}
+\end{center}
+Les rayons métalliques sont différents $r(\ce{Zn}) > r(\ce{Cu})$, ce qui suppose qu'il existe un moins bon recouvrement entre les orbitales des atomes dans le zinc métallique par comparaison au cuivre. Par conséquent, l'énergie des liaisons \ce{Zn}-\ce{Zn} est plus faible que celle des liaisons \ce{Cu}-\ce{Cu}, ce qui a pour conséquence que la cohésion de \ce{Zn(s)} est moindre que celle de \ce{Cu(s)}. Cette conclusion est confirmée par les températures de fusion des corps purs.
+}
+
+L'étude des corrélations entre la structure et la réactivité, comme traité dans ce cas simple, est d'une grande utilité pour le chimiste afin de l'orienter dans ses choix. Le cas des batteries lithium sera traité en cours.
+
+
+\paragraph*{Données à \SI{298}{\kelvin}}
+\begin{itemize}
+\item Constante de Faraday : $F = 96485 ~ \si{\coulomb\per\mole}$
+
+\item Données atomiques en \si{\kilo\joule\per\mole} :
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Enthalpie libre de réaction & Notation & \ce{Cu^{2+} / Cu} & \ce{Zn^{2+} / Zn} \\
+\midrule
+Sublimation du métal & $\Delta_{sub} G^\circ$ & 341 & 131 \\
+Ionisation d'un atome & $\Delta_i G^\circ$ & 2741 & 2650 \\
+Hydratation de l'ion & $\Delta_{hyd} G^\circ$ & -2991 & -2934 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\item Grandeurs molaires des métaux et ions : 
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+& $h^\circ$ & $s^\circ$ \\
+\midrule
+& \si{\kilo\joule\per\mole} & \si{\joule\per\mole\per\kelvin} \\  
+\ce{Cu^{2+}} & 64.8 & -99.6 \\
+\ce{Zn^{2+}} & -153.9 & -112.1 \\
+\ce{Cu} & 0 & 33.1 \\
+\ce{Zn} & 0 & 41.6 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{itemize}
+

@@ -1,0 +1,278 @@
+\subsubsection{Structure des matériaux de type olivine (\ce{ABPO4})}
+\label{subsubsection:olivine}
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+\begin{center}
+\includegraphics[width=8cm]{Ex15/Fig02}
+\captionof{figure}{Structure de l'olivine \ce{LiFePO4} dans la projection le long de [001].}
+\label{fig:15-02}
+%. Energy Environ. Sci., 2011, 4, 269–284
+\end{center}
+
+\`{A} l'état solide, les olivines cristallisent dans une structure orthorhombique. Dans cette structure, le lithium et le fer occupent des sites octaédriques, tandis que le phosphore occupe des sites tétraédrique.
+
+\Q Rappeler les paramètres de maille du système orthorhombique.
+\solution{On définit les longueurs et angles de la maille de la manière suivante :  
+\begin{align*}
+\alpha &= \beta = \gamma = 90 ~ \si{\degree} \\
+a &\neq b \neq c
+\end{align*}}
+
+\Q Identifier les connectivités existant éventuellement entre les octaèdres de fer et les tétraèdres de phosphore.
+\solution{Les connectivités sont les suivantes : 
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Connectivité & \ce{FeO6}-\ce{FeO6} & \ce{FeO6}-\ce{PO4} & \ce{PO4}-\ce{PO4} \\
+\midrule
+Nature de la connexion & Sommets & Arête \& Sommets & Aucune \\
+\bottomrule
+\end{tabular}
+\end{center}
+La connectivité entre octaèdres de fer et tétraèdres de phosphate est mixte. Chaque octaèdre est connecté à 5 tétraèdres, dont 1 par une arête et 4 autres par des sommets. Les étudiants ne peuvent pas visualiser les 5 connexion avec la projection fournie, d'autres devraient être fournies.\\
+\textbf{NB :} On remarque que les octaèdres de coordination du lithium sont déformés et connectés entre eux par une arête. C'est cette connectivité qui permet la formation de tunnels unidimentionnels.
+}
+
+
+\Q Identifier la dimension du matériau en dénombrant les axes de diffusion du lithium.
+\solution{On observe la présence de galeries au sein de l'olivine, permettant une diffusion du lithium selon l'axe $\vec{c}$ de la structure.  \\
+Puisque la direction de diffusion est définie par un seul vecteur unitaire du repère de la maille, on qualifie ce matériau d'unidimensionnel (1D).
+}
+
+Dans les structures olivines, tous les oxygènes sont coordinés au phosphore sous la forme de tétraèdre polyanionique de phosphate inorganiques \ce{PO4^{3-}}.
+
+\Q Donner la configuration électronique du phosphore. Expliquer en quoi les polyèdres de phosphate stabilisent la structure moléculaire tridimensionnelle.
+\solution{Le phosphore possède 15 électrons. En appliquant les règles de l'Aufbau, on trouve : 
+\begin{align*}
+[\ce{P}] = ~ _{10}[\ce{Ne}] 3s^2 3p^3
+\end{align*}
+Dans un tétraèdre \ce{PO4^{3-}}, on peut calculer le degré d'oxydation du phosphore a l'aide de l'équation de conservation de la charge :
+\begin{align*}
+no ( \ce{P} ) + 4 no (\ce{O}) = -III
+\end{align*} 
+Puisque $\chi ( \ce{O} ) > \chi( \ce{P})$, on peut en déduire que : 
+\begin{align*}
+no (\ce{P}) = +V
+\end{align*} 
+Dans un modèle purement ionique, la configuration du phosphore V est donnée par : 
+\begin{align*}
+[\ce{P}] = ~ _{10}[\ce{Ne}] 3s^0 3p^0
+\end{align*}
+La configuration du phosphore est celle du néon, gaz noble, ce qui traduit une excellente stabilisation de ce degré d'oxydation.
+}
+%
+
+Afin de tester la stabilité thermique de \ce{FePO4}, le matériau, initialement lithié (c.-à-d. synthétisé sous la forme \ce{LiFePO4}), est lavé à plusieurs reprises par une solution organique d'acétonitrile contenant des bromures. L'analyse thermogravimétrique (TGA) et par calorimétrie différentielle (DSC) montre qu'il existe un petit pic réversible à \SI{300}{\celsius} d'origine inconnue. 
+
+\begin{center}
+\includegraphics[width=8cm]{Ex15/Fig01}
+\captionof{figure}{Analyse par thermogravimétrique et par analyse calorimétrique différentielle de la phase délitié \ce{FePO4} en présence d'une atmosphère inerte (diazote).}
+%. Electrochem. Soc., Vol. 144, No. 4, ApriL 1997 The Electrochemical Society, Inc.
+\end{center}
+
+Nous ignorerons la courbe de DSC, et nous focaliserons sur la courbe de TGA, laquelle indique la perte de masse de l'échantillon par rapport à sa masse initiale.
+
+
+\Q Identifier le rôle d'utiliser une solution de bromures.
+\solution{
+On cherche à délithier le matériau par des lavages successifs à l'acétonitrile, solvant polaire aprotique. Afin de faciliter la délithiation, on ajoute des ions \ce{Br^-} qui précipiteront avec les cations lithium sous la forme \ce{LiBr}.
+}
+
+\Q Justifier en quoi la TGA permet de rendre compte de la stabilité de notre phase jusqu'à \SI{500}{\celsius}.
+\solution{
+La TGA montre que le matériau ne subit qu'une perte de masse de \SI{1.6}{\percent} en chauffant jusqu'à \SI{500}{\celsius}. En réalité, cette perte de masse est due en partie à la dégradation des sels \ce{LiBr} qui a lieu à \SI{350}{\celsius}. Par conséquent, on peut s'attendre à une excellente stabilité thermique de l'olivine, qualité à mettre en relation avec les questions d'atomistique des questions précédentes.}
+
+Les courbes de charge/décharge à température et pression ambiante ont été acquis : 
+
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{Ex15/Fig03}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{figure}{\'{E}volution du potentiel cathodique par rapport à une électrode au lithium pour une densité de courant de \SI{0.05}{\milli\ampere} en fonction de la fraction en lithium dans $\ce{Li_x FePO4}$.}
+\end{minipage}
+
+\Q En supposant que le courant soit suffisamment faible pour se placer dans l'approximation thermodynamique, identifier les éventuels processus biphasique. Que vaut approximativement le potentiel cathodique dans ce régime ?
+\solution{On observe trois régimes de tension : 
+\begin{align*}
+0<x<0.2 & \quad \text{diminution du potentiel} \\
+0.02<x<0.5 & \quad \text{plateau de tension autour de }3.4 ~\si{\volt} \\
+x > 0.5 & \quad \text{diminution du potentiel}
+\end{align*}
+Le régime de plateau traduit la présence d'un système biphasique (cf étude de variance). 
+} 
+
+Les mesures par DRX ont permis d'identifier le groupe d'espace et les paramètres de maille du système : 
+\begin{minipage}{0.48\textwidth}
+\begin{tabular}{cccc}
+\toprule
+& & \ce{LiFePO4} & \ce{FePO4} \\
+\midrule
+Groupe d'espace &  & Pbnm & Pbnm \\
+a & \si{\angstrom} & 6.008 & 5.792 \\
+b & \si{\angstrom} & 10.334 & 9.821 \\
+c & \si{\angstrom} & 4.693 & 4.788 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{table}{Paramètres de maille dans un groupe d'espace orthorhombique.}
+\end{minipage}
+
+L'invariance du groupe d'espace suggère que la charpente moléculaire ne subit aucune dislocation, destruction/nouvelle formation de liaisons, $\ldots$ lors d'une lithiation. A priori, l'origine du régime biphasique de tension est dû au fait que l'électrode $\oplus$ \ce{FePO4} va se lithier progressivement à l'interface : 
+
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=0.7\textwidth]{Ex15/Fig04}
+\end{minipage}\hfill\begin{minipage}{0.48\textwidth}
+\captionof{table}{Représentation schématique de la lithiation dans un cristal \ce{FePO4}.}
+\label{fig:15-04}
+\end{minipage}
+
+On a donc une diffusion de l'ion lithium avec apparition de deux phases distinctes (cf cours).
+
+\Q La disparition du plateau dans le $3^e$ régime ne peut s'expliquer par la thermodynamique, mais résulte de considérations cinétiques. Sachant que lors de ces expériences de charge/décharge le courant électrique est constant et en vous appuyant sur la Fig. \ref{fig:15-04}, identifier le paramètre microscopique critique lors de la lithiation.
+\emph{Aide : Vous pouvez reproduire le schéma entre deux instants : vers le début et à vers la fin de la lithiation pour vous aider.}
+\solution{On observe que lors de la lithiation, il y a croissance à la surface de \ce{FePO4} d'une zone lithiée.
+\begin{center}
+\includegraphics[width=0.48\textwidth]{Ex15/Corr01}
+\end{center}
+Plus la phase lithiée progresse, plus la surface entre les deux phases \ce{FePO4} et \ce{LiFePO4} diminue. Ainsi, il arrive un moment où la surface devient tellement petite que les atomes de lithium diffusent plus lentement, ce qui a pour conséquence de rendre la diffusion limitante. \\
+La perte de potentiel observée pour $x > 0.5$ est la manifestation macroscopique de ce phénomène.}
+
+\begin{comment}
+\textbf{Remarque} Si on se souvient que le courant est constant, on peut écrire l'équation de conservation du courant électrique entre deux instants
+\begin{align*}
+I = j_1 S_1 = j_2 S_2
+\end{align*}
+où $j_1$ est la densité de courant diffusionnel à l'instant 1 et $S_1$ la surface entre \ce{FePO4}/\ce{LiFePO4}. Or, si $S_1 > S_2$, on a alors : 
+\begin{align*}
+\frac{j_1}{j_2} = \frac{S_2}{S_1}
+\end{align*}
+Ainsi, cette équation traduit l'explications ci-dessus, plus la surface diminue, plus la densité de courant 
+\end{comment}
+
+
+
+
+\Q Calculer le volume de la maille dans les deux cas limites : délithié / lithié. Conclure.
+\solution{Dans un système orthorhombique, le volume de la maille vaut :
+\begin{align*}
+V = a \times b \times c
+\end{align*}
+On trouve alors que : 
+\begin{align*}
+V ( \ce{LiFePO4}) &= 291.373 ~ \si{\angstrom\cubed} \\
+V ( \ce{FePO4}) &=  272.357 ~ \si{\angstrom\cubed}
+\end{align*}
+La lithiation conduit à une dilatation du réseau par les ions lithium.
+}
+
+\Q En vous appuyant sur la structure cristallographique à la Fig. \ref{fig:15-02}, affiner la réponse précédente.
+\solution{Calcul de l'expansion relative lors d'une lithiation :
+\begin{center}
+\begin{tabular}{cc}
+$\frac{a ( \ce{LiFePO4} ) - a (\ce{FePO4}) }{a (\ce{FePO4})}$ & $3.723 ~ \si{\percent}$ \\
+$\frac{b ( \ce{LiFePO4} ) - b (\ce{FePO4}) }{b (\ce{FePO4})}$ & $5.224 ~ \si{\percent}$ \\
+$\frac{c ( \ce{LiFePO4} ) - c (\ce{FePO4}) }{c (\ce{FePO4})}$ & $-1.984 ~ \si{\percent}$ \\
+\end{tabular}
+\end{center} 
+On observe à la Fig. \ref{fig:15-02}, que la lithiation \ce{FePO4} se traduit par une expansion dans le plan $\vec{a}$ et $\vec{b}$ et une légère contraction dans la direction normale au plan. \\
+Au vu de la structure, l'ajout d'ions lithium dans les galeries conduit à une expansion dans les directions $(\vec{a}, \vec{b})$.}
+
+
+Dans ces structures, des substitutions du fer par le manganèse et le cobalt ont été étudiées. Il a été observé que les potentiels rédox standard sont décalés par rapport aux valeurs dans les oxydes métalliques. Cet effet est appelé effet inductif.
+
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Couple & \ce{Fe^{3+}}/\ce{Fe^{2+}} & \ce{Mn^{3+}}/\ce{Mn^{2+}} & \ce{Co^{3+}}/\ce{Co^{2+}} \\
+\midrule
+Potentiel standard, milieu olivine [\si{\volt /{Li^+/Li}}] & 3.4 & 4.1 & 4.8 \\ 
+Potentiel standard, milieu oxyde métallique [\si{\volt /{ESH}}] & -1.34 & -0.04 & 0.96 \\ 
+\bottomrule
+\end{tabular}
+\captionof{table}{Valeurs de potentiel standard à \SI{25}{\celsius} au sein d'une olivine sachant que le potentiel du couple \ce{Li^+ (aq)} / \ce{Li (s)} vaut \SI{-3.04}{\volt\per{ESH}}.}
+%. Electrochem. Soc., Vol. 144, No. 4, ApriL 1997 The Electrochemical Society, Inc.
+\end{center}
+
+Pour les questions qui suivront, la coordinence de tous ces métaux sera de [6] et sera supposée constante dans les deux milieux.
+
+\Q Pourquoi étudie-t-on les potentiels rédox entre des métaux de degré d'oxydation II et III ?
+\solution{
+Encore une fois, on peut utiliser l'équation d'électroneutralité dans un édifice moléculaire de type $\ce{Li_x MPO4}$ où M est un métal quelconque. On a alors : 
+\begin{align*}
+x \cdot no ( \ce{Li} ) + no( \ce{M} ) + no( \ce{PO4} ) = 0
+\end{align*}
+On a vu précédemment que le phosphate est une molécule de charge -3, donc pour $x=0$ et $x=1$, on trouve les degrés d'oxydation suivant pour le métal \ce{M} : 
+\begin{center}
+\begin{tabular}{cc}
+\toprule
+Fraction en lithium  & Degré d'oxydation du métal \\
+\midrule
+$x = 0$ & +III \\
+$x = 1$ & +II \\
+\bottomrule
+\end{tabular}
+\end{center}}
+
+\Q Comparer l'écart de potentiel standard entre les oxydes dans l'olivine et les aqua-complexes dans l'eau. 
+\solution{
+On commence par calculer les potentiels rédox par rapport à la référence en \si{\volt /{Li^+/Li}}.
+Or, on sait que : 
+\begin{align*}
+E [\si{\volt /{Li^+/Li}}] =  E [\si{\volt /{ESH}}] - E^\circ (\ce{Li^+ (aq)} / \ce{Li (s)})
+\end{align*}
+On calcule alors les potentiels rédox en milieu oxyde par rapport au couple du lithium : 
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Couple & \ce{Fe^{3+}}/\ce{Fe^{2+}} & \ce{Mn^{3+}}/\ce{Mn^{2+}} & \ce{Co^{3+}}/\ce{Co^{2+}} \\
+\midrule
+Potentiel standard, milieu oxyde [\si{\volt /{Li^+/Li}}] & 1.7 & 3.0 & 4.0 \\ 
+\bottomrule
+\end{tabular}
+\end{center} 
+On peut ainsi calculer l'écart relatif entre les potentiels dans l'olivine par rapport à celle des oxydes : 
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Couple & \ce{Fe^{3+}}/\ce{Fe^{2+}} & \ce{Mn^{3+}}/\ce{Mn^{2+}} & \ce{Co^{3+}}/\ce{Co^{2+}} \\
+\midrule
+$\frac{E^\circ ( \text{olivine}) - E^\circ ( \text{oxyde})}{E^\circ ( \text{oxyde})}$ & \SI{-50}{\percent} & \SI{-37}{\percent} & \SI{-20}{\percent} \\ 
+\bottomrule
+\end{tabular}
+\end{center} 
+}
+
+\Q En vous appuyant sur la question précédente, commenter le terme \og effet inductif \fg{}.
+\solution{
+L'effet inductif est dû au caractère électroattracteur des ions phosphates \ce{PO4^{3-}} qui augmente le caractère ionique de la liaison métal-oxygène. L'augmentation de l'ionicité de la liaison se traduit, électrochimiquement, par une augmentation du potentiel par rapport au lithium.
+}
+
+Afin de complèter notre comparaison rudimentaire des performances des structures olivine, on se propose de comparer les densités de ces matériaux : 
+
+\begin{center}
+\begin{tabular}{cccccc}
+\toprule
+Structure & \ce{LiMnPO4} & \ce{LiFePO4} & \ce{LiMn2O4} & \ce{LiNiO2} & \ce{LiCoO2} \\
+\midrule
+Densité [\si{\gram\per\centi\meter\cubed}] & 3.4 & 3.6 & 4.2 & 4.8 & 5.1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\Q Résumer en quoi l'olivine permet une amélioration des propriétés des batteries.%propriétés rédox des métaux insérés dans sa structure par rapport aux oxydes.
+\solution{La présence de tétraèdre de phosphore \ce{PO4^{3-}} à la place des ions superoxyde \ce{O^{2-}} conduit à une amélioration de la qualité de l'énergie stockée dans la batterie (c.-à-d. une augmentation de la tension). \\
+Cependant, les olivines sont moins denses que les oxydes ce qui signifie que pour une même masse, les olivines des matériaux plus volumineux. Les olivines sont donc avantageuses s'il n'existe aucune contrainte dans le cahier des charges vis-à-vis de la dimension de la batterie.}
+
+\begin{comment}
+Afin d'appréhender ces propriétés uniques des structures olivines, nous allons nous intéresser au travail de J. B. Goodenough, prix nobel de chimie 2019 sur le mécanisme de super-échange.
+Cette observation est à mettre en relation avec un effet découvert par J. B. Goodenough appelé 
+\end{comment}
+
+
+\paragraph*{Données :}
+\begin{itemize}
+\item Numéro atomique du phosphore : $Z = 15$
+\item \'{E}lectronégativité de Pauling : $\chi ( \ce{O} ) = 3.44$, $\chi ( \ce{P}) = 2.19$ et $\chi ( \ce{Fe}) = 1.83$
+\end{itemize} 

@@ -1,0 +1,101 @@
+\subsection{\'{E}tude d'une pile de concentration}
+%Juliette, planche 1, semaine 20
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+Considérons la pile formée par l'association de deux demi-piles constituées toutes deux d'un fil de cuivre plongeant dans une solution de sulfate de cuivre, l'une dans un volume $V_1 = 50$ \si{\milli\liter} à $c_1 = 0.100$ \si{\mole\per\liter} (demi-pile \textbf{1}), l'autre dans un volume $V_2 = 100$ \si{\milli\liter} à $c_2 = 0.010$ \si{\mole\per\liter} (demi-pile \textbf{2}). Une solution de nitrate d'ammonium gélifiée assure la jonction électrolytique interne entre les deux demi-piles. Le cuivre est en excès dans chacune des demi-piles.
+
+\Q Faire un schéma de cette pile.
+
+\solution{
+$$\ce{Cu(s) (s, 2)} | \ce{Cu^{2+} (aq, 2)}, \ce{SO4^{2-} (aq, 2)} | \ce{NH4^+ (aq)} , \ce{NO_3^- (aq)} | \ce{Cu^{2+} (aq, 1)}, \ce{SO4^{2-} (aq, 1)} | \ce{Cu(s) (s, 1)}$$
+}
+
+\Q Déterminer la polarité de la pile, les équations des réactions se déroulant dans chaque demi-pile et la réaction globale de fonctionnement de la pile.
+
+\solution{
+Chaque demi-pile est décrite par la demi-équation rédox : 
+\begin{equation*}
+\ce{Cu(s) = Cu^{2+} (aq) + 2 e^-}
+\end{equation*}
+On se place à l'équilibre thermodynamique, on peut donc écrire l'équation de Nernst pour lier le potentiel d'électrode au potentiel du couple $\ce{Cu^{2+}}/\ce{Cu}$.
+\begin{align*}
+E_i &= E^\circ (\ce{Cu^{2+}}/ \ce{Cu}) + \frac{RT}{2F} \ln \left( \frac{a (\ce{Cu^{2+} (aq, i)}}{a (\ce{Cu (s,i)})} \right) \\
+E_i &= E^\circ (\ce{Cu^{2+}}/ \ce{Cu}) + \frac{RT}{2F} \ln \left( \frac{[\ce{Cu^{2+}}]_i}{c^\circ} \right)
+\end{align*}
+On sait que $[\ce{Cu^{2+}}]_1 > [\ce{Cu^{2+}}]_2 \implies E_1 > E_2$. Ainsi, la demi-pile 1 (resp. 2) est le siège de réduction (resp. de l'oxydation), soit la cathode (resp. l'anode).
+\begin{center}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\ce{Cu^{2+}(aq, 1) + 2e^- &= Cu (s, 1)} \\
+\ce{Cu (s, 2) &= Cu^{2+}(aq, 2) + 2e^-} \\
+\hline
+\ce{Cu^{2+}(aq, 1) + Cu (s, 2) &= Cu (s, 1) + Cu^{2+}(aq, 2)}
+\end{align*}
+\end{minipage}
+\end{center}}
+
+\Q En réalisant une hypothèse à justifier, en déduire la f.e.m. de la pile neuve à \SI{298}{\kelvin}.
+\cteacher{Attention, la question est mal formulée. Il faut remplacer le terme f.e.m. par tension à courant nul. Vous pourrez insister sur la subtile différence entre ces deux choses.}
+
+\solution{
+Nous avons montré en cours que lorsque l'on mesure la tension à courant nul à l'aide d'un voltmètre, cette tension s'exprime comme : 
+\begin{align*}
+U(I \approx 0 ~ \si{\ampere} ) = E_\oplus - E_\ominus + E_j
+\end{align*}
+Nous allons supposer que le potentiel de jonction est négligeable devant la différence de potentiel. Cela suppose que le pont salin contient des ions de grande mobilité, que les cations et anions ont des conductivités proches et qu'ils sont très concentrés. \\
+Dans ce cas, la tension mesurée est assimilable la f.e.m. notée $e$ : 
+\begin{align*}
+U (I \approx 0 ~ \si{\ampere} ) \approx e &\widehat{=} E_\oplus - E_\ominus \\
+&= E_1 - E_2 \\
+&= \frac{RT}{2F} \ln \left( \frac{[ \ce{Cu^{2+}} ]_1}{[ \ce{Cu^{2+}} ]_2} \right) \\
+&= \frac{\alpha}{2} \log \left( \frac{[ \ce{Cu^{2+}} ]_1}{[ \ce{Cu^{2+}} ]_2} \right) \text{ à \SI{298}{\kelvin}}
+\end{align*}
+\textbf{AN :} e = \SI{0.03}{\volt}}
+
+\Q Commenter l'appellation \og pile de concentration \fg{} pour cette pile.
+
+\solution{La force électromotrice de cette pile est causée une différence de concentration entre les deux compartiments, et pas par une différence de potentiel rédox.}
+
+\Q Déterminer les concentrations finales dans chaque bécher lorsque la pile cesse de débiter ainsi que le potentiel de chaque couple à l'équilibre.
+
+\solution{La pile cesse de débiter lorsque $e=0 \implies [\ce{Cu^{2+}}]_{1,\infty} = [\ce{Cu^{2+}}]_{2,\infty}$.\\
+\textbf{\'{E}tude de l'avancement de la réaction fictive}
+\begin{center}
+\begin{tabular}{c|ccccccc}
+\hline
+\si{\mole} & \ce{Cu^{2+}(aq, 1)} & \ce{ + } & \ce{Cu (s, 2)} & \ce{ = } & \ce{Cu (s, 1)} & \ce{ + } & \ce{Cu^{2+}(aq, 2)} \\
+\hline
+$t=0$ & $c_1 V_1$ & & XS & & XS & & $c_2 V_2$ \\
+\hline
+$t \to \infty$ & $c_1 V_1 - \xi_\infty$ & & XS & & XS & & $c_2 V_2 + \xi_\infty$ \\
+\hline
+\end{tabular}\end{center}
+d'où on peut tirer une égalité intéressante : 
+\begin{align*}
+\frac{c_1 V_1 - \xi_\infty}{V_1} = \frac{c_2 V_2 + \xi_\infty}{V_2} &\implies \xi_\infty = \frac{c_1 - c_2}{\frac{1}{V_1} + \frac{1}{V_2}} \\
+&\implies \xi_\infty = \frac{2}{3} (c_1 - c_2) V_1
+\end{align*}
+\textbf{AN :} $\xi_\infty = 3.00 \cdot 10^{-3} ~ \si{\mole\per\liter}$
+On trouve alors que : 
+\begin{align*}
+[\ce{Cu^{2+}}]_{1,\infty} = [\ce{Cu^{2+}}]_{2,\infty} = 0.04 ~ \si{\mole\per\liter}
+\end{align*}}
+
+\Q En déduire la quantité d'électricité qui a été délivré par l'anode.
+
+\solution{On sait que : \ce{Cu (s, 2) = Cu^{2+} (aq, 2) + 2e^-}. Ainsi, pour chaque mole de Cu oxydée, on forme 2 moles d'électrons. On peut alors en déduire la quantité de charge $Q$ delivrée par l'anode : 
+\begin{align*}
+Q = 2 \xi_\infty N_A e = 2 F \xi_\infty
+\end{align*}
+\textbf{AN :} $Q \approx \SI{579}{\coulomb}$ 
+}
+
+
+\paragraph*{Données à \SI{298}{\kelvin}}
+\begin{align*}
+E^\circ( \ce{Cu^{2+} (aq)} / \ce{Cu (s)} ) &= 0.34 ~ \si{\volt\per{ESH}} ;  \\
+\alpha = \frac{RT}{F} \ln (10) &= 0.059 ~ \si{\volt} ; \\
+F &\approx 96500 ~ \si{\coulomb\per\mole}.
+\end{align*}

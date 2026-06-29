@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:cdml="http://www.freesoftware.fsf.org/bkchem/cdml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="297.000000mm"
+   version="1.0"
+   viewBox="0 0 1106 1565"
+   width="210.000000mm"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="NBS.svg">
+  <metadata
+     id="metadata118">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs116" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="823"
+     id="namedview114"
+     showgrid="false"
+     inkscape:zoom="2.5371827"
+     inkscape:cx="443.1502"
+     inkscape:cy="876.6426"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:butt"
+     id="g6">
+    <line
+       id="line8"
+       y2="183.45"
+       y1="183.45"
+       x2="745"
+       x1="726" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g10">
+    <line
+       id="line12"
+       y2="231.38"
+       y1="212.67"
+       x2="703.07001"
+       x1="696.98999" />
+    <line
+       id="line14"
+       y2="232.62"
+       y1="213.89999"
+       x2="699.26001"
+       x1="693.17999" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g16">
+    <line
+       id="line18"
+       y2="129.38"
+       y1="152.97"
+       x2="700.84003"
+       x1="693.17999" />
+    <line
+       id="line20"
+       y2="130.62"
+       y1="154.21001"
+       x2="704.64001"
+       x1="696.97998" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g22">
+    <line
+       id="line24"
+       y2="171.37"
+       y1="153.59"
+       x2="708"
+       x1="695.08002" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g26">
+    <line
+       id="line28"
+       y2="201.89"
+       y1="213.28999"
+       x2="660"
+       x1="695.09003" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g30">
+    <line
+       id="line32"
+       y2="201.89"
+       y1="165"
+       x2="660"
+       x1="660" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g34">
+    <line
+       id="line36"
+       y2="153.59"
+       y1="165"
+       x2="695.08002"
+       x1="660" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g38">
+    <line
+       id="line40"
+       y2="213.28999"
+       y1="194"
+       x2="695.09003"
+       x1="709.09998" />
+  </g>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text42"
+     y="190.45"
+     x="709.29999"
+     font-size="12pt">N</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text44"
+     y="190.45"
+     x="746.29999"
+     font-size="12pt">H</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text46"
+     y="125.51"
+     x="698.29999"
+     font-size="12pt">O</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text48"
+     y="255.37"
+     x="698.29999"
+     font-size="12pt">O</text>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g50">
+    <line
+       id="line52"
+       y2="213.31"
+       y1="194"
+       x2="190.59"
+       x1="204.59" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g54">
+    <line
+       id="line56"
+       y2="231.38"
+       y1="212.69"
+       x2="198.57001"
+       x1="192.5" />
+    <line
+       id="line58"
+       y2="232.62"
+       y1="213.92999"
+       x2="194.75999"
+       x1="188.69" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g60">
+    <line
+       id="line62"
+       y2="129.38"
+       y1="152.99001"
+       x2="196.35001"
+       x1="188.69" />
+    <line
+       id="line64"
+       y2="130.62"
+       y1="154.22"
+       x2="200.14999"
+       x1="192.5" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g66">
+    <line
+       id="line68"
+       y2="201.87"
+       y1="213.31"
+       x2="155.5"
+       x1="190.59" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g70">
+    <line
+       id="line72"
+       y2="201.87"
+       y1="164.99001"
+       x2="155.5"
+       x1="155.5" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g74">
+    <line
+       id="line76"
+       y2="153.60001"
+       y1="164.99001"
+       x2="190.59"
+       x1="155.5" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:butt"
+     id="g78">
+    <line
+       id="line80"
+       y2="183.42999"
+       y1="183.42999"
+       x2="241"
+       x1="221" />
+  </g>
+  <g
+     style="font-size:medium;font-family:Helvetica;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="g82">
+    <line
+       id="line84"
+       y2="170.69"
+       y1="153.60001"
+       x2="203"
+       x1="190.59" />
+  </g>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text86"
+     y="190.42999"
+     x="204.3"
+     font-size="12pt">N</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text88"
+     y="125.51"
+     x="193.3"
+     font-size="12pt">O</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text90"
+     y="255.35001"
+     x="193.3"
+     font-size="12pt">O</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text92"
+     y="190.42999"
+     x="242.3"
+     font-size="12pt">Br</text>
+  <text
+     style="font-size:17.5px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text94"
+     y="194"
+     x="307"
+     font-size="14pt">+</text>
+  <text
+     style="font-size:17.5px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text96"
+     y="194"
+     x="364"
+     font-size="14pt">+</text>
+  <polyline
+     style="font-size:medium;font-family:Helvetica;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="polyline98"
+     points="492.00,187.00 568.31,187.00" />
+  <polygon
+     style="font-size:medium;font-family:Helvetica;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round"
+     id="polygon100"
+     points="568.31,187 566.31,190 576.31,187 566.31,184 " />
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text102"
+     y="196"
+     x="325.29999"
+     font-size="12pt">2 H<tspan
+   style="font-size:75%;baseline-shift:super"
+   id="tspan104"
+   font-size="75%"
+   baseline-shift="super">+</tspan>
+</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text106"
+     y="196"
+     x="394.29999"
+     font-size="12pt">2 e<tspan
+   style="font-size:75%;baseline-shift:super"
+   id="tspan108"
+   font-size="75%"
+   baseline-shift="super">−</tspan>
+</text>
+  <text
+     style="font-size:17.5px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text110"
+     y="205"
+     x="811"
+     font-size="14pt">+</text>
+  <text
+     style="font-size:15px;font-family:helvetica;fill:#000000;stroke-linecap:round"
+     id="text112"
+     y="204"
+     x="855.29999"
+     font-size="12pt">HBr</text>
+  <cdml:cdml
+     version="0.15">
+    <cdml:info>
+      <cdml:author_program
+         version="0.13.0">BKchem</cdml:author_program>
+    </cdml:info>
+    <cdml:paper
+       crop_margin="10"
+       crop_svg="0"
+       orientation="portrait"
+       replace_minus="0"
+       type="A4"
+       use_real_minus="0" />
+    <cdml:viewport
+       viewport="0.000000 0.000000 640.000000 480.000000" />
+    <cdml:standard
+       area_color=""
+       font_family="helvetica"
+       font_size="12"
+       line_color="#000"
+       line_width="1px"
+       paper_crop_margin="10"
+       paper_crop_svg="0"
+       paper_orientation="portrait"
+       paper_type="A4">
+      <cdml:bond
+         double-ratio="0.75"
+         length="0.7cm"
+         wedge-width="5px"
+         width="6px" />
+      <cdml:arrow
+         length="1.6cm" />
+      <cdml:atom
+         show_hydrogens="0" />
+    </cdml:standard>
+    <cdml:molecule
+       id="molecule19603"
+       name="">
+      <cdml:atom
+         id="atom7893"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="12.525cm"
+           y="3.131cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom53027"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="12.525cm"
+           y="3.831cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom81630"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="13.191cm"
+           y="2.915cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom99972"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="13.191cm"
+           y="4.048cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom57235"
+         name="N"
+         pos="center-first"
+         valency="5">
+        <cdml:point
+           x="13.602cm"
+           y="3.481cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom55620"
+         name="H"
+         pos="center-first"
+         valency="1">
+        <cdml:point
+           x="14.302cm"
+           y="3.481cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom74852"
+         name="O"
+         pos="center-first"
+         valency="2">
+        <cdml:point
+           x="13.407cm"
+           y="2.249cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom48284"
+         name="O"
+         pos="center-first"
+         valency="2">
+        <cdml:point
+           x="13.407cm"
+           y="4.713cm" />
+      </cdml:atom>
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom55620"
+         id="bond95789"
+         line_width="1.0"
+         start="atom57235"
+         type="n1" />
+      <cdml:bond
+         bond_width="6.0"
+         center="yes"
+         double_ratio="0.75"
+         end="atom48284"
+         id="bond57780"
+         line_width="1.0"
+         start="atom99972"
+         type="n2" />
+      <cdml:bond
+         bond_width="6.0"
+         center="yes"
+         double_ratio="0.75"
+         end="atom74852"
+         id="bond74248"
+         line_width="1.0"
+         start="atom81630"
+         type="n2" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom57235"
+         id="bond67170"
+         line_width="1.0"
+         start="atom81630"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom53027"
+         id="bond71832"
+         line_width="1.0"
+         start="atom99972"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom53027"
+         id="bond34541"
+         line_width="1.0"
+         start="atom7893"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom81630"
+         id="bond35326"
+         line_width="1.0"
+         start="atom7893"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom99972"
+         id="bond46940"
+         line_width="1.0"
+         start="atom57235"
+         type="n1" />
+    </cdml:molecule>
+    <cdml:molecule
+       id="molecule4264"
+       name="">
+      <cdml:atom
+         id="atom99457"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="2.951cm"
+           y="3.131cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom16152"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="2.951cm"
+           y="3.831cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom64556"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="3.617cm"
+           y="2.915cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom19653"
+         name="C"
+         valency="4">
+        <cdml:point
+           x="3.617cm"
+           y="4.048cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom13556"
+         name="N"
+         pos="center-first"
+         valency="5">
+        <cdml:point
+           x="4.028cm"
+           y="3.481cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom68258"
+         name="O"
+         pos="center-first"
+         valency="2">
+        <cdml:point
+           x="3.833cm"
+           y="2.249cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom70237"
+         name="O"
+         pos="center-first"
+         valency="2">
+        <cdml:point
+           x="3.833cm"
+           y="4.713cm" />
+      </cdml:atom>
+      <cdml:atom
+         id="atom42657"
+         name="Br"
+         pos="center-first"
+         valency="1">
+        <cdml:point
+           x="4.728cm"
+           y="3.481cm" />
+      </cdml:atom>
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom19653"
+         id="bond67595"
+         line_width="1.0"
+         start="atom13556"
+         type="n1" />
+      <cdml:bond
+         bond_width="6.0"
+         center="yes"
+         double_ratio="0.75"
+         end="atom70237"
+         id="bond55468"
+         line_width="1.0"
+         start="atom19653"
+         type="n2" />
+      <cdml:bond
+         bond_width="6.0"
+         center="yes"
+         double_ratio="0.75"
+         end="atom68258"
+         id="bond70431"
+         line_width="1.0"
+         start="atom64556"
+         type="n2" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom16152"
+         id="bond3981"
+         line_width="1.0"
+         start="atom19653"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom16152"
+         id="bond59049"
+         line_width="1.0"
+         start="atom99457"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom64556"
+         id="bond80405"
+         line_width="1.0"
+         start="atom99457"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom42657"
+         id="bond95780"
+         line_width="1.0"
+         start="atom13556"
+         type="n1" />
+      <cdml:bond
+         double_ratio="0.75"
+         end="atom13556"
+         id="bond78847"
+         line_width="1.0"
+         start="atom64556"
+         type="n1" />
+    </cdml:molecule>
+    <cdml:plus
+       background-color=""
+       font_size="14"
+       id="plus63918">
+      <cdml:point
+         x="5.978cm"
+         y="3.492cm" />
+    </cdml:plus>
+    <cdml:plus
+       background-color=""
+       font_size="14"
+       id="plus31896">
+      <cdml:point
+         x="7.060cm"
+         y="3.492cm" />
+    </cdml:plus>
+    <cdml:arrow
+       color="#000"
+       end="yes"
+       id="arrow28516"
+       shape="(8, 10, 3)"
+       spline="no"
+       start="no"
+       type="normal"
+       width="1.0">
+      <cdml:point
+         x="9.337cm"
+         y="3.549cm" />
+      <cdml:point
+         x="10.937cm"
+         y="3.549cm" />
+    </cdml:arrow>
+    <cdml:molecule
+       id="molecule68516"
+       name="">
+      <cdml:text
+         id="atom16932"
+         pos="center-first">
+        <cdml:ftext>2 H<cdml:sup>+</cdml:sup>
+</cdml:ftext>
+        <cdml:point
+           x="6.281cm"
+           y="3.587cm" />
+      </cdml:text>
+    </cdml:molecule>
+    <cdml:molecule
+       id="molecule37861"
+       name="">
+      <cdml:text
+         id="atom34314"
+         pos="center-first">
+        <cdml:ftext>2 e<cdml:sup>−</cdml:sup>
+</cdml:ftext>
+        <cdml:point
+           x="7.591cm"
+           y="3.587cm" />
+      </cdml:text>
+    </cdml:molecule>
+    <cdml:plus
+       background-color=""
+       font_size="14"
+       id="plus17049">
+      <cdml:point
+         x="15.542cm"
+         y="3.701cm" />
+    </cdml:plus>
+    <cdml:molecule
+       id="molecule32062"
+       name="">
+      <cdml:atom
+         hydrogens="on"
+         id="atom36400"
+         name="Br"
+         pos="center-last"
+         valency="1">
+        <cdml:point
+           x="16.890cm"
+           y="3.739cm" />
+      </cdml:atom>
+    </cdml:molecule>
+  </cdml:cdml>
+</svg>

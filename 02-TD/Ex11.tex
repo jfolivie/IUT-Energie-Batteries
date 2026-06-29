@@ -1,0 +1,109 @@
+\subsection{Comparaison des capacités spécifiques massiques de quelques électrodes courantes des batteries \ce{Li}}
+%from Culture science chimie
+
+\setcounter{equation}{0}
+\setcounter{Q}{0}
+
+La capacité spécifique massique est la charge électrique pouvant être délivrée par gramme de matière active, c'est-à-dire par gramme du matériau hôte. Dans le système international, on l'exprime en \si{\coulomb\per\gram} mais en pratique, on l'utilise plutôt en \si{\milli\ampere\hour\per\gram}.
+
+\Q \label{Q:11-01} Définir un ampère-heure [\si{\ampere\hour}] et établir le facteur de conversion avec le coulomb [\si{\coulomb}].
+\solution{Un ampère-heure est une unité qui représente la quantité de charge délivrée par un dispositif débitant 1 ampère pendant 1 heure. Or, \SI{1}{\hour} équivaut à \SI{3600}{\second}, on peut donc en déduire que : 
+\begin{align*}
+\SI{1}{\ampere\hour} = \SI{3600}{\coulomb}
+\end{align*}}
+
+\Q \label{Q:11-02} On va considérer une réaction rédox modèle de la forme : 
+\begin{align*}
+\ce{M + z Li^+ + z e^- = MLi_z(s)}
+\end{align*}
+où $M$ représente le matériau hôte du lithium.
+
+\'{E}tablir que la capacité spécifique massique s'exprime en \si{\milli\ampere\hour\per\gram} et peut être estimée par la relation :  
+\begin{align*}
+C_\text{Hote} = \frac{z F}{3.6 M_{Hote}}
+\end{align*}
+
+où $z$ est le nombre d'électrons échangé, $F$ la constante de Faraday et $M_{Hote}$ la masse molaire du matériau hôte.
+
+\solution{
+On va considérer que l'on échange $n_e$ moles électrons et de lithium avec un matériau hôte de masse $m_{hote}$, c'est-à-dire que le matériau peut accueillir au maximum $n_e$ moles de lithium dans sa structure ! Dressons un tableau d'avancement de la situation : 
+\begin{center}\begin{tabular}{cccccccc}
+\si{\mole} & \ce{M(s)} & \ce{ + } & \ce{z Li^+} & \ce{ + } & \ce{z e^-} & \ce{ = } & \ce{MLi_z(s)} \\
+$t=0$ & $\frac{m_{hote}}{M_{hote}}$ & & $n_e$ & & $n_e$ & & 0\\
+$t=\infty$ & $\frac{m_{hote}}{M_{hote}} - \xi_{\infty}$ & & $n_e - z\xi_{\infty}$ & & $n_e - z \xi_{\infty}$ & & $\xi_\infty$\\
+\end{tabular}\end{center}
+Lorsque l'échange d'électrons est terminé, tous les électrons échangeables ont été transférés, donc : 
+\begin{align*}
+\begin{cases}
+\frac{m_{hote}}{M_{hote}} - \xi_{\infty} &= 0 \\
+n_e - z\xi_{\infty} = 0
+\end{cases} \implies \frac{m_{hote}}{M_{hote}} = \frac{n_e}{z} \implies n_e = \frac{z m_{hote}}{M_{hote}}
+\end{align*}
+Ainsi, on a une relation simple entre la structure hôte et le nombre d'électrons échangé. Or, on sait exprimer la quantité d'électrons échangés en quantité de charges échangées $Q$ : 
+\begin{align*}
+Q = F n_e = \frac{z F m_{hote}}{M_{hote}} \quad [\si{\coulomb}]
+\end{align*}
+La capacité spécifique massique de cette structure correspond au nombre d'électrons échangés par gramme de matériau, que l'on peut exprimer en \si{\coulomb\per\gram} puis en \si{\ampere\hour\per\gram} grâce à la Q.\ref{Q:11-01} :
+\begin{align*}
+C_{hote} &= \frac{Q}{m_{hote}} = \frac{z F }{M_{hote}} \quad [\si{\coulomb\per\gram}] \\
+&= \frac{z F}{3.6 M_{hote}} \quad [\si{\milli\ampere\hour\per\gram}]
+\end{align*}
+}
+
+\Q Dans le cas des matériaux lithiés suivants, donner la demi-équation rédox de réduction du cation lithium en lithium métallique. En déduire la capacité spécifique et compléter le tableau :
+
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+Matériau & \ce{Li(s)} & \ce{LiC6(s)} & \ce{Li15Si4(s)} & \ce{LiCoO2(s)} & \ce{LiFePO4(s)} & \ce{LiNi_{1/3}Co_{1/3}Mn_{1/3}O2} \\
+\midrule
+Masse molaire [\si{\gram\per\mole}] & 6.94 & 12.0 & 28.1 & 97.9 & 158 & 96.5 \\
+\midrule
+Capacité [\si{\milli\ampere\hour\per\gram}] & & & & & & \\
+%Capacité [\si{\milli\ampere\hour\per\gram}] & 3960 & 372 & 3600 & 274 & 170 & 279 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Commenter le résultat. \emph{Aide : Vous penserez à choisir une st{\oe}chiométrie compatible avec l'équation modèle étudiée à la Q. \ref{Q:11-02}.}
+
+\solution{On peut écrire toutes les équations rédox en réduction, suivant le modèle de l'énoncé : 
+\begin{align*}
+& \ce{Li^+ + e^- = Li} & z = 1\\
+& \ce{\frac{1}{6} Li^+ + \frac{1}{6} e^- + C = \frac{1}{6} LiC6} & z = 1/6\\
+& \ce{\frac{15}{4} Li + \frac{15}{4} e^- + Si = \frac{1}{4} Li_{15}Si4} & z = 15/4\\
+& \ce{Li^+ + e^- + CoO2 = LiCoO2} & z = 1 \\
+& \ce{Li^+ + e^- + FePO4 = LiFePO4} & z = 1 \\
+& \ce{Li^+ + e^- + Ni_{1/3}Co_{1/3}Mn_{1/3}O2 = LiNi_{1/3}Co_{1/3}Mn_{1/3}O2} & z=1
+\end{align*}
+On peut alors compléter le tableau proposé : 
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+Matériau & \ce{Li(s)} & \ce{LiC6(s)} & \ce{Li15Si4(s)} & \ce{LiCoO2(s)} & \ce{LiFePO4(s)} & \ce{LiNi_{1/3}Co_{1/3}Mn_{1/3}O2(s)} \\
+\midrule
+Masse molaire [\si{\gram\per\mole}] & 6.94 & 12.0 & 28.1 & 97.9 & 158 & 96.5 \\
+\midrule
+Capacité [\si{\milli\ampere\hour\per\gram}] & 3860 & 372 & 3580 & 274 & 170 & 279 \\
+\bottomrule
+\end{tabular}
+\end{center}
+On observe qu'en général, les matériaux qui accueillent le lithium n'atteignent pas \SI{10}{\percent} des capacités du lithium métallique. Cependant, une exception intéressante apparaît dans la liste : \ce{Li15Si4}. En effet, les matériaux au silicium sont aujourd'hui des candidats prometteurs pour leur excellent rapport Li/Si (=très nombreux sites d'insertion) qui permettent d'approcher des performances en capacité du lithium métallique ! \\
+\textbf{Nota Bene :} La capacité spécifique ne dépend pas de la "nature de la structure cristallographique" du matériau.}
+
+\paragraph*{Données}
+\begin{itemize}
+\item Constante de Faraday : $F = 96485 ~ \si{\coulomb\per\mole}$ 
+\end{itemize}
+
+\begin{comment}
+\begin{itemize}
+\item Masses molaires des éléments : 
+\begin{center}
+\begin{tabular}{cccccccc}
+Lithium & Carbone & Oxygène & Silicium & Cobalt & Fer & Manganèse & Phosphore \\
+6.94 & 12.0 & 16.0 & 28.1 & 59.0 & 55.9 & 55.0 & 31.0
+\end{tabular}
+\end{center}
+\end{itemize}
+\end{comment}

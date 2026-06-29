@@ -1,0 +1,698 @@
+\normchapter{Rappels de thermodynamique}
+
+L'objectif de cette annexe est de rappeler l'ensemble des notions (vocabulaire, définition, relations$\ldots$) de première année permettant de décrire un système thermodynamique et qui pourront intervenir en chimie des matériaux.
+
+Pour la majorité d'entre vous, il est naturel pour vous de décrire l'état d'un système mécanique par sa position et sa vitesse et d'utiliser les lois de Newton pour décrire l'évolution d'un tel système. \`{A} chaque état du système, vous êtes en capacité de prédire n'importe quel grandeur : énergie, accélération$\ldots$
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[width=10cm]{Fig01.pdf}
+\end{minipage} \hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Démarche, niveau lycée, permettant l'étude d'un système mécanique.}
+\label{fig:01}
+\end{minipage}
+
+
+%Les cellules électrochimiques (ou batteries) constituent des \textbf{systèmes thermodynamiques}. 
+Par analogie avec la mécanique, l'état d'un système thermodynamique sera décrit par des \textbf{variables d'état}. L'évolution des systèmes thermodynamiques sera donnée, comme le font les lois de Newton en mécanique, par deux postulats fondamentaux appelés \textbf{principes de la thermodynamiques}.
+
+\section{Description d'un systèmes thermodynamique}
+
+Pour simplifier, nous considérerons un système thermodynamique, noté $\Sigma$, composé d'une phase unique isotrope et homogène (\emph{par ex.} un gaz dans un piston)
+
+\subsection{\'{E}tat d'un système}
+
+La thermodynamique est la science des échanges d'énergie (\emph{par ex.} les échanges thermiques) ou des échanges de matière.
+
+\definition{
+Pour caractériser la présence ou l'absence d'échange d'énergie ou de matière entre un système thermodynamique $\Sigma$ et l'extérieur, les adjectifs suivants sont utilisables : 
+
+~
+
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{cccc}
+\toprule
+& Isolé & Fermé & Ouvert \\
+\midrule
+Echange d'énergie & \faRemove & \faCheck & \faCheck \\
+Echange de matière & \faRemove & \faRemove &\faCheck \\
+\bottomrule
+\end{tabular}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\captionof{table}{Terme de vocabulaire à utiliser en présence ou absence de flux d'énergie ou de matière avec l'extérieur.}
+\end{minipage}
+}
+
+
+
+\subsection{Variable d'état}
+Les variables sont un N-uplet de grandeurs permettant de décrire l'état macroscopique d'un système, qui peuvent être de deux natures$\ldots$
+
+
+\subsubsection{$\ldots$ extensives}
+
+\definition{Une variable extensive est une variable $X$ qui dépend de la taille du système.
+
+Si l’on réunit deux systèmes $\Sigma_1$ et $\Sigma_2$ identiques caractérisés par les valeurs $X_{\Sigma_1} = X_{\Sigma_2}$, la valeur de X pour le système $\Sigma_1 + \Sigma_2$ est :
+
+\begin{equation}
+X_{\Sigma_1 + \Sigma_2} = X_{\Sigma_1} + X_{\Sigma_2} = 2 X_{\Sigma_1} = 2 X_{\Sigma_2}
+\end{equation}
+}
+
+Les grandeurs extensives communément rencontrées sont :
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+Nom & volume & quantité de matière & masse \\
+\midrule
+Symbole & $V$ & $n$ & $m$ \\
+Unité SI & \si{\meter\cubed} & \si{\mole} & \si{\kilo\gram} \\
+\bottomrule
+\end{tabular}
+\captionof{table}{Variables d'état extensives}
+\end{center}
+
+Les grandeurs extensives sont finalement des grandeurs qui dépendent directement de la quantité de matière.
+
+%\exercice{
+
+%\begin{center}
+%\includegraphics[width=5cm]{Fig01}
+%\end{center}
+
+%On considère deux recipients contenan chacun deux gaz différents noté $\Sigma_1$ et $\Sigma_2$, considérés comme parfait. Identifier les variables extensives chacun de ces systèmes. Un opérateur ouvre la vanne, de volume négligeable, entre les deux récipients. En déduire la valeur des paramètres extensifs du système $\Sigma_1 + \Sigma_2$.}
+
+\subsubsection{$\ldots$ intensives}
+\definition{Une variable intensive est une variable $Y$ qui ne dépend pas de la taille du système.
+
+Si l’on réunit deux systèmes $\Sigma_1$ et $\Sigma_2$ identiques caractérisés par les valeurs $Y_{\Sigma_1} = Y_{\Sigma_2}$, la valeur de $Y$ pour le système $\Sigma_1 + \Sigma_2$ est :
+\begin{equation}
+Y_{\Sigma_1 + \Sigma_2} = Y_{\Sigma_1} = Y_{\Sigma_2}
+\end{equation}
+}
+
+Les grandeurs intensives communément rencontrées sont :
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\begin{tabular}{ccc}
+\toprule
+Nom & température & pression \\
+\midrule
+Symbole & $T$ & $P$ \\
+Unité SI & \si{\kelvin} & \si{\pascal} \\
+\bottomrule
+\end{tabular}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\captionof{table}{Variables d'état intensives}
+\end{minipage}
+
+\`{A} chaque grandeur intensive, il est possible d'associer une interprétation microscopique. La température permet de décrire l'agitation thermique des molécules à l'échelle microscopique. La pression permet de décrire les chocs des particules contre la paroi du système thermodynamique. %La force électromotrice permet de décrire la différence d'énergie potentielle électrique des particules chargées entre (deux phases.
+
+%\exercice{Dans les deux gaz décrit précédemment, identifier les variables intensives. En déduire la valeur des paramètres intensifs du système $\Sigma_1 + \Sigma_2$.}
+
+\subsection{Fonctions d'état}
+Les fonctions d'état sont un ensemble de fonction qui dépendent des variable d'état et décrivent l'état du système. Ce sont ces fonctions qui seront soumises aux principes thermodynamiques permettant de décrire l'évolution du système.
+
+Ces fonctions d'état, comme l'énergie en mécanique, ont pour propriété de ne pas dépendre du chemin thermodynamique mais uniquement de l'état initial et final d'une transformation.
+
+\subsubsection{Entropie et ses grandeurs d'échanges}
+
+L'entropie est une fonction d'état qui ne fait sens qu'à l'échelle macroscopique. C nom, d'origine allemande, dérive du terme grec \emph{entropê} qui signifie \og action de se transformer, changement \fg{}.
+
+L'objet de cette grandeur est de traduire l'évolution irréversible d'un système thermodynamique isolé sous la forme d'une fonction mathématique. On peut assimiler à votre niveau l'entropie à la flèche du temps.
+
+Pour cela, les anciens ont postulé que dans un système isolé, il existe une fonction d'état extensive appelée entropie qui ne peut que croître. Pour cela, il ont crée une grandeur d'échange appelée \og entropie de création \fg{} qui ne peut qu'être positive ou nulle, traduisant l'augmentation de l'entropie d'un système isolé.
+
+\definition{L'entropie de création est une grandeur d'échange, notée $S_c$ et d'unité \si{\joule\per\kelvin}, qui traduit l'augmentation d'un système isolé : 
+
+\begin{equation}
+S_c \geq 0
+\end{equation}
+
+Deux cas de figure sont possibles,
+\begin{align*}
+S_c &= 0 \implies \text{l'évolution du système est réversible} \\
+S_c &> 0 \implies \text{l'évolution du système est irréversible}
+\end{align*}}
+
+Cependant, les systèmes étudiés (comme les batteries) sont rarement isolés. Un système peut perdre de l'entropie, comme il peut perdre de la chaleur et donner son entropie à l'extérieur. On définit alors un nouvelle grandeur d'échange, définie dans l'ensemble des réels, traduisant l'échange d'entropie avec l'extérieur. 
+
+
+\definition{
+L'entropie de création est une grandeur d'échange, notée $S_e$ et d'unité \si{\joule\per\kelvin}, qui traduit l'échange d'entropie avec le reste de l'univers. Elle est liée à l'échange thermique par : 
+\begin{equation}
+S_e = \frac{Q}{T_{ext}}
+\end{equation}
+
+où $T_{ext}$ est la température de l'extérieur et $Q$ l'échange thermique.}
+
+
+\subsubsection{\'{E}nergie interne}
+
+Lorsqu'un système thermodynamique est considéré comme immobile dans un référentiel mécanique, on peut considérer que l'énergie du système est égale à l'énergie interne du système.
+
+\definition{ 
+L'énergie interne $U$ d'un système thermodynamique correspond à la somme des énergies cinétique, notée $e_c (micro)$ et potentielle d'interactions microscopiques , notée $e_p (micro)$ des particules constituant le système. On peut alors écrire que 
+
+\begin{equation} 
+U = e_c (micro) + e_p (micro)
+\end{equation}
+
+$U$ a la dimension d’une énergie et son unité $SI$ est le Joule.}
+
+L'énergie interne est permet de rendre compte de toutes les intéractions au sein des structures moléculaires, à la fois intramoléculaire (liaison chimiques) ou intermoléculaires (van der Waals, liaison hydrogène$\ldots$).
+
+\subsubsection{Enthalpie}
+Dans la majorité des situations, le chimiste travaille avec des phases condensées et est peu intéressé par le travail des forces de pression. Afin de le négliger, le chimiste construit une nouvelle fonction chimique et la soustrait de l'énergie interne.
+
+
+\definition{ 
+L'enthalpie d’un système thermodynamique la fonction d’état :
+\begin{equation}
+H = U + PV
+\end{equation}
+
+où $U$ est l’énergie interne, $P$ la pression et $V$ le volume. L’enthalpie se mesure en joules.}
+
+En supprimant les forces de pression, l'enthalpie ne rend compte que des interations moléculaires mises en jeu au sein du système.
+
+\subsubsection{Enthalpie libre}
+Nous verrons que cette grandeur est de la plus grande utilité en chimie. Il s'agit de l'enthalpie qui contient toutes les énergies autes que l'énergie des forces de pression, corrigée de l'énergie inutilisable par le système, d'origine entropique.
+
+\definition{ 
+L'enthalpie libre d’un système thermodynamique la fonction d’état :
+\begin{equation}
+G = H - TS
+\end{equation}
+
+où $H$ est l’enthalpie, $T$ la température et $S$ l'entropie. L’enthalpie se mesure en joule par kelvin.}
+
+
+\subsubsection{Propriétés et bilan}
+
+On peut résumer l'ensemble des fonctions d'état courantes en chimie dans le tableau \ref{tab:FonctionEtat}
+%propriété
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+Fonction d'état & énergie interne & entropie & enthalpie & enthalpie libre \\
+\midrule
+Définition & $U$ & $S$ & $H=U+PV$ & $G = H - TS$ \\
+Unité & \si{\joule} & \si{\joule\per\kelvin} & \si{\joule} & \si{\joule} \\
+\bottomrule
+\end{tabular}
+\captionof{table}{Bilan des fonctions d'état}
+\label{tab:FonctionEtat}
+\end{center}
+
+Les fonctions d'état ont plusieurs propriétés mathématiques/physiques utiles : 
+
+\begin{enumerate}
+\item elles sont extensives, c'est-à-dire qu'elles dépendent de la taille du système ;
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[scale=0.4]{Fig04a}
+\end{minipage}\begin{minipage}{0.5\textwidth}
+\captionof{table}{Extensivité de l'énergie interne.}
+\end{minipage}
+
+
+\item elles sont additives, c'est-à-dire que si on considère deux systèmes thermodynamiques simultanément, leurs fonctions d'état s'additionnent.
+
+\begin{minipage}{0.7\textwidth}
+\centering
+\includegraphics[scale=0.4]{Fig04b}
+\end{minipage}\begin{minipage}{0.3\textwidth}
+\captionof{table}{Additivité de l'énergie interne.}
+\end{minipage}
+
+
+\item la variation des fonctions d'état ne dépend que de l'état initial et final du système.
+
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[scale=0.4]{Fig04c}
+\end{minipage}\begin{minipage}{0.45\textwidth}
+\captionof{table}{La variation d'énergie interne reste inchangé entre les trois chemins thermodynamique du moment que l'état final et initial sont les mêmes.}
+\end{minipage}
+
+\end{enumerate}
+
+La dernière propriété est très importante, c'est elle qui nous permet de construire des chemins thermodynamiques, parfois fictifs, pour remonter à la variation des fonctions d'état.
+
+
+\section{Description d'une transformation thermodynamique}
+
+\subsection{Grandeurs d'échange}
+
+Les grandeurs d'échange permettent de caractériser l'échange d'énergie entre le système $\Sigma$ et l'extérieur à chaque instant d'une évolution. On les sépare en deux catégories en fonction de si oui ou non elles sont décrites exclusivement par la thermodynamique.
+
+\definition{Le transfert thermique, aussi appelé chaleur et noté $Q$, caractérise l'échange d'énergie causé par une différence de température entre le système $\Sigma$ et l'extérieur.
+
+En particulier, on qualifie d'adiabatique toute transformation où le transfert thermique ne s'établit pas. Habituellement, une transformation adiabatique s'établit lorsque ;
+\begin{itemize}
+\item la paroi du système empêche tout échange d'énergie thermique (on parle de paroi athermique ou calorifugée) ;
+\item la transformation est suffisamment rapide pour que l'échange thermique ne puisse pas s'établir (\emph{par ex.} une explosion).
+\end{itemize}
+
+}
+
+Les transferts thermiques sont intrinsèques à la thermodynamique et n'ont pas d'équivalence dans les autres branches de la physique.
+
+
+Le travail est l'ensemble des transferts d'énergie qui en sont pas d'origine thermiques. 
+
+\definition{
+Un travail constamment présent est le travail mécanique causé par une différence de pression entre le système $\Sigma$ et l'extérieur.
+
+Contrairement à la chaleur, le travail mécanique dispose d'une expression analytique donnée sous forme infinitésimale par : 
+
+\begin{equation}
+\delta W_P = - P_{ext} dV
+\end{equation}
+
+où $dV$ est la variation infinitésimale de volume du système $\Sigma$.}
+
+Par exemple, si on considère un gaz extérieur, à la pression $P_{ext}$, qui comprime un second gaz dans un piston en appliquant une force extérieure $\vec{F}_{ext} = - F_{ext} \vec{e}_x$. Entre un temps $t$ et $t+dt$, le piston est comprimé d'une longueur $d\vec{l} = dx \vec{e}_x$.
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[scale=0.7]{Fig05}
+\end{minipage} \hfill \begin{minipage}{0.45\textwidth}
+\captionof{figure}{Compression d'un piston}
+\end{minipage}
+
+On sait que la force s'exprime comme 
+\begin{align*}
+F_{ext} = P_{ext} \cdot S
+\end{align*}
+
+avec $P_{ext}$ la pression extérieure et $S$ la surface du piston.
+
+\begin{align*}
+\delta W_P &= \vec{F}_{ext} \cdot d\vec{l} \\
+&= - P_{ext} S dx \\
+&= -P_{ext} dV
+\end{align*}
+
+avec $dV$ la variation infinitésimale du volume du piston.
+
+
+
+\subsection{Type de transformations}
+
+On notera $X_i$ (resp. $X_f$) une grandeur intensive initiale (resp. finale). 
+
+ 
+\definition{
+\textbf{Thermostat} se dit d'un système thermodynamique capable d'échanger de la chaleur avec un système $\Sigma$ et dont la température, notée $T_{ext}$, est constante.
+
+~
+
+\textbf{Barostat} se dit d'un système thermodynamique capable d'échanger du travail mécanique avec un système $\Sigma$ et dont la pression, notée $P_{ext}$, est constante.
+
+~
+
+\textbf{Isochore} se dit d'une transformation au cours de laquelle le volume V du système est constant.
+
+~
+
+\textbf{Monobare} se dit d'une transformation au cours de laquelle le système $\Sigma$ est soumis à une pression constante $P_{ext}$ de telle sorte qu'à l'état initial $P_i$ et à l'état final $P_f$, le système est à l'équilibre mécanique. Mathématiquement, ceci se traduit par : 
+\begin{equation}
+P_i = P_f = P_{ext}
+\end{equation}
+
+~
+
+\textbf{Isobare} se dit d'une transformation au cours de laquelle le système $\Sigma$ est soumis à une pression constante $P_{ext}$ de telle sorte qu'à chaque instant, le système est à l'équilibre mécanique. Mathématiquement, ceci se traduit par : 
+\begin{equation}
+\forall t, \quad P = P_{ext}
+\end{equation}
+
+~
+
+\textbf{Monotherme} se dit d'une transformation au cours de laquelle le système $\Sigma$ est soumis à une température constante $T_{ext}$ de telle sorte qu'à l'état initial $T_i$ et à l'état final $T_f$, le système est à l'équilibre thermique. Mathématiquement, ceci se traduit par : 
+\begin{equation}
+T_i = T_f = T_{ext}
+\end{equation}
+
+~
+
+\textbf{Isotherme} se dit d'une transformation au cours de laquelle le système $\Sigma$ est soumis à une température constante $T_{ext}$ de telle sorte qu'à chaque instant, le système est à l'équilibre mécanique. Mathématiquement, ceci se traduit par : 
+\begin{equation}
+\forall t, \quad T = T_{ext}
+\end{equation}
+}
+
+De toutes ces définitions, on en déduit que les transformations sont iso-X sont des cas particuliers des transformations mono-X.
+
+%\exercice{Classer ces transformations dans chacune des catégories :
+%\begin{itemize}
+%\item 
+%\end{itemize}}
+
+\subsection{Condition d'équilibre}
+
+L'équilibre thermodynamique correspond à l'état final du système thermodynamique. 
+
+%En général, si on étudie un système isolé, l'équilibre peut être calculé en cherchant le maximum de l'entropie.
+
+\subsubsection{\'{E}quilibre thermique}
+
+Considèrons un système $\Sigma_1$ à la température $T_1$ mis en contact avec un système $\Sigma_2$ à la température $T_2$.
+
+\begin{center}
+\includegraphics[scale=0.7]{Fig03a}
+\captionof{figure}{Mise en contact de deux gaz séparés par une paroi diatherme (qui laisse passer la chaleur) non movible}
+\end{center}
+
+On met en contact ces deux systèmes et on considère le système $\Sigma = \Sigma_1 + \Sigma_2$. Si ce système forme un système isolé, le système évoluera jusqu'à égalité des températures $T_1$ et $T_2$.
+
+Dans le cas où ce système est en contact avec un thermostat, la température finale sera donnée par la température du thermostat.
+
+\definition{\`{A} l'équilibre thermique entre un système $\Sigma_1$ et $\Sigma_2$, les températures sont égales : 
+\begin{equation*}
+T_1 = T_2
+\end{equation*}
+
+~
+
+Si ces systèmes sont isolés ou subissent une transformation adiabatique, la température finale pourra être déterminée à l'aide du premier principe.
+
+~
+
+Si ces systèmes sont en contact avec un thermostat à la température $T_{ext}$, alors :
+\begin{equation*}
+T_{ext} = T_1 = T_2
+\end{equation*}
+
+}
+
+\subsubsection{\'{E}quilibre mécanique}
+
+Considèrons un système $\Sigma_1$ à la pression $P_1$ mis en contact avec un système $\Sigma_2$ à la température $P_2$.
+
+\begin{center}
+\includegraphics[scale=0.7]{Fig03b}
+\captionof{figure}{Mise en contact de deux gaz séparés par une paroi  amovible}
+\end{center}
+
+
+On met en contact ces deux systèmes et on considère le système $\Sigma = \Sigma_1 + \Sigma_2$. Si ce système forme un système isolé ou thermostaté, le système évoluera jusqu'à égalité des pressions $P_1$ et $P_2$.
+
+\definition{\`{A} l'équilibre mécanique entre un système $\Sigma_1$ et $\Sigma_2$, les pressions sont égales : 
+\begin{equation*}
+P_1 = P_2
+\end{equation*}}
+
+\section{Principes thermodynamiques}
+
+\subsection{Premier principe}
+
+\definition{
+Il est postulé que dans un système isolé et immmobile (c'est-à-dire n'échangeant pas de matière, pas de travail et de charleur), l'énergie du système est conservée.}
+
+La conséquence est que lorsque l'on considère un système fermé évoluant d'un état $A$ vers un état $B$, l'évolution du système est donnée par : 
+\begin{align}
+\Delta U &= U_B - U_A \\ 
+&= Q_{A \to B} + W_{P,A \to B} + W'_{A \to B}
+\end{align}
+
+Si on considère que le système est la batterie qui évolue d'un état A à un état B, au contact de l'atmosphère (qui joue le rôle de barostat et thermostat), on trouve alors :
+
+\begin{equation}
+\Delta U = Q + W_P + W'
+\end{equation}
+
+Dans le cas d'une transformation infinitésimale du système, on peut écrire que : 
+
+\begin{equation}
+d U = \delta Q + \delta W_P + \delta W'
+\end{equation}
+
+
+Or le travail des forces de pression est un grandeur peut intéressante pour un chimiste, lequel souhaite utiliser une fonction d'état ne dépendant que de la chaleur reçue et du travail utile reçu. Pour cela, un chimiste est emmené à plutôt utiliser le premier principe à pression constante.
+
+
+\definition{
+Le premier principe à pression constante, c'est-à-dire pour un système en contact avec un barostat, s'écrit comme :
+\begin{equation}
+\Delta H = Q + W'
+\end{equation}
+
+Ce principe est valable au final pour toutes les transformations monobares, en général vérifié pour les systèmes chimiques.}
+
+En particulier, dans une transformation adiabatique ($Q=0$), le travail utile $W'$ venant de l'extérieur est intégralement transformé en enthalpie (dans un système chimique, en énergie chimique). 
+
+\example{
+%\blanc{}
+On considère une évolution d'un système thermodynamique $\Sigma$ soumis à un barostat. On peut alors écrire l'évolution de l'enthalpie comme :
+\begin{align}
+\Delta H &= \Delta (U +PV) \\
+&= \Delta U + V \Delta P + P \Delta V \\
+&=  Q + W_P + \delta W' + VdP + P dV \\
+&=  Q + \delta W' + V \Delta P + (P-P_{ext}) \Delta V
+\end{align} 
+
+Si le système subit une transformation monobare, on a alors : 
+
+\begin{align}
+\Delta H = Q + W'
+\end{align}
+
+Si le système subit une transformation isobare, on peut étendre la relation ci-dessus aux transformations infinitésimales : 
+
+\begin{align}
+d H = \delta Q + \delta W'
+\end{align}
+}
+
+\subsection{Second principe}
+
+\definition{
+La variation d'entropie de ce système contient deux termes, l'un associé à l'échange de chaleur avec l'extérieur (noté $S_e$) et l'autre associé à l'évolution naturelle du système si celui-ci était isolé (noté $S_c$). Au bilan, on a :
+
+\begin{equation}
+\Delta S = S_e + S_c
+\end{equation}
+
+Dans le cas d'une transformation infinitésimale, on peut écrire : 
+
+\begin{equation}
+d S = \delta S_e + \delta S_c
+\end{equation}}
+
+Lorsqu'un système est isolé et est tout au long de sa transformation à l'équilibre (thermique et mécanique), on dit que le système évolue de manière isentropique (isentropique = adiabatique + réversibilité).
+
+Les systèmes chimiques sont le plus souvent en contact avec un barostat, mais aussi un thermostat, ce qui conduit à ce que les transformations chimiques soient le plus souvent monobares et monothermes. Dans ces transformations, l'enthalpie libre est la fonction pour permet de décrire l'évolution du système.
+
+\definition{
+L'évolution d'un système à pression et température constante est donnée par l'inégalité suivante :
+
+\begin{equation}
+\Delta G \leq W'
+\end{equation}}
+
+\example{
+%\blanc{}
+On considère une transformation d'un système thermodynamique $\Sigma$ en contact avec un thermostat et un barostat. On peut alors écrire la variation d'enthalpie libre comme :
+\begin{align}
+\Delta G &= \Delta (H - TS) \\
+&= \Delta H - T \Delta S - S \Delta T \\
+&=  Q + W' - T \Delta S - S \Delta T \\
+&= T_{ext} S_e + W' - T \Delta S - S \Delta T \\
+&= T_{ext} \Delta S - T_{ext} S_c + W' - T \Delta S - S \Delta T \\
+&= -T_{ext} S_c + W' + (T_{ext} - T) \Delta S - S \Delta T \\
+\end{align} 
+
+Puisque le système subit une transformation monotherme, on a $T = T_{ext}$, ce qui se traduit par : 
+
+\begin{align}
+\Delta G = -T S_c + W'
+\end{align}
+
+On sait que par construction, $S_c \geq 0$ d'où $-T S_c \leq 0$, donc 
+
+\begin{align}
+\Delta G \leq W'
+\end{align}
+
+Si la transformation est isobare et isotherme, la relation ci-dessus est valable pour des transformations infinitésimales : 
+
+\begin{align}
+d G \leq \delta W'
+\end{align}
+}
+
+Une façon intuitive de comprendre cette relation est la suivante : 
+
+
+\begin{center}
+\begin{tabular}{C{3cm}C{5cm}C{7cm}}
+$\Delta G = W'$ & transformation réversible & le travail utile reçu par le système est entièrement converti en énergie utilisable \\
+$\Delta G < W'$ & transformation irréversible & le travail utile reçu par le système est partiellement converti en énergie utilisable. Une partie est perdue.\\
+\end{tabular}
+\end{center}
+
+
+\section{Grandeurs de réaction}
+
+\subsection{Définition}
+En chimie, vous savez que l'évolution d'une transformation chimique est décrite par l'avancement $\xi ~ [\si{\mole}]$. Afin de faire apparaître l'avancement, on a besoin d'introduire les grandeurs de réaction.
+
+\definition{
+La grandeur de réaction associée à une fonction d'état $X$ (X=U, H, S ou G) et notée $\Delta_r X$, est définie par :
+
+\begin{equation}
+\Delta_r X = \left ( \frac{\partial X}{\partial \xi} \large \right )_{T,P}
+\end{equation}
+
+Il s'agit donc de la dérivée (variation) de la fonction d'état X lorsque la température et la pression sont maintenues constantes.}
+
+\subsection{Critère d'évolution}
+
+L'évolution d'un système thermodynamique, subissant une transformation chimique, est donné par le second principe de la thermodynamique.
+
+\`{A} pression et température constante, on a 
+\begin{align*}
+d G &< 0 \\
+\Delta_r G \cdot d \xi &<0
+\end{align*}
+
+Du second principe, on a trois situations possibles : 
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\includegraphics[scale=0.7]{Fig06}
+\end{minipage}\hfill\begin{minipage}{0.45\textwidth}
+\captionof{figure}{Profil d'enthalpie libre à différent avancement d'une réaction.}
+\end{minipage}
+
+La pente de l'enthalpie libre en fonction de l'avancement (=grandeur de réaction) nous indique si la réaction évolue dans le sens direct ($\xi \nearrow$) ou dans le sens indirect. Lorsque la pente est nulle, on peut considèrer que le système chimique est à l'équilibre.
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tabular}{ccc}
+\toprule
+Signe de $\Delta_r G$ & Nom associé & Sens d'évolution \\
+\midrule
+$\Delta_r G < 0$ & exergonique &  sens direct \ce{->} \\
+$\Delta_r G > 0$ & endergonique &  sens indirect \ce{<-} \\
+$\Delta_r G = 0$ & endergonique &  sens indirect \ce{<-} \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill\begin{minipage}{0.45\textwidth}
+\captionof{figure}{Résumé des différents signes de l'enthalpie libre de réaction.}
+\end{minipage}
+
+\subsection{Relation entre grandeurs de réaction}
+
+\definition{
+Dans un système en température et pression constante, on peut lier les grandeurs de réaction par la relation : 
+\begin{equation}
+\Delta_r G = \Delta_r H - T \Delta_r S
+\end{equation}
+}
+
+Cette relation vient de la définition de G (voir Tab. \ref{tab:FonctionEtat}), que l'on dérive par rapport à l'avancement.
+
+\subsection{Utilisation des réactions de formation}
+
+En sciences physiques, l'énergie est une grandeur relative, c'est-à-dire qu'on peut calculer des variations d'énergie, mais jamais l'énergie de manière absolue.
+
+Les chimistes donc posé un état de référence pour chaque constituant chimique qui sert de $0$ pour l'enthalpie. On peut alors calculer l'enthalpie de tous les constituants par rapport à cet état de référence.
+
+\subsubsection{\'{E}tat standard de référence}
+
+\definition{\`{A} une température $T$ et une pression $P^\circ = 1 ~ \si{\bar}$, un élèment chimique admet un état chimique de référence, généralement sont état thermodynamique le plus stable.}
+
+Pour un solide cristallisé, l'état standard de référence est la variété allotropiquela plus stable. Par exemple, pour le carbone à \SI{298}{\kelvin}, il s'agit du graphite (et pas le diamant).
+
+Pour un gaz, il s'agit d'un corps simple : la molécule diatomique la plus stble à \SI{298}{\kelvin}. Cela est le cas pour \ce{H} \ce{H2}, \ce{F} (\ce{F2}), \ce{N} (\ce{N2}), O (\ce{O2}).
+
+\definition{Pour élèments chimiques dans leur état standard de référence, la convention pose que  : 
+\begin{align*}
+\Delta_f H^\circ = 0
+\end{align*}}
+
+\subsubsection{Réaction de formation}
+
+Dans le cas des corps simples qui ne sont pas un état de référence ou les corps complexes (c.-à-d. constitué de plusieurs constituants chimiques), les réactions de formations sont tabulées.
+
+\definition{On appelle réaction standard de formation d’une espèce chimique (corps complexe) à la température T, la réaction au cours de laquelle une mole de ce corps dans son état standard à la température T est formée à partir des corps simples qui le constituent, chacun étant pris dans son état standard de référence.}
+
+On peut donner quelques exemples à \SI{298}{\kelvin} : 
+
+\begin{itemize}
+\item eau liquide :
+\begin{align*}
+\ce{\frac{1}{2} O2 (g) + H2(g) -> H2O (l)} \quad \Delta_f H^\circ (\ce{H2O},l) = -285.10 \si{\kilo\joule\per\mole}
+\end{align*}
+
+\item diamant :
+\begin{align*}
+\ce{C (graphite) -> C(diamant)} \quad \Delta_f H^\circ (\ce{C},\text{diamant}) =  1.92 \si{\kilo\joule\per\mole}
+\end{align*}
+\end{itemize}
+
+\subsubsection{Loi de Hess}
+
+\definition{On appelle loi de Hess, la loi permettant de calculer l'enthalpie standard de réaction de n'importe quelle réaction à partir des réactions de formation des constituants.
+
+Si on considère une réaction de la forme :
+
+\begin{equation*}
+\ce{\nu_1 A_1 + \nu_2 A_2 + \ldots \nu_N A_N = 0} \quad \Delta_r H^\circ
+\end{equation*}
+
+avec $\nu_k > 0$ (resp. $\nu_k < 0$) si il s'agit d'un produit (resp. réactif).
+
+La loi de Hess s'écrit alors : 
+
+\begin{align*}
+\Delta_r H^\circ = \sum_i \nu_i \Delta_f H^\circ (A_i)
+\end{align*}}
+
+Par exemple, dans le cas de la combustion du méthane, on a :
+
+\begin{equation*}
+\ce{CH4(g) + 2 O2(g) = CO2(g) + 2 H2O(l)}
+\end{equation*}
+
+L'enthalpie de Hess permet d'écrire : 
+\begin{align*}
+\Delta_r H^\circ = 2 \Delta_f H^\circ (\ce{H2O}, l) + \Delta_f H^\circ (\ce{CO2}, g) - \Delta_f H^\circ (\ce{CH4}, g)
+\end{align*}
+
+\subsection{Utilisation des grandeurs molaires}
+\subsubsection{Définition des grandeurs molaires}
+Il arrive assez souvent que l'on ait besoin des grandeurs molaires pour calculer des grandeurs de réaction. 
+
+En particulier, l'entropie s'y porte bien puisque contairement à l'énergie, elle est définie de manière absolue . On ne sait pas la mesurer directement, mais on peut la déduire de l'étude des équilibres chimiques ou thermiques.
+
+\definition{
+L'entropie molaire standard d'une substance chimique $A_i$, est l'entropie pour \SI{1}{\mole} de cette substance pris à $P^\circ = 1$ et à une température $T$.
+
+L'entropie molaire est notée $S^\circ_m (\ce{A_i})$ et est donnée en \si{\joule\per\mole\per\kelvin}.}
+
+\subsubsection{Calcul d'une grandeur standard de réaction}
+
+\definition{
+L'entropie de réaction standard d'une transformation chimique, modélisée par une équation de réaction de la forme : 
+\begin{equation*}
+\ce{\nu_1 A_1 + \nu_2 A_2 + \ldots \nu_N A_N = 0} \quad \Delta_r S^\circ
+\end{equation*}
+
+avec $\nu_k > 0$ (resp. $\nu_k < 0$) si il s'agit d'un produit (resp. réactif).
+
+est donnée par : 
+\begin{align*}
+\Delta_r S^\circ = \sum_i \nu_i S_{m}^\circ (A_i)
+\end{align*}
+}
+
+Cette relation peut se démontrer à l'aide des identités thermodynamique qui seront abordées au Chap. \ref{chp:thermochimie}.
+

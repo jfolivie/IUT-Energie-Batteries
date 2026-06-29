@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   sodipodi:docname="Fig05.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.7417504"
+     inkscape:cx="350.79654"
+     inkscape:cy="191.18698"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="323.18318"
+       y="-47.672976"
+       width="105.99745"
+       height="43.133204"
+       id="rect7" />
+    <marker
+       style="overflow:visible"
+       id="marker5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Square"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Square"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path18" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker5-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5-9" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:1.25;font-family:Times;-inkscape-font-specification:Times;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="97.098198"
+       y="74.537804"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="stroke-width:0.264583"
+         x="97.098198"
+         y="74.537804" /></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text7"
+       style="font-size:20px;line-height:1.25;font-family:Times;-inkscape-font-specification:Times;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect7);display:inline" />
+    <g
+       id="g1"
+       transform="translate(62.362377,68.758881)">
+      <g
+         id="g15747-2-3"
+         transform="translate(53.03309,-82.403693)">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-6"
+           cx="27.156021"
+           cy="-50.918358"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-7"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-5"
+           cx="41.045387"
+           cy="27.17067"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+      <g
+         id="g15747-2-35-2-3-2"
+         transform="translate(51.104565,-82.403693)"
+         style="opacity:0.8">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-62-7-6-6"
+           cx="27.156021"
+           cy="-50.918358"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-9-0-0-1"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-1-9-6-8"
+           cx="41.045387"
+           cy="27.17067"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+      <g
+         id="g15747-2-35-2-3"
+         transform="translate(49.128513,-82.403693)"
+         style="opacity:0.6">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-62-7-6"
+           cx="27.156021"
+           cy="-50.918358"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-9-0-0"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-1-9-6"
+           cx="41.045387"
+           cy="27.17067"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+      <g
+         id="g15747-2-35-2"
+         transform="translate(47.012333,-82.403693)"
+         style="opacity:0.4">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-62-7"
+           cx="27.156021"
+           cy="-50.918358"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-9-0"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-1-9"
+           cx="41.045387"
+           cy="27.17067"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+      <g
+         id="g15747-2-35"
+         transform="translate(44.584304,-82.403693)"
+         style="opacity:0.2">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-62"
+           cx="27.156021"
+           cy="-50.918358"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-9"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-1"
+           cx="41.045387"
+           cy="27.17067"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+    </g>
+    <g
+       id="g11"
+       inkscape:export-filename="Fig05.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <g
+         id="g15752-7"
+         transform="translate(-3.9489259,4.5737274)">
+        <ellipse
+           style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path254-5-0"
+           cx="26.528395"
+           cy="-118.49266"
+           rx="13.122146"
+           ry="5.5693831"
+           transform="rotate(90)" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path254-5-3-9"
+           cx="26.528395"
+           cy="-69.413605"
+           rx="13.122146"
+           ry="5.5693831"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-3"
+           style="fill:#5a5a5a;fill-opacity:0.0989687;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 69.327455,13.406237 a 5.5693831,13.122146 0 0 0 -5.569587,13.12231 5.5693831,13.122146 0 0 0 5.569587,13.122007 5.5693831,13.122146 0 0 0 0.241797,-0.01851 h 48.676018 a 5.5693831,13.122146 0 0 0 0.24128,0.01851 5.5693831,13.122146 0 0 0 5.56959,-13.122007 5.5693831,13.122146 0 0 0 -5.56959,-13.12231 5.5693831,13.122146 0 0 0 -0.24283,0.01882 H 69.617916 a 5.5693831,13.122146 0 0 0 -0.290461,-0.01882 z" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Square);marker-end:url(#Triangle)"
+         d="M 114.3928,50.05997 H 61.936731"
+         id="path1"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.25;font-family:Times;-inkscape-font-specification:Times;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="85.870163"
+         y="57.484051"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';stroke-width:0.264583"
+           x="85.870163"
+           y="57.484051">x</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="94.463387"
+         y="57.419254"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';stroke-width:0.264583"
+           x="94.463387"
+           y="57.419254">x+dx</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 87.100581,44.215127 v 9.514171"
+         id="path2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 95.760989,44.343996 V 53.60043"
+         id="path3" />
+      <path
+         style="fill:#ff0000;stroke:#780000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5)"
+         d="m 87.152863,48.091058 h 6.795586"
+         id="path4"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#ff0000;stroke:#780000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5-7)"
+         d="m 92.769527,31.017418 h 8.447513"
+         id="path4-0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;fill:#780000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+         x="99.470215"
+         y="27.593111"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';fill:#780000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+           x="99.470215"
+           y="27.593111">F<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';baseline-shift:sub;fill:#780000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+   id="tspan9">ext</tspan></tspan></text>
+      <g
+         id="g10"
+         transform="translate(14.361096,-48.511602)">
+        <g
+           id="g15747-2-3-5"
+           transform="translate(30.070311,52.468177)"
+           style="opacity:0.2">
+          <ellipse
+             style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+             id="path254-5-3-5-9-6-9"
+             cx="27.156021"
+             cy="-50.918358"
+             rx="12.990981"
+             ry="5.5913334"
+             transform="rotate(90)" />
+          <path
+             id="path254-3-6-1-7-2"
+             style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path14730-2-5-2"
+             cx="41.045387"
+             cy="27.17067"
+             rx="1.0731348"
+             ry="2.4526293" />
+        </g>
+        <g
+           id="g15747-2-35-2-3-2-8"
+           transform="translate(28.141786,52.468177)"
+           style="opacity:0.4">
+          <ellipse
+             style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+             id="path254-5-3-5-9-62-7-6-6-9"
+             cx="27.156021"
+             cy="-50.918358"
+             rx="12.990981"
+             ry="5.5913334"
+             transform="rotate(90)" />
+          <path
+             id="path254-3-6-1-9-0-0-1-7"
+             style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path14730-2-1-9-6-8-3"
+             cx="41.045387"
+             cy="27.17067"
+             rx="1.0731348"
+             ry="2.4526293" />
+        </g>
+        <g
+           id="g15747-2-35-2-3-6"
+           transform="translate(26.165734,52.468177)"
+           style="opacity:0.6">
+          <ellipse
+             style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+             id="path254-5-3-5-9-62-7-6-1"
+             cx="27.156021"
+             cy="-50.918358"
+             rx="12.990981"
+             ry="5.5913334"
+             transform="rotate(90)" />
+          <path
+             id="path254-3-6-1-9-0-0-2"
+             style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path14730-2-1-9-6-9"
+             cx="41.045387"
+             cy="27.17067"
+             rx="1.0731348"
+             ry="2.4526293" />
+        </g>
+        <g
+           id="g15747-2-35-2-31"
+           transform="translate(24.049554,52.468177)"
+           style="opacity:0.8">
+          <ellipse
+             style="fill:#5a5a5a;fill-opacity:0.250228;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+             id="path254-5-3-5-9-62-7-9"
+             cx="27.156021"
+             cy="-50.918358"
+             rx="12.990981"
+             ry="5.5913334"
+             transform="rotate(90)" />
+          <path
+             id="path254-3-6-1-9-0-4"
+             style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 41.178601,24.703222 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 41.238827 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path14730-2-1-9-7"
+             cx="41.045387"
+             cy="27.17067"
+             rx="1.0731348"
+             ry="2.4526293" />
+        </g>
+        <ellipse
+           style="fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:0.3824;stroke-linejoin:round;stroke-opacity:1"
+           id="path254-5-3-5-9-62-4"
+           cx="79.624199"
+           cy="-72.539886"
+           rx="12.990981"
+           ry="5.5913334"
+           transform="rotate(90)" />
+        <path
+           id="path254-3-6-1-9-5"
+           style="fill:#5a5a5a;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 62.800126,77.171399 a 1.1547956,2.4674463 0 0 0 -1.154839,2.467477 1.1547956,2.4674463 0 0 0 1.154839,2.467421 1.1547956,2.4674463 0 0 0 0.05014,-0.0035 h 10.092833 a 1.1547956,2.4674463 0 0 0 0.05003,0.0035 1.1547956,2.4674463 0 0 0 1.154837,-2.467421 1.1547956,2.4674463 0 0 0 -1.154837,-2.467477 1.1547956,2.4674463 0 0 0 -0.05036,0.0035 H 62.860352 a 1.1547956,2.4674463 0 0 0 -0.06023,-0.0035 z" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="path14730-2-1-0"
+           cx="62.666912"
+           cy="79.638847"
+           rx="1.0731348"
+           ry="2.4526293" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;fill:#780000;fill-opacity:1;stroke-width:0.264583"
+         x="88.116081"
+         y="53.730427"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';fill:#780000;fill-opacity:1;stroke-width:0.264583"
+           x="88.116081"
+           y="53.730427">dx</tspan></text>
+    </g>
+  </g>
+</svg>

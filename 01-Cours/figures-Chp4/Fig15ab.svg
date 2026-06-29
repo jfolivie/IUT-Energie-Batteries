@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   sodipodi:docname="Fig15ab.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0280428"
+     inkscape:cx="447.45219"
+     inkscape:cy="251.93504"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideHeavy"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, heavy arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideHeavy-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, heavy arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path3-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g13"
+       inkscape:export-filename="Fig15ab.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500">
+      <g
+         id="g11"
+         transform="translate(-13.758336,-0.25444889)">
+        <circle
+           style="opacity:0.499965;fill:#008000;fill-opacity:0.8;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path1"
+           cx="63.882668"
+           cy="44.77515"
+           r="27.392069" />
+        <path
+           id="path6"
+           style="fill:#800000;fill-opacity:0.8;stroke:none;stroke-width:0.706;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+           d="m 64.009061,44.86806 v 27.063981 a 27.392069,27.392069 0 0 0 19.20193,-7.862052 z" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="54.847725"
+           y="9.7313042"
+           id="text7"><tspan
+             sodipodi:role="line"
+             id="tspan7"
+             style="font-weight:normal;stroke-width:0.264583"
+             x="54.847725"
+             y="9.7313042">Charge</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:57.876;display:inline;stroke-width:0.264583"
+           x="68.338402"
+           y="30.298927"
+           id="text9"
+           transform="translate(-4.4331415,-6.4502885)"><tspan
+             x="68.338402"
+             y="30.298927"
+             id="tspan4">Energie chimique<tspan
+   y="30.298927"
+   id="tspan5"> </tspan></tspan><tspan
+             x="68.338402"
+             y="36.913514"
+             id="tspan6">stockée&#10;</tspan><tspan
+             x="68.338402"
+             y="43.5281"
+             id="tspan8">=&#10;</tspan><tspan
+             x="68.338402"
+             y="50.142686"
+             id="tspan12">Thermodynamique</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideHeavy)"
+           d="M 85.481725,76.204265 69.606625,60.329162"
+           id="path9" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:45.9641;display:inline;stroke-width:0.264583"
+           x="84.909981"
+           y="86.577499"
+           id="text10"
+           transform="translate(3.039634,-6.2444888)"><tspan
+             x="84.909981"
+             y="86.577499"
+             id="tspan13">énergie dissipée<tspan
+   y="86.577499"
+   id="tspan14"> </tspan></tspan><tspan
+             x="84.909981"
+             y="93.192086"
+             id="tspan15">pour l'activation</tspan></text>
+      </g>
+      <g
+         id="g12"
+         transform="translate(-7.4083335,0.4779905)">
+        <path
+           id="path1-2"
+           style="opacity:0.499965;fill:#008000;fill-opacity:0.8;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 147.39606,18.914713 A 27.392069,27.392069 0 0 0 120.00393,46.30684 27.392069,27.392069 0 0 0 147.39606,73.698966 27.392069,27.392069 0 0 0 174.78819,46.30684 27.392069,27.392069 0 0 0 147.39606,18.914713 Z m 0.12609,27.484628 19.20193,19.201928 a 27.392069,27.392069 0 0 1 -19.20193,7.862053 z" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="139.7265"
+           y="9.2224064"
+           id="text7-8"><tspan
+             sodipodi:role="line"
+             id="tspan7-7"
+             style="stroke-width:0.264583"
+             x="139.7265"
+             y="9.2224064">Décharge</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:42.662;display:inline;stroke-width:0.264583"
+           x="155.09872"
+           y="26.654127"
+           id="text8-3"
+           transform="translate(-7.1169007,6.0231813)"><tspan
+             x="155.09872"
+             y="26.654127"
+             id="tspan16">Travail<tspan
+   y="26.654127"
+   id="tspan17"> </tspan></tspan><tspan
+             x="155.09872"
+             y="33.268714"
+             id="tspan18">électrique délivré</tspan></text>
+        <path
+           id="path6-0"
+           style="fill:#800000;fill-opacity:0.8;stroke:none;stroke-width:0.706;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0"
+           d="m 147.53606,46.249983 19.13712,19.137124 a 27.392069,27.392069 0 0 0 8.0185,-19.137125 z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideHeavy-0)"
+           d="M 183.33225,72.314374 167.45715,56.439271"
+           id="path9-7" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:45.9641;display:inline;stroke-width:0.264583"
+           x="84.909981"
+           y="86.577499"
+           id="text10-2"
+           transform="translate(96.216112,-7.2004698)"><tspan
+             x="84.909981"
+             y="86.577499"
+             id="tspan19">énergie dissipée<tspan
+   y="86.577499"
+   id="tspan20"> </tspan></tspan><tspan
+             x="84.909981"
+             y="93.192086"
+             id="tspan21">pour l'activation</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;line-height:1.25;font-family:'TeX Gyre Schola Math';-inkscape-font-specification:'TeX Gyre Schola Math';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="13.221473"
+         y="97.800774"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="stroke-width:0.264583"
+           x="13.221473"
+           y="97.800774">Cercle = Représente le travail électrique reçu par le système lors de la charge</tspan></text>
+    </g>
+  </g>
+</svg>

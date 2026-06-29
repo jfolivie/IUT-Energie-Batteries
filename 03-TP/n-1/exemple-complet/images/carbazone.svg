@@ -1,0 +1,170 @@
+<?xml version="1.0" ?><svg height="297.000000mm" version="1.0" viewBox="0 0 1106 1565" width="210.000000mm" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round">
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="1.0">
+      <line x1="478.44" x2="478.44" y1="210.00" y2="227.00"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="1.0">
+      <line x1="487.00" x2="501.00" y1="194.51" y2="186.42"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="444.51" x2="444.51" y1="181.01" y2="155.00"/>
+      <line x1="448.51" x2="448.51" y1="181.01" y2="155.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="446.51" x2="424.00" y1="181.01" y2="194.01"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="446.51" x2="469.00" y1="181.01" y2="194.00"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="502.30" y="188.01">NH<tspan baseline-shift="sub" font-size="75%">2</tspan></text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="382.30" y="206.45">H<tspan baseline-shift="sub" font-size="75%">2</tspan>N</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="470.30" y="250.34">H</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="470.30" y="206.45">N</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="438.30" y="151.12">O</text>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="142.94" x2="174.88" y1="208.56" y2="227.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="111.00" x2="142.94" y1="227.00" y2="208.56"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="140.94" x2="140.94" y1="208.56" y2="183.00"/>
+      <line x1="144.94" x2="144.94" y1="208.56" y2="183.00"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="134.30" y="178.67">O</text>
+    <text fill="#000000" font-family="helvetica" font-size="14pt" x="242.00" y="220.00">+</text>
+    <polyline fill="none" points="606.00,205.00 682.31,205.00" stroke="#000000" stroke-width="1.0"/>
+    <polygon fill="#000000" fill-rule="evenodd" points="690.31,205.00 680.31,202.00 682.31,205.00 680.31,208.00" stroke="#000000" stroke-width="1"/>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="1.0">
+      <line x1="800.00" x2="814.00" y1="175.50" y2="183.58"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="758.94" x2="758.94" y1="225.56" y2="200.00"/>
+      <line x1="764.94" x2="764.94" y1="222.37" y2="203.19"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="727.00" x2="758.94" y1="244.00" y2="225.56"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="789.88" x2="812.00" y1="131.61" y2="118.84"/>
+      <line x1="791.88" x2="814.00" y1="135.07" y2="122.30"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="790.88" x2="768.00" y1="133.34" y2="120.13"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="790.88" x2="790.88" y1="154.00" y2="133.34"/>
+    </g>
+    <g stroke="#000000" stroke-linecap="butt" stroke-width="1.0">
+      <line x1="768.00" x2="782.00" y1="183.44" y2="175.36"/>
+    </g>
+    <g stroke="#000000" stroke-width="1.0">
+      <line x1="758.94" x2="790.88" y1="225.56" y2="244.00"/>
+    </g>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="726.30" y="121.90">H<tspan baseline-shift="sub" font-size="75%">2</tspan>N</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="814.30" y="121.90">O</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="783.30" y="177.23">N</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="751.30" y="195.67">N</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="815.30" y="195.67">H</text>
+    <text fill="#000000" font-family="helvetica" font-size="14pt" x="856.00" y="223.00">+</text>
+    <text fill="#000000" font-family="helvetica" font-size="12pt" x="890.30" y="224.00">H<tspan baseline-shift="sub" font-size="75%">2</tspan>O</text>
+  </g>
+  <cdml version="0.15" xmlns="http://www.freesoftware.fsf.org/bkchem/cdml">
+    <info>
+      <author_program version="0.13.0">BKchem</author_program>
+    </info>
+    <paper crop_margin="10" crop_svg="0" orientation="portrait" replace_minus="0" type="A4" use_real_minus="0"/>
+    <viewport viewport="0.000000 0.000000 640.000000 480.000000"/>
+    <standard area_color="" font_family="helvetica" font_size="12" line_color="#000" line_width="1px" paper_crop_margin="10" paper_crop_svg="0" paper_orientation="portrait" paper_type="A4">
+      <bond double-ratio="0.75" length="0.7cm" wedge-width="5px" width="6px"/>
+      <arrow length="1.6cm"/>
+      <atom show_hydrogens="0"/>
+    </standard>
+    <molecule id="molecule42800" name="">
+      <text id="atom33990" pos="center-first"><ftext>NH<sub>2</sub></ftext><point x="9.686cm" y="3.435cm"/></text>
+      <text id="atom13735" pos="center-last"><ftext>H<sub>2</sub>N</ftext><point x="7.868cm" y="3.785cm"/></text>
+      <atom id="atom53809" name="C" valency="4">
+        <point x="8.474cm" y="3.435cm"/>
+      </atom>
+      <atom id="atom67866" name="H" pos="center-first" valency="1">
+        <point x="9.080cm" y="4.618cm"/>
+      </atom>
+      <atom id="atom27374" name="N" pos="center-first" valency="3">
+        <point x="9.080cm" y="3.785cm"/>
+      </atom>
+      <atom id="atom30804" name="O" pos="center-first" valency="2">
+        <point x="8.474cm" y="2.735cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom67866" id="bond54174" line_width="1.0" start="atom27374" type="n1"/>
+      <bond double_ratio="0.75" end="atom33990" id="bond45321" line_width="1.0" start="atom27374" type="n1"/>
+      <bond bond_width="6.0" center="yes" double_ratio="0.75" end="atom30804" id="bond92328" line_width="1.0" start="atom53809" type="n2"/>
+      <bond double_ratio="0.75" end="atom13735" id="bond77614" line_width="1.0" start="atom53809" type="n1"/>
+      <bond double_ratio="0.75" end="atom27374" id="bond6677" line_width="1.0" start="atom53809" type="n1"/>
+    </molecule>
+    <molecule id="molecule31467" name="">
+      <atom id="atom32568" name="C" valency="4">
+        <point x="2.106cm" y="4.308cm"/>
+      </atom>
+      <atom id="atom96439" name="C" valency="4">
+        <point x="2.713cm" y="3.958cm"/>
+      </atom>
+      <atom id="atom89134" name="C" valency="4">
+        <point x="3.319cm" y="4.308cm"/>
+      </atom>
+      <atom id="atom46979" name="O" pos="center-first" valency="2">
+        <point x="2.713cm" y="3.258cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom89134" id="bond55768" line_width="1.0" start="atom96439" type="n1"/>
+      <bond double_ratio="0.75" end="atom96439" id="bond34521" line_width="1.0" start="atom32568" type="n1"/>
+      <bond bond_width="6.0" center="yes" double_ratio="0.75" end="atom46979" id="bond65707" line_width="1.0" start="atom96439" type="n2"/>
+    </molecule>
+    <plus background-color="" font_size="14" id="plus93210">
+      <point x="4.744cm" y="3.985cm"/>
+    </plus>
+    <arrow color="#000" end="yes" id="arrow7567" shape="(8, 10, 3)" spline="no" start="no" type="normal" width="1.0">
+      <point x="11.500cm" y="3.890cm"/>
+      <point x="13.100cm" y="3.890cm"/>
+    </arrow>
+    <molecule id="molecule5597" name="">
+      <atom id="atom54085" name="C" valency="4">
+        <point x="13.796cm" y="4.630cm"/>
+      </atom>
+      <atom id="atom76525" name="C" valency="4">
+        <point x="14.403cm" y="4.281cm"/>
+      </atom>
+      <atom id="atom89951" name="C" valency="4">
+        <point x="15.009cm" y="4.630cm"/>
+      </atom>
+      <atom id="atom88055" name="C" valency="4">
+        <point x="15.009cm" y="2.530cm"/>
+      </atom>
+      <text id="atom4795" pos="center-last"><ftext>H<sub>2</sub>N</ftext><point x="14.403cm" y="2.180cm"/></text>
+      <atom id="atom25267" name="O" pos="center-first" valency="2">
+        <point x="15.615cm" y="2.180cm"/>
+      </atom>
+      <atom id="atom49761" name="N" pos="center-first" valency="3">
+        <point x="15.009cm" y="3.231cm"/>
+      </atom>
+      <atom id="atom72519" name="N" pos="center-first" valency="3">
+        <point x="14.403cm" y="3.580cm"/>
+      </atom>
+      <atom id="atom31656" name="H" pos="center-first" valency="1">
+        <point x="15.615cm" y="3.580cm"/>
+      </atom>
+      <bond double_ratio="0.75" end="atom31656" id="bond53563" line_width="1.0" start="atom49761" type="n1"/>
+      <bond bond_width="-6.0" center="no" double_ratio="0.75" end="atom72519" id="bond42137" line_width="1.0" start="atom76525" type="n2"/>
+      <bond double_ratio="0.75" end="atom76525" id="bond84151" line_width="1.0" start="atom54085" type="n1"/>
+      <bond bond_width="6.0" center="yes" double_ratio="0.75" end="atom25267" id="bond5179" line_width="1.0" start="atom88055" type="n2"/>
+      <bond double_ratio="0.75" end="atom4795" id="bond70310" line_width="1.0" start="atom88055" type="n1"/>
+      <bond double_ratio="0.75" end="atom88055" id="bond67937" line_width="1.0" start="atom49761" type="n1"/>
+      <bond double_ratio="0.75" end="atom49761" id="bond50901" line_width="1.0" start="atom72519" type="n1"/>
+      <bond double_ratio="0.75" end="atom89951" id="bond45570" line_width="1.0" start="atom76525" type="n1"/>
+    </molecule>
+    <plus background-color="" font_size="14" id="plus4520">
+      <point x="16.396cm" y="4.042cm"/>
+    </plus>
+    <molecule id="molecule39631" name="">
+      <text id="atom34654" pos="center-first"><ftext>H<sub>2</sub>O</ftext><point x="17.042cm" y="4.118cm"/></text>
+    </molecule>
+  </cdml>
+</svg>

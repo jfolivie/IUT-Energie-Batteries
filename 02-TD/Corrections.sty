@@ -1,0 +1,241 @@
+\ProvidesPackage{Corrections}
+
+\synctex=1
+\RequirePackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\RequirePackage[french]{babel}
+\RequirePackage{chemfig}
+\RequirePackage{lmodern}
+%\RequirePackage{hyperref}
+\PassOptionsToPackage{hyphens}{url}\RequirePackage{hyperref} % liens longs
+\RequirePackage{fancybox,fancyhdr,verbatim}
+%\RequirePackage{lastpage}
+\RequirePackage{graphicx,graphics}
+
+\RequirePackage[top=15mm,bottom=15mm,left=15mm,right=15mm]{geometry}
+
+\RequirePackage{adjustbox}
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+\RequirePackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\RequirePackage{tikzorbital}
+
+\RequirePackage{braket}
+\RequirePackage{caption}
+\RequirePackage{amsmath,amsfonts,amssymb,mathrsfs}
+\RequirePackage{enumitem} % Personnalisation des listes à puces
+\RequirePackage[version=4]{mhchem} % utiliser \ce
+\RequirePackage[load-configurations=abbreviations]{siunitx}
+\RequirePackage[many]{tcolorbox} %fancy colorbox
+\RequirePackage{caption}
+\RequirePackage{amsthm} %theorem style
+
+\RequirePackage{amsfonts}
+
+\RequirePackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={3.0},
+]{doclicense} %package creative common
+
+\RequirePackage{wrapfig}
+\RequirePackage{fontawesome}
+
+%tables
+\RequirePackage{array} %adjust size of columns
+\RequirePackage{multirow}
+\RequirePackage{booktabs}
+
+%Setup background
+\RequirePackage[firstpage=false, pages=some]{background}
+
+%sectionning
+\usepackage{titlesec}
+\renewcommand{\thesection}{\Roman{section}} 
+
+\titleformat{\section}{\large\scshape\raggedright}{{\thesection}. ~}{0em}{}[\rule{.75\linewidth}{1pt}] % Section formatting
+
+%\renewcommand{\thesubsubsection}{subsubsection}
+%\titleformat{\subsubsection}{}{Ex {\thesubsubsection}. ~}{0em}{}[] % Section formatting
+%\large\scshape\raggedright
+%\rule{.75\linewidth}{1pt}
+
+%First page
+\backgroundsetup{
+scale=1,
+color=black,
+opacity=0.4,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=\paperheight]{garde.jpg}
+  }%
+}  
+
+%Subfig
+\RequirePackage{wrapfig}
+\RequirePackage{float} 
+\RequirePackage{subfig}
+
+%Colors Used
+\definecolor{gray}{gray}{0.65}
+\definecolor{tagada}{RGB}{237,162,153}
+\definecolor{schtroumpf}{RGB}{240,248,255}
+\definecolor{lavender}{RGB}{230,230,250}
+\definecolor{glory}{RGB}{205,182,0}
+
+%Theorem style
+\newtheoremstyle{definition}%
+{\topsep}% espace avant
+{\topsep}% espace après
+{\upshape}% police du corps du théorème
+{}% indentation (vide pour rien, \parindent)
+{\bfseries}% police du titre du théorème
+{.}% ponctuation après le théorème
+{ }% après le titre du théorème (espace ou \newline)
+{}% spécifications du titre
+
+%Theorem Command
+\theoremstyle{definition}
+\newtheorem{Q}{Q.}[section]
+\renewcommand{\theQ}{\arabic{Q}}
+
+%Columns Spacing
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+%Cadre
+\newcommand{\renseigner}[1]{
+\begin{tcolorbox}[breakable,colback=tagada!5!white,colframe=tagada!75!black,title={\textsc{Je me renseigne} }] 
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\objectives}[1]{
+\begin{tcolorbox}[breakable,colback=tagada!5!white,colframe=tagada!75!black,title={\textsc{Compétences} }] 
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\definition}[1]{
+\begin{tcolorbox}[breakable,colback=tagada!5!white,colframe=tagada!75!black,title={\textsc{Définition} }] 
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\bilan}[1]{
+\begin{tcolorbox}[breakable,colback=tagada!5!white,colframe=tagada!75!black,title={\textsc{Bilan} }] 
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\exercice}[1]{
+\begin{tcolorbox}[breakable,colback=lavender!5!white,colframe=lavender!75!black,title={\textsc{Exercice} }] 
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\attention}[1]{
+\begin{tcolorbox}[breakable,colback=glory!5!white,colframe=glory!75!black,title={\textsc{Attention !} }] 
+#1
+\end{tcolorbox}
+}
+
+%Rules First Page
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\newcommand{\hsp}{\hspace{20pt}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\sisetup{inter-unit-product = \ensuremath{\cdot}}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue, % Couleur des liens internes
+    citecolor=red, % Couleur des numéros de la biblio dans le corps
+    urlcolor=blue} % Couleur des url
+\setlength{\oddsidemargin}{0cm}
+\setlength{\topmargin}{-2cm}
+\setlength{\textheight}{26cm}
+\setlength{\marginparwidth}{0.2cm}
+\setlength{\textwidth}{16cm}
+\setlength{\voffset}{0cm}
+\setlength{\unitlength}{1mm}
+
+% listes à puces
+\setitemize{label=\textbullet}
+
+\newcommand{\deriv}{\mathrm{d}}
+\newcommand\moll{\ensuremath{\;\mathrm{mol\cdot L^{-1}}}}
+
+\pagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Cadre blanc pour élèves
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{boxedminipage}
+
+\newcommand{\cadreblanc}[1]{%
+\framebox[\linewidth][c]{%
+\rule{0mm}{#1mm}}\par}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Texte à trou - OPTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\DeclareOption{student}{
+\newlength{\hblanc} %Espace blanc
+\newcommand*{%
+\solution}[1]{}
+
+\newlength{\hblanccomment} %Espace blanc
+\newcommand*{%
+\cteacher}[1]{}
+
+\newlength{\hblancbis} %Espace avec trait
+\newcommand*{%
+\blancbis}[1]{\settowidth{\hblancbis}{#1}%
+\rule[-1pt]{\hblancbis}{1pt}}
+}
+
+
+\DeclareOption{teacher}{
+\newlength{\hblanc} %Espace blanc
+\newcommand*{%
+\solution}[1]{{\color{purple}#1}}
+
+\newlength{\hblanccomment} %Espace blanc
+\newcommand*{%
+\cteacher}[1]{{\color{olive} \textbf{Recommandation pour l'enseignant : }#1}}
+
+\newlength{\hblancbis} %Espace avec trait
+\newcommand*{%
+\blancbis}[1]{\underline{#1}}
+}
+
+\ProcessOptions
+
+% End of package
+\endinput
+
+
+%\DeclareOption{student}{%
+%\newlength{\hblancbis} %Espace avec trait
+%\newcommand*{%
+%\blancbis}[1]{\settowidth{\hblancbis}{#1}%
+%\rule[-1pt]{\hblancbis}{1pt}}}
+%\newlength{\hblancbis} %Espace avec trait
+%\newcommand*{%
+%\blancbis}[1]{\settowidth{\hblancbis}{#1}%
+%\rule[-1pt]{\hblancbis}{1pt}}
+
+
+%\DeclareOption{teacher}{%
+%\newlength{\hblancbis} %Espace avec trait
+%\newcommand*{%
+%\blancbis}[1]{#1}
+%}
+
+%\ExecuteOptions{student}
+
+
+
