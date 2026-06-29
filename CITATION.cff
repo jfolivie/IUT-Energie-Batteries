@@ -7,7 +7,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-0719-1789"
 doi: 10.5281/zenodo.18343763
 date-released: 2026
-licence: CC-BY-NC 3.0
+licence: CC-BY-NC-SA 3.0
 abstract: >
   Ce cours aborde les concepts fondamentaux des matériaux utilisés dans les dispositifs de stockage d'énergie, en se concentrant sur les batteries Li-ion. Il aborde la description macroscopique des propriétés thermodynamiques (capacité spécifique, force électromotrice) et cinétiques (chute ohmique, surtensions, diffusion), afin de permettre une meilleure compréhension des mesures de performances des batteries (mesures galvanostatiques en courant continu). 
   Il inclut également une seconde partie qui tente d'établir un lien entre la description macroscopique des matériaux et les phénomènes ayant lieu à l'échelle microscopique. Cette seconde partie n'a pas été enseignée depuis 2024, en raison d'un manque d'heures de cours et de travaux dirigés.
