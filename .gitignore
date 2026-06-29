@@ -5,5 +5,9 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+*.synctex(busy)
 *.dvi
 *.ps
+main*.pdf
+TP*.pdf
+TD*.pdf
